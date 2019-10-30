@@ -1,0 +1,36 @@
+/*********************
+ * Neayi SCSS
+ *********************/
+$brand-primary:         #1abc9c;
+
+.top-header {
+	background-color: $brand-primary;
+	color: $body-bg;
+	position: relative;
+	min-height: 5px;
+	line-height: 20px;
+
+	.row {
+		margin-right: 0;
+		margin-left: 0;
+
+		.col {
+			font-size: 80%;
+			padding: 8px 15px;
+			opacity: 1;
+
+			.social-links {
+				display: inline-block;
+				margin: 0 20px;
+
+				a {
+					font-size: 16px;
+					margin-right: 5px;
+					color: $body-bg;
+					text-decoration: none;
+				}
+			}
+
+		}
+	}
+}
