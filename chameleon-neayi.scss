@@ -34,3 +34,102 @@ $brand-primary:         #1abc9c;
 		}
 	}
 }
+
+.mw-body
+{
+	.firstHeading {
+		color: #337ab7;
+	}
+}
+
+
+
+
+.carousel-indicators {
+	width: 100%;
+	left: 0;
+	text-align: left;
+	position: initial;
+	margin: 0 -1%;
+	padding-left: 0px;
+
+	li {
+		text-indent: 0px;
+		border-radius: 0px;
+		float:left;
+		border:1px solid #ddd;
+		width: 14.666%;
+		margin: 10px 1% 0px;
+		height: 60px;
+		background: #f1f1f1;
+		overflow: hidden;
+	}
+}
+
+.item {
+	img, video {
+		border: 1px solid #ddd;
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.carousel-indicators
+{
+	video {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.active {
+		border:1px solid #000;
+	}
+}
+
+p {
+	margin-bottom: 0px;
+}
+
+div.small-description
+{
+	color: #757575;
+	font-size: 80%;
+	margin-bottom: 10px;
+}
+
+div.resistance-stars
+{
+	color: #8E8E8E;
+	font-size: 80%;
+}
+
+div#neayi-main-page-header
+{
+	background: url("skins/skin-neayi/header-background.jpg");
+    background-size: cover;
+    background-position: center;
+    width:  100%;
+    /* height: 280px; */
+    background-repeat: no-repeat;
+}
+
+p#neayi-main-page-header-text
+{
+    font-size: 150%;
+	color: white;
+	font-weight: bold;
+	font-family: 'Comfortaa', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a#neayi-main-page-header-cta
+{
+	border-radius: 10rem;
+	padding: 1.25rem 2.25rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-color: #6cb530;
+	background-color: #6cb530;
+}
+
+
