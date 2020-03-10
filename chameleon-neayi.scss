@@ -132,4 +132,8 @@ a#neayi-main-page-header-cta
 	background-color: #6cb530;
 }
 
-
+/* Override links in bades so that they show up nicely (we can't just set the class directly on the link) */
+.badge-info a {
+	color: #fff !important;
+	text-decoration: none;
+}
