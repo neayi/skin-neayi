@@ -137,3 +137,22 @@ a#neayi-main-page-header-cta
 	color: #fff !important;
 	text-decoration: none;
 }
+
+/* External links */
+.mw-parser-output {
+	.external {
+		background-position: center right;
+		background-repeat: no-repeat;
+		padding-right: 13px;
+		background-image: url("skins/skin-neayi/images/external-link-ltr-icon.png");
+		background-image: linear-gradient(transparent,transparent),url("skins/skin-neayi/images/external-link-ltr-icon.svg");
+	}
+
+	// recolor the links in a way that ensure we can see them
+	a:visited {
+		color: #0b0080;
+	}
+	a {
+		color: #0645ad;
+	}
+}
