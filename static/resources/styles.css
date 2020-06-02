@@ -20452,13 +20452,7 @@ div.resistance-stars {
     font-size: 80%
 }
 
-div#neayi-main-page-header {
-    background: url("../../header-background.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    background-repeat: no-repeat
-}
+div#neayi-main-page-header {}
 
 p#neayi-main-page-header-text {
     font-size: 150%;

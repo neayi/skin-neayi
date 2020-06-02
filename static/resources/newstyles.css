@@ -1,0 +1,54 @@
+body.page-Accueil {
+    background-color: #F2F3F5;
+}
+
+body.page-Accueil>div.flex-fill.container {
+    background-color: #F2F3F5;
+    background-image: url("header-bg.webp");
+    background-size: 1140px;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+div.home_categories>div {
+    text-align: center;
+    height: 189px;
+    padding: 2rem 0;
+}
+
+div.home_categories>div>a>img {
+    width: 60px;
+    display: block;
+}
+
+div.home_categories>div>a>span {
+    color: #707070;
+    font-size: 25px;
+    font-family: 'Comfortaa', 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif position: absolute;
+    top: 89px;
+    left: 10%;
+    width: 80%;
+    position: absolute;
+}
+
+div.home-panels>div {
+    padding: 1rem;
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .p-navbar .navbar-tool>a.active,
+.p-navbar .nav-tabs .navbar-tool>a.active,
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-item.show .p-navbar .navbar-tool>a,
+.p-navbar .nav-tabs .nav-item.show .navbar-tool>a {
+    color: #35AE6B;
+    background-color: #fff;
+    border-color: #FFF #FFF #35AE6B;
+    border-width: 2px;
+    font-weight: bold;
+}
+
+.nav-tabs {
+    border-bottom: none;
+    margin-bottom: 1rem;
+}
