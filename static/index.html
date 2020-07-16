@@ -747,7 +747,91 @@
 
 
                     <img src="resources/Comments.png" style="width:800px" />
-                    
+<style>
+
+#cs-comments {
+    background: white;
+}
+
+.cs-comment-header-left .cs-avatar {
+    float: right;
+    border-radius: 50%;
+}
+
+.cs-stream-footer button {
+    color: #878c9e;
+}
+.cs-voting-span  {
+    display: block;
+}
+.cs-voting-span .cs-vote-button {
+    display: block;
+}
+
+.cs-voting-span .cs-vote-button img {
+    display: none;
+}
+.cs-reply-button img { 
+    display: none;
+}
+table.cs-comment-header  {
+    width: 98%;
+    padding: 0;
+    margin: 0 0 0 1%;
+}
+table.cs-comment-header td {
+    border: 2px solid white;
+    background-color: #f2f3f6;
+    color: #878c9e;    
+}
+
+table.cs-comment-header td.cs-head-comment-td-info {
+
+}
+
+table.cs-comment-header td.cs-head-comment-td-reply {
+    text-align: center;
+    width: 130px;
+
+}
+
+table.cs-comment-header td.cs-head-comment-td-menu {
+    width: 60px;
+    text-align: center;
+}
+
+table.cs-comment-header td.cs-head-comment-td-votes {
+    width: 62px;
+    text-align: center;
+}
+table.cs-comment-header td.cs-head-comment-td-votes button, table.cs-comment-header td.cs-head-comment-td-votes span {
+    color: #878c9e; 
+}
+table.cs-comment-header td.cs-head-comment-td-total {
+    width: 60px;
+}
+
+table.cs-comment-header td.cs-head-comment-td-total div.cs-head-comment-td-total-div {
+    text-align: center;
+    background-color: white;
+    border: 1px solid #f2f3f6; 
+}
+table.cs-comment-header td.cs-head-comment-td-total span {
+    display: block;
+}
+
+table.cs-comment-header td.cs-head-comment-td-total span.count {
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 100%;
+}
+
+table.cs-comment-header td.cs-head-comment-td-total span.votes {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+</style>
                     <div id="cs-comments">
                         <div id="cs-header"><button type="button" id="cs-add-button" title="Ajouter un commentaire" data-toggle="tooltip"
                                 class="cs-button"><img title="ajouter un commentaire"
@@ -756,31 +840,67 @@
 
                         <div class="cs-stream cs-expanded" data-created-timestamp="1594109093">
                             <div class="cs-comment cs-head-comment" id="cs-comment-4942" data-id="4942">
-                                <div class="cs-comment-header">
-                                    <div class="cs-comment-header-left"></div>
-                                    <div class="cs-comment-header-center">
-                                        <div class="cs-comment-title" title="Super page d'accueil ! Bravo" data-toggle="tooltip">Super page
-                                            d'accueil ! Bravo</div><span class="cs-comment-author">Bertrand Gorge</span><span
-                                            class="cs-comment-details">|</span><span class="cs-comment-details">Publié le Jul 7 at 8:04
-                                            am</span><span class="cs-comment-details">|</span><button class="cs-button cs-edit-button"
-                                            type="button" title="modifier" data-toggle="tooltip"><img title="modifier"
-                                                src="/extensions/CommentStreams/images/comment_edit.png"></button><button
-                                            class="cs-button cs-delete-button" type="button" title="supprimer" data-toggle="tooltip"><img
-                                                title="supprimer"
-                                                src="/extensions/CommentStreams/images/comment_delete.png"></button><button
-                                            class="cs-button cs-link-button" title="lien permanent" data-toggle="tooltip"><img
-                                                title="lien permanent" src="/extensions/CommentStreams/images/link.png"></button>
-                                    </div>
-                                    <div class="cs-comment-header-right"><span class="cs-voting-span"><button
-                                                class="cs-button cs-vote-button"><img title="vote positif" class="cs-vote-upimage"
-                                                    src="/extensions/CommentStreams/images/upvote-disabled.png"><span
-                                                    class="cs-vote-upcount">0</span></button><button class="cs-button cs-vote-button"><img
-                                                    title="vote négatif" class="cs-vote-downimage"
-                                                    src="/extensions/CommentStreams/images/downvote-disabled.png"><span
-                                                    class="cs-vote-downcount">0</span></button></span><button
-                                            class="cs-button cs-toggle-button" type="button"><img title="replier"
-                                                src="/extensions/CommentStreams/images/collapse.png"></button></div>
-                                </div>
+                                <table class="cs-comment-header">
+                                    <tr>
+                                        <td class="cs-head-comment-td-info">
+                                            <div class="cs-comment-header-left"><img src="resources/UIFace32.jpg" class="cs-avatar"></div>
+                                            <div class="cs-comment-header-center">
+                                                <div class="cs-comment-title" title="Super page d'accueil ! Bravo" data-toggle="tooltip">Super page
+                                                    d'accueil ! Bravo</div>
+                                                    <span class="cs-comment-author">Bertrand Gorge</span><span
+                                                    class="cs-comment-details">|</span><span class="cs-comment-details">Publié le Jul 7 at 8:04
+                                                    am</span>
+                                                    <!-- <button class="cs-button cs-edit-button"
+                                                    type="button" title="modifier" data-toggle="tooltip"><img title="modifier"
+                                                        src="/extensions/CommentStreams/images/comment_edit.png"></button>
+                                                        <button
+                                                    class="cs-button cs-delete-button" type="button" title="supprimer" data-toggle="tooltip"><img
+                                                        title="supprimer"
+                                                        src="/extensions/CommentStreams/images/comment_delete.png"></button>
+                                                        <button
+                                                    class="cs-button cs-link-button" title="lien permanent" data-toggle="tooltip"><img
+                                                        title="lien permanent" src="/extensions/CommentStreams/images/link.png"></button> -->
+        
+                                                                                                   
+                                            </div>
+                                        </td>
+                                        <td class="cs-head-comment-td-reply">
+                                            <div class="cs-stream-footer"><button class="cs-button cs-reply-button" type="button" data-stream-id="4942"
+                                                title="Répondre" data-toggle="tooltip"><i class="fas fa-reply"></i><img title="répondre"
+                                                    src="/extensions/CommentStreams/images/comment_reply.png"><span
+                                                    class="cs-comment-button-label">Répondre</span></button></div> 
+                                        </td>
+                                        <td class="cs-head-comment-td-menu">
+                                            <i class="fas fa-ellipsis-v"></i>
+                                        </td>
+                                        <td class="cs-head-comment-td-votes">
+                                            <div class="cs-comment-header-right">
+                                        
+                                                <span class="cs-voting-span">
+                                                    <button class="cs-button cs-vote-button">
+                                                        <img title="vote positif" class="cs-vote-upimage" src="/extensions/CommentStreams/images/upvote-disabled.png">
+                                                        <i class="fas fa-chevron-up"></i>
+                                                        <span class="cs-vote-upcount">0</span>
+                                                    </button>
+                                                    <button class="cs-button cs-vote-button">
+                                                        <img title="vote négatif" class="cs-vote-downimage" src="/extensions/CommentStreams/images/downvote-disabled.png">
+                                                        <i class="fas fa-chevron-down"></i>
+                                                        <span class="cs-vote-downcount">0</span>
+                                                    </button>
+                                                </span>
+                                                    <!-- <button class="cs-button cs-toggle-button" type="button"><img title="replier"
+                                                        src="/extensions/CommentStreams/images/collapse.png"></button> -->
+                                            </div>
+                                        </td>
+                                        <td class="cs-head-comment-td-total">
+                                            <div class="cs-head-comment-td-total-div">
+                                                <span class="count">2</span><span class="votes">votes</span>
+                                            </div>
+                                        </td>
+
+                                    </tr>
+                                </table>
+
                                 <div class="cs-comment-body">
                                     <div class="mw-parser-output">
                                         <p>Je suis très impressionné par cette page d'accueil, vraiment bravo&nbsp;!
@@ -791,10 +911,7 @@
                                 </div>
                                 <div class="cs-comment-footer"></div>
                             </div>
-                            <div class="cs-stream-footer"><button class="cs-button cs-reply-button" type="button" data-stream-id="4942"
-                                    title="Répondre" data-toggle="tooltip"><img title="répondre"
-                                        src="/extensions/CommentStreams/images/comment_reply.png"><span
-                                        class="cs-comment-button-label">Répondre</span></button></div>
+                            
                         </div>
                         <div id="cs-footer"></div>
                     </div>
