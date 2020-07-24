@@ -213,3 +213,55 @@ div.home-panels {
         }
     }
 }
+$cmln-icons: () !default;
+$cmln-icons: map-merge((
+	pt-notifications-alert: fas fa-bell, // Echo
+    pt-notifications-notice: fas fa-inbox,  // Echo
+
+), $cmln-icons);
+
+
+@each $icon-class, $fa-class in $cmln-icons {
+
+	.#{$icon-class} {
+		@include icon($fa-class);
+	}
+
+	a.#{$icon-class} {
+
+		&:before {
+			margin-right: $cmln-icon-margin;
+			display: inline-block;
+			text-decoration: none;
+		}
+	}
+}
+
+.navbar-tools {
+    #pt-notifications-alert, #pt-notifications-notice {
+
+        display: inherit;
+        
+        .oo-ui-icon-bell, .mw-ui-icon-bell:before,
+        .oo-ui-icon-tray, .oo-ui-icon-tray:before {
+            background-image: unset;
+        }
+        
+        .mw-echo-notifications-badge {
+
+            width: auto;
+            height: auto;
+            top: auto;
+            text-indent: unset;
+
+            &-dimmed {
+                opacity: 1;
+            }
+
+            &.mw-echo-notifications-badge-all-read {
+                opacity: 1;
+            }
+        }
+    }
+}
+
