@@ -68,6 +68,66 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</row>
 	</grid>
 
+	<component type="Container" class="footer bg-white py-5">
+		<row>
+			<cell span="12">
+				<component type="Html"><![CDATA[
+        <div class="col-md-10 offset-md-1">
+            <div class="row align-items-center">
+                <div class="col-md-2 text-center">
+                    <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
+                </div>
+                <div class="col-md-10 text-center">
+                    <ul class="list-inline mb-md-0">
+                        <li class="list-inline-item pr-5">
+                            <a href="#">Plan du site</a>
+                        </li>
+                        <li class="list-inline-item pr-5">
+                            <a href="#">Contacts</a>
+                        </li>
+                        <li class="list-inline-item pr-5">
+                            <a href="#">Conditions d'utilisation</a>
+                        </li>
+                        <li class="list-inline-item pr-5">
+                            <a href="#">Mentions légales</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Liens utiles</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-center partners mt-3 mb-4">
+                <div class="col-md-8 offset-md-2 text-center">
+                    Nos partenaires :
+                    <img src="/skins/skin-neayi/images/logos/logo-agrifind.png" alt="Agrifind" class="d-inline-block ml-5" style="height: 56px;">
+                    <img src="/skins/skin-neayi/images/logos/logo-occitanie.jpg" alt="Chambre d'Agriculture d'Occitanie" class="d-inline-block ml-5" style="height: 88px;">
+                    <img src="/skins/skin-neayi/images/logos/geco-ecophyto.png" alt="Ecophyto" class="d-inline-block ml-5" style="height: 31px;">
+                </div>
+            </div>
+            <div class="row text-right rs-line mt-5">
+                <div class="col-md-12">
+                    <small class="font-italic">
+                        Copyright © 2020 Triple performance : Marque déposée de Neayi
+                    </small>
+                    <a href="https://neayi.com/" target="_blank" class="text-decoration-none">
+                        <img src="/skins/skin-neayi/images/logos/logo-neayi.png" alt="Neayi" class="d-inline-block ml-4">
+                    </a>
+
+					<span class="social-links">
+						<a href="https://www.facebook.com/tripleperformance" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
+						<a href="https://twitter.com/neayi_com" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
+						<a href="https://www.linkedin.com/company/neayi" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur LinkedIn"><span class="fab fa-linkedin-in"></span>  </a>
+					</span>
+                </div>
+            </div>
+        </div>
+			]]></component>
+			</cell>
+		</row>
+	</component>	
+
+
 	<grid class="mb-2 mt-4" mode="fluid">
 		<row>
 			<cell>
@@ -88,4 +148,5 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			</cell>
 		</row>
 	</grid>
+
 </structure>
