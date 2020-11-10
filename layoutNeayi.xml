@@ -80,19 +80,13 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                 <div class="col-md-10 text-center">
                     <ul class="list-inline mb-md-0">
                         <li class="list-inline-item pr-5">
-                            <a href="#">Plan du site</a>
+                            <a href="https://neayi.com/contact/">Contacts</a>
                         </li>
                         <li class="list-inline-item pr-5">
-                            <a href="#">Contacts</a>
+                            <a href="https://wiki.vcap.me/wiki/Charte_d%E2%80%99utilisation">Conditions d'utilisation</a>
                         </li>
                         <li class="list-inline-item pr-5">
-                            <a href="#">Conditions d'utilisation</a>
-                        </li>
-                        <li class="list-inline-item pr-5">
-                            <a href="#">Mentions légales</a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#">Liens utiles</a>
+                            <a href="https://wiki.vcap.me/wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a>
                         </li>
                     </ul>
                 </div>
@@ -128,23 +122,13 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	</component>	
 
 
-	<grid class="mb-2 mt-4" mode="fluid">
+	<grid class="mb-2 mt-4 d-none" mode="fluid">
 		<row>
 			<cell>
 				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
 					<component type="Toolbox" flatten="no" class="dropup"/>
 					<component type="LangLinks" flatten="no" class="dropup"/>
 				</component>
-			</cell>
-		</row>
-
-		<row>
-			<cell>
-				<component type="FooterInfo"/>
-				<component type="FooterPlaces"/>
-			</cell>
-			<cell>
-				<component type="FooterIcons" class="justify-content-end"/>
 			</cell>
 		</row>
 	</grid>
