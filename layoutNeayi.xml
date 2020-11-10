@@ -122,7 +122,8 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	</component>	
 
 
-	<grid class="mb-2 mt-4 d-none" mode="fluid">
+	<grid class="mb-2 mt-4" mode="fluid">
+		<modification type="ShowOnlyFor" group="sysop" />
 		<row>
 			<cell>
 				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
