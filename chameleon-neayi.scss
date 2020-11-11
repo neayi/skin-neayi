@@ -287,343 +287,364 @@ $darkGreen : #00a46e;
 $yellow    : #fff000;
 $darkPurple: #404964;
 
-body.page-Accueil .container {
-
-    font-size  : $font-size-base;
-    font-family: $font-family-base;
-    line-height: $line-height-base;
-
-    max-width: 100%;
-
-    padding: 0px;
-
-    .col {
-        margin-right: 0px;
-        margin-left : 0px;
-
-        .mw-body {
-            padding: 0px;
-        }
-    }
-
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        border-bottom: none;
-    }
+/**
+ * Override the home page
+**/
+body.page-Accueil {
 
     #firstHeading {
         display: none;
     }
 
-    a:not(.btn) {
-        color          : $darkGreen;
-        font-weight    : 600;
-        text-decoration: underline;
-        transition     : color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    .WikiMainContent {
+        max-width: 100%;
+        padding  : 0px;
 
-        &:hover {
-            color: darken($darkGreen, 6%)
+        .mw-body {
+            padding: 0px;
+        }
+
+        >.row {
+            margin-right: 0;
+            margin-left : 0;
+
+            >.col {
+                padding-right: 0;
+                padding-left : 0;
+            }
         }
     }
 
-    .btn {
-        font-weight   : 800;
-        letter-spacing: 0.5px;
-    }
+    .bodyContent {
+        font-size  : $font-size-base;
+        font-family: $font-family-base;
+        line-height: $line-height-base;
 
-    .avatar {
-        object-fit: cover;
 
-        &.big {
-            width : 98px;
-            height: 98px;
-        }
-    }
-
-    .hero {
-        background-image   : url('/skins/skin-neayi/images/hero/shutterstock_708166867.jpg');
-        background-position: center;
-        background-size    : cover;
-        height             : 544px;
-        position           : relative;
-        -webkit-transition : background 0.3s ease;
-        -moz-transition    : background 0.3s ease;
-        -ms-transition     : background 0.3s ease;
-        -o-transition      : background 0.3s ease;
-        transition         : background 0.3s ease;
-
-        h1 {
-            font-weight   : 800 !important;
-            letter-spacing: 1.25px;
-            font-size     : 3.75rem;
-            margin-top    : 0px;
-            padding-top   : 0px;
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            border-bottom: none;
         }
 
-        h2 {
-            font-size  : 2.125rem;
-            font-weight: 800 !important;
-            margin-top : 0px;
-            padding-top: 0px;
+        a:not(.btn) {
+            color          : $darkGreen;
+            font-weight    : 600;
+            text-decoration: underline;
+            transition     : color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+            &:hover {
+                color: darken($darkGreen, 6%)
+            }
         }
 
-        .green-layer {
-            position        : absolute;
-            background-image: url('/skins/skin-neayi/images/hero/green-layer.png');
-            background-size : cover;
-            top             : 0;
-            left            : 0;
-            width           : 100%;
-            height          : 100%;
-        }
-    }
-
-    h3 {
-        font-size  : 1.95rem;
-        font-weight: 700 !important;
-    }
-
-    // Cards
-
-    .card {
-        border       : 1px solid #efefef;
-        border-radius: 4px;
-
-        a {
-            color          : inherit;
-            font-weight    : inherit;
-            text-decoration: none;
-            transition     : none;
+        .btn {
+            font-weight   : 800;
+            letter-spacing: 0.5px;
         }
 
-        .img-top-container {
-            position: relative;
-            display : inline-block;
-            height  : 168px;
+        .avatar {
+            object-fit: cover;
 
-            img {
-                object-fit: cover;
-                height    : 100%;
+            &.big {
+                width : 98px;
+                height: 98px;
+            }
+        }
+
+        .hero {
+            background-image   : url('/skins/skin-neayi/images/hero/shutterstock_708166867.jpg');
+            background-position: center;
+            background-size    : cover;
+            height             : 544px;
+            position           : relative;
+            -webkit-transition : background 0.3s ease;
+            -moz-transition    : background 0.3s ease;
+            -ms-transition     : background 0.3s ease;
+            -o-transition      : background 0.3s ease;
+            transition         : background 0.3s ease;
+
+            h1 {
+                font-weight   : 800 !important;
+                letter-spacing: 1.25px;
+                font-size     : 3.3rem;
+                margin-top    : 0px;
+                padding-top   : 0px;
+
+                @media (min-width:1000px) {
+                    font-size: 3.75rem;
+                }
             }
 
-            .card-img-top-overlay {
+            h2 {
+                font-size  : 2rem;
+                font-weight: 800 !important;
+                margin-top : 0px !important;
+                padding-top: 0px;
+
+
+                @media (min-width:1000px) {
+                    max-width: 60%;
+                    font-size: 2.125rem;
+                }
+            }
+
+            .green-layer {
                 position        : absolute;
-                bottom          : 0;
+                background-image: url('/skins/skin-neayi/images/hero/green-layer.png');
+                background-size : cover;
+                top             : 0;
                 left            : 0;
                 width           : 100%;
                 height          : 100%;
-                background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0), #212121);
-                color           : white;
+            }
+        }
 
-                .card-title {
-                    font-size  : 1.25rem;
-                    line-height: 1.2;
-                    text-align : left;
-                    font-weight: 600;
+        h3 {
+            font-size  : 1.95rem;
+            font-weight: 700 !important;
+        }
 
-                    a {
-                        color          : white;
-                        text-decoration: none;
+        // Cards
+
+        .card {
+            border       : 1px solid #efefef;
+            border-radius: 4px;
+
+            a {
+                color          : inherit;
+                font-weight    : inherit;
+                text-decoration: none;
+                transition     : none;
+            }
+
+            .img-top-container {
+                position: relative;
+                display : inline-block;
+                height  : 168px;
+
+                img {
+                    object-fit: cover;
+                    height    : 100%;
+                }
+
+                .card-img-top-overlay {
+                    position        : absolute;
+                    bottom          : 0;
+                    left            : 0;
+                    width           : 100%;
+                    height          : 100%;
+                    background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0), #212121);
+                    color           : white;
+
+                    .card-title {
+                        font-size  : 1.25rem;
+                        line-height: 1.2;
+                        text-align : left;
+                        font-weight: 600;
+
+                        a {
+                            color          : white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+            }
+
+            .card-text {
+                line-height: 1.5;
+                font-weight: 600;
+
+                a {
+                    color          : $body-color;
+                    text-decoration: none;
+                }
+            }
+
+            .badge {
+                padding      : 0.4rem;
+                font-weight  : 600;
+                font-size    : 0.8rem;
+                border-radius: 2Px;
+
+                &.badge-grey {
+                    background-color: #f2f2f2;
+                }
+            }
+
+            &.article {
+                .card-body {
+                    font-size : 1rem;
+                    text-align: left;
+                }
+
+                .avatar {
+                    width : 48px;
+                    height: 48px;
+                }
+
+                .badge-light {
+                    position: absolute;
+                    left    : 15Px;
+                    top     : 14px;
+                    color   : $darkPurple;
+                    z-index : 10;
+                }
+            }
+        }
+
+        // section caractéristiques agriculture
+
+        .icons {
+            img {
+                height: 24px;
+                width : auto;
+            }
+
+            span {
+                font-size  : 0.8rem;
+                line-height: 1.33;
+            }
+        }
+
+        .agri-name {
+            font-weight: 800;
+            font-size  : 3rem;
+        }
+
+        // Forms
+        .search-form {
+
+
+            form {
+                .fa-search {
+                    position      : relative;
+                    left          : 41px;
+                    z-index       : 300;
+                    vertical-align: middle;
+                }
+
+                input.searchboxInput {
+                    height          : 56px;
+                    text-indent     : 2.5rem;
+                    border-radius   : 26px 0 0 26px;
+                    border          : solid 1px #dddddd;
+                    background-color: #f2f3f6;
+                    padding-bottom  : 0.5rem !important;
+                    padding         : 0.375rem 0.75rem;
+                    position        : relative;
+                    box-shadow      : none;
+                    width           : 60%;
+
+                    &::placeholder {
+                        color         : #212121;
+                        font-size     : 0.8rem;
+                        letter-spacing: 1px;
+                    }
+
+                    &:focus,
+                    &:hover {
+                        outline     : none;
+                        box-shadow  : none;
+                        border-color: $darkGreen;
+                        z-index     : 200;
+                    }
+                }
+
+                input.mw-ui-button {
+                    border-top-left-radius    : 0;
+                    border-bottom-left-radius : 0;
+                    border-top-right-radius   : 28px;
+                    border-bottom-right-radius: 28px;
+                    position                  : relative;
+                    z-index                   : 2;
+                    background-color          : $darkGreen;
+                    font-weight               : 800;
+                    letter-spacing            : 0.5px;
+                    color                     : $white;
+                    padding-left              : 1.5rem;
+                    padding-right             : 1.5rem;
+                    border                    : 1px solid transparent;
+                    font-size                 : 1rem;
+                    height                    : 56px;
+                    margin                    : 0;
+                }
+            }
+
+            .input-group-prepend {
+                margin-right: -35px;
+                z-index     : 1000;
+
+                .input-group-text {
+                    background               : transparent;
+                    border-top-left-radius   : 26px;
+                    border-bottom-left-radius: 26px;
+                    border                   : none;
+                    margin-right             : -22Px;
+
+                    .fa-search {
+                        font-size: 2rem;
                     }
                 }
             }
         }
 
-        .card-text {
-            line-height: 1.5;
-            font-weight: 600;
-
-            a {
-                color          : $body-color;
-                text-decoration: none;
-            }
-        }
-
-        .badge {
-            padding      : 0.4rem;
-            font-weight  : 600;
-            font-size    : 0.8rem;
-            border-radius: 2Px;
-
-            &.badge-grey {
-                background-color: #f2f2f2;
-            }
-        }
-
-        &.article {
-            .card-body {
-                font-size : 1rem;
-                text-align: left;
-            }
-
+        .testimonies {
             .avatar {
-                width : 48px;
-                height: 48px;
-            }
-
-            .badge-light {
-                position: absolute;
-                left    : 15Px;
-                top     : 14px;
-                color   : $darkPurple;
-                z-index : 10;
-            }
-        }
-    }
-
-    // section caractéristiques agriculture
-
-    .icons {
-        img {
-            height: 24px;
-            width : auto;
-        }
-
-        span {
-            font-size  : 0.8rem;
-            line-height: 1.33;
-        }
-    }
-
-    .agri-name {
-        font-weight: 800;
-        font-size  : 3rem;
-    }
-
-    // Forms
-    .search-form {
-
-
-        form {
-            .fa-search {
-                position      : relative;
-                left          : 41px;
-                z-index       : 300;
-                vertical-align: middle;
-            }
-
-            input.searchboxInput {
-                height          : 56px;
-                text-indent     : 2.5rem;
-                border-radius   : 26px 0 0 26px;
-                border          : solid 1px #dddddd;
-                background-color: #f2f3f6;
-                padding-bottom  : 0.5rem !important;
-                padding         : 0.375rem 0.75rem;
-                position        : relative;
-                box-shadow      : none;
-                width           : 60%;
-
-                &::placeholder {
-                    color         : #212121;
-                    font-size     : 0.8rem;
-                    letter-spacing: 1px;
-                }
-
-                &:focus,
-                &:hover {
-                    outline     : none;
-                    box-shadow  : none;
-                    border-color: $darkGreen;
-                    z-index     : 200;
-                }
-            }
-
-            input.mw-ui-button {
-                border-top-left-radius    : 0;
-                border-bottom-left-radius : 0;
-                border-top-right-radius   : 28px;
-                border-bottom-right-radius: 28px;
-                position                  : relative;
-                z-index                   : 2;
-                background-color          : $darkGreen;
-                font-weight               : 800;
-                letter-spacing            : 0.5px;
-                color                     : $white;
-                padding-left              : 1.5rem;
-                padding-right             : 1.5rem;
-                border                    : 1px solid transparent;
-                font-size                 : 1rem;
-                height                    : 56px;
-                margin                    : 0;
+                width : 64px;
+                height: 64px;
+                border: solid 1px #919191
             }
         }
 
-        .input-group-prepend {
-            margin-right: -35px;
-            z-index     : 1000;
+        // Utilities
 
-            .input-group-text {
-                background               : transparent;
-                border-top-left-radius   : 26px;
-                border-bottom-left-radius: 26px;
-                border                   : none;
-                margin-right             : -22Px;
-
-                .fa-search {
-                    font-size: 2rem;
-                }
-            }
-        }
-    }
-
-    .testimonies {
-        .avatar {
-            width : 64px;
-            height: 64px;
-            border: solid 1px #919191
-        }
-    }
-
-    // Utilities
-
-    .grey-bg {
-        background-color: $greyBg;
-    }
-
-    .text-dark-green {
-        color: $darkGreen;
-    }
-
-    .text-yellow {
-        color: $yellow;
-    }
-
-    .font-weight-semibold {
-        font-weight: 600;
-    }
-
-    .btn-dark-green {
-        background-color: $darkGreen;
-
-        &:hover {
-            background: darken($darkGreen, 6%)
+        .grey-bg {
+            background-color: $greyBg;
         }
 
+        .text-dark-green {
+            color: $darkGreen;
+        }
 
-        a {
-            font-weight: 800;
-            color      : #fff;
+        .text-yellow {
+            color: $yellow;
+        }
+
+        .font-weight-semibold {
+            font-weight: 600;
+        }
+
+        .btn-dark-green {
+            background-color: $darkGreen;
 
             &:hover {
-                color: inherit;
+                background: darken($darkGreen, 6%)
+            }
+
+
+            a {
+                font-weight: 800;
+                color      : #fff;
+
+                &:hover {
+                    color: inherit;
+                }
             }
         }
-    }
 
-    .no-line-height {
-        line-height: inherit;
-    }
+        .no-line-height {
+            line-height: inherit;
+        }
 
-    .normal-line-height {
-        line-height: normal;
+        .normal-line-height {
+            line-height: normal;
+        }
     }
 }
-
 
 .footer {
     font-weight   : 600;
