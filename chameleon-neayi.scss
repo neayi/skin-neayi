@@ -258,10 +258,15 @@ $fa-class in $cmln-icons {
 
         .mw-echo-notifications-badge {
 
+            color      : inherit;
             width      : auto;
             height     : auto;
             top        : auto;
             text-indent: unset;
+
+            &:after {
+                display: none;
+            }
 
             &-dimmed {
                 opacity: 1;
