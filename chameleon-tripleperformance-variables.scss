@@ -1,0 +1,10 @@
+/* Override some of chameleon icons: */
+/* @see https://github.com/ProfessionalWiki/chameleon/blob/master/docs/variables.md */
+
+$cmln-icons : map-merge($cmln-icons, (navbar-tool-link: fas fa-edit,
+        ca-watch: far fa-eye,
+        ca-unwatch: far fa-eye-slash,
+    ));
+
+
+$brand-primary: #1abc9c;
