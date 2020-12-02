@@ -313,8 +313,11 @@ body.page-Accueil {
             font-weight: 700 !important;
         }
 
-        // Cards
+        .content-col {
+            max-width: 1800px;
+        }
 
+        // Cards
         .card {
             border       : 1px solid #efefef;
             border-radius: 4px;
@@ -446,6 +449,9 @@ body.page-Accueil {
 
                     @media (min-width:1000px) {
                         width: 70%;
+                    }
+                    @media (min-width:1500px) {
+                        width: 700px;
                     }
 
                     &::placeholder {
