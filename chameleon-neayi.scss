@@ -2,7 +2,10 @@
  * Neayi SCSS
  *********************/
 
+// NB: the import will not work on production environment because of the concatenation of all the CSS (it must stay at the start)
+// Do not forget to add any import statements in the Mediawiki:Common.css to override that behaviour.
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800');
+
 
 .top-header {
     background-color: $brand-primary;
@@ -273,7 +276,7 @@ body.page-Accueil {
             h1 {
                 font-weight   : 800 !important;
                 letter-spacing: 1.25px;
-                font-size     : 3.3rem;
+                font-size     : 3rem;
                 margin-top    : 0px;
                 padding-top   : 0px;
 
@@ -287,7 +290,6 @@ body.page-Accueil {
                 font-weight: 800 !important;
                 margin-top : 0px !important;
                 padding-top: 0px;
-
 
                 @media (min-width:1000px) {
                     max-width: 60%;
@@ -440,7 +442,11 @@ body.page-Accueil {
                     padding         : 0.375rem 0.75rem;
                     position        : relative;
                     box-shadow      : none;
-                    width           : 60%;
+                    width           : 55%;
+
+                    @media (min-width:1000px) {
+                        width: 70%;
+                    }
 
                     &::placeholder {
                         color         : #212121;
