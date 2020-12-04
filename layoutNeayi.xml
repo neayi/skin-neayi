@@ -83,10 +83,10 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                             <a href="https://neayi.com/contact/">Contacts</a>
                         </li>
                         <li class="list-inline-item pr-5">
-                            <a href="wiki/Charte_d%E2%80%99utilisation">Conditions d'utilisation</a>
+                            <a href="Charte_d%E2%80%99utilisation">Conditions d'utilisation</a>
                         </li>
                         <li class="list-inline-item pr-5">
-                            <a href="wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a>
+                            <a href="Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a>
                         </li>
                     </ul>
                 </div>
@@ -94,9 +94,9 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
             <div class="row align-items-center partners mt-3 mb-4">
                 <div class="col-md-8 offset-md-2 text-center">
                     Nos partenaires :
-                    <a href="wiki/Partenaires"><img src="/skins/skin-neayi/images/logos/logo-agrifind.png" alt="Agrifind" class="d-inline-block ml-5" style="height: 56px;"></a>
-                    <a href="wiki/Partenaires"><img src="/skins/skin-neayi/images/logos/logo-occitanie.jpg" alt="Chambre d'Agriculture d'Occitanie" class="d-inline-block ml-5" style="height: 88px;"></a>
-                    <a href="wiki/Partenaires"><img src="/skins/skin-neayi/images/logos/geco-ecophyto.png" alt="Ecophyto" class="d-inline-block ml-5" style="height: 31px;"></a>
+                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/logo-agrifind.png" alt="Agrifind" class="d-inline-block ml-5" style="height: 56px;"></a>
+                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/logo-occitanie.jpg" alt="Chambre d'Agriculture d'Occitanie" class="d-inline-block ml-5" style="height: 88px;"></a>
+                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/geco-ecophyto.png" alt="Ecophyto" class="d-inline-block ml-5" style="height: 31px;"></a>
                 </div>
             </div>
             <div class="row text-right rs-line mt-5">
