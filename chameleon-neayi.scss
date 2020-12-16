@@ -622,3 +622,8 @@ body.page-Accueil {
 .ve-ui-toolbar {
     z-index: 5000;
 }
+
+// Force the modals to show up on top of visual editor
+.oo-ui-windowManager-modal > .oo-ui-dialog {
+    z-index: 104;
+}
