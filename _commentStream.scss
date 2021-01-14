@@ -1,0 +1,160 @@
+/***********************************************
+ * Neayi SCSS for the Comment Stream extension
+ ***********************************************/
+
+
+#cs-comments {
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    .cs-comment-author {
+        font-weight: bold;
+        color: $darkPurple;
+        font-size: 1rem;
+        line-height: initial;
+    }
+    div.cs-comment-header {
+        > div {
+            border: none;
+        }
+    }
+
+    .btn {
+        font-size: 14px;
+        .material-icons {
+            font-size: 20px;
+            vertical-align: bottom;
+        }
+    }
+
+    // cache le titre des commentaires non présent sur les créas
+    .cs-comment-title {
+        display: none;
+    }
+
+    .cs-comment-body {
+        font-family: "Merriweather", serif;
+        line-height: 1.71;
+        color: $dark;
+
+        .cs-comment-details {
+            font-size: 12px;
+            font-family: "Raleway", Helvetica, Arial, sans-serif;
+            color: $darkPurple;
+            padding-left: 0;
+            margin-top: 6px;
+            margin-bottom: 6px;
+            display: inline-block;
+        }
+    }
+    .cs-head-comment {
+        .avatar {
+            width: 40px;
+            height: 40px;
+            margin-right: 4px;
+        }
+        .cs-comment-header-center {
+            height: auto;
+            padding: 15px 7px 15px 7px;
+        }
+    }
+
+    .cs-comment-header > div {
+        height: auto;
+    }
+
+    .cs-comment-header {
+        height: 72px;
+        overflow: hidden;
+        &.expanded {
+            height: auto;
+            overflow: auto;
+        }
+    }
+
+    .cs-comment-header-right {
+        span {
+            font-size: 0.8rem;
+            font-weight: bold;
+            color: $darkPurple;
+            margin-left: -9px;
+        }
+    }
+
+    .cs-reply-comment {
+        margin-left: 102px;
+        margin-top: 29px;
+
+        .avatar {
+            width: 40px;
+            height: 40px;
+        }
+        .cs-comment-header-center {
+            height: auto;
+            padding: 15px 7px 15px 7px;
+        }
+    }
+    .cs-edit-box {
+        background: transparent;
+        padding: 0;
+        margin-bottom: 0;
+    }
+    .cs-head-comment > .cs-comment-header {
+        border-top: none;
+        padding-top: 0;
+        padding-bottom: 0;
+        background: #f2f3f6;
+    }
+    #cs-body-edit-field {
+        border-color: #e7e8ed;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        padding: 1rem;
+        outline: none;
+        box-shadow: none;
+        font-family: "Merriweather", serif;
+        color: $darkPurple;
+
+        &:hover,
+        &:focus {
+            border-color: #b5bacb;
+        }
+        &::placeholder {
+            font-size: 0.8rem;
+            font-family: "Merriweather", serif;
+            font-style: italic;
+            color: #9e9e9e;
+        }
+    }
+}
+
+
+//Dropdown menu
+.dropdown-menu{
+    border:none;
+    box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.3);
+    border-radius:4px;
+    line-height: 2.5rem;
+    color:#404964;
+    .dropdown-item{
+      color: #404964;
+      text-decoration:none;
+      font-weight: 700;
+      &:hover{
+        background-color:#d0d5e6;
+        color: $darkPurple
+      }
+      .material-icons{
+        vertical-align: middle;
+      }
+    }
+    .selected{
+      color: #404964;
+      &.active{
+        background-color:#f2f3f6;
+        color: #404964;
+      }
+    }
+  }
+  
