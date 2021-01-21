@@ -2,19 +2,129 @@
  * Neayi SCSS for the Comment Stream extension
  ***********************************************/
 
+div#cs-comments {
+    background-color: white;
+    padding: 5px;
 
+    .cs-comment {
+        overflow: visible;
+    }
+
+    .cs-expanded div.cs-comment-header {
+        background-color: #f2f3f6;
+        border-top: none;
+        padding: 0;
+        margin-bottom: 5px;
+    }
+
+    div.cs-comment-header > div {
+        background-color: #f2f3f6;
+        color: #878c9e;
+        height: 55px;
+        padding: 5px;
+    }
+
+    .cs-comment-header-center {
+        line-height: 115%;
+    }
+
+    .cs-comment-header-left .cs-avatar {
+        float: right;
+        border-radius: 50%;
+    }
+
+    div.cs-comment-header {
+        div.cs-comment-header-reply {
+            text-align: center;
+            width: 130px;
+            float: right;
+
+            button {
+                color: #878c9e;
+                width: 100%;
+                height: 100%;
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        div.cs-head-comment-div-menu {
+            width: 40px;
+
+            button {
+                height: 100%;
+                width: 100%;
+                color: #878c9e;
+            }
+        }
+
+        div.cs-comment-header-right {
+            width: 52px;
+            text-align: center;
+        }
+        span.cs-voting-span {
+            button.cs-vote-button {
+                display: block;
+                width: 45px;
+                padding: 0px;
+                color: #878c9e;
+                span {
+                    color: #878c9e;
+                }
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        div.cs-head-comment-total-div {
+            width: 60px;
+            border: 1px solid #f2f3f6;
+            background-color: white;
+            padding-top: 3px;
+            div {
+                line-height: 100%;
+                text-align: center;
+            }
+            div.count {
+                font-size: 26px;
+                font-weight: bold;
+            }
+            div.votes {
+                font-size: 16px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .cs-stream-footer {
+        height: 30px;
+    }
+
+    div.cs-add-div {
+        border: 1px solid #12a073;
+        padding: 30px 40px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .cs-add-button {
+        background: #12a073;
+        color: white;
+
+        padding: 15px;
+    }    
+}
+
+// Pauline
 #cs-comments {
     font-family: "Raleway", Helvetica, Arial, sans-serif;
     .cs-comment-author {
         font-weight: bold;
         color: $darkPurple;
         font-size: 1rem;
-        line-height: initial;
-    }
-    div.cs-comment-header {
-        > div {
-            border: none;
-        }
     }
 
     .btn {
@@ -25,25 +135,27 @@
         }
     }
 
-    // cache le titre des commentaires non présent sur les créas
-    .cs-comment-title {
-        display: none;
+    .cs-comment-footer {
+        .cs-comment-button-label, .cs-vote-upcount, .cs-vote-downcount {
+            font-weight: bold;
+        }
+
+        
     }
 
+    .cs-comment-details {
+        font-size: 12px;
+        font-family: "Raleway", Helvetica, Arial, sans-serif;
+        color: $darkPurple;
+        padding-left: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        display: inline-block;
+    }
     .cs-comment-body {
         font-family: "Merriweather", serif;
         line-height: 1.71;
         color: $dark;
-
-        .cs-comment-details {
-            font-size: 12px;
-            font-family: "Raleway", Helvetica, Arial, sans-serif;
-            color: $darkPurple;
-            padding-left: 0;
-            margin-top: 6px;
-            margin-bottom: 6px;
-            display: inline-block;
-        }
     }
     .cs-head-comment {
         .avatar {
@@ -129,32 +241,34 @@
     }
 }
 
-
 //Dropdown menu
-.dropdown-menu{
-    border:none;
+.dropdown-menu {
+    border: none;
     box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.3);
-    border-radius:4px;
+    border-radius: 4px;
     line-height: 2.5rem;
-    color:#404964;
-    .dropdown-item{
-      color: #404964;
-      text-decoration:none;
-      font-weight: 700;
-      &:hover{
-        background-color:#d0d5e6;
-        color: $darkPurple
-      }
-      .material-icons{
-        vertical-align: middle;
-      }
-    }
-    .selected{
-      color: #404964;
-      &.active{
-        background-color:#f2f3f6;
+    color: #404964;
+    .dropdown-item {
         color: #404964;
-      }
+        text-decoration: none;
+        font-weight: 700;
+        &:hover {
+            background-color: #d0d5e6;
+            color: $darkPurple;
+        }
+        .material-icons {
+            vertical-align: middle;
+        }
     }
-  }
-  
+    .selected {
+        color: #404964;
+        &.active {
+            background-color: #f2f3f6;
+            color: #404964;
+        }
+    }
+}
+
+// .cs-button:enabled:hover {
+//     color: #4b5254;
+// }

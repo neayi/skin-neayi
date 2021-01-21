@@ -5,6 +5,7 @@
 // NB: the import will not work on production environment because of the concatenation of all the CSS (it must stay at the start)
 // Do not forget to add any import statements in the Mediawiki:Common.css to override that behaviour.
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
 
 @import "neayiVariables";
 @import "mwOverrides";
