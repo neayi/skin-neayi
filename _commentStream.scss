@@ -5,6 +5,7 @@
 div#cs-comments {
     background-color: white;
     padding: 5px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
 
     .cs-comment {
         overflow: visible;
@@ -14,117 +15,85 @@ div#cs-comments {
         background-color: #f2f3f6;
         border-top: none;
         padding: 0;
-        margin-bottom: 5px;
     }
 
-    div.cs-comment-header > div {
-        background-color: #f2f3f6;
-        color: #878c9e;
-        height: 55px;
-        padding: 5px;
-    }
+    .cs-comment-header {
+        height: 58px;
+        overflow: hidden;
 
-    .cs-comment-header-center {
-        line-height: 115%;
-    }
+        &.expanded {
+            height: auto;
+            overflow: auto;
+        }
 
-    .cs-comment-header-left .cs-avatar {
-        float: right;
-        border-radius: 50%;
-    }
+        & > div {
+            background-color: #f2f3f6;
+            color: #878c9e;
+        }
 
-    div.cs-comment-header {
-        div.cs-comment-header-reply {
-            text-align: center;
-            width: 130px;
-            float: right;
+        // User avatar
+        .cs-comment-header-left {
+            width: 50px;
+            padding: 3px 0 0 5px;
 
-            button {
-                color: #878c9e;
-                width: 100%;
-                height: 100%;
-
-                img {
-                    display: none;
-                }
+            .cs-avatar {
+                border-radius: 50%;
+                width: 50px;
+                height: 50px;
+                margin-right: 4px;
             }
         }
 
-        div.cs-head-comment-div-menu {
-            width: 40px;
+        // User name
+        .cs-comment-header-center {
+            padding: 18px 7px 15px 7px;
+            width: 185x;
+            display: block;
 
-            button {
-                height: 100%;
-                width: 100%;
-                color: #878c9e;
-            }
-        }
-
-        div.cs-comment-header-right {
-            width: 52px;
-            text-align: center;
-        }
-        span.cs-voting-span {
-            button.cs-vote-button {
-                display: block;
-                width: 45px;
-                padding: 0px;
-                color: #878c9e;
-                span {
-                    color: #878c9e;
-                }
-                img {
-                    display: none;
-                }
-            }
-        }
-
-        div.cs-head-comment-total-div {
-            width: 60px;
-            border: 1px solid #f2f3f6;
-            background-color: white;
-            padding-top: 3px;
-            div {
-                line-height: 100%;
-                text-align: center;
-            }
-            div.count {
-                font-size: 26px;
+            .cs-comment-author {
                 font-weight: bold;
+                color: $darkPurple;
+                font-size: 1rem;
             }
-            div.votes {
-                font-size: 16px;
+        }
+
+        // Caracteristics
+        .cs-comment-header-right {
+            width: 75px;
+
+            span {
+                font-size: 0.8rem;
                 font-weight: bold;
+                color: $darkPurple;
+                margin-left: -5px;
+
+                max-width: 91px;
+                display: inline-block;
+                text-align: left;
+                max-height: 41px;
+                overflow: hidden;
             }
         }
     }
 
+    // Area under the reply and votes buttons
     .cs-stream-footer {
         height: 30px;
     }
 
+    // New comment zone
     div.cs-add-div {
         border: 1px solid #12a073;
         padding: 30px 40px;
         text-align: center;
         margin-bottom: 20px;
-    }
 
-    .cs-add-button {
-        background: #12a073;
-        color: white;
+        .cs-add-button {
+            background: #12a073;
+            color: white;
 
-        padding: 15px;
-    }    
-}
-
-// Pauline
-#cs-comments {
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
-    .cs-comment-author {
-        font-weight: bold;
-        color: $darkPurple;
-        font-size: 1rem;
+            padding: 15px;
+        }
     }
 
     .btn {
@@ -135,14 +104,16 @@ div#cs-comments {
         }
     }
 
+    // Votes and reply buttons
     .cs-comment-footer {
-        .cs-comment-button-label, .cs-vote-upcount, .cs-vote-downcount {
+        .cs-comment-button-label,
+        .cs-vote-upcount,
+        .cs-vote-downcount {
             font-weight: bold;
         }
-
-        
     }
 
+    // Published date
     .cs-comment-details {
         font-size: 12px;
         font-family: "Raleway", Helvetica, Arial, sans-serif;
@@ -152,69 +123,38 @@ div#cs-comments {
         margin-bottom: 6px;
         display: inline-block;
     }
+
+    .cs-comment-title {
+        font-family: "Merriweather", serif;
+    }
+
     .cs-comment-body {
         font-family: "Merriweather", serif;
         line-height: 1.71;
         color: $dark;
-    }
-    .cs-head-comment {
-        .avatar {
-            width: 40px;
-            height: 40px;
-            margin-right: 4px;
-        }
-        .cs-comment-header-center {
-            height: auto;
-            padding: 15px 7px 15px 7px;
+
+        p {
+            margin-bottom: 1rem;
         }
     }
 
-    .cs-comment-header > div {
-        height: auto;
-    }
-
-    .cs-comment-header {
-        height: 72px;
-        overflow: hidden;
-        &.expanded {
-            height: auto;
-            overflow: auto;
-        }
-    }
-
-    .cs-comment-header-right {
-        span {
-            font-size: 0.8rem;
-            font-weight: bold;
-            color: $darkPurple;
-            margin-left: -9px;
-        }
-    }
-
+    // Edit new comment zone
     .cs-reply-comment {
         margin-left: 102px;
         margin-top: 29px;
 
         .avatar {
-            width: 40px;
-            height: 40px;
-        }
-        .cs-comment-header-center {
-            height: auto;
-            padding: 15px 7px 15px 7px;
+            width: 50px;
+            height: 50px;
         }
     }
+
     .cs-edit-box {
         background: transparent;
         padding: 0;
         margin-bottom: 0;
     }
-    .cs-head-comment > .cs-comment-header {
-        border-top: none;
-        padding-top: 0;
-        padding-bottom: 0;
-        background: #f2f3f6;
-    }
+
     #cs-body-edit-field {
         border-color: #e7e8ed;
         -webkit-transition: all 0.3s ease;
@@ -248,20 +188,25 @@ div#cs-comments {
     border-radius: 4px;
     line-height: 2.5rem;
     color: #404964;
+
     .dropdown-item {
         color: #404964;
         text-decoration: none;
         font-weight: 700;
+
         &:hover {
             background-color: #d0d5e6;
             color: $darkPurple;
         }
+
         .material-icons {
             vertical-align: middle;
         }
     }
+
     .selected {
         color: #404964;
+
         &.active {
             background-color: #f2f3f6;
             color: #404964;
