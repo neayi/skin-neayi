@@ -1,0 +1,70 @@
+.mainContainer {
+    max-width: 1500px;
+
+    .toc {
+        border: none;
+        background-color: inherit;
+        position: sticky;
+        top: 150px;
+
+        // Don't show before being moved.
+        // The move function should be in MediaWiki:Common.js
+        display: none;
+
+        .toctitle {
+            text-align: left;
+        }
+
+        ul {
+            font-family: "Raleway";
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .toctogglespan {
+            display: none;
+        }
+    }
+}
+
+
+.mw-body {
+    font-family: Merryweather-Bold;
+    font-size: 18px;
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
+        font-family: "Raleway";
+        font-weight: 600;
+    }
+}
+
+body.page-Accueil {
+    .leftSide,
+    .rightSide {
+        display: none;
+    }
+
+    .centralDiv {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+    .mainContainer {
+        max-width: 100%;
+    }
+
+    .footer {
+        background-color: #ffffff;
+    }
+}
