@@ -2,10 +2,11 @@
     max-width: 1500px;
 
     .toc {
-        border: none;
+        border          : none;
         background-color: inherit;
-        position: sticky;
-        top: 150px;
+        position        : sticky;
+        top             : 80px;
+        margin-top      : 35px;
 
         // Don't show before being moved.
         // The move function should be in MediaWiki:Common.js
@@ -13,12 +14,34 @@
 
         .toctitle {
             text-align: left;
+            padding   : 0 0 0 20px;
         }
 
         ul {
             font-family: "Raleway";
-            font-size: 14px;
+            font-size  : 14px;
             font-weight: 600;
+
+            li.toclevel-1 {
+                &>a.active {
+                    background-color: #0645ad;
+                    border-radius   : 3px;
+                    color           : #FFF;
+
+                    span {
+                        color: #FFF;
+                    }
+                }
+
+
+            }
+
+
+            li {
+                a {
+                    padding: 0 0 0 20px;
+                }
+            }
         }
 
         .toctogglespan {
@@ -27,10 +50,9 @@
     }
 }
 
-
 .mw-body {
     font-family: Merryweather-Bold;
-    font-size: 18px;
+    font-size  : 18px;
 
     h1,
     h2,
@@ -47,16 +69,21 @@
         font-family: "Raleway";
         font-weight: 600;
     }
+
+    .mw-indicators {
+        margin-top: 37px;
+    }
 }
 
 body.page-Accueil {
+
     .leftSide,
     .rightSide {
         display: none;
     }
 
     .centralDiv {
-        flex: 0 0 100%;
+        flex     : 0 0 100%;
         max-width: 100%;
     }
 
