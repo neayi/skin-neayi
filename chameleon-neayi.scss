@@ -4,9 +4,10 @@
 
 // NB: the import will not work on production environment because of the concatenation of all the CSS (it must stay at the start)
 // Do not forget to add any import statements in the Mediawiki:Common.css to override that behaviour.
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800");
 
-@import 'caracteristiques_exploitation';
+@import "caracteristiques_exploitation";
+@import "pages_interieures";
 
 .top-header {
     background-color: $brand-primary;
@@ -36,12 +37,6 @@
                 }
             }
         }
-    }
-}
-
-.mw-body {
-    .firstHeading {
-        color: #337ab7;
     }
 }
 
@@ -98,7 +93,7 @@ div.small-description {
 }
 
 div.resistance-stars {
-    color    : #8E8E8E;
+    color    : #8e8e8e;
     font-size: 80%;
 }
 
@@ -109,7 +104,6 @@ div.resistance-stars {
     text-decoration: none;
 }
 
-
 /* External links */
 
 .mw-parser-output {
@@ -118,7 +112,8 @@ div.resistance-stars {
         background-repeat  : no-repeat;
         padding-right      : 13px;
         background-image   : url("skins/skin-neayi/images/external-link-ltr-icon.png");
-        background-image   : linear-gradient(transparent, transparent), url("skins/skin-neayi/images/external-link-ltr-icon.svg");
+        background-image   : linear-gradient(transparent, transparent),
+            url("skins/skin-neayi/images/external-link-ltr-icon.svg");
     }
 
     // recolor the links in a way that ensure we can see them
@@ -147,7 +142,6 @@ body {
 
     #pt-notifications-alert,
     #pt-notifications-notice {
-
         display: inherit;
 
         .oo-ui-icon-bell,
@@ -158,7 +152,6 @@ body {
         }
 
         .mw-echo-notifications-badge {
-
             color      : inherit;
             width      : auto;
             height     : auto;
@@ -188,7 +181,7 @@ Arial,
 Helvetica,
 sans-serif;
 
-// Colors    
+// Colors
 $greyBg    : #f5f5f5;
 $darkGreen : #00a46e;
 $yellow    : #fff000;
@@ -198,7 +191,6 @@ $darkPurple: #404964;
  * Override the home page
 **/
 body.page-Accueil {
-
     #firstHeading {
         display: none;
     }
@@ -227,7 +219,6 @@ body.page-Accueil {
         font-family: $font-family-base;
         line-height: $line-height-base;
 
-
         h1,
         h2,
         h3,
@@ -241,10 +232,12 @@ body.page-Accueil {
             color          : $darkGreen;
             font-weight    : 600;
             text-decoration: underline;
-            transition     : color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+            transition     : color 0.15s ease-in-out,
+                background-color 0.15s ease-in-out,
+                border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 
             &:hover {
-                color: darken($darkGreen, 6%)
+                color: darken($darkGreen, 6%);
             }
         }
 
@@ -263,7 +256,7 @@ body.page-Accueil {
         }
 
         .hero {
-            background-image   : url('/skins/skin-neayi/images/hero/shutterstock_708166867.jpg');
+            background-image   : url("/skins/skin-neayi/images/hero/shutterstock_708166867.jpg");
             background-position: center;
             background-size    : cover;
             height             : 544px;
@@ -281,7 +274,7 @@ body.page-Accueil {
                 margin-top    : 0px;
                 padding-top   : 0px;
 
-                @media (min-width:1000px) {
+                @media (min-width: 1000px) {
                     font-size: 3.75rem;
                 }
             }
@@ -292,7 +285,7 @@ body.page-Accueil {
                 margin-top : 0px !important;
                 padding-top: 0px;
 
-                @media (min-width:1000px) {
+                @media (min-width: 1000px) {
                     max-width: 60%;
                     font-size: 2.125rem;
                 }
@@ -300,7 +293,7 @@ body.page-Accueil {
 
             .green-layer {
                 position        : absolute;
-                background-image: url('/skins/skin-neayi/images/hero/green-layer.png');
+                background-image: url("/skins/skin-neayi/images/hero/green-layer.png");
                 background-size : cover;
                 top             : 0;
                 left            : 0;
@@ -341,13 +334,15 @@ body.page-Accueil {
                 }
 
                 .card-img-top-overlay {
-                    position        : absolute;
-                    bottom          : 0;
-                    left            : 0;
-                    width           : 100%;
-                    height          : 100%;
-                    background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0), #212121);
-                    color           : white;
+                    position: absolute;
+                    bottom  : 0;
+                    left    : 0;
+                    width   : 100%;
+                    height  : 100%;
+                    background-image: linear-gradient(to bottom,
+                            rgba(69, 69, 69, 0),
+                            #212121);
+                    color: white;
 
                     .card-title {
                         font-size  : 1.25rem;
@@ -377,7 +372,7 @@ body.page-Accueil {
                 padding      : 0.4rem;
                 font-weight  : 600;
                 font-size    : 0.8rem;
-                border-radius: 2Px;
+                border-radius: 2px;
 
                 &.badge-grey {
                     background-color: #f2f2f2;
@@ -397,7 +392,7 @@ body.page-Accueil {
 
                 .badge-light {
                     position: absolute;
-                    left    : 15Px;
+                    left    : 15px;
                     top     : 14px;
                     color   : $darkPurple;
                     z-index : 10;
@@ -426,8 +421,6 @@ body.page-Accueil {
 
         // Forms
         .search-form {
-
-
             form {
                 .fa-search {
                     position      : relative;
@@ -448,10 +441,11 @@ body.page-Accueil {
                     box-shadow      : none;
                     width           : 55%;
 
-                    @media (min-width:1000px) {
+                    @media (min-width: 1000px) {
                         width: 70%;
                     }
-                    @media (min-width:1500px) {
+
+                    @media (min-width: 1500px) {
                         width: 700px;
                     }
 
@@ -499,7 +493,7 @@ body.page-Accueil {
                     border-top-left-radius   : 26px;
                     border-bottom-left-radius: 26px;
                     border                   : none;
-                    margin-right             : -22Px;
+                    margin-right             : -22px;
 
                     .fa-search {
                         font-size: 2rem;
@@ -512,7 +506,7 @@ body.page-Accueil {
             .avatar {
                 width : 64px;
                 height: 64px;
-                border: solid 1px #919191
+                border: solid 1px #919191;
             }
         }
 
@@ -538,9 +532,8 @@ body.page-Accueil {
             background-color: $darkGreen;
 
             &:hover {
-                background: darken($darkGreen, 6%)
+                background: darken($darkGreen, 6%);
             }
-
 
             a {
                 font-weight: 800;
@@ -563,39 +556,39 @@ body.page-Accueil {
 }
 
 .footer {
-    font-weight   : 600;
-    letter-spacing: 0.44px;
-    color         : $darkPurple;
-    font-size     : 1rem;
-    max-width     : 100%;
+    letter-spacing  : 0.44px;
+    color           : $darkPurple;
+    font-size       : 1rem;
+    max-width       : 100%;
+    background-color: #e9ecef;
+    font-family     : $font-family-base;
 
-    a {
-        color    : $darkPurple;
-        font-size: 1rem;
+    li {
+        margin-top: 1em;
+        font-size : 14px;
+
+        a {
+            color: $darkPurple;
+        }
+    }
+
+    p.footer-title {
+        font-weight: 600;
     }
 
     img {
         height: 46px;
     }
 
-    .rs-line {
-        img {
-            height: 46px;
-        }
-    }
-
-    small {
-        font-size  : 16px;
-        font-weight: normal;
-    }
-
-    @media (max-width:768px) {
+    @media (max-width: 768px) {
         .partners img {
             width: auto;
         }
     }
 
     .social-links {
+        margin-left: 4px;
+
         a {
             &:hover {
                 text-decoration: none;
@@ -605,16 +598,15 @@ body.page-Accueil {
                 display       : inline-block;
                 border-radius : 50%;
                 box-shadow    : 0px 0px 0px 2px #404964;
-                height        : 42px;
-                line-height   : 42px;
+                font-size     : 14px;
+                height        : 25px;
+                width         : 25px;
+                line-height   : 27px;
                 margin        : 0 3px;
-                width         : 42px;
-                font-size     : 24px;
                 text-align    : center;
                 vertical-align: middle;
             }
         }
-
     }
 }
 
@@ -624,6 +616,6 @@ body.page-Accueil {
 }
 
 // Force the modals to show up on top of visual editor
-.oo-ui-windowManager-modal > .oo-ui-dialog {
+.oo-ui-windowManager-modal>.oo-ui-dialog {
     z-index: 104;
 }

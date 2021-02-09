@@ -54,7 +54,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<component type="PersonalTools" position="right"/>
 	</component>
 
-	<grid class="flex-fill WikiMainContent">
+	<grid mode="fluid" class="flex-fill WikiMainContent">
 		<row>
 			<cell span="12">
 				<component type="SiteNotice"/>
@@ -63,68 +63,70 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 		<row>
 			<cell span="12">
-				<component type="MainContent"/>
+				<component type="Container" class="row mx-auto mainContainer">
+					<component type="Container" class="leftSide col col-3 d-xl-block d-none"></component>
+					<component type="MainContent" class="centralDiv col col-12 col-xl-6"/>
+					<component type="Container" class="rightSide col col-12 col-xl-3">
+						<component type="Html"><![CDATA[
+					<div id="NeayiInteractions"></div>
+				]]></component></component>
+				</component>
 			</cell>
 		</row>
 	</grid>
 
-	<grid class="footer bg-white py-5">
+	<grid class="footer py-5">
 		<row>
 			<cell span="12">
 				<component type="Html"><![CDATA[
         <div class="col-md-10 offset-md-1">
             <div class="row align-items-center">
-                <div class="col-md-2 text-center">
+                <div class="col-md-12 pb-4">
                     <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
                 </div>
-                <div class="col-md-10 text-center">
-                    <ul class="list-inline mb-md-0">
-                        <li class="list-inline-item pr-5">
-                            <a href="https://neayi.com/contact/">Contacts</a>
-                        </li>
-                        <li class="list-inline-item pr-5">
-                            <a href="Charte_d%E2%80%99utilisation">Conditions d'utilisation</a>
-                        </li>
-                        <li class="list-inline-item pr-5">
-                            <a href="Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a>
-                        </li>
+			</div>
+			<div class="row">
+                <div class="col-md-4">
+					<p class="footer-title">Triple Performance</p>
+                    <ul class="list-unstyled">
+                        <li><a href="%C3%80_propos">À propos</a></li>
+                        <li><a href="Partenaires">Partenaires</a></li>
+                        <li><a href="Manifeste_de_la_plateforme_Triple_Performance">Manifeste</a></li>
+                        <li><a href="Comment_fonctionne_la_plateforme">Comment ça fonctionne ?</a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="row align-items-center partners mt-3 mb-4">
-                <div class="col-md-8 offset-md-2 text-center">
-                    Nos partenaires :
-                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/logo-agrifind.png" alt="Agrifind" class="d-inline-block ml-5" style="height: 56px;"></a>
-                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/logo-occitanie.jpg" alt="Chambre d'Agriculture d'Occitanie" class="d-inline-block ml-5" style="height: 88px;"></a>
-                    <a href="Partenaires"><img src="/skins/skin-neayi/images/logos/geco-ecophyto.png" alt="Ecophyto" class="d-inline-block ml-5" style="height: 31px;"></a>
-                </div>
-            </div>
-            <div class="row text-right rs-line mt-5">
-                <div class="col-md-12">
-                    <small class="font-italic">
-                        Fait avec ♡ par Neayi
-                    </small>
-                    <a href="https://neayi.com/" target="_blank" class="text-decoration-none">
-                        <img src="/skins/skin-neayi/images/logos/logo-neayi.png" alt="Neayi" class="d-inline-block ml-4">
-                    </a>
 
-					<span class="social-links">
-						<a href="https://www.facebook.com/tripleperformance" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
-						<a href="https://twitter.com/neayi_com" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
-						<a href="https://www.linkedin.com/company/neayi" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur LinkedIn"><span class="fab fa-linkedin-in"></span>  </a>
-					</span>
+                <div class="col-md-4">
+					<p class="footer-title">Légal</p>
+                    <ul class="list-unstyled">
+                        <li><a href="Charte_d%E2%80%99utilisation">Conditions d'utilisation</a></li>
+                        <li><a href="Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
+                        <li><a href="Open_Source">Open Source</a></li>
+                    </ul>
                 </div>
+
+                <div class="col-md-4">
+					<p class="footer-title">Fait avec ♡ par Neayi</p>
+                    <ul class="list-unstyled">
+                        <li><a href="https://neayi.com/contact/">Contact</a></li>
+                        <li>Nous retrouver sur 
+						<span class="social-links">
+							<a href="https://www.facebook.com/tripleperformance" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
+							<a href="https://twitter.com/neayi_com" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
+							<a href="https://www.linkedin.com/company/neayi" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur LinkedIn"><span class="fab fa-linkedin-in"></span>  </a>
+						</span></li>
+                    </ul>
+                </div>
+
             </div>
+
         </div>
 			]]></component>
 			</cell>
 		</row>
-	</grid>	
 
-
-	<grid class="mb-2 mt-4" mode="fluid">
-		<modification type="ShowOnlyFor" group="sysop" />
 		<row>
+			<modification type="ShowOnlyFor" group="sysop" />
 			<cell>
 				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
 					<component type="Toolbox" flatten="no" class="dropup"/>
@@ -132,6 +134,8 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 				</component>
 			</cell>
 		</row>
-	</grid>
+
+	</grid>	
+
 
 </structure>
