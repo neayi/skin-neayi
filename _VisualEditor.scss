@@ -11,3 +11,8 @@
 .oo-ui-windowManager-modal>.oo-ui-dialog {
     z-index: 104;
 }
+
+// Force the min width of the editor
+.ve-activated #content {
+    min-width: 1200px;
+}
