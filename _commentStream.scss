@@ -4,8 +4,8 @@
 
 div#cs-comments {
     background-color: white;
-    padding: 5px;
-    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    padding         : 5px;
+    font-family     : "Raleway", Helvetica, Arial, sans-serif;
 
     .cs-comment {
         overflow: visible;
@@ -13,47 +13,47 @@ div#cs-comments {
 
     .cs-expanded div.cs-comment-header {
         background-color: #f2f3f6;
-        border-top: none;
-        padding: 0;
+        border-top      : none;
+        padding         : 0;
     }
 
     .cs-comment-header {
-        height: 58px;
+        height  : 58px;
         overflow: hidden;
 
         &.expanded {
-            height: auto;
+            height  : auto;
             overflow: auto;
         }
 
-        & > div {
+        &>div {
             background-color: #f2f3f6;
-            color: #878c9e;
+            color           : #878c9e;
         }
 
         // User avatar
         .cs-comment-header-left {
-            width: 50px;
+            width  : 50px;
             padding: 3px 0 0 5px;
 
             .cs-avatar {
                 border-radius: 50%;
-                width: 50px;
-                height: 50px;
-                margin-right: 4px;
+                width        : 50px;
+                height       : 50px;
+                margin-right : 4px;
             }
         }
 
         // User name
         .cs-comment-header-center {
             padding: 18px 7px 15px 7px;
-            width: 185x;
+            width  : 185x;
             display: block;
 
             .cs-comment-author {
                 font-weight: bold;
-                color: $darkPurple;
-                font-size: 1rem;
+                color      : $darkPurple;
+                font-size  : 1rem;
             }
         }
 
@@ -62,16 +62,16 @@ div#cs-comments {
             width: 75px;
 
             span {
-                font-size: 0.8rem;
+                font-size  : 0.8rem;
                 font-weight: bold;
-                color: $darkPurple;
+                color      : $darkPurple;
                 margin-left: -5px;
 
-                max-width: 91px;
-                display: inline-block;
+                max-width : 91px;
+                display   : inline-block;
                 text-align: left;
                 max-height: 41px;
-                overflow: hidden;
+                overflow  : hidden;
             }
         }
     }
@@ -83,14 +83,14 @@ div#cs-comments {
 
     // New comment zone
     div.cs-add-div {
-        border: 1px solid #12a073;
-        padding: 30px 40px;
-        text-align: center;
+        border       : 1px solid #12a073;
+        padding      : 30px 40px;
+        text-align   : center;
         margin-bottom: 20px;
 
         .cs-add-button {
             background: #12a073;
-            color: white;
+            color     : white;
 
             padding: 15px;
         }
@@ -98,14 +98,16 @@ div#cs-comments {
 
     .btn {
         font-size: 14px;
+
         .material-icons {
-            font-size: 20px;
+            font-size     : 20px;
             vertical-align: bottom;
         }
     }
 
     // Votes and reply buttons
     .cs-comment-footer {
+
         .cs-comment-button-label,
         .cs-vote-upcount,
         .cs-vote-downcount {
@@ -115,13 +117,13 @@ div#cs-comments {
 
     // Published date
     .cs-comment-details {
-        font-size: 12px;
-        font-family: "Raleway", Helvetica, Arial, sans-serif;
-        color: $darkPurple;
-        padding-left: 0;
-        margin-top: 6px;
+        font-size    : 12px;
+        font-family  : "Raleway", Helvetica, Arial, sans-serif;
+        color        : $darkPurple;
+        padding-left : 0;
+        margin-top   : 6px;
         margin-bottom: 6px;
-        display: inline-block;
+        display      : inline-block;
     }
 
     .cs-comment-title {
@@ -131,7 +133,7 @@ div#cs-comments {
     .cs-comment-body {
         font-family: "Merriweather", serif;
         line-height: 1.71;
-        color: $dark;
+        color      : $dark;
 
         p {
             margin-bottom: 1rem;
@@ -141,62 +143,63 @@ div#cs-comments {
     // Edit new comment zone
     .cs-reply-comment {
         margin-left: 102px;
-        margin-top: 29px;
+        margin-top : 29px;
 
         .avatar {
-            width: 50px;
+            width : 50px;
             height: 50px;
         }
     }
 
     .cs-edit-box {
-        background: transparent;
-        padding: 0;
+        background   : transparent;
+        padding      : 0;
         margin-bottom: 0;
     }
 
     #cs-body-edit-field {
-        border-color: #e7e8ed;
+        border-color      : #e7e8ed;
         -webkit-transition: all 0.3s ease;
-        -moz-transition: all 0.3s ease;
-        -ms-transition: all 0.3s ease;
-        -o-transition: all 0.3s ease;
-        transition: all 0.3s ease;
-        padding: 1rem;
-        outline: none;
-        box-shadow: none;
-        font-family: "Merriweather", serif;
-        color: $darkPurple;
+        -moz-transition   : all 0.3s ease;
+        -ms-transition    : all 0.3s ease;
+        -o-transition     : all 0.3s ease;
+        transition        : all 0.3s ease;
+        padding           : 1rem;
+        outline           : none;
+        box-shadow        : none;
+        font-family       : "Merriweather", serif;
+        color             : $darkPurple;
 
         &:hover,
         &:focus {
             border-color: #b5bacb;
         }
+
         &::placeholder {
-            font-size: 0.8rem;
+            font-size  : 0.8rem;
             font-family: "Merriweather", serif;
-            font-style: italic;
-            color: #9e9e9e;
+            font-style : italic;
+            color      : #9e9e9e;
         }
     }
 }
 
 //Dropdown menu
 .dropdown-menu {
-    border: none;
-    box-shadow: 0 0 48px 0 rgba(0, 0, 0, 0.3);
+    border       : none;
+    box-shadow   : 0 0 48px 0 rgba(0, 0, 0, 0.3);
     border-radius: 4px;
-    line-height: 2.5rem;
-    color: #404964;
+    line-height  : 2.5rem;
+    color        : #404964;
 
     .dropdown-item {
-        color: #404964;
+        color          : #404964;
         text-decoration: none;
-        font-weight: 700;
+        font-weight    : 700;
 
         &:hover {
             background-color: #d0d5e6;
-            color: $darkPurple;
+            color           : $darkPurple;
         }
 
         .material-icons {
@@ -209,7 +212,7 @@ div#cs-comments {
 
         &.active {
             background-color: #f2f3f6;
-            color: #404964;
+            color           : #404964;
         }
     }
 }

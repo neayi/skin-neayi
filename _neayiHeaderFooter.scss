@@ -4,28 +4,28 @@
 
 .top-header {
     background-color: $brand-primary;
-    color: $body-bg;
-    position: relative;
-    min-height: 5px;
-    line-height: 20px;
+    color           : $body-bg;
+    position        : relative;
+    min-height      : 5px;
+    line-height     : 20px;
 
     .row {
         margin-right: 0;
-        margin-left: 0;
+        margin-left : 0;
 
         .col {
             font-size: 80%;
-            padding: 8px 15px;
-            opacity: 1;
+            padding  : 8px 15px;
+            opacity  : 1;
 
             .social-links {
                 display: inline-block;
-                margin: 0 20px;
+                margin : 0 20px;
 
                 a {
-                    font-size: 16px;
-                    margin-right: 5px;
-                    color: $body-bg;
+                    font-size      : 16px;
+                    margin-right   : 5px;
+                    color          : $body-bg;
                     text-decoration: none;
                 }
             }
@@ -34,6 +34,7 @@
 }
 
 .navbar-tools {
+
     #pt-notifications-alert,
     #pt-notifications-notice {
         display: inherit;
@@ -46,12 +47,12 @@
         }
 
         .mw-echo-notifications-badge {
-            color: inherit;
-            width: auto;
-            height: auto;
-            top: auto;
+            color      : inherit;
+            width      : auto;
+            height     : auto;
+            top        : auto;
             text-indent: unset;
-            margin: auto;
+            margin     : auto;
 
             &:after {
                 display: none;
@@ -69,30 +70,28 @@
 }
 
 .footer {
-    font-weight: 600;
-    letter-spacing: 0.44px;
-    color: $darkPurple;
-    font-size: 1rem;
-    max-width: 100%;
+    letter-spacing  : 0.44px;
+    color           : $darkPurple;
+    font-size       : 1rem;
+    max-width       : 100%;
+    background-color: #e9ecef;
+    font-family     : $font-family-base;
 
-    a {
-        color: $darkPurple;
-        font-size: 1rem;
+    li {
+        margin-top: 1em;
+        font-size : 14px;
+
+        a {
+            color: $darkPurple;
+        }
+    }
+
+    p.footer-title {
+        font-weight: 600;
     }
 
     img {
         height: 46px;
-    }
-
-    .rs-line {
-        img {
-            height: 46px;
-        }
-    }
-
-    small {
-        font-size: 16px;
-        font-weight: normal;
     }
 
     @media (max-width: 768px) {
@@ -102,21 +101,23 @@
     }
 
     .social-links {
+        margin-left: 4px;
+
         a {
             &:hover {
                 text-decoration: none;
             }
 
             span {
-                display: inline-block;
-                border-radius: 50%;
-                box-shadow: 0px 0px 0px 2px #404964;
-                height: 42px;
-                line-height: 42px;
-                margin: 0 3px;
-                width: 42px;
-                font-size: 24px;
-                text-align: center;
+                display       : inline-block;
+                border-radius : 50%;
+                box-shadow    : 0px 0px 0px 2px #404964;
+                font-size     : 14px;
+                height        : 25px;
+                width         : 25px;
+                line-height   : 27px;
+                margin        : 0 3px;
+                text-align    : center;
                 vertical-align: middle;
             }
         }
