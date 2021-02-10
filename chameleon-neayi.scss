@@ -9,6 +9,10 @@
 @import "caracteristiques_exploitation";
 @import "pages_interieures";
 
+.ve-activated #content {
+    min-width: 1200px;
+}
+
 .top-header {
     background-color: $brand-primary;
     color           : $body-bg;
