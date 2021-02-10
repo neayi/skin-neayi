@@ -1,0 +1,125 @@
+/***********************************************
+ * Neayi SCSS for the header and footer
+ ***********************************************/
+
+.top-header {
+    background-color: $brand-primary;
+    color           : $body-bg;
+    position        : relative;
+    min-height      : 5px;
+    line-height     : 20px;
+
+    .row {
+        margin-right: 0;
+        margin-left : 0;
+
+        .col {
+            font-size: 80%;
+            padding  : 8px 15px;
+            opacity  : 1;
+
+            .social-links {
+                display: inline-block;
+                margin : 0 20px;
+
+                a {
+                    font-size      : 16px;
+                    margin-right   : 5px;
+                    color          : $body-bg;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+.navbar-tools {
+
+    #pt-notifications-alert,
+    #pt-notifications-notice {
+        display: inherit;
+
+        .oo-ui-icon-bell,
+        .mw-ui-icon-bell:before,
+        .oo-ui-icon-tray,
+        .oo-ui-icon-tray:before {
+            background-image: unset;
+        }
+
+        .mw-echo-notifications-badge {
+            color      : inherit;
+            width      : auto;
+            height     : auto;
+            top        : auto;
+            text-indent: unset;
+            margin     : auto;
+
+            &:after {
+                display: none;
+            }
+
+            &-dimmed {
+                opacity: 1;
+            }
+
+            &.mw-echo-notifications-badge-all-read {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+.footer {
+    letter-spacing  : 0.44px;
+    color           : $darkPurple;
+    font-size       : 1rem;
+    max-width       : 100%;
+    background-color: #e9ecef;
+    font-family     : $font-family-base;
+
+    li {
+        margin-top: 1em;
+        font-size : 14px;
+
+        a {
+            color: $darkPurple;
+        }
+    }
+
+    p.footer-title {
+        font-weight: 600;
+    }
+
+    img {
+        height: 46px;
+    }
+
+    @media (max-width: 768px) {
+        .partners img {
+            width: auto;
+        }
+    }
+
+    .social-links {
+        margin-left: 4px;
+
+        a {
+            &:hover {
+                text-decoration: none;
+            }
+
+            span {
+                display       : inline-block;
+                border-radius : 50%;
+                box-shadow    : 0px 0px 0px 2px #404964;
+                font-size     : 14px;
+                height        : 25px;
+                width         : 25px;
+                line-height   : 27px;
+                margin        : 0 3px;
+                text-align    : center;
+                vertical-align: middle;
+            }
+        }
+    }
+}

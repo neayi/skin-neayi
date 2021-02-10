@@ -1,0 +1,33 @@
+/***********************************************
+ * Neayi SCSS for the Carousel extension
+ ***********************************************/
+
+.carousel-indicators {
+    width       : 100%;
+    left        : 0;
+    text-align  : left;
+    position    : initial;
+    margin      : 0 -1%;
+    padding-left: 0px;
+
+    li {
+        text-indent  : 0px;
+        border-radius: 0px;
+        float        : left;
+        border       : 1px solid #ddd;
+        width        : 14.666%;
+        margin       : 10px 1% 0px;
+        height       : 60px;
+        background   : #f1f1f1;
+        overflow     : hidden;
+    }
+
+    video {
+        max-width: 100%;
+        height   : auto;
+    }
+
+    .active {
+        border: 1px solid #000;
+    }
+}
