@@ -3,10 +3,6 @@
  ***********************************************/
 
 
-p {
-    margin-bottom: 0px;
-}
-
 /* External links */
 
 .mw-parser-output {
@@ -42,8 +38,9 @@ body {
 }
 
 .mw-body {
-    font-family: Merryweather-Bold;
-    font-size  : 18px;
+    font-family: Merriweather;
+    font-size  : 17px;
+    line-height: 1.9rem;
 
     h1,
     h2,
@@ -59,11 +56,16 @@ body {
     .h6 {
         font-family: "Raleway";
         font-weight: 600;
-        color: #212529;
+        color      : #212529;
     }
 
     .mw-indicators {
         margin-top: 37px;
+    }
+
+    p,
+    li {
+        margin-bottom: 0.3em;
     }
 }
 
