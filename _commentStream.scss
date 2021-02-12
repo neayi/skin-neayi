@@ -146,6 +146,11 @@ div#cs-comments {
         margin-left: 102px;
         margin-top : 29px;
 
+        // On small device, be a little gentle with the margin
+        @media (max-width: 500px) {
+            margin-left: 50px;
+        }        
+        
         .avatar {
             width : 50px;
             height: 50px;

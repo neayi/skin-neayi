@@ -12,7 +12,14 @@
     z-index: 104;
 }
 
-// Force the min width of the editor
-.ve-activated #content {
-    min-width: 1200px;
+// Force the min width of the editor, and hide the margins
+.ve-activated {
+    #content {
+        min-width: 1200px;
+    }
+
+    .rightSide,
+    .leftSide {
+        display: none !important;
+    }
 }
