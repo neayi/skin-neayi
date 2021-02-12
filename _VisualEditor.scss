@@ -3,13 +3,24 @@
  ***********************************************/
 
 // force the visualeditor toolbar to stay on top
-.ve-ui-toolbar {
-    z-index: 5000;
+.ve-init-mw-desktopArticleTarget-toolbar-opened {
+	z-index: 5000;
 }
 
 // Force the modals to show up on top of visual editor
 .oo-ui-windowManager-modal>.oo-ui-dialog {
     z-index: 104;
+
+    // Some menus show up under a toolbar. Bad.
+    .oo-ui-window-frame {
+        top: 111px;
+    }
+}
+// Some menus show up under a toolbar. Bad.
+.oo-ui-dialog {
+    .oo-ui-window-frame {
+        top: 111px;
+    }
 }
 
 // Force the min width of the editor, and hide the margins
