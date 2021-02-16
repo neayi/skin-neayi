@@ -67,6 +67,15 @@ body {
     li {
         margin-bottom: 0.3em;
     }
+
+    pre,
+	.mw-code {
+		line-height: 1.5;
+	}
+
+    .mw-editfont-monospace {
+        line-height: 1.5;
+    }
 }
 
 li.gallerybox div.thumb {
