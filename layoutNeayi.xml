@@ -89,19 +89,19 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                 <div class="col-md-4">
 					<p class="footer-title">Triple Performance</p>
                     <ul class="list-unstyled">
-                        <li><a href="%C3%80_propos">À propos</a></li>
-                        <li><a href="Partenaires">Partenaires</a></li>
-                        <li><a href="Manifeste_de_la_plateforme_Triple_Performance">Manifeste</a></li>
-                        <li><a href="Comment_fonctionne_la_plateforme">Comment ça fonctionne ?</a></li>
+                        <li><a href="/wiki/%C3%80_propos">À propos</a></li>
+                        <li><a href="/wiki/Partenaires">Partenaires</a></li>
+                        <li><a href="/wiki/Manifeste_de_la_plateforme_Triple_Performance">Pourquoi ?</a></li>
+                        <li><a href="/wiki/Comment_fonctionne_la_plateforme">Comment ça fonctionne ?</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4">
 					<p class="footer-title">Légal</p>
                     <ul class="list-unstyled">
-                        <li><a href="Charte_d%E2%80%99utilisation">Conditions d'utilisation</a></li>
-                        <li><a href="Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
-                        <li><a href="Open_Source">Open Source</a></li>
+                        <li><a href="/wiki/Charte_d%E2%80%99utilisation">Conditions d'utilisation</a></li>
+                        <li><a href="/wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
+                        <li><a href="/wiki/Open_Source">Open Source</a></li>
                     </ul>
                 </div>
 
