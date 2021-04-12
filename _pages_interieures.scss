@@ -1,12 +1,15 @@
 .mainContainer {
-    max-width: 1500px;
+    .mw-body {
+        max-width: 1100px;
+    }
 
     .toc {
         border          : none;
         background-color: inherit;
         position        : sticky;
-        top             : 80px;
+        top             : 125px;
         margin-top      : 35px;
+        width           : 310px;
 
         // Don't show before being moved.
         // The move function should be in MediaWiki:Common.js
@@ -38,6 +41,8 @@
 
 
             li {
+                margin-bottom: 0.5em;
+                
                 a {
                     padding: 0 0 0 20px;
                 }
@@ -50,10 +55,15 @@
     }
 }
 
-card {
-    badge {
+.card {
+    .badge {
         @media (min-width: 500px) {
             white-space: normal;
         }
+    }
+
+    p.card-text {
+        line-height: 21px;
+        padding    : 5px 0;
     }
 }

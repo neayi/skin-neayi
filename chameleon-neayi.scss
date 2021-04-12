@@ -15,6 +15,8 @@
 @import "neayiHeaderFooter";
 @import "pages_interieures";
 @import "home";
+@import "interactions";
+@import "neayiNavbar";
 
 .item {
 
@@ -37,23 +39,6 @@ div.resistance-stars {
     font-size: 80%;
 }
 
-/* Override links in badges so that they show up nicely (we can't just set the class directly on the link) */
-
-.badge-info a {
-    color          : #fff !important;
-    text-decoration: none;
-}
-
-.badge {
-    padding      : 0.4rem;
-    font-weight  : 600;
-    font-size    : 0.8rem;
-    border-radius: 2px;
-
-    &.badge-grey {
-        background-color: #f2f2f2;
-    }
-}
 
 button:focus {
     outline: none;
