@@ -2,71 +2,122 @@
  * Neayi SCSS for the header and footer
  ***********************************************/
 
-.top-header {
-    background-color: $brand-primary;
-    color           : $body-bg;
-    position        : relative;
-    min-height      : 5px;
-    line-height     : 20px;
+.p-navbar {
+    .navbar-collapse {
+        .nav-link {
+            color         : #355B84;
+            text-transform: uppercase;
+            font-family   : $font-family-base;
+            font-size     : 14px;
+            font-weight   : bold;
+            letter-spacing: 2px;
+        }
+    }
 
-    .row {
-        margin-right: 0;
-        margin-left : 0;
+    .navbar-brand {
+        img {
+            height: 29px;
+            top   : -2px;
+        }
+    }
 
-        .col {
-            font-size: 80%;
-            padding  : 8px 15px;
-            opacity  : 1;
+    // When in desktop mode
+    @media (min-width: 1105px) {
+        padding: 0 0 0 16px;
 
-            .social-links {
-                display: inline-block;
-                margin : 0 20px;
+        .navbar-brand {
+            img {
 
-                a {
-                    font-size      : 16px;
-                    margin-right   : 5px;
-                    color          : $body-bg;
-                    text-decoration: none;
+                height: 49px;
+                top   : -8px;
+            }
+        }
+    }
+
+
+    .navbar-tools {
+        display: none;
+    }
+
+    @media (max-width: 1375px) {
+        #p-search {
+            display: none;
+        }
+    }
+
+    // Override the personnal menu
+    .p-personal-tools {
+
+        #pt-notifications-alert,
+        #pt-notifications-notice {
+            display: inherit;
+
+            height: 40px;
+            color : #212529;
+
+            .oo-ui-icon-bell,
+            .mw-ui-icon-bell:before,
+            .oo-ui-icon-tray,
+            .oo-ui-icon-tray:before {
+                background-image: unset;
+            }
+
+            .mw-echo-notifications-badge {
+                color      : inherit;
+                width      : auto;
+                height     : auto;
+                top        : auto;
+                text-indent: unset;
+                margin     : auto;
+                line-height: 34px;
+
+                &:after {
+                    display: none;
+                }
+
+                &-dimmed {
+                    opacity: 1;
+                }
+
+                &.mw-echo-notifications-badge-all-read {
+                    opacity: 1;
                 }
             }
         }
     }
-}
 
-.navbar-tools {
+    .create-profile {
+        background-color: $brand-primary;
+        color           : $body-bg;
+        width           : 342px;
+        height          : 88px;
 
-    #pt-notifications-alert,
-    #pt-notifications-notice {
-        display: inherit;
-
-        .oo-ui-icon-bell,
-        .mw-ui-icon-bell:before,
-        .oo-ui-icon-tray,
-        .oo-ui-icon-tray:before {
-            background-image: unset;
+        .neayi-avatar {
+            width        : 72px;
+            height       : 72px;
+            margin-left  : 27px;
+            border-radius: 50%;
         }
 
-        .mw-echo-notifications-badge {
-            color      : inherit;
-            width      : auto;
-            height     : auto;
-            top        : auto;
-            text-indent: unset;
-            margin     : auto;
-
-            &:after {
-                display: none;
-            }
-
-            &-dimmed {
-                opacity: 1;
-            }
-
-            &.mw-echo-notifications-badge-all-read {
-                opacity: 1;
-            }
+        a.neayi-username {
+            font-family   : $font-family-base;
+            font-size     : 16px;
+            font-weight   : bold;
+            color         : white !important;
+            text-transform: none;
+            letter-spacing: normal;
         }
     }
+}
+
+// Reduce a little the height of the menu items in the context menus
+.interaction-bloc .interaction-links .p-contentnavigation a,
+.interaction-bloc-mobile .interaction-links .p-contentnavigation a {
+    height: 35px !important;
+}
+
+.dropdown-menu>div>a {
+    padding: 0 1.5rem !important;
 }
 
 .footer {

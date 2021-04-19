@@ -11,34 +11,8 @@ body.page-Accueil {
         display: none;
     }
 
-    // Hide the left and right sides that are used for the TOC
-    .leftSide,
-    .rightSide {
-        display: none;
-    }
-
-    // Force the central div to take the full width
-    .centralDiv {
-        flex     : 0 0 100%;
-        max-width: 100%;
-    }
-
-    .mainContainer {
-        max-width: 100%;
-    }
-
-    // Change the background of the footer
-    .footer {
-        background-color: #ffffff;
-    }
-
     .WikiMainContent {
-        max-width: 100%;
         padding  : 0px;
-
-        .mw-body {
-            padding: 0px;
-        }
 
         >.row {
             margin-right: 0;
@@ -49,6 +23,36 @@ body.page-Accueil {
                 padding-left : 0;
             }
         }
+
+        .mainContainer {
+            margin   : 0;
+            padding  : 0;
+            max-width: 100%;
+            
+            // Hide the left and right sides that are used for the TOC
+            .leftSide,
+            .rightSide {
+                display: none !important;
+            }
+
+            .centralDiv {
+                // Force the central div to take the full width
+                flex     : 0 0 100%;
+                max-width: 100%;
+                padding  : 0;
+
+                .mw-body {
+                    padding  : 0px;
+                    max-width: 100%;
+                }
+
+            }
+        }
+    }
+
+    // Change the background of the footer
+    .footer {
+        background-color: #ffffff;
     }
 
     .bodyContent {
@@ -158,6 +162,25 @@ body.page-Accueil {
                 text-decoration: none;
                 transition     : none;
             }
+
+
+            /* Override links in badges so that they show up nicely (we can't just set the class directly on the link) */
+            .badge-info a {
+                color          : #fff !important;
+                text-decoration: none;
+            }
+
+            .badge {
+                padding      : 0.4rem;
+                font-weight  : 600;
+                font-size    : 0.8rem;
+                border-radius: 2px;
+
+                &.badge-grey {
+                    background-color: #f2f2f2;
+                }
+            }
+
 
             .img-top-container {
                 position: relative;
