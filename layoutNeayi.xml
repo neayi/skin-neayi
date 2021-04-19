@@ -57,7 +57,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 								<div class="row mx-n1">
 									<div class="col-auto px-1">
 										<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
-											<img src="${this.imagepath}clap.svg" width="28">
+											<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
 										</button>
 										<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 									</div>
