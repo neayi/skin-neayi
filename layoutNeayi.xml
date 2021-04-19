@@ -33,12 +33,10 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
 		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Rechercher" />
 		<component type="PersonalTools" class="my-auto"/>
-		<component type="Container" position="right" class="create-profile"><component type="Html"><![CDATA[
-			<div class="row align-items-center" id="neayi-createaccount" style="height: 100%;">
+		<component type="Container" position="right" class="create-profile"><component type="Html">
+			<![CDATA[<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
 			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto" href="/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil">Créez votre profil</a></div>
-			</div>
-        	
-			]]></component></component>
+			</div>]]></component></component>
 	</component>
 
 	<grid mode="fluid" class="flex-fill WikiMainContent">
@@ -55,7 +53,44 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					<component type="Container" class="centralDiv col">
 						<component type="MainContent" class=""></component>
 					</component>
-					<component type="Container" class="rightSide col-auto d-lg-block d-none"></component>
+					<component type="Container" class="rightSide col-auto d-lg-block d-none">
+					<component type='Html'><![CDATA[<div class="interaction-bloc">
+					<div class="interaction-top">
+						<span id="interaction-title">&nbsp;</span>
+						<div class="container px-0 interaction-buttons">
+							<div class="row mx-n1">
+								<div class="col-auto px-1">
+									<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
+										<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
+									</button>
+									<br><span class="neayi-interaction-applause-label">&nbsp;</span>
+								</div>
+								<div class="col px-1">
+									<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Suivre</button>
+									<br><span class="neayi-interaction-suivre-label">&nbsp;</span>
+								</div>
+								<div class="col px-1">
+									<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Je le fais</button>
+									<br><span class="neayi-interaction-doneit-label">&nbsp;</span>
+								</div>				
+							</div>
+						</div>
+					</div>
+					<div class="container px-0 interaction-links">
+						<div class="row mx-0">
+							<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments">
+									<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
+									<span class="questions-text">Poser une question</span></a></div>
+							<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
+								<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false">
+									<span class="material-icons" aria-hidden="true">more_vert</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>]]></component>
+					
+					</component>
 				</component>
 			</cell>
 		</row>

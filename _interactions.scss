@@ -2,10 +2,10 @@
 .interaction-bloc-mobile {
 
     background-color: #CCF1E5;
+    font-family: $font-family-base;
 
     .interaction-top {
-
-        font-family: Raleway;
+        
         font-size  : 24px;
         font-weight: bold;
         line-height: 1.33;
@@ -21,6 +21,7 @@
                 height       : 50px;
                 margin-top   : 23px;
                 margin-bottom: 5px;
+                font-weight  : 600;
             }
 
         }
@@ -81,6 +82,11 @@
     .interaction-top {
         padding: 24px 23px 16px 24px;
     }
+
+    // When in desktop mode
+    @media (max-width: 1105px) {
+        top: 48px;
+    }
 }
 
 .interaction-bloc-mobile {
@@ -95,6 +101,6 @@
 .modal {
     .not-yet-link {
         text-decoration: underline;
-        margin-right: 2em;
+        margin-right   : 2em;
     }
 }

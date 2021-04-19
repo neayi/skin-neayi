@@ -5,7 +5,7 @@
 div#cs-comments {
     background-color: white;
     padding         : 5px;
-    font-family     : "Raleway", Helvetica, Arial, sans-serif;
+    font-family     : $font-family-base;
 
     .cs-comment {
         overflow: visible;
@@ -120,7 +120,7 @@ div#cs-comments {
     // Published date
     .cs-comment-details {
         font-size    : 12px;
-        font-family  : "Raleway", Helvetica, Arial, sans-serif;
+        font-family  : $font-family-base;
         color        : $darkPurple;
         padding-left : 0;
         margin-top   : 6px;
@@ -129,11 +129,11 @@ div#cs-comments {
     }
 
     .cs-comment-title {
-        font-family: "Merriweather", serif;
+        font-family: $font-family-serif;
     }
 
     .cs-comment-body {
-        font-family: "Merriweather", serif;
+        font-family: $font-family-serif;
         line-height: 1.71;
         color      : $dark;
 
@@ -174,7 +174,7 @@ div#cs-comments {
         padding           : 1rem;
         outline           : none;
         box-shadow        : none;
-        font-family       : "Merriweather", serif;
+        font-family       : $font-family-serif;
         color             : $darkPurple;
 
         &:hover,
@@ -184,7 +184,7 @@ div#cs-comments {
 
         &::placeholder {
             font-size  : 0.8rem;
-            font-family: "Merriweather", serif;
+            font-family: $font-family-serif;
             font-style : italic;
             color      : #9e9e9e;
         }

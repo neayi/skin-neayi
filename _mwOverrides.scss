@@ -38,7 +38,7 @@ body {
 }
 
 .mw-body {
-    font-family: Merriweather;
+    font-family: $font-family-serif;
     font-size  : 17px;
     line-height: 1.9rem;
 
@@ -54,7 +54,7 @@ body {
     .h4,
     .h5,
     .h6 {
-        font-family: "Raleway";
+        font-family: $font-family-base;
         font-weight: 600;
         color      : #212529;
     }
