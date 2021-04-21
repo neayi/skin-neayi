@@ -141,7 +141,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                 </div>
 			</div>
 			<div class="row">
-                <div class="col-md-4">
+                <div class="col-lg-3 col-md-6">
 					<p class="footer-title">Triple Performance</p>
                     <ul class="list-unstyled">
                         <li><a href="/wiki/%C3%80_propos">À propos</a></li>
@@ -151,16 +151,23 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-3 col-md-6">
+					<p class="footer-title">Contribuer</p>
+                    <ul class="list-unstyled">
+                        <li><a href="/wiki/Aide:Bienvenue">Bienvenue !</a></li>
+                    </ul>
+                </div>				
+
+                <div class="col-lg-3 col-md-6">
 					<p class="footer-title">Légal</p>
                     <ul class="list-unstyled">
-                        <li><a href="/wiki/Charte_d%E2%80%99utilisation">Conditions d'utilisation</a></li>
+                        <li><a href="/wiki/Charte_d%E2%80%99utilisation">Charte de la plateforme</a></li>
                         <li><a href="/wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
                         <li><a href="/wiki/Open_Source">Open Source</a></li>
                     </ul>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-lg-3 col-md-6">
 					<p class="footer-title">Fait avec ♡ par Neayi</p>
                     <ul class="list-unstyled">
                         <li><a href="https://neayi.com/contact/">Contact</a></li>
