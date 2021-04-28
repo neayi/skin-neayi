@@ -152,9 +152,10 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-					<p class="footer-title">Contribuer</p>
+					<p class="footer-title">Communauté</p>
                     <ul class="list-unstyled">
-                        <li><a href="/wiki/Aide:Bienvenue">Bienvenue !</a></li>
+                        <li><a href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
+						<li><a href="/wiki/Aide:Bienvenue">Contribuer&nbsp;? Ça commence ici&nbsp;!</a></li>
                     </ul>
                 </div>				
 
