@@ -79,3 +79,18 @@
         }
     }        
 }
+
+/* Disable the TOC on a few pages */ 
+.mw-special-FormEdit
+{
+    .leftSide,
+    .rightSide {
+        display: none !important;
+    }
+}
+
+/* Disable the categories within Semantic Drilldown */
+#drilldown-categories-wrapper {
+	display: none;
+}
+
