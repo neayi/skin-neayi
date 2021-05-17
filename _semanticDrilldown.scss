@@ -1,0 +1,20 @@
+
+div.drilldown-filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    .drilldown-filter {
+        width: 50%;
+        min-width: 400px;
+    }
+}
+
+/* Disable the categories within Semantic Drilldown */
+#drilldown-categories-wrapper {
+	display: none;
+}
+
+.mw-special-BrowseData .interaction-bloc  {
+	display: none;
+}
