@@ -1,12 +1,15 @@
-
 div.drilldown-filters {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 
     .drilldown-filter {
-        width: 50%;
+        width: 45%;
         min-width: 400px;
+        border: 1px solid #CECECE;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
     }
 }
 
