@@ -60,6 +60,10 @@
 }
 
 .card {
+    p.card-title {
+        line-height: 1.4;
+    }
+
     p.card-text {
         line-height: 21px;
         padding    : 5px 0;
@@ -67,6 +71,11 @@
 }
 
 .badge {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 0.25rem;
+
     @media (min-width: 500px) {
         white-space: normal;
     }
@@ -77,7 +86,7 @@
         &:hover {
             color: #FFFFFF !important;
         }
-    }        
+    }
 }
 
 /* Disable the TOC on a few pages */ 
