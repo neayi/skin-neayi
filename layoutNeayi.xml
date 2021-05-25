@@ -160,17 +160,27 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                 </div>				
 
                 <div class="col-lg-3 col-md-6">
-					<p class="footer-title">Légal</p>
+					<p class="footer-title">La plateforme</p>
                     <ul class="list-unstyled">
-                        <li><a href="/wiki/Charte_d%E2%80%99utilisation">Charte de la plateforme</a></li>
-                        <li><a href="/wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
-                        <li><a href="/wiki/Open_Source">Open Source</a></li>
+						<li><a href="/wiki/Sp%C3%A9cial:BrowseData/Pratiques_agro-%C3%A9cologiques" title="Spécial:BrowseData/Pratiques agro-écologiques">Pratiques agro-écologiques</a></li>
+						<li><a href="/wiki/Sp%C3%A9cial:BrowseData/Exemples_de_mise_en_%C5%93uvre" title="Spécial:BrowseData/Exemples de mise en œuvre">Exemples de mise en œuvre</a></li>
+						<li><a href="/wiki/Sp%C3%A9cial:BrowseData/Vid%C3%A9os" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Mat%C3%A9riels" title="Catégorie:Matériels">Matériel et machines agricoles</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a></li>
+						<li><a href="/wiki/Cat%C3%A9gorie:Labels" title="Catégorie:Labels">Labels</a></li>
                     </ul>
                 </div>
+
 
                 <div class="col-lg-3 col-md-6">
 					<p class="footer-title">Fait avec ♡ par Neayi</p>
                     <ul class="list-unstyled">
+                        <li><a href="/wiki/Charte_d%E2%80%99utilisation">Charte de la plateforme</a></li>
+                        <li><a href="/wiki/Triple_Performance:Politique_de_confidentialit%C3%A9">Mentions légales</a></li>
+                        <li><a href="/wiki/Open_Source">Open Source</a></li>
                         <li><a href="https://neayi.com/contact/">Contact</a></li>
                         <li>Nous retrouver sur 
 						<span class="social-links">
