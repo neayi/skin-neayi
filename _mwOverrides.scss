@@ -69,9 +69,9 @@ body {
     }
 
     pre,
-	.mw-code {
-		line-height: 1.5;
-	}
+    .mw-code {
+        line-height: 1.5;
+    }
 
     .mw-editfont-monospace {
         line-height: 1.5;
@@ -83,7 +83,14 @@ li.gallerybox div.thumb {
 }
 
 // Disable talk pages
-#pt-mytalk
-{
+#pt-mytalk {
     display: none;
+}
+
+.smw-indicator-vertical-bar-loader {
+    display: none;
+    &:before,
+    &:after {
+        display: none;
+    }
 }
