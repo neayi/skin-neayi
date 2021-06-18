@@ -33,21 +33,37 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
 		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Rechercher" />
 		<component type="PersonalTools" class="my-auto"/>
+		<component type="Container" class=""><component type="Html">
+			<![CDATA[
+			<a id="neayi-search-button-collapsed" class="nav-link">Rechercher</a>
+			]]></component></component>
+		<component type="Container" position="right" class=""><component type="Html">
+			<![CDATA[
+			<div id="neayi-search-button"><span class="material-icons" aria-hidden="true">search</span></div>
+			]]></component></component>
 		<component type="Container" position="right" class="create-profile"><component type="Html">
-			<![CDATA[<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
+			<![CDATA[
+			
+			<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
 			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Sp%C3%A9cial:Connexion&returnto=Accueil">Créez votre compte</a><br>ou connectez-vous</div>
 			</div>]]></component></component>
 	</component>
 
 	<grid mode="fluid" class="flex-fill WikiMainContent">
 		<row>
-			<cell span="12">
+			<cell>
+				<component type="Html"><![CDATA[<div id="neayi-searchform"><span id="searchform-close" class="material-icons" aria-hidden="true">close</span></div>]]></component>
+			</cell>
+		</row>
+
+		<row>
+			<cell>
 				<component type="SiteNotice"/>
 			</cell>
 		</row>
 
 		<row>
-			<cell span="12">
+			<cell>
 				<component type="Container" class="row ml-auto mainContainer">
 					<component type="Container" class="leftSide col-auto d-xl-block d-none"></component>
 					<component type="Container" class="centralDiv col">
@@ -132,7 +148,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 	<grid class="footer py-5">
 		<row>
-			<cell span="12">
+			<cell>
 				<component type="Html"><![CDATA[
         <div class="col-md-10 offset-md-1">
             <div class="row align-items-center">
