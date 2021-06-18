@@ -42,7 +42,7 @@
 
             li {
                 margin-bottom: 0.5em;
-                
+
                 a {
                     padding: 0 0 0 20px;
                 }
@@ -71,16 +71,17 @@
 }
 
 .badge {
-    font-family: 'Raleway';
-    font-weight: 600;
-    font-size: 11px;
+    font-family  : 'Raleway';
+    font-weight  : 600;
+    font-size    : 11px;
     border-radius: 0.25rem;
 
     @media (min-width: 500px) {
         white-space: normal;
     }
 
-    a, a.new {
+    a,
+    a.new {
         color: #FFFFFF !important;
 
         &:hover {
@@ -89,11 +90,36 @@
     }
 }
 
-/* Disable the TOC on a few pages */ 
-.mw-special-FormEdit
-{
+/* Disable the TOC on a few pages */
+.mw-special-FormEdit {
+
     .leftSide,
     .rightSide {
         display: none !important;
+    }
+}
+
+/* Caledriers pour les périodes de présence */
+table.calendrier {
+    border: 1px solid #dee2e6;
+    display: inline-block;
+    vertical-align: sub;
+
+    td {
+        width      : 22px;
+        height     : 22px;
+        font-size  : .8rem;
+        text-align : center;
+        background : #fff;
+        color      : #777;
+        border     : 1px solid #dee2e6;
+        font-weight: 500;
+        line-height: 1.4rem;
+        font-family: 'Roboto', sans-serif;
+
+        &.rempli {
+            background: #008193;
+            color     : #fff;
+        }
     }
 }
