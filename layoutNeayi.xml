@@ -43,7 +43,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a>
 					<a class="dropdown-item" href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a>
+					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a>
 					<a class="dropdown-item" href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a>
 					<a class="dropdown-item" href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a>
 					<a class="dropdown-item" href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a>
@@ -52,7 +52,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			</li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a></li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a></li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a></li>
@@ -207,7 +207,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<li><a href="/wiki/Spécial:BrowseData/Exemples_de_mise_en_%C5%93uvre" title="Spécial:BrowseData/Exemples de mise en œuvre">Exemples de mise en œuvre</a></li>
 						<li><a href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
 						<li><a href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a></li>
-						<li><a href="/wiki/Catégorie:Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
+						<li><a href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
 						<li><a href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a></li>
 						<li><a href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a></li>
 						<li><a href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a></li>
