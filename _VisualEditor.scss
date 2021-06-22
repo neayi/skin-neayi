@@ -24,13 +24,14 @@
 }
 
 // Force the min width of the editor, and hide the margins
-.ve-activated {
+.ve-activated, .mw-special-FormEdit {
     #content {
         min-width: 1200px;
     }
 
     .rightSide,
-    .leftSide {
+    .leftSide,
+    #scrollbar {
         display: none !important;
     }
 }

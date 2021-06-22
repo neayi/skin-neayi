@@ -41,6 +41,11 @@ body.page-Accueil {
                 max-width: 100%;
                 padding  : 0;
 
+                .interaction-bloc-mobile
+                {
+                    display: none !important;
+                }
+
                 .mw-body {
                     padding  : 0px;
                     max-width: 100%;
