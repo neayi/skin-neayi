@@ -1,23 +1,24 @@
 div.drilldown-filters {
-    display: flex;
+    display       : flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap     : wrap;
 
     .drilldown-filter {
-        width: 45%;
-        min-width: 400px;
-        border: 1px solid #CECECE;
-        padding: 5px;
-        margin: 5px;
+        width        : 45%;
+        min-width    : 400px;
+        border       : 1px solid #CECECE;
+        padding      : 5px;
+        margin       : 5px;
         border-radius: 5px;
     }
 }
 
 /* Disable the categories within Semantic Drilldown */
 #drilldown-categories-wrapper {
-	display: none;
+    display: none;
 }
 
-.mw-special-BrowseData .interaction-bloc  {
-	display: none;
+.mw-special-BrowseData .interaction-bloc,
+.mw-special-BrowseData .interaction-bloc-mobile {
+    display: none;
 }
