@@ -42,21 +42,21 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 				</a>
 				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a>
-					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Labels" title="Catégorie:Labels">Labels</a>
+					<a class="dropdown-item" href="/wiki/Cultures" title="Cultures">Cultures</a>
+					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseur">Bioagresseurs</a>
+					<a class="dropdown-item" href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a>
+					<a class="dropdown-item" href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a>
+					<a class="dropdown-item" href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a>
+					<a class="dropdown-item" href="/wiki/Catégorie:Labels" title="Labels">Labels</a>
 				</div>
 			</li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Labels" title="Catégorie:Labels">Labels</a></li>			
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Cultures" title="Cultures">Cultures</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseurs">Bioagresseurs</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a></li>
+			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Labels" title="Labels">Labels</a></li>
 			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Aide:Créer_une_page">Ajouter une page</a></li>
 			</ul>
 			]]></component></component>
@@ -198,7 +198,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                         <li><a href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
 						<li><a href="/wiki/Aide:Bienvenue">Contribuer&nbsp;? Ça commence ici&nbsp;!</a></li>
                     </ul>
-                </div>				
+                </div>
 
                 <div class="col-lg-3 col-md-6">
 					<p class="footer-title">La plateforme</p>
@@ -206,12 +206,12 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<li><a href="/wiki/Spécial:BrowseData/Pratiques_agro-écologiques" title="Spécial:BrowseData/Pratiques agro-écologiques">Pratiques agro-écologiques</a></li>
 						<li><a href="/wiki/Spécial:BrowseData/Exemples_de_mise_en_%C5%93uvre" title="Spécial:BrowseData/Exemples de mise en œuvre">Exemples de mise en œuvre</a></li>
 						<li><a href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
-						<li><a href="/wiki/Catégorie:Cultures" title="Catégorie:Cultures">Cultures et productions</a></li>
-						<li><a href="/wiki/Spécial:BrowseData/Bioagresseur" title="Catégorie:Bioagresseur">Bioagresseurs</a></li>
-						<li><a href="/wiki/Catégorie:Auxiliaires" title="Catégorie:Auxiliaires">Auxiliaires (biocontrôle)</a></li>
-						<li><a href="/wiki/Catégorie:Matériels" title="Catégorie:Matériels">Matériel et machines agricoles</a></li>
-						<li><a href="/wiki/Catégorie:Outils_d%27aide" title="Catégorie:Outils d'aide">Outils d'aide à la décision</a></li>
-						<li><a href="/wiki/Catégorie:Labels" title="Catégorie:Labels">Labels</a></li>
+						<li><a href="/wiki/Cultures" title="Cultures">Cultures</a></li>
+						<li><a href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseur">Bioagresseurs</a></li>
+						<li><a href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a></li>
+						<li><a href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a></li>
+						<li><a href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a></li>
+						<li><a href="/wiki/Catégorie:Labels" title="Labels">Labels</a></li>
                     </ul>
                 </div>
 
