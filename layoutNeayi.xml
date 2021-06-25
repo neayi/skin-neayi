@@ -68,7 +68,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<![CDATA[
 			
 			<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
-			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion&returnto=Accueil">Créez votre compte</a><br>ou connectez-vous</div>
+			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
 			</div>]]></component></component>
 	</component>
 
