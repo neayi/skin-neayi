@@ -1,0 +1,276 @@
+#statistiques {
+    .stats-title {
+        font-size  : 16px;
+        font-weight: bold;
+        margin     : 15px 0;
+    }
+
+    #map {
+        .department {
+            stroke      : white;
+            stroke-width: 1px;
+        }
+    }
+
+    .dept-stat {
+        span.count {
+            font-weight  : 900;
+            color        : #00A46E;
+            font-size    : 14px;
+            padding-right: 11px;
+        }
+
+        span.dept-name {
+            color      : #404964;
+            font-weight: 600;
+            font-size  : 13px;
+        }
+    }
+
+    .stats-features {
+        font-weight: 400;
+        text-align : left;
+        font-size  : 17px;
+        line-height: 1.9rem;
+
+        .caracteristique-exploitation {
+            position      : relative;
+            text-align    : center;
+            font-weight   : bold;
+            color         : #414A64;
+            font-size     : 15px;
+            line-height   : 1.2;
+            letter-spacing: normal;
+            display       : flex;
+            align-content : center;
+
+            &>div {
+                flex: auto;
+            }
+
+            .label {
+                position: relative;
+                top     : -16px;
+                width   : 110px;
+            }
+
+            div.caracteristique-stat {
+                height     : 30px;
+                margin     : auto 0;
+                color      : #00A46E;
+                margin     : auto 0;
+                font-size  : 17px;
+                font-weight: 900;
+                position   : relative;
+                left       : -18px;
+            }
+
+            a {
+                color          : #414A64;
+                text-decoration: none;
+                font-weight    : bold;
+
+                &:hover {
+                    color          : #00a46e;
+                    text-decoration: underline;
+                }
+            }
+
+            img {
+                width : 90px;
+                height: 90px;
+            }
+        }
+    }
+}
+
+#commununity {
+    .follower-search {
+        padding: 15px 15px 0 15px;
+
+        select.custom-select {
+            border          : none;
+            background-color: #F2F3F6;
+            font-weight     : bold;
+            font-size       : 14px;
+        }
+
+        .custom-control-label {
+            font-size  : 14px;
+            font-weight: bold;
+        }
+
+        .custom-switch {
+            padding-left: 55px;
+
+            .custom-control-input:checked~.custom-control-label::before {
+                border-color    : #00a46e;
+                background-color: #00a46e;
+            }
+
+            .custom-control-input:checked~.custom-control-label::after {
+                transform: translateX(22px);
+            }
+
+            .custom-control-label::before {
+                left            : -55px;
+                top             : 0px;
+                width           : 47px;
+                height          : 25px;
+                pointer-events  : all;
+                border-radius   : 15px;
+                background-color: #F2F3F6;
+                border          : none;
+            }
+
+            .custom-control-label::after {
+                left         : -52px;
+                top          : 2px;
+                width        : 20px;
+                height       : 20px;
+                border-radius: 50%;
+                background   : #FFFFFF 0% 0% no-repeat padding-box;
+                box-shadow   : 0px 2px 4px #00000080;
+            }
+        }
+
+
+    }
+
+    div#community-items {
+        margin-top: 10px;
+
+
+        .follower-item {
+            min-height   : 100px;
+            overflow     : hidden;
+            color        : #878c9e;
+            padding      : 10px 0;
+            margin       : 0 20px;
+            border-bottom: 2px #F2F3F6 solid;
+
+            &:hover {
+                background-color: #f2f3F6;
+
+                .follower-item-user .follower-item-username .status {
+                    background-color: #d3d3d3;
+                }
+            }
+
+            .follower-item-avatar {
+                margin-top: 10px;
+
+                img {
+                    border-radius: 50%;
+                    width        : 58px;
+                    height       : 58px;
+                    margin-right : 27px;
+                    margin-left  : 10px;
+                    object-fit   : cover;
+                }
+            }
+
+            .follower-item-user {
+                margin-top: 10px;
+                color     : #404964;
+                width     : 300px;
+
+                a {
+                    color          : #252833;
+                    text-decoration: none;
+
+                    &:hover {
+                        color          : #00a46e;
+                        text-decoration: underline;
+                    }
+                }
+
+                .follower-item-username {
+                    font-size  : 20px;
+                    line-height: 31px;
+
+                    font-weight: bold;
+
+                    .status {
+                        background-color: #F2F3F6;
+                        border-radius   : 2px;
+                        padding         : 5px 7px;
+                        color           : #485465;
+                        font-size       : 12px;
+                        font-weight     : 600;
+                        margin-left     : 11px;
+                        position        : relative;
+                        top             : -5px;
+                    }
+                }
+
+                .follower-item-usertitle {
+                    font-size  : 13px;
+                    max-width  : 290px;
+                    font-family: 'Merriweather', serif;
+
+                    color: #8f8f8f;
+
+                    a {
+                        color: #8f8f8f;
+
+                        &:hover {
+                            color          : #00a46e;
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            }
+
+            .follower-item-features {
+                font-weight: 400;
+                text-align : left;
+                font-size  : 17px;
+                line-height: 1.9rem;
+                width      : 75px;
+
+                .caracteristique-exploitation {
+                    width         : 100px;
+                    position      : relative;
+                    text-align    : center;
+                    font-weight   : bold;
+                    color         : #414A64;
+                    font-size     : 12px;
+                    line-height   : 1.2;
+                    letter-spacing: normal;
+
+                    a {
+                        color          : #414A64;
+                        text-decoration: none;
+                        font-weight    : bold;
+
+                        &:hover {
+                            color          : #00a46e;
+                            text-decoration: underline;
+                        }
+                    }
+
+                    span {
+                        position: absolute;
+                        width   : 100%;
+                        left    : 0px;
+                        top     : 59px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Do not include the path default css below in the #map bloc as it will superseed the department color
+path {
+    fill  : #e3e3e3;
+    stroke: white;
+}
+
+.tooltip {
+    background-color: #fff;
+    padding         : 5px;
+    border          : 1px solid #CECECE;
+    box-shadow      : 2px 2px 6px 0px rgb(0 0 0 / 40%);
+}

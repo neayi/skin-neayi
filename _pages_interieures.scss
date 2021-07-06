@@ -4,7 +4,7 @@
     }
 
     .leftSide {
-        width           : 310px;
+        width: 310px;
 
         @media (max-width: 1390px) {
             & {
@@ -126,5 +126,31 @@ table.calendrier {
             background: #008193;
             color     : #fff;
         }
+    }
+}
+
+.nav-tabs {
+    li.nav-item {
+        margin-bottom: 0;
+    }
+
+    .nav-link,
+    .navbar-tool>a {
+        background-color: #F2F3F6;
+        font-weight     : bold;
+        margin-right    : 5px;
+        color           : #000;
+    }
+
+    .nav-link.active,
+    .navbar-tool>a.active,
+    .nav-item.show .nav-link,
+    .nav-item.show .p-navbar .navbar-tool>a,
+    .nav-item.show .navbar-tool>a {
+        color       : #00A46E;
+        margin-right: 5px;
+
+        // Hide the bottom border of the active tab
+        box-shadow: 0px 2px 0 0px #fff;
     }
 }
