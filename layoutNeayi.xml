@@ -331,83 +331,81 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			aria-hidden="true">
 			<div class="modal-dialog modal-xl">
 				<div class="modal-content">
-					<form id="tellUsMoreForm">
-						<div class="modal-header border-bottom-0">
-							<h1 class="border-bottom-0">En savoir plus sur la communauté !</h1>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-								<span aria-hidden="true">&times;</span>
-							</button>
-						</div>
-						<div class="modal-body">
-							<ul class="nav nav-tabs" id="myTab" role="tablist">
-								<li class="nav-item" role="presentation">
-									<a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
-										role="tab" aria-controls="home" aria-selected="true">Statistiques</a>
-								</li>
-								<li class="nav-item" role="presentation">
-									<a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity"
-										role="tab" aria-controls="commununity" aria-selected="false">Communauté</a>
-								</li>
-							</ul>
-							<div class="tab-content" id="myTabContent">
-								<div class="tab-pane fade show active" id="statistiques" role="tabpanel" aria-labelledby="statistiques-tab">
-									<!-- Statistiques -->
-									<div class="stats-title">Où sont ceux qui le font ?</div>
-									<div class="row">
-										<div id="map" class="col col-auto"></div>
-										<div class="col col-auto" id="departments-stats"></div>
-									</div>
-									<div class="stats-features" id="famings-stats">
-										<div class="stats-title">Type d’exploitation les plus fréquents</div>
-										<div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-									</div>
-									<div class="stats-features" id="cropping-systems-stats">
-										<div class="stats-title">Cahiers des charges les plus fréquents</div>
-										<div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-									</div>
+					<div class="modal-header border-bottom-0">
+						<h1 class="border-bottom-0">En savoir plus sur la communauté !</h1>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<ul class="nav nav-tabs" id="myTab" role="tablist">
+							<li class="nav-item" role="presentation">
+								<a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
+									role="tab" aria-controls="home" aria-selected="true">Statistiques</a>
+							</li>
+							<li class="nav-item" role="presentation">
+								<a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity"
+									role="tab" aria-controls="commununity" aria-selected="false">Communauté</a>
+							</li>
+						</ul>
+						<div class="tab-content" id="myTabContent">
+							<div class="tab-pane fade show active" id="statistiques" role="tabpanel" aria-labelledby="statistiques-tab">
+								<!-- Statistiques -->
+								<div class="stats-title">Où sont ceux qui le font ?</div>
+								<div class="row">
+									<div id="map" class="col col-auto"></div>
+									<div class="col col-auto" id="departments-stats"></div>
 								</div>
-								<div class="tab-pane fade" id="commununity" role="tabpanel"	aria-labelledby="commununity-tab">
-									<!-- Communauté -->
-									<form>
-										<div class="follower-search form-row align-items-center">
-											<div class="col-auto">
-												<select id="departments-select" class="community-select custom-select">
-													<option selected value="">Lieu</option>
-												</select>
-											</div>
-											<div class="col-auto">
-												<select id="famings-select" class="community-select custom-select">
-													<option selected value="">Production</option>
-												</select>
-											</div>
-											<div class="col-auto">
-												<select id="cropping-systems-select" class="community-select custom-select">
-													<option selected value="">Cahier des charges</option>
-												</select>
-											</div>
-										</div>
-										<div class="follower-search form-row align-items-center">
-											<div class="col-auto">
-												<div class="custom-control custom-switch align-center">
-													<input type="checkbox" class="custom-control-input" id="community-doneit-only" value="yes">
-													<label class="custom-control-label" for="community-doneit-only">Voir uniquement
-														ceux qui l'ont fait</label>
-												</div>
-											</div>
-										</div>
-									</form>
-									<div id="community-items"></div>
-									<div class="text-center"><a class="btn btn-primary" style="display:none" id="load-more-community">
-										<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-										Chargement...
-									</a></div>
+								<div class="stats-features" id="famings-stats">
+									<div class="stats-title">Type d’exploitation les plus fréquents</div>
+									<div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+								</div>
+								<div class="stats-features" id="cropping-systems-stats">
+									<div class="stats-title">Cahiers des charges les plus fréquents</div>
+									<div class="d-flex flex-wrap justify-content-start stats-icons"></div>
 								</div>
 							</div>
+							<div class="tab-pane fade" id="commununity" role="tabpanel"	aria-labelledby="commununity-tab">
+								<!-- Communauté -->
+								<form>
+									<div class="follower-search form-row align-items-center">
+										<div class="col-auto">
+											<select id="departments-select" class="community-select custom-select">
+												<option selected value="">Lieu</option>
+											</select>
+										</div>
+										<div class="col-auto">
+											<select id="famings-select" class="community-select custom-select">
+												<option selected value="">Production</option>
+											</select>
+										</div>
+										<div class="col-auto">
+											<select id="cropping-systems-select" class="community-select custom-select">
+												<option selected value="">Cahier des charges</option>
+											</select>
+										</div>
+									</div>
+									<div class="follower-search form-row align-items-center">
+										<div class="col-auto">
+											<div class="custom-control custom-switch align-center">
+												<input type="checkbox" class="custom-control-input" id="community-doneit-only" value="yes">
+												<label class="custom-control-label" for="community-doneit-only">Voir uniquement
+													ceux qui l'ont fait</label>
+											</div>
+										</div>
+									</div>
+								</form>
+								<div id="community-items"></div>
+								<div class="text-center"><a class="btn btn-primary" style="display:none" id="load-more-community">
+									<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+									Chargement...
+								</a></div>
+							</div>
 						</div>
-						<div class="modal-footer border-top-0">
-							<button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">Fermer</button>
-						</div>
-					</form>
+					</div>
+					<div class="modal-footer border-top-0">
+						<button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">Fermer</button>
+					</div>
 				</div>
 			</div>
 		</div>]]></component>
