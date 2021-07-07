@@ -2,10 +2,10 @@
 .interaction-bloc-mobile {
 
     background-color: #CCF1E5;
-    font-family: $font-family-base;
+    font-family     : $font-family-base;
 
     .interaction-top {
-        
+
         font-size  : 24px;
         font-weight: bold;
         line-height: 1.33;
@@ -16,6 +16,10 @@
             font-weight: 600;
             text-align : center;
             color      : #0a6a4a;
+
+            a {
+                color: #0a6a4a;
+            }
 
             button {
                 height       : 50px;
