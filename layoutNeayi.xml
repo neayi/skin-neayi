@@ -162,6 +162,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 							</div>
 						</div>
 					</div>
+					<div id="side-map"></div>
 				</div>]]></component>
 					
 					</component>
@@ -367,39 +368,46 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 							</div>
 							<div class="tab-pane fade" id="commununity" role="tabpanel"	aria-labelledby="commununity-tab">
 								<!-- Communauté -->
-								<form>
-									<div class="follower-search form-row align-items-center">
-										<div class="col-auto">
-											<select id="departments-select" class="community-select custom-select">
-												<option selected value="">Lieu</option>
-											</select>
-										</div>
-										<div class="col-auto">
-											<select id="famings-select" class="community-select custom-select">
-												<option selected value="">Production</option>
-											</select>
-										</div>
-										<div class="col-auto">
-											<select id="cropping-systems-select" class="community-select custom-select">
-												<option selected value="">Cahier des charges</option>
-											</select>
-										</div>
-									</div>
-									<div class="follower-search form-row align-items-center">
-										<div class="col-auto">
-											<div class="custom-control custom-switch align-center">
-												<input type="checkbox" class="custom-control-input" id="community-doneit-only" value="yes">
-												<label class="custom-control-label" for="community-doneit-only">Voir uniquement
-													ceux qui l'ont fait</label>
+								<div class="community-connected">
+									<form>
+										<div class="follower-search form-row align-items-center">
+											<div class="col-auto">
+												<select id="departments-select" class="community-select custom-select">
+													<option selected value="">Lieu</option>
+												</select>
+											</div>
+											<div class="col-auto">
+												<select id="famings-select" class="community-select custom-select">
+													<option selected value="">Production</option>
+												</select>
+											</div>
+											<div class="col-auto">
+												<select id="cropping-systems-select" class="community-select custom-select">
+													<option selected value="">Cahier des charges</option>
+												</select>
 											</div>
 										</div>
-									</div>
-								</form>
-								<div id="community-items"></div>
-								<div class="text-center"><a class="btn btn-primary" style="display:none" id="load-more-community">
-									<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-									Chargement...
-								</a></div>
+										<div class="follower-search form-row align-items-center">
+											<div class="col-auto">
+												<div class="custom-control custom-switch align-center">
+													<input type="checkbox" class="custom-control-input" id="community-doneit-only" value="yes">
+													<label class="custom-control-label" for="community-doneit-only">Voir uniquement
+														ceux qui l'ont fait</label>
+												</div>
+											</div>
+										</div>
+									</form>
+									<div id="community-items"></div>
+									<div class="text-center"><a class="btn btn-primary" style="display:none" id="load-more-community">
+										<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+										Chargement...
+									</a></div>
+								</div>
+								<div class="community-not-connected">
+									<p>Veuillez vous connecter pour découvrir la communtauté !</p>
+									<p class="small text-muted">Entrez en contact avec les autres agriculteurs, conseillers et fournisseurs qui s'intéressent à cette page</p>
+									<p> <a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
+								</div>
 							</div>
 						</div>
 					</div>

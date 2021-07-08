@@ -260,6 +260,29 @@
             }
         }
     }
+
+    .community-not-connected {
+        text-align : center;
+        border     : 2px solid #15A072;
+        max-width  : 500px;
+        margin     : 100px auto;
+        font-weight: bold;
+        padding    : 25px;
+        display    : none;
+
+        p {
+            font-size: 24px;
+        }
+
+        p.small {
+            font-size: 18px;
+        }
+
+        .login-links {
+            color      : white;
+            font-weight: bold;
+        }
+    }
 }
 
 // Do not include the path default css below in the #map bloc as it will superseed the department color
