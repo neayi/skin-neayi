@@ -404,7 +404,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 									</a></div>
 								</div>
 								<div class="community-not-connected">
-									<p>Veuillez vous connecter pour découvrir la communtauté !</p>
+									<p>Veuillez vous connecter pour découvrir la communauté !</p>
 									<p class="small text-muted">Entrez en contact avec les autres agriculteurs, conseillers et fournisseurs qui s'intéressent à cette page</p>
 									<p> <a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
 								</div>
