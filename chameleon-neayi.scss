@@ -18,6 +18,7 @@
 @import "interactions";
 @import "semanticDrilldown";
 @import "community_dialog";
+@import "carousel";
 
 .item {
 
@@ -33,6 +34,7 @@ div.small-description {
     color        : #757575;
     font-size    : 80%;
     margin-bottom: 10px;
+    line-height  : 22px;
 }
 
 div.resistance-stars {

@@ -7,8 +7,8 @@
     left        : 0;
     text-align  : left;
     position    : initial;
-    margin      : 0 -1%;
-    padding-left: 0px;
+    margin      : 0 -1% !important;
+    padding-left: 0px !important;
 
     li {
         text-indent  : 0px;
@@ -30,4 +30,8 @@
     .active {
         border: 1px solid #000;
     }
+}
+
+.legende-carousel {
+    line-height: 20px;
 }
