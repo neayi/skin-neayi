@@ -84,6 +84,13 @@
     }
 }
 
+.cepage {
+    img.card-img {
+        object-fit: cover;
+        height    : 190px;
+    }
+}
+
 .badge {
     font-family  : 'Raleway';
     font-weight  : 600;
