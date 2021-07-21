@@ -22,7 +22,13 @@
 
 .introjs-tooltip {
     min-width: 350px;
+
+    .introjs-tooltip-title {
+        color: $brand-primary;
+    }
 }
+
+
 
 .item {
 
