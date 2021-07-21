@@ -162,7 +162,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 							</div>
 						</div>
 					</div>
-					<div id="side-map"></div>
+					<div id="side-map"><div id="side-map-container"></div></div>
 				</div>]]></component>
 					
 					</component>
@@ -218,12 +218,12 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 
                 <div class="col-lg-3 col-md-6">
-					<p class="footer-title">Fait avec ♡ par Neayi</p>
+					<p class="footer-title">Fait avec ♡ par <a target="_blank" href="https://neayi.com/">Neayi</a></p>
                     <ul class="list-unstyled">
                         <li><a href="/wiki/Charte_d%E2%80%99utilisation">Charte de la plateforme</a></li>
                         <li><a href="/wiki/Triple_Performance:Politique_de_confidentialité">Mentions légales</a></li>
                         <li><a href="/wiki/Open_Source">Open Source</a></li>
-                        <li><a href="https://neayi.com/contact/">Contact</a></li>
+                        <li><a target="_blank" href="https://neayi.com/contact/">Contact</a></li>
                         <li>Nous retrouver sur 
 						<span class="social-links">
 							<a href="https://www.facebook.com/tripleperformance" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
