@@ -8,7 +8,7 @@
     .dept-stat {
         span.count {
             font-weight  : 900;
-            color        : #00A46E;
+            color        : $darkGreen;
             font-size    : 14px;
             padding-right: 11px;
         }
@@ -50,7 +50,7 @@
             div.caracteristique-stat {
                 height     : 30px;
                 margin     : auto 0;
-                color      : #00A46E;
+                color      : $darkGreen;
                 margin     : auto 0;
                 font-size  : 17px;
                 font-weight: 900;
@@ -64,7 +64,7 @@
                 font-weight    : bold;
 
                 &:hover {
-                    color          : #00a46e;
+                    color          : $darkGreen;
                     text-decoration: underline;
                 }
             }
@@ -97,8 +97,8 @@
             padding-left: 55px;
 
             .custom-control-input:checked~.custom-control-label::before {
-                border-color    : #00a46e;
-                background-color: #00a46e;
+                border-color    : $darkGreen;
+                background-color: $darkGreen;
             }
 
             .custom-control-input:checked~.custom-control-label::after {
@@ -173,7 +173,7 @@
                     text-decoration: none;
 
                     &:hover {
-                        color          : #00a46e;
+                        color          : $darkGreen;
                         text-decoration: underline;
                     }
                 }
@@ -208,7 +208,7 @@
                         color: #8f8f8f;
 
                         &:hover {
-                            color          : #00a46e;
+                            color          : $darkGreen;
                             text-decoration: underline;
                         }
                     }
@@ -238,7 +238,7 @@
                         font-weight    : bold;
 
                         &:hover {
-                            color          : #00a46e;
+                            color          : $darkGreen;
                             text-decoration: underline;
                         }
                     }

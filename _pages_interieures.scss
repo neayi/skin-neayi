@@ -154,7 +154,7 @@ table.calendrier {
     .nav-item.show .nav-link,
     .nav-item.show .p-navbar .navbar-tool>a,
     .nav-item.show .navbar-tool>a {
-        color       : #00A46E;
+        color       : $darkGreen;
         margin-right: 5px;
 
         // Hide the bottom border of the active tab
