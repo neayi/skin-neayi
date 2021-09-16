@@ -2,27 +2,6 @@
  * Neayi SCSS for the VisualEditor extension
  ***********************************************/
 
-// force the visualeditor toolbar to stay on top
-.ve-init-mw-desktopArticleTarget-toolbar-opened {
-	z-index: 5000;
-}
-
-// Force the modals to show up on top of visual editor
-.oo-ui-windowManager-modal>.oo-ui-dialog {
-    z-index: 104;
-
-    // Some menus show up under a toolbar. Bad.
-    .oo-ui-window-frame {
-        top: 111px;
-    }
-}
-// Some menus show up under a toolbar. Bad.
-.oo-ui-dialog {
-    .oo-ui-window-frame {
-        top: 111px;
-    }
-}
-
 // Force the min width of the editor, and hide the margins
 .ve-activated, .mw-special-FormEdit {
     #content {
@@ -34,4 +13,13 @@
     #scrollbar {
         display: none !important;
     }
+}
+
+.ve-init-mw-desktopArticleTarget-toolbar {
+    margin-top: -83px;
+    padding-top: 83px;
+}
+
+.ve-ui-toolbar-floating > .oo-ui-toolbar-bar {
+    top: 88px !important;
 }
