@@ -1,0 +1,30 @@
+.portail-card-container
+{
+    padding-left: 0;
+    padding-right: 0;
+
+    div.portail-card {
+
+        div {
+            background-color: #F8F8F8;
+            margin: 10px 0;
+            padding: 21px;
+            border-radius: 5px;
+            min-height: 134px;
+
+            a {
+                color: #5d5d5d;
+                text-decoration: none;
+                line-height: 26px;
+            }
+
+            p {
+                font-size: 17px;
+                line-height: 24px;
+                margin-top: 5px;
+                margin-bottom: 0;
+                color: #848484;
+            }
+        }
+    }
+}
