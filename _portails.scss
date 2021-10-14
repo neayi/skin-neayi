@@ -1,33 +1,352 @@
-.portail-card-container
-{
-    padding-left: 0;
-    padding-right: 0;
+.portail,
+.mw-special-Ask {
 
-    div.portail-card {
-        font-family: "Raleway", Arial, Helvetica, sans-serif;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        border-bottom: none;
+    }
 
-        div {
-            background-color: #F8F8F8;
-            margin: 10px 0;
-            padding: 21px;
+    .smw-plainlist-furtherresults,
+    .contentHeader,
+    .leftSide,
+    .rightSide,
+    .interaction-bloc-mobile {
+        display: none !important;
+    }
+
+    #firstHeading,
+    #contentSub {
+        display: none;
+    }
+
+    .WikiMainContent {
+        padding: 0px;
+
+        >.row {
+            margin-right: 0;
+            margin-left : 0;
+
+            >.col {
+                padding-right: 0;
+                padding-left : 0;
+            }
+        }
+
+        .mainContainer {
+            margin   : 0;
+            padding  : 0;
+            max-width: 100%;
+
+            // Hide the left and right sides that are used for the TOC
+            .leftSide,
+            .rightSide {
+                display: none !important;
+            }
+
+            .centralDiv {
+                // Force the central div to take the full width
+                flex     : 0 0 100%;
+                max-width: 100%;
+                padding  : 0;
+
+                .interaction-bloc-mobile {
+                    display: none !important;
+                }
+
+                .mw-body {
+                    padding  : 0px;
+                    max-width: 100%;
+                }
+
+            }
+        }
+    }
+
+
+    .mw-parser-output .external {
+        background-image: none;
+        padding-right   : 0px;
+    }
+
+    .mw-body {
+        max-width: none;
+    }
+
+    h3 {
+        font-size  : 24px;
+        font-weight: bold;
+    }
+
+    span.btn-dark-green {
+        font-family: $font-family-base;
+
+        a {
+            font-weight: bold;
+            color      : #FFF;
+
+            &:hover,
+            &:visited {
+                color: #fff;
+            }
+        }
+    }
+
+    .hero-portail {
+        min-height: 350px;
+        position  : relative;
+        overflow-y: hidden;
+
+        div.hero-portail-img {
+            position: absolute;
+            top     : 0;
+            height  : 100%;
+            width   : 100%;
+
+            img {
+                height    : 100%;
+                position  : absolute;
+                top       : 0;
+                object-fit: cover;
+                width     : 100%;
+            }
+        }
+
+        h1 {
+            font-weight   : 800;
+            letter-spacing: 1.25px;
+            font-size     : 3.75rem;
+        }
+
+        h2 {
+            font-size    : 2.125rem;
+            font-weight  : 800;
+            margin-bottom: 50px;
+        }
+
+        .black-layer {
+            position        : absolute;
+            background-color: rgba(0, 0, 0, 0.26);
+            top             : 0;
+            left            : 0;
+            width           : 100%;
+            height          : 100%;
+        }
+    }
+
+    .thematique {
+        padding    : 10px 10px;
+        font-family: $font-family-base;
+
+        div>div {
+            min-height   : 97px;
+            background   : #F2F3F6;
+            line-height  : 1;
+            padding      : 17px 17px 7px 80px;
             border-radius: 5px;
-            min-height: 134px;
+            position     : relative;
 
-            a {
-                color: #5d5d5d;
-                text-decoration: none;
-                line-height: 26px;
+            img {
+                width   : 60px;
+                height  : 60px;
+                position: absolute;
+                top     : 11px;
+                left    : 11px;
+            }
+
+            h4 {
                 font-weight: bold;
-                font-size: 21px;
+                font-size  : 17px;
+                color      : #000;
+                padding    : 0px 0px 4px 0px;
+                margin     : 0px;
+
+                a,
+                a:hover,
+                a:visited {
+                    color: #000;
+                }
             }
 
             p {
-                font-size: 17px;
-                line-height: 24px;
-                margin-top: 5px;
-                margin-bottom: 0;
-                color: #848484;
+                font-size : 13px;
+                text-align: left;
+                color     : #000000D9;
             }
         }
+    }
+
+    .forum-portail {
+        font-family: $font-family-base;
+
+        div.row {
+            background-color: #CCF1E5;
+            font-size       : 18px;
+            padding         : 20px;
+            margin          : 0 14px;
+            font-weight     : bold;
+
+            a,
+            a:hover,
+            a:visited {
+                color: $primary;
+            }
+
+            .btn {
+                padding  : 10px 20px;
+                font-size: 17px;
+
+
+                a {
+                    font-weight: bold;
+                    color      : #FFF;
+
+                    &:hover,
+                    &:visited {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .card {
+        font-family  : $font-family-base;
+        margin-bottom: 15px;
+        border       : 1px solid #efefef;
+        border-radius: 15px;
+
+        .img-top-container {
+            height  : 150px;
+            position: relative;
+            display : inline-block;
+
+            img {
+                object-fit: cover;
+                height    : 100%;
+            }
+
+            .card-img,
+            .card-img-top {
+                border-top-left-radius : 15px;
+                border-top-right-radius: 15px;
+            }
+
+            .card-img-top-overlay {
+                position        : absolute;
+                bottom          : 0;
+                left            : 0;
+                width           : 100%;
+                height          : 100%;
+                background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0), #212121);
+                color           : white;
+
+                div {
+                    position   : absolute;
+                    bottom     : 0px;
+                    padding    : 0px 10px 13px 0;
+                    line-height: 20px;
+
+                    .card-title {
+                        font-size  : 16px;
+                        text-align : left;
+                        font-weight: 600;
+                        color      : white;
+
+                        a {
+                            color          : white;
+                            text-decoration: none;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .card-text {
+            line-height: 1.5;
+        }
+
+        &.article {
+            .card-body {
+                font-size : 15px;
+                text-align: left;
+                padding   : 13px;
+            }
+
+            .avatar {
+                width     : 48px;
+                height    : 48px;
+                object-fit: cover;
+            }
+
+            .badge-light {
+                position: absolute;
+                left    : 15Px;
+                top     : 14px;
+                color   : $darkPurple;
+                z-index : 10;
+            }
+        }
+    }
+
+    .video-card {
+        font-family  : $font-family-base;
+        width        : 100%;
+        margin-bottom: 15px;
+
+        .img-top-container {
+            height  : 223px;
+            position: relative;
+
+            img.thumbnail {
+                border-radius: 15px;
+                object-fit   : cover;
+                width        : 100%;
+                height       : 100%;
+            }
+
+            img.play-arrow {
+                position: absolute;
+                left    : 50%;
+                top     : 45%;
+                margin  : -27px;
+            }
+
+            .video-card-overlay {
+                position        : absolute;
+                bottom          : 0;
+                left            : 0;
+                width           : 100%;
+                height          : 100%;
+                background-image: linear-gradient(to bottom, rgba(69, 69, 69, 0), #212121);
+                border-radius   : 15px;
+
+                div {
+                    position   : absolute;
+                    bottom     : 0px;
+                    padding    : 16px;
+                    line-height: 20px;
+
+                    .card-title {
+                        font-size  : 16px;
+                        color      : #fff;
+                        font-weight: 600;
+                        line-height: 1.25;
+
+                        a {
+                            color          : white;
+                            text-decoration: none;
+                        }
+                    }
+                }
+
+            }
+
+        }
+
     }
 }
