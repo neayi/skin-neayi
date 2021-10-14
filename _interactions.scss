@@ -85,6 +85,16 @@
 
     .interaction-top {
         padding: 24px 23px 16px 24px;
+
+        span.page-views {
+            color: #0a6a4a7a;
+            font-size: 12px;
+            margin-left: 15px;
+        }
+
+        .page-views i {
+            margin-left: 5px;
+        }
     }
 
     // When in desktop mode
