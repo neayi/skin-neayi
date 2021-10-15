@@ -26,7 +26,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 <structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
 
 	<component type="NavbarHorizontal">
-		
+
 		<component type="Logo" position="head"/>
 		<component type="NavMenu" flatten="navigation"/>
 		<component type="Menu" message="secondary-menu"/>
@@ -34,39 +34,88 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Rechercher" />
 		<component type="PersonalTools" class="my-auto"/>
 		<component type="Container" class=""><component type="Html">
-			<![CDATA[
-			<ul class="navbar-nav">
-			<li class="nav-item dropdown" id="neayi-nav-other">
-				<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				Autres
-				</a>
-				<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a>
-					<a class="dropdown-item" href="/wiki/Cultures" title="Cultures">Cultures</a>
-					<a class="dropdown-item" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseur">Bioagresseurs</a>
-					<a class="dropdown-item" href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a>
-					<a class="dropdown-item" href="/wiki/Catégorie:Labels" title="Labels">Labels</a>
-				</div>
-			</li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Cultures" title="Cultures">Cultures</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseurs">Bioagresseurs</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Catégorie:Labels" title="Labels">Labels</a></li>
-			<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Aide:Créer_une_page">Ajouter une page</a></li>
-			</ul>
-			]]></component></component>
+			<![CDATA[<ul class="navbar-nav">
+	<li class="nav-item dropdown" id="neayi-nav-other">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<a class="dropdown-item" href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a>
+			<a class="dropdown-item" href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a>
+			<a class="dropdown-item" href="/wiki/Viticulture" title="Viticulture">Viticulture</a>
+			<a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
+			<a class="dropdown-item" href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a>
+			<a class="dropdown-item" href="/wiki/PPAM" title="PPAM">PPAM</a>
+		</div>
+	</li>
+
+	<li class="nav-item neayi-additional-mobile-menus"><b>Productions</b></li>
+
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/PPAM" title="PPAM">PPAM</a></li>
+
+	<li class="nav-item dropdown" id="neayi-nav-other">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thématiques</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+			<a class="dropdown-item" href="/wiki/Agriculture de précision" title="Agriculture de précision">Agriculture de précision</a>
+			<a class="dropdown-item" href="/wiki/Agroforesterie" title="Agroforesterie">Agroforesterie</a>
+			<a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioagresseurs">Bioagresseurs</a>
+			<a class="dropdown-item" href="/wiki/Biodiversité" title="Biodiversité">Biodiversité</a>
+			<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Collaboration et coopération en agriculture">Collaboration et coopération en agriculture</a>
+			<a class="dropdown-item" href="/wiki/Couverture des sols" title="Couverts végétaux">Couverts végétaux</a>
+			<a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Cycle du carbone et GES">Cycle du carbone et GES</a>
+			<a class="dropdown-item" href="/wiki/Desherbage" title="Desherbage">Desherbage</a>
+			<a class="dropdown-item" href="/wiki/Diagnostique et performance d'une ferme" title="Diagnostique et performance">Diagnostique et performance</a>
+			<a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Gestion de l’eau">Gestion de l’eau</a>
+			<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Matériel et machines agricoles">Matériel et machines agricoles</a>
+			<a class="dropdown-item" href="/wiki/Organisation du travail" title="Organisation du travail">Organisation du travail</a>
+			<a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Outils de mesure et d’observation">Outils de mesure et d’observation</a>
+			<a class="dropdown-item" href="/wiki/Production énergétique" title="Production énergétique">Production énergétique</a>
+			<a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Protection intégrée des cultures">Protection intégrée des cultures</a>
+			<a class="dropdown-item" href="/wiki/Résilience climatique" title="Résilience climatique">Résilience climatique</a>
+			<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="S'installer">S'installer</a>
+			<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Sols vivants">Sols vivants</a>
+			<a class="dropdown-item" href="/wiki/Valorisation de la production" title="Valorisation de la production">Valorisation de la production</a>
+		</div>
+	</li>
+
+	<li class="nav-item neayi-additional-mobile-menus"><b>Thématiques</b></li>
+
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Agriculture de précision" title="Agriculture de précision">Agriculture de précision</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Agroforesterie" title="Agroforesterie">Agroforesterie</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Bioagresseurs" title="Bioagresseurs">Bioagresseurs</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Biodiversité" title="Biodiversité">Biodiversité</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Collaboration et coopération en agriculture" title="Collaboration et coopération en agriculture">Collaboration et coopération en agriculture</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Couverture des sols" title="Couverts végétaux">Couverts végétaux</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Cycle du carbone et GES" title="Cycle du carbone et GES">Cycle du carbone et GES</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Desherbage" title="Desherbage">Desherbage</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Diagnostique et performance d'une ferme" title="Diagnostique et performance">Diagnostique et performance</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Gestion de l’eau" title="Gestion de l’eau">Gestion de l’eau</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Matériel et machines agricoles" title="Matériel et machines agricoles">Matériel et machines agricoles</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Organisation du travail" title="Organisation du travail">Organisation du travail</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Outils de mesure et d’observation" title="Outils de mesure et d’observation">Outils de mesure et d’observation</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Production énergétique" title="Production énergétique">Production énergétique</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Protection intégrée des cultures" title="Protection intégrée des cultures">Protection intégrée des cultures</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Résilience climatique" title="Résilience climatique">Résilience climatique</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/S'installer en agriculture" title="S'installer">S'installer</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Agronomie des sols vivants" title="Sols vivants">Sols vivants</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a href="/wiki/Valorisation de la production" title="Valorisation de la production">Valorisation de la production</a></li>
+
+	<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Aide:Créer_une_page">Ajouter une page</a></li>
+
+
+	<a class="nav-link" href="https://forum.tripleperformance.fr" title="Forum">Forum</a>
+
+</ul>]]></component></component>
 		<component type="Container" position="right" class=""><component type="Html">
 			<![CDATA[<div class="neayi-square-button" id="neayi-search-button"><span class="material-icons" aria-hidden="true">search</span></div><div
-			class="neayi-square-button" id="neayi-add-button"><a class="stretched-link" href="/wiki/Aide:Créer_une_page" ><span class="material-icons" 
+			class="neayi-square-button" id="neayi-add-button"><a class="stretched-link" href="/wiki/Aide:Créer_une_page" ><span class="material-icons"
 			aria-hidden="true">add</span></a></div>]]></component></component>
 		<component type="Container" position="right" class="create-profile"><component type="Html">
 			<![CDATA[
-			
+
 			<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
 			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
 			</div>]]></component></component>
@@ -146,7 +195,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 								<div class="col px-1">
 									<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Je le fais</button>
 									<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-								</div>				
+								</div>
 							</div>
 						</div>
 					</div>
@@ -164,7 +213,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					</div>
 					<div id="side-map"><div id="side-map-container"></div></div>
 				</div>]]></component>
-					
+
 					</component>
 				</component>
 			</cell>
@@ -175,14 +224,14 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
-        <div class="col-md-10 offset-md-1">
+        <div class="col">
             <div class="row align-items-center">
-                <div class="col-md-12 pb-4">
+                <div class="col-md-10 pb-4 offset-xl-1">
                     <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
                 </div>
 			</div>
 			<div class="row">
-                <div class="col-lg-3 col-md-6">
+                <div class="col-xl-2 col-lg-6 offset-xl-1">
 					<p class="footer-title">Triple Performance</p>
                     <ul class="list-unstyled">
                         <li><a href="/wiki/%C3%80_propos">À propos</a></li>
@@ -191,41 +240,66 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                         <li><a href="/wiki/Comment_fonctionne_la_plateforme">Comment ça fonctionne ?</a></li>
 						<li><a href="#" class="neayi-tour">Lancer la visite guidée</a> <i class="fas fa-route"></i></li>
                     </ul>
-                </div>
 
-                <div class="col-lg-3 col-md-6">
 					<p class="footer-title">Communauté</p>
                     <ul class="list-unstyled">
                         <li><a href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
 						<li><a href="/wiki/Aide:Bienvenue">Contribuer&nbsp;? Ça commence ici&nbsp;!</a></li>
+						<li><a href="https://forum.tripleperformance.fr">Accéder au forum</a></li>
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6">
-					<p class="footer-title">La plateforme</p>
+                <div class="col-xl-2 col-lg-6">
+					<p class="footer-title">Productions</p>
                     <ul class="list-unstyled">
-						<li><a href="/wiki/Spécial:BrowseData/Pratiques_agro-écologiques" title="Spécial:BrowseData/Pratiques agro-écologiques">Pratiques agro-écologiques</a></li>
-						<li><a href="/wiki/Spécial:BrowseData/Exemples_de_mise_en_%C5%93uvre" title="Spécial:BrowseData/Exemples de mise en œuvre">Exemples de mise en œuvre</a></li>
-						<li><a href="/wiki/Spécial:BrowseData/Vidéos" title="Spécial:BrowseData/Vidéos">Vidéos</a></li>
-						<li><a href="/wiki/Cultures" title="Cultures">Cultures</a></li>
-						<li><a href="/wiki/Spécial:BrowseData/Bioagresseur" title="Bioagresseur">Bioagresseurs</a></li>
-						<li><a href="/wiki/Auxiliaires" title="Auxiliaires">Auxiliaires</a></li>
-						<li><a href="/wiki/Catégorie:Matériels" title="Matériels">Matériel et machines agricoles</a></li>
-						<li><a href="/wiki/Catégorie:Outils_d%27aide" title="Outils d'aide">Outils d'aide à la décision</a></li>
-						<li><a href="/wiki/Catégorie:Labels" title="Labels">Labels</a></li>
+						<li><a href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a></li>
+						<li><a href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a></li>
+						<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
+						<li><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
+						<li><a href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a></li>
+						<li><a href="/wiki/PPAM" title="PPAM">PPAM</a></li>
                     </ul>
                 </div>
 
+                <div class="col-xl-2 col-lg-6">
+					<p class="footer-title">Thématiques</p>
+                    <ul class="list-unstyled">
+						<li><a href="/wiki/Agriculture de précision" title="Agriculture de précision">Agriculture de précision</a></li>
+						<li><a href="/wiki/Agroforesterie" title="Agroforesterie">Agroforesterie</a></li>
+						<li><a href="/wiki/Bioagresseurs" title="Bioagresseurs">Bioagresseurs</a></li>
+						<li><a href="/wiki/Biodiversité" title="Biodiversité">Biodiversité</a></li>
+						<li><a href="/wiki/Collaboration et coopération en agriculture" title="Collaboration et coopération en agriculture">Collaboration et coopération en agriculture</a></li>
+						<li><a href="/wiki/Couverture des sols" title="Couverts végétaux">Couverts végétaux</a></li>
+						<li><a href="/wiki/Cycle du carbone et GES" title="Cycle du carbone et GES">Cycle du carbone et GES</a></li>
+						<li><a href="/wiki/Desherbage" title="Desherbage">Desherbage</a></li>
+						<li><a href="/wiki/Diagnostique et performance d'une ferme" title="Diagnostique et performance">Diagnostique et performance</a></li>
+						<li><a href="/wiki/Gestion de l’eau" title="Gestion de l’eau">Gestion de l’eau</a></li>
+                    </ul>
+                </div>
 
-                <div class="col-lg-3 col-md-6">
+                <div class="col-xl-2 col-lg-6">
+					<p class="footer-title d-none d-md-block">&nbsp;</p>
+                    <ul class="list-unstyled">
+						<li><a href="/wiki/Matériel et machines agricoles" title="Matériel et machines agricoles">Matériel et machines agricoles</a></li>
+						<li><a href="/wiki/Organisation du travail" title="Organisation du travail">Organisation du travail</a></li>
+						<li><a href="/wiki/Outils de mesure et d’observation" title="Outils de mesure et d’observation">Outils de mesure et d’observation</a></li>
+						<li><a href="/wiki/Production énergétique" title="Production énergétique">Production énergétique</a></li>
+						<li><a href="/wiki/Protection intégrée des cultures" title="Protection intégrée des cultures">Protection intégrée des cultures</a></li>
+						<li><a href="/wiki/Résilience climatique" title="Résilience climatique">Résilience climatique</a></li>
+						<li><a href="/wiki/S'installer en agriculture" title="S'installer">S'installer</a></li>
+						<li><a href="/wiki/Agronomie des sols vivants" title="Sols vivants">Sols vivants</a></li>
+						<li><a href="/wiki/Valorisation de la production" title="Valorisation de la production">Valorisation de la production</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xl-2 col-lg-6">
 					<p class="footer-title">Fait avec ♡ par <a target="_blank" href="https://neayi.com/">Neayi</a></p>
                     <ul class="list-unstyled">
                         <li><a href="/wiki/Charte_d%E2%80%99utilisation">Charte de la plateforme</a></li>
                         <li><a href="/wiki/Triple_Performance:Politique_de_confidentialité">Mentions légales</a></li>
                         <li><a href="/wiki/Open_Source">Open Source</a></li>
                         <li><a target="_blank" href="https://neayi.com/contact/">Contact</a></li>
-                        <li>Nous retrouver sur 
-						<span class="social-links">
+                        <li><span class="social-links">
 							<a href="https://www.facebook.com/tripleperformance" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
 							<a href="https://twitter.com/TriplePerforma1" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
 							<a href="https://www.linkedin.com/company/neayi" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Suivez nous sur LinkedIn"><span class="fab fa-linkedin-in"></span>  </a>
@@ -249,7 +323,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			</cell>
 		</row>
 
-	</grid>	
+	</grid>
 
 	<component type="Html"><![CDATA[<div class="modal fade" id="requiresLoginModal" tabindex="-1" aria-labelledby="requiresLoginModal" aria-hidden="true">
 			<div class="modal-dialog">
