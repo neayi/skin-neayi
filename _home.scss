@@ -28,7 +28,7 @@ body.page-Accueil, body.page-Triple_Performance {
             margin   : 0;
             padding  : 0;
             max-width: 100%;
-            
+
             // Hide the left and right sides that are used for the TOC
             .leftSide,
             .rightSide {
@@ -379,23 +379,6 @@ body.page-Accueil, body.page-Triple_Performance {
             font-weight: 600;
         }
 
-        .btn-dark-green {
-            background-color: $darkGreen;
-
-            &:hover {
-                background: darken($darkGreen, 6%);
-            }
-
-            a {
-                font-weight: 800;
-                color      : #fff;
-
-                &:hover {
-                    color: inherit;
-                }
-            }
-        }
-
         .no-line-height {
             line-height: inherit;
         }
@@ -407,5 +390,5 @@ body.page-Accueil, body.page-Triple_Performance {
 
     div#neayi-searchform {
         margin          : 0 0;
-    }    
+    }
 }

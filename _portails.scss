@@ -81,20 +81,6 @@
         font-weight: bold;
     }
 
-    span.btn-dark-green {
-        font-family: $font-family-base;
-
-        a {
-            font-weight: bold;
-            color      : #FFF;
-
-            &:hover,
-            &:visited {
-                color: #fff;
-            }
-        }
-    }
-
     .hero-portail {
         min-height: 350px;
         position  : relative;

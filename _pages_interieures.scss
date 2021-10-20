@@ -84,6 +84,25 @@
     }
 }
 
+.btn-dark-green, .btn-primary {
+    background-color: $darkGreen;
+
+    &:hover {
+        background: darken($darkGreen, 6%);
+    }
+
+    a, a.external {
+        font-weight: 800;
+        color      : #fff;
+        padding-right: 0px;
+        background-image: none;
+
+        &:hover, &:visited {
+            color: inherit;
+        }
+    }
+}
+
 .cepage {
     img.card-img {
         object-fit: cover;
