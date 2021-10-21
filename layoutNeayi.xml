@@ -110,11 +110,17 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Container" class="row ml-lg-auto mainContainer">
+					<component type='Html'><![CDATA[
+<div class="col-12 px-0 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img ></div>
+<div class="black-layer"></div>
+<div class="col-xl-8 col-lg-10 mx-auto">
+<h1 class="text-white px-2 mt-md-3"></h1>
+<h2 class="text-white px-2 mt-md-5"></h2>
+</div></div></div>]]></component>
 					<component type="Container" class="leftSide col-auto"></component>
 					<component type="Container" class="centralDiv col">
 					<component type='Html'><![CDATA[<div class="interaction-bloc-mobile d-lg-none d-block">
-						<div class="interaction-top">
-							<div class="container px-0 interaction-buttons">
+						<div class="interaction-top"><div class="container px-0 interaction-buttons">
 								<div class="row mx-n1">
 									<div class="col-auto px-1">
 										<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
@@ -129,11 +135,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 									<div class="col px-1">
 										<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Je le fais</button>
 										<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-									</div>
-
-								</div>
-							</div>
-						</div>
+						</div></div></div></div>
 						<div class="container px-0 interaction-links">
 							<div class="row mx-n1">
 								<div class="col px-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments"><span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
