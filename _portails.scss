@@ -19,28 +19,42 @@
             }
         }
 
-        h1 {
-            font-family: $font-family-base;
+        div.hero-titles {
+            padding: 0px 38px;
 
-            font-weight   : 800;
-            letter-spacing: 1.25px;
-            font-size     : 3.75rem;
-            border-bottom : none;
+            @media (min-width: 1095px) {
+                padding: 0px 70px;
+            }
 
-            // When in mobile mode
-            @media (max-width: 800px) {
-                font-size: 2.75rem;
+            @media (min-width: 1384px) {
+                padding-left : 379px;
+                padding-right: 250px;
+            }
+
+            h1 {
+                font-family: $font-family-base;
+
+                font-weight   : 800;
+                letter-spacing: 1.25px;
+                font-size     : 3.75rem;
+                border-bottom : none;
+
+                // When in mobile mode
+                @media (max-width: 800px) {
+                    font-size: 2.75rem;
+                }
+            }
+
+            h2 {
+                font-family: $font-family-base;
+
+                font-size    : 2.125rem;
+                font-weight  : 800;
+                margin-bottom: 50px;
+                border-bottom: none;
             }
         }
 
-        h2 {
-            font-family: $font-family-base;
-
-            font-size    : 2.125rem;
-            font-weight  : 800;
-            margin-bottom: 50px;
-            border-bottom: none;
-        }
 
         .black-layer {
             position        : absolute;
@@ -54,13 +68,13 @@
 }
 
 .thematique {
-    padding    : 10px 10px;
     font-family: $font-family-base;
+    padding    : 10px 15px;
 
     div>div {
         min-height   : 97px;
         background   : #F2F3F6;
-        line-height  : 1;
+        line-height  : 13px;
         padding      : 17px 17px 7px 80px;
         border-radius: 5px;
         position     : relative;
@@ -73,12 +87,14 @@
             left    : 11px;
         }
 
-        h4 {
+        h4,
+        .h4 {
             font-weight: bold;
             font-size  : 17px;
             color      : #000;
             padding    : 0px 0px 4px 0px;
             margin     : 0px;
+            line-height: 14px;
 
             a,
             a:hover,
@@ -105,7 +121,7 @@ div.forum-portail {
     background-color: #CCF1E5;
     font-size       : 18px;
     padding         : 20px;
-    margin          : 0 14px;
+    margin          : 50px 0;
     font-weight     : bold;
     font-family     : $font-family-base;
 
