@@ -98,7 +98,8 @@
         background-image: none;
 
         &:hover, &:visited {
-            color: inherit;
+            color: #FFF;
+            text-decoration: none;
         }
     }
 }
