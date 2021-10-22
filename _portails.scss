@@ -52,6 +52,11 @@
                 font-weight  : 800;
                 margin-bottom: 50px;
                 border-bottom: none;
+
+                // When in mobile mode
+                @media (max-width: 800px) {
+                    font-size: 1.5rem;
+                }
             }
         }
 
@@ -129,22 +134,6 @@ div.forum-portail {
     a:hover,
     a:visited {
         color: $primary;
-    }
-
-    .btn {
-        padding  : 10px 20px;
-        font-size: 17px;
-
-
-        a {
-            font-weight: bold;
-            color      : #FFF;
-
-            &:hover,
-            &:visited {
-                color: #fff;
-            }
-        }
     }
 }
 

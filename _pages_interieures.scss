@@ -84,21 +84,25 @@
     }
 }
 
-.btn-dark-green, .btn-primary {
+.btn-dark-green,
+.btn-primary {
     background-color: $darkGreen;
 
     &:hover {
         background: darken($darkGreen, 6%);
     }
 
-    a, a.external {
-        font-weight: 800;
-        color      : #fff;
-        padding-right: 0px;
+    a,
+    a.external {
+        font-weight     : 600;
+        color           : #fff;
+        padding-right   : 0px;
         background-image: none;
+        font-family     : $font-family-base;
 
-        &:hover, &:visited {
-            color: #FFF;
+        &:hover,
+        &:visited {
+            color          : #FFF;
             text-decoration: none;
         }
     }

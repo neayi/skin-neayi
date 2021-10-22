@@ -109,9 +109,9 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 		<row>
 			<cell>
-				<component type="Container" class="row ml-lg-auto mainContainer">
+				<component type="Container" class="row mainContainer">
 					<component type='Html'><![CDATA[
-<div class="col-12 px-0 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
+<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
 <div class="black-layer"></div>
 <div class="col-12 mx-auto hero-titles">
 <h1 class="text-white mt-md-3"></h1>
