@@ -85,11 +85,13 @@
         position     : relative;
 
         img {
-            width   : 60px;
-            height  : 60px;
-            position: absolute;
-            top     : 11px;
-            left    : 11px;
+            width          : 60px;
+            height         : 60px;
+            position       : absolute;
+            top            : 11px;
+            left           : 11px;
+            image-rendering: crisp-edges;
+            image-rendering: -webkit-optimize-contrast;
         }
 
         h4,
@@ -136,7 +138,6 @@ div.forum-portail {
         color: $primary;
     }
 }
-
 
 .rex-card {
     font-family  : $font-family-base;
