@@ -89,7 +89,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<![CDATA[
 
 			<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
-			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
+			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
 			</div>]]></component></component>
 	</component>
 
@@ -217,7 +217,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 					<p class="footer-title">Communauté</p>
                     <ul class="list-unstyled">
-                        <li><a href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
+                        <li><a rel="nofollow" class="login-links" href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
 						<li><a href="/wiki/Aide:Bienvenue">Contribuer&nbsp;? Ça commence ici&nbsp;!</a></li>
 						<li><a href="https://forum.tripleperformance.fr">Accéder au forum</a></li>
                     </ul>
@@ -315,7 +315,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<p>Cette opération ne prend qu'une minute !</p>
 					</div>
 					<div class="modal-footer border-top-0">
-						<a class="login-links btn btn-primary" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+						<a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
 					</div>
 				</div>
 			</div>
@@ -337,7 +337,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					</div>
 					<div class="modal-footer border-top-0">
 						<a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Non merci pas encore</a>
-						<a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+						<a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
 					</div>
 				</div>
 			</div>
@@ -455,7 +455,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 								<div class="community-not-connected">
 									<p>Veuillez vous connecter pour découvrir la communauté !</p>
 									<p class="small text-muted">Entrez en contact avec les autres agriculteurs, conseillers et fournisseurs qui s'intéressent à cette page</p>
-									<p> <a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
+									<p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
 								</div>
 							</div>
 						</div>
