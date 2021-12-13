@@ -39,7 +39,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			<a class="dropdown-item" href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a>
-			<a class="dropdown-item" href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a>
+			<a class="dropdown-item" href="/wiki/Élevage" title="Élevage">Élevage</a>
 			<a class="dropdown-item" href="/wiki/Viticulture" title="Viticulture">Viticulture</a>
 			<a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
 			<a class="dropdown-item" href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a>
@@ -227,7 +227,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					<p class="footer-title">Productions</p>
                     <ul class="list-unstyled">
 						<li><a href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a></li>
-						<li><a href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a></li>
+						<li><a href="/wiki/Élevage" title="Élevage">Élevage</a></li>
 						<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
 						<li><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
 						<li><a href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a></li>
