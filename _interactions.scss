@@ -110,6 +110,13 @@
         background-color: white;
         padding-left: 20px;
         padding-top: 80px;
+
+        .side-map-legend {
+            font-style: italic;
+            background: white;
+            font-size: 72%;
+            color: #9e9e9e;
+        }
     }
 }
 
@@ -120,7 +127,6 @@
         padding: 0px 23px 16px 24px;
     }
 }
-
 
 .modal {
     .not-yet-link {

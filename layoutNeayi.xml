@@ -185,7 +185,9 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 							</div>
 						</div>
 					</div>
-					<div id="side-map"><div id="side-map-container"></div></div>
+					<div id="side-map"><div id="side-map-container"></div>
+					<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend" style="display:none">Où se trouvent ceux qui s'intéressent à cette page ?</a></div>
+					</div>
 				</div>]]></component>
 
 					</component>
