@@ -1,5 +1,6 @@
 .interaction-bloc,
-.interaction-bloc-mobile {
+.interaction-bloc-mobile,
+.interaction-bloc-inside {
 
     background-color: #CCF1E5;
     font-family     : $font-family-base;
@@ -126,6 +127,26 @@
     .interaction-top {
         padding: 0px 23px 16px 24px;
     }
+}
+
+.interaction-bloc-inside
+{
+	background-color: #CCF1E5;
+	font-family: "Raleway", Arial, Helvetica, sans-serif;
+	padding: 15px;
+	border-radius: 5px;
+	font-weight: 600;
+	clear: both;
+
+    .interaction-top p
+    {
+        font-weight: 600;
+        font-size: 17px;
+    }
+
+	.interaction-buttons {
+	    max-width: 300px;
+	}
 }
 
 .modal {
