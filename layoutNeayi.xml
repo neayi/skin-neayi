@@ -196,11 +196,23 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</row>
 	</grid>
 
+	<grid class="social-sticky d-block d-lg-none container text-center">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[
+					<span>Partager sur :</span>
+					<a class="share-facebook" target="_blank" data-toggle="tooltip" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
+					<a class="share-twitter" target="_blank" data-toggle="tooltip"  title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
+					<a class="share-whatsapp" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager sur whatsapp"><span class="fab fa-whatsapp"></span>  </a>
+				]]></component>
+			</cell>
+		</row>
+	</grid>
+
 	<grid class="footer py-5">
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
-        <div class="col">
             <div class="row align-items-center">
                 <div class="col-md-10 pb-4 offset-xl-1">
                     <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
@@ -283,9 +295,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </div>
 
-            </div>
-
-        </div>]]></component>
+            </div>]]></component>
 			</cell>
 		</row>
 
