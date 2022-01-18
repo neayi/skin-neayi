@@ -26,8 +26,11 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 <structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
 
 	<component type="NavbarHorizontal">
+		<component type="Html" position="head">
+			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
+			<a href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" class="d-none d-lg-inline"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" class="d-lg-none"></a>
+		</div>]]></component>
 
-		<component type="Logo" position="head"/>
 		<component type="NavMenu" flatten="navigation"/>
 		<component type="Menu" message="secondary-menu"/>
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
@@ -119,35 +122,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 </div></div></div>]]></component>
 					<component type="Container" class="leftSide col-auto"></component>
 					<component type="Container" class="centralDiv col">
-					<component type='Html'><![CDATA[<div class="interaction-bloc-mobile d-lg-none d-block">
-						<div class="interaction-top"><div class="container px-0 interaction-buttons">
-								<div class="row mx-n1">
-									<div class="col-auto px-1">
-										<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
-											<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
-										</button>
-										<br><span class="neayi-interaction-applause-label">&nbsp;</span>
-									</div>
-									<div class="col px-1">
-										<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Suivre</button>
-										<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-									</div>
-									<div class="col px-1">
-										<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Je le fais</button>
-										<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-						</div></div></div></div>
-						<div class="container px-0 interaction-links">
-							<div class="row mx-n1">
-								<div class="col px-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments"><span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
-										<span class="questions-text">Poser une question</span></a></div>
-								<div class="col-auto pr-1 pl-0 dropdown" id="neayi-interaction-mobile-menu">
-									<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false">
-										<span class="material-icons" aria-hidden="true">more_vert</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>]]></component>
+					<component type='Html'><![CDATA[]]></component>
 						<component type="MainContent" class=""></component>
 					</component>
 					<component type="Container" class="rightSide col-auto d-lg-block d-none">
@@ -196,7 +171,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</row>
 	</grid>
 
-	<grid class="social-sticky d-block d-lg-none container text-center">
+	<grid class="social-sticky d-block d-lg-none container text-center py-2">
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[

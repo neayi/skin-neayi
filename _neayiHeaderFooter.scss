@@ -321,3 +321,9 @@ div#neayi-searchform {
         background-color: #0645ad;
     }
 }
+
+.navbar-toggler {
+    border   : none;
+    font-size: 19px;
+    color    : darken($darkGreen, 6%) !important;
+}
