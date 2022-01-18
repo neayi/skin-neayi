@@ -163,7 +163,8 @@
     opacity         : 0;
     bottom          : 0;
     color           : #ffffffcf;
-    max-width       : inherit;
+    max-width       : inherit !important;
+    z-index         : 15;
 
     a.share-twitter,
     a.share-facebook,
