@@ -25,6 +25,18 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
 
+
+	<grid class="title-sticky d-block d-lg-none container">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[
+					<p></p>
+					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
+				]]></component>
+			</cell>
+		</row>
+	</grid>
+
 	<component type="NavbarHorizontal">
 		<component type="Html" position="head">
 			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
@@ -99,7 +111,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	<grid mode="fluid" class="flex-fill WikiMainContent">
 		<row>
 			<cell>
-				<component type="Html"><![CDATA[<div id="scrollbar"><div id="scrollbar-bg"></div></div>
+				<component type="Html"><![CDATA[<div id="scrollbar" class="scrollbars"><div class="scrollbar-bg"></div></div>
 				<div id="neayi-searchform"><span id="searchform-close" class="material-icons" aria-hidden="true">close</span></div>]]></component>
 			</cell>
 		</row>
@@ -171,7 +183,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</row>
 	</grid>
 
-	<grid class="social-sticky d-block d-lg-none container text-center py-2">
+	<grid class="social-sticky container text-center py-2">
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
