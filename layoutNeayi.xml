@@ -189,8 +189,9 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 				<component type="Html"><![CDATA[
 					<span>Partager sur :</span>
 					<a class="share-facebook" target="_blank" data-toggle="tooltip" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
-					<a class="share-twitter" target="_blank" data-toggle="tooltip"  title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
-					<a class="share-whatsapp" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager sur whatsapp"><span class="fab fa-whatsapp"></span>  </a>
+					<a class="share-twitter d-none d-lg-inline" target="_blank" data-toggle="tooltip"  title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
+					<a class="share-whatsapp d-lg-none" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager sur whatsapp"><span class="fab fa-whatsapp"></span>  </a>
+					<a class="share-share" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager"><span class="fas fa-share-alt"></span>  </a>
 				]]></component>
 			</cell>
 		</row>
