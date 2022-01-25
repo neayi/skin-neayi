@@ -332,10 +332,7 @@ div#neayi-searchform {
 }
 
 .title-sticky {
-    font-size       : 23px;
-    font-family     : $font-family-base;
-    font-weight     : 600;
-    color           : #212529;
+
     background-color: #e9ecef;
     padding         : 0px 10px;
     overflow        : hidden;
@@ -353,6 +350,23 @@ div#neayi-searchform {
     }
 
     .col {
-        padding-top: 10px;
+        .d-flex {
+            height: 52px;
+
+            .sticky-title-logo img {
+                height: 29px;
+                margin: -10px 6px 0;
+            }
+
+            .sticky-title-span {
+                font-size  : 22px;
+                font-family: $font-family-base;
+                font-weight: 700;
+                color      : darken($darkGreen, 6%);
+                max-height : 42px;
+                line-height: 21px;
+            }
+        }
+
     }
 }

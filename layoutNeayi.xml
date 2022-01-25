@@ -30,7 +30,10 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
-					<p></p>
+					<div class="d-flex">
+						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
+						<div class="align-self-center sticky-title-span"></div>
+					</div>
 					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
 				]]></component>
 			</cell>
