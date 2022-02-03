@@ -128,19 +128,18 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Container" class="row mainContainer">
-					<component type='Html'><![CDATA[
-<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
-<div class="black-layer"></div>
-<div class="col-12 mx-auto hero-titles">
-<h1 class="text-white mt-md-3"></h1>
-<h2 class="text-white mt-md-5"></h2>
-</div></div></div><div class="feedback-outer-div d-none d-md-block"><div class="feedback-div shadow">
+					<component type='Html'><![CDATA[<div class="feedback-outer-div d-none d-md-block"><div class="feedback-div shadow">
             <div class="feedback-div-inner">
                 <div class="feedback-div-cta">Il manque un article à la plateforme ?</div>
                 <div class="feedback-div-button"><button type="button" class="btn btn-light"><i class="far fa-hand-point-up"></i> Demander !</button></div>
             </div>
             <div class="feedback-tab"><i class="far fa-lightbulb"></i> Suggestion</div>
-        </div></div>]]></component>
+        </div></div><div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
+<div class="black-layer"></div>
+<div class="col-12 mx-auto hero-titles">
+<h1 class="text-white mt-md-3"></h1>
+<h2 class="text-white mt-md-5"></h2>
+</div></div></div>]]></component>
 					<component type="Container" class="leftSide col-auto"></component>
 					<component type="Container" class="centralDiv col">
 					<component type='Html'><![CDATA[]]></component>
