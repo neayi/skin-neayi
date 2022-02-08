@@ -128,13 +128,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Container" class="row mainContainer">
-					<component type='Html'><![CDATA[<div class="feedback-outer-div d-none d-md-block"><div class="feedback-div shadow">
-            <div class="feedback-div-inner">
-                <div class="feedback-div-cta">Il manque un article à la plateforme ?</div>
-                <div class="feedback-div-button"><button type="button" class="btn btn-light"><i class="fas fa-comments"></i> Soumettre !</button></div>
-            </div>
-            <div class="feedback-tab"><i class="far fa-lightbulb"></i> Suggestion</div>
-        </div></div><div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
+					<component type='Html'><![CDATA[<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
 <div class="black-layer"></div>
 <div class="col-12 mx-auto hero-titles">
 <h1 class="text-white mt-md-3"></h1>
@@ -193,15 +187,20 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 	<grid class="social-sticky container text-center py-2">
 		<row>
+			<cell class="d-none d-md-block text-left">
+				<component type="Html"><![CDATA[
+					<a class="suggest-button" target="_blank" title="" href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i> Suggérer une page ?</a>]]></component>
+			</cell>
 			<cell>
 				<component type="Html"><![CDATA[
 					<span>Partager sur :</span>
-					<a class="share-facebook" target="_blank" data-toggle="tooltip" title="" data-original-title="Suivez nous sur Facebook"><span class="fab fa-facebook-f"></span>  </a>
-					<a class="share-twitter d-none d-lg-inline" target="_blank" data-toggle="tooltip"  title="" data-original-title="Suivez nous sur Twitter"><span class="fab fa-twitter"></span>  </a>
-					<a class="share-whatsapp d-lg-none" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager sur whatsapp"><span class="fab fa-whatsapp"></span>  </a>
-					<a class="share-share" target="_blank" data-toggle="tooltip" title="" data-original-title="Partager"><span class="fas fa-share-alt"></span>  </a>
+					<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span>  </a>
+					<a class="share-twitter d-none d-lg-inline" target="_blank"  title=""><span class="fab fa-twitter"></span>  </a>
+					<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span>  </a>
+					<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span>  </a>
 				]]></component>
 			</cell>
+			<cell class="d-none d-lg-block"></cell>
 		</row>
 	</grid>
 
