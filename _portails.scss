@@ -275,3 +275,29 @@ div.forum-portail {
         }
     }
 }
+
+.very-small-card {
+    border-radius: 15px;
+
+    .image-col {
+        max-height: 200px;
+        overflow  : hidden;
+        min-height: 100px;
+
+        img {
+            object-fit                : cover;
+            height                    : 100%;
+            border-bottom-left-radius : 15px;
+            border-top-left-radius    : 15px;
+            border-bottom-right-radius: 0px;
+            border-top-right-radius   : 0px;
+        }
+    }
+
+    .card-text a {
+        font-family: 'Raleway';
+        font-weight: 600;
+        color      : #222;
+    }
+
+}
