@@ -217,14 +217,25 @@ div.neayi-square-button {
     }
 }
 
-#neayi-nav-other {
+#forum-nav {
     display: inline;
 
-    @media (max-width: 1390px) {
+    @media (max-width: 1350px) {
         & {
             display: none;
         }
     }
+}
+
+.neayi-desktop-nav {
+    display: inline;
+
+    @media (max-width: 1105px) {
+        & {
+            display: none;
+        }
+    }
+
 }
 
 #neayi-add-button {
