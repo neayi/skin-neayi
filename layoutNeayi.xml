@@ -194,6 +194,12 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			</cell>
 			<cell>
 				<component type="Html"><![CDATA[
+					<span>En crowdfunding sur </span>
+					<a url="https://bluebees.fr/fr/project/1022" target="_blank" title=""><img style="position: relative; top: 4px;" src="/skins/skin-neayi/images/bluebees.png"/></a>
+				]]></component>
+			</cell>
+			<cell class="d-none d-lg-block">
+				<component type="Html"><![CDATA[
 					<span>Partager sur :</span>
 					<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span>  </a>
 					<a class="share-twitter d-none d-lg-inline" target="_blank"  title=""><span class="fab fa-twitter"></span>  </a>
@@ -201,7 +207,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span>  </a>
 				]]></component>
 			</cell>
-			<cell class="d-none d-lg-block"></cell>
+
 		</row>
 	</grid>
 
