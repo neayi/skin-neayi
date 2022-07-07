@@ -118,3 +118,8 @@ ul.mw-search-results {
 .suggestions div {
     font-size: 20px;
 }
+
+// Move the popups a bit higher in the z-index because the semantic maps then to be higher even...:
+.mwe-popups {
+    z-index: 3000;
+}
