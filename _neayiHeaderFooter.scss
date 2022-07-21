@@ -217,14 +217,25 @@ div.neayi-square-button {
     }
 }
 
-#neayi-nav-other {
+#forum-nav {
     display: inline;
 
-    @media (max-width: 1390px) {
+    @media (max-width: 1350px) {
         & {
             display: none;
         }
     }
+}
+
+.neayi-desktop-nav {
+    display: inline;
+
+    @media (max-width: 1105px) {
+        & {
+            display: none;
+        }
+    }
+
 }
 
 #neayi-add-button {
@@ -297,27 +308,76 @@ div#neayi-searchform {
     }
 }
 
-#scrollbar {
+.scrollbars {
     position: fixed;
-    top     : 88px;
     left    : 0;
     overflow: hidden;
     width   : 0%;
     height  : 2px;
-    z-index : 50;
 
-    @media (max-width: 1105px) {
-        & {
-            display: none;
-        }
-    }
-
-    #scrollbar-bg {
+    .scrollbar-bg {
         position        : absolute;
         top             : 0;
         left            : 0;
         width           : 100%;
         height          : 100%;
         background-color: #0645ad;
+    }
+}
+
+#scrollbar {
+    top    : 88px;
+    z-index: 50;
+
+    @media (max-width: 1105px) {
+        & {
+            display: none;
+        }
+    }
+}
+
+.navbar-toggler {
+    border   : none;
+    font-size: 19px;
+    color    : darken($darkGreen, 6%) !important;
+}
+
+.title-sticky {
+
+    background-color: #e9ecef;
+    padding         : 0px 10px;
+    overflow        : hidden;
+    position        : sticky;
+    z-index         : 150;
+    max-width       : inherit;
+
+    // animated
+    opacity: 0;
+    top    : -50px;
+    height : 0; // 52px max
+
+    #scrollbar-mobile {
+        top: 50px; // 2 less than height above
+    }
+
+    .col {
+        .d-flex {
+            height: 52px;
+
+            .sticky-title-logo img {
+                height: 29px;
+                margin: -10px 6px 0;
+            }
+
+            .sticky-title-span {
+                font-size  : 22px;
+                font-family: $font-family-base;
+                font-weight: 700;
+                color      : darken($darkGreen, 6%);
+                max-height : 42px;
+                line-height: 21px;
+            }
+        }
+
     }
 }

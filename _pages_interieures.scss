@@ -116,7 +116,7 @@
 }
 
 .badge {
-    font-family  : 'Raleway';
+    font-family  : $font-family-base;
     font-weight  : 600;
     font-size    : 11px;
     border-radius: 0.25rem;
@@ -151,7 +151,7 @@ table.calendrier {
         border     : 1px solid #dee2e6;
         font-weight: 500;
         line-height: 1.4rem;
-        font-family: 'Roboto', sans-serif;
+        font-family: $font-family-base;
 
         &.rempli {
             background: #008193;
@@ -184,4 +184,60 @@ table.calendrier {
         // Hide the bottom border of the active tab
         box-shadow: 0px 2px 0 0px #fff;
     }
+}
+
+
+.leftLabelGrey, .rightLabelRed, .rightLabelGreen, .rightLabelBlue {
+    height: 20px;
+    color: #f2f2f2;
+    font-family: Tahoma-Bold, Tahoma;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 3px 6px;
+    text-shadow: 1px 1px 2px #00000082;
+    white-space: pre;
+
+    a,
+    a.external {
+        color           : #f2f2f2;
+
+        &:hover,
+        &:visited {
+            color          : #f2f2f2;
+            text-decoration: none;
+        }
+    }
+}
+
+.leftLabelGrey {
+    background-color: #5B5B5B;
+
+    &:hover {
+        background: darken(#5B5B5B, 6%);
+    }
+    border-radius: 3px 0 0 3px;
+}
+.rightLabelBlue {
+    background-color: #6880bf;
+
+    &:hover {
+        background: darken(#5B5B5B, 6%);
+    }
+    border-radius: 0 3px 3px 0;
+}
+
+.rightLabelRed {
+    background-color: #C82020;
+    &:hover {
+        background: darken(#C82020, 6%);
+    }
+    border-radius: 0 3px 3px 0;
+}
+
+.rightLabelGreen {
+    background-color: #4EC820;
+    &:hover {
+        background: darken(#4EC820, 6%);
+    }
+    border-radius: 0 3px 3px 0;
 }

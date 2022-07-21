@@ -103,6 +103,27 @@ q {
     display         : block;
 }
 
+@media (max-width: 500px) {
+
+    .mw-search-createlink,
+    .mw-search-profile-tabs {
+        display: none;
+    }
+}
+
+ul.mw-search-results {
+    padding-left: 0;
+}
+
+.suggestions div {
+    font-size: 20px;
+}
+
+// Move the popups a bit higher in the z-index because the semantic maps then to be higher even...:
+.mwe-popups {
+    z-index: 3000;
+}
+
 .mw-body .catlinks {
     border          : none;
     background-color: transparent;

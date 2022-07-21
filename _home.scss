@@ -7,7 +7,7 @@
  * Override the home page
 **/
 body.page-Accueil, body.page-Triple_Performance {
-    #firstHeading, #contentSub {
+    #firstHeading, #contentSub, .mw-body .catlinks {
         display: none;
     }
 

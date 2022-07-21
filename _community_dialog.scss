@@ -278,21 +278,6 @@
     }
 }
 
-// Do not include the path default css below in the #map bloc as it will superseed the department color
-path {
-    fill        : #e3e3e3;
-    stroke      : white;
-    stroke-width: 1px;
-}
-
-#side-map,
-#map {
-    path.department {
-        cursor: pointer;
-    }
-}
-
-
 .tooltip {
     background-color: #fff;
     padding         : 5px;

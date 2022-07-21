@@ -25,9 +25,27 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 -->
 <structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
 
-	<component type="NavbarHorizontal">
 
-		<component type="Logo" position="head"/>
+	<grid class="title-sticky d-block d-lg-none container">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[
+					<div class="d-flex">
+						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
+						<div class="align-self-center sticky-title-span"></div>
+					</div>
+					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
+				]]></component>
+			</cell>
+		</row>
+	</grid>
+
+	<component type="NavbarHorizontal">
+		<component type="Html" position="head">
+			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
+			<a href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" class="d-none d-lg-inline"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" class="d-lg-none"></a>
+		</div>]]></component>
+
 		<component type="NavMenu" flatten="navigation"/>
 		<component type="Menu" message="secondary-menu"/>
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
@@ -35,11 +53,11 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<component type="PersonalTools" class="my-auto"/>
 		<component type="Container" class=""><component type="Html">
 			<![CDATA[<ul class="navbar-nav">
-	<li class="nav-item dropdown" id="neayi-nav-other">
+	<li class="nav-item dropdown neayi-desktop-nav">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			<a class="dropdown-item" href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a>
-			<a class="dropdown-item" href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a>
+			<a class="dropdown-item" href="/wiki/Élevage" title="Élevage">Élevage</a>
 			<a class="dropdown-item" href="/wiki/Viticulture" title="Viticulture">Viticulture</a>
 			<a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
 			<a class="dropdown-item" href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a>
@@ -47,7 +65,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</div>
 	</li>
 
-	<li class="nav-item dropdown" id="neayi-nav-other">
+	<li class="nav-item dropdown neayi-desktop-nav">
 		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thématiques</a>
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 			<a class="dropdown-item" href="/wiki/Agriculture de précision" title="Agriculture de précision">Agriculture de précision</a>
@@ -55,7 +73,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioagresseurs">Bioagresseurs</a>
 			<a class="dropdown-item" href="/wiki/Biodiversité" title="Biodiversité">Biodiversité</a>
 			<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Collaboration et coopération en agriculture">Collaboration et coopération en agriculture</a>
-			<a class="dropdown-item" href="/wiki/Couverture des sols" title="Couverts végétaux">Couverts végétaux</a>
+			<a class="dropdown-item" href="/wiki/Couverts végétaux" title="Couverts végétaux">Couverts végétaux</a>
 			<a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Cycle du carbone et GES">Cycle du carbone et GES</a>
 			<a class="dropdown-item" href="/wiki/Désherbage" title="Désherbage">Désherbage</a>
 			<a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnostic et performance">Diagnostic et performance</a>
@@ -76,7 +94,8 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 	<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Thématiques">Thématiques</a></li>
 
-	<li class="nav-item"><a class="nav-link" href="https://forum.tripleperformance.fr" title="Forum">Forum</a></li>
+	<li class="nav-item" id="forum-nav"><a class="nav-link" href="https://forum.tripleperformance.fr" title="Forum">Forum</a></li>
+	<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="https://forum.tripleperformance.fr" title="Forum">Forum</a></li>
 
 	<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Aide:Créer_une_page">Ajouter une page</a></li>
 
@@ -89,14 +108,14 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<![CDATA[
 
 			<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
-			 	<div class="col text-center"><a class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
+			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/index.php?title=Spécial:Connexion">Créez votre compte</a><br>ou connectez-vous</div>
 			</div>]]></component></component>
 	</component>
 
 	<grid mode="fluid" class="flex-fill WikiMainContent">
 		<row>
 			<cell>
-				<component type="Html"><![CDATA[<div id="scrollbar"><div id="scrollbar-bg"></div></div>
+				<component type="Html"><![CDATA[<div id="scrollbar" class="scrollbars"><div class="scrollbar-bg"></div></div>
 				<div id="neayi-searchform"><span id="searchform-close" class="material-icons" aria-hidden="true">close</span></div>]]></component>
 			</cell>
 		</row>
@@ -110,8 +129,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		<row>
 			<cell>
 				<component type="Container" class="row mainContainer">
-					<component type='Html'><![CDATA[
-<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
+					<component type='Html'><![CDATA[<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
 <div class="black-layer"></div>
 <div class="col-12 mx-auto hero-titles">
 <h1 class="text-white mt-md-3"></h1>
@@ -119,35 +137,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 </div></div></div>]]></component>
 					<component type="Container" class="leftSide col-auto"></component>
 					<component type="Container" class="centralDiv col">
-					<component type='Html'><![CDATA[<div class="interaction-bloc-mobile d-lg-none d-block">
-						<div class="interaction-top"><div class="container px-0 interaction-buttons">
-								<div class="row mx-n1">
-									<div class="col-auto px-1">
-										<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
-											<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
-										</button>
-										<br><span class="neayi-interaction-applause-label">&nbsp;</span>
-									</div>
-									<div class="col px-1">
-										<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Suivre</button>
-										<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-									</div>
-									<div class="col px-1">
-										<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Je le fais</button>
-										<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-						</div></div></div></div>
-						<div class="container px-0 interaction-links">
-							<div class="row mx-n1">
-								<div class="col px-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments"><span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
-										<span class="questions-text">Poser une question</span></a></div>
-								<div class="col-auto pr-1 pl-0 dropdown" id="neayi-interaction-mobile-menu">
-									<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false">
-										<span class="material-icons" aria-hidden="true">more_vert</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>]]></component>
+					<component type='Html'><![CDATA[]]></component>
 						<component type="MainContent" class=""></component>
 					</component>
 					<component type="Container" class="rightSide col-auto d-lg-block d-none">
@@ -185,7 +175,9 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 							</div>
 						</div>
 					</div>
-					<div id="side-map"><div id="side-map-container"></div></div>
+					<div id="side-map"><div id="side-map-container"></div>
+					<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend" style="display:none">Où se trouvent ceux qui s'intéressent à cette page ?</a></div>
+					</div>
 				</div>]]></component>
 
 					</component>
@@ -194,11 +186,35 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 		</row>
 	</grid>
 
+	<grid class="social-sticky container text-center py-2">
+		<row>
+			<cell class="d-none d-md-block text-left">
+				<component type="Html"><![CDATA[
+					<a class="suggest-button" target="_blank" title="" href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i> Suggérer une page ?</a>]]></component>
+			</cell>
+			<cell>
+				<component type="Html"><![CDATA[
+					<span>En crowdfunding sur </span>
+					<a href="https://bluebees.fr/fr/project/1022" target="_blank" title="Nous sommes en crowdfunding sur Bluebees !"><img style="position: relative; top: 4px;" src="/skins/skin-neayi/images/bluebees.png"/></a>
+				]]></component>
+			</cell>
+			<cell class="d-none d-lg-block">
+				<component type="Html"><![CDATA[
+					<span>Partager sur :</span>
+					<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span>  </a>
+					<a class="share-twitter d-none d-lg-inline" target="_blank"  title=""><span class="fab fa-twitter"></span>  </a>
+					<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span>  </a>
+					<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span>  </a>
+				]]></component>
+			</cell>
+
+		</row>
+	</grid>
+
 	<grid class="footer py-5">
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
-        <div class="col">
             <div class="row align-items-center">
                 <div class="col-md-10 pb-4 offset-xl-1">
                     <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
@@ -217,7 +233,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 
 					<p class="footer-title">Communauté</p>
                     <ul class="list-unstyled">
-                        <li><a href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
+                        <li><a rel="nofollow" class="login-links" href="/index.php?title=Special:Login">Créer un compte ou se connecter</a></li>
 						<li><a href="/wiki/Aide:Bienvenue">Contribuer&nbsp;? Ça commence ici&nbsp;!</a></li>
 						<li><a href="https://forum.tripleperformance.fr">Accéder au forum</a></li>
                     </ul>
@@ -227,7 +243,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					<p class="footer-title">Productions</p>
                     <ul class="list-unstyled">
 						<li><a href="/wiki/Grandes cultures" title="Grandes cultures">Grandes cultures</a></li>
-						<li><a href="/wiki/Polyculture-élevage" title="Polyculture-élevage">Polyculture-élevage</a></li>
+						<li><a href="/wiki/Élevage" title="Élevage">Élevage</a></li>
 						<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
 						<li><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
 						<li><a href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a></li>
@@ -243,7 +259,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<li><a href="/wiki/Bioagresseurs" title="Bioagresseurs">Bioagresseurs</a></li>
 						<li><a href="/wiki/Biodiversité" title="Biodiversité">Biodiversité</a></li>
 						<li><a href="/wiki/Collaboration et coopération en agriculture" title="Collaboration et coopération en agriculture">Collaboration et coopération en agriculture</a></li>
-						<li><a href="/wiki/Couverture des sols" title="Couverts végétaux">Couverts végétaux</a></li>
+						<li><a href="/wiki/Couverts végétaux" title="Couverts végétaux">Couverts végétaux</a></li>
 						<li><a href="/wiki/Cycle du carbone et GES" title="Cycle du carbone et GES">Cycle du carbone et GES</a></li>
 						<li><a href="/wiki/Désherbage" title="Désherbage">Désherbage</a></li>
 						<li><a href="/wiki/Diagnostic et performance d'une ferme" title="Diagnostic et performance">Diagnostic et performance</a></li>
@@ -281,9 +297,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
                     </ul>
                 </div>
 
-            </div>
-
-        </div>]]></component>
+            </div>]]></component>
 			</cell>
 		</row>
 
@@ -315,7 +329,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<p>Cette opération ne prend qu'une minute !</p>
 					</div>
 					<div class="modal-footer border-top-0">
-						<a class="login-links btn btn-primary" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+						<a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
 					</div>
 				</div>
 			</div>
@@ -337,7 +351,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 					</div>
 					<div class="modal-footer border-top-0">
 						<a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Non merci pas encore</a>
-						<a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+						<a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
 					</div>
 				</div>
 			</div>
@@ -455,7 +469,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 								<div class="community-not-connected">
 									<p>Veuillez vous connecter pour découvrir la communauté !</p>
 									<p class="small text-muted">Entrez en contact avec les autres agriculteurs, conseillers et fournisseurs qui s'intéressent à cette page</p>
-									<p> <a class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
+									<p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Créez un compte ou connectez-vous <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
 								</div>
 							</div>
 						</div>
