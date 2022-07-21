@@ -123,3 +123,14 @@ ul.mw-search-results {
 .mwe-popups {
     z-index: 3000;
 }
+
+.mw-body .catlinks {
+    border          : none;
+    background-color: transparent;
+    padding         : 0px;
+    clear           : none;
+
+    ul {
+        display: inline;
+    }
+}
