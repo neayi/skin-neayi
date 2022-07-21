@@ -89,6 +89,7 @@ li.gallerybox div.thumb {
 
 .smw-indicator-vertical-bar-loader {
     display: none;
+
     &:before,
     &:after {
         display: none;
@@ -97,7 +98,18 @@ li.gallerybox div.thumb {
 
 q {
     background-color: #ccf1e5;
-    padding: 20px;
-    margin: 30px 0;
-    display: block;
+    padding         : 20px;
+    margin          : 30px 0;
+    display         : block;
+}
+
+.mw-body .catlinks {
+    border          : none;
+    background-color: transparent;
+    padding         : 0px;
+    clear           : none;
+
+    ul {
+        display: inline;
+    }
 }
