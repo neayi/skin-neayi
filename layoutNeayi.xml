@@ -167,7 +167,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 						<div class="row mx-0">
 							<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments">
 									<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
-									<span class="questions-text">Poser une question</span></a></div>
+									<span class="questions-text">Discussion</span></a></div>
 							<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
 								<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false">
 									<span class="material-icons" aria-hidden="true">more_vert</span>
