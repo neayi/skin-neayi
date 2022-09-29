@@ -124,13 +124,19 @@ ul.mw-search-results {
     z-index: 3000;
 }
 
-.mw-body .catlinks {
-    border          : none;
-    background-color: transparent;
-    padding         : 0px;
-    clear           : none;
+.mw-body {
+    .catlinks {
+        border          : none;
+        background-color: transparent;
+        padding         : 0px;
+        clear           : none;
 
-    ul {
-        display: inline;
+        ul {
+            display: inline;
+        }
+    }
+
+    .mw-hidden-catlinks {
+        display: none;
     }
 }
