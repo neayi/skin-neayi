@@ -192,13 +192,13 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 				<component type="Html"><![CDATA[
 					<a class="suggest-button" target="_blank" title="" href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i> Suggérer une page ?</a>]]></component>
 			</cell>
-			<cell>
-				<component type="Html"><![CDATA[
+			<cell class="text-md-right">
+				<component type="Html"><![CDATA[<div class="d-inline-block text-center">
 					<span>Partager sur :</span>
 					<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span>  </a>
 					<a class="share-twitter d-none d-lg-inline" target="_blank"  title=""><span class="fab fa-twitter"></span>  </a>
 					<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span>  </a>
-					<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span>  </a>
+					<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span>  </a></div>
 				]]></component>
 			</cell>
 
