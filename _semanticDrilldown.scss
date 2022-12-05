@@ -66,3 +66,12 @@ div.wikisearch-filters {
         display: none !important;
     }
 }
+
+ul.wikisearch-list-box {
+    z-index: 20 !important;
+}
+
+.mw-body-search {
+    max-width: 1400px;
+    margin: auto;
+}
