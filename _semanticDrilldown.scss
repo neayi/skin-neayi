@@ -22,3 +22,47 @@ div.drilldown-filters {
 .mw-special-BrowseData .interaction-bloc-mobile {
     display: none;
 }
+
+
+
+label.wikisearch-pill {
+    max-width       : 236px;
+    background-color: $primary;
+    color           : white;
+
+    &:hover {
+        background-color: $primary;
+    }
+
+    &:after {
+        color: white;
+    }
+}
+
+a.wikisearch-button.wikisearch-button--progressive {
+    background-color: #15a072;
+    border-color    : #a0a8b0;
+    color           : white;
+}
+
+label.wikisearch-dropdown__select {
+    padding-block: 0;
+}
+
+.wikisearch-filters__wrapper {
+    .wikisearch-filter {
+        margin-bottom: 1em;
+    }
+}
+
+div.wikisearch-filters {
+    @media (max-width: 500px) {
+        top: 45px;
+    }
+}
+
+.wikisearch-order {
+    @media (max-width: 500px) {
+        display: none !important;
+    }
+}
