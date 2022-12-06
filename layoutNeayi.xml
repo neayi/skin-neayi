@@ -62,6 +62,8 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
 			<a class="dropdown-item" href="/wiki/Maraîchage" title="Maraîchage">Maraîchage</a>
 			<a class="dropdown-item" href="/wiki/PPAM" title="PPAM">PPAM</a>
+		    <div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="/wiki/Rechercher_des_retours_d%27expérience" title="Rechercher des retours d'expérience">Rechercher des retours d'expérience</a>
 		</div>
 	</li>
 
@@ -87,6 +89,8 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="S'installer">S'installer</a>
 			<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Sols vivants">Sols vivants</a>
 			<a class="dropdown-item" href="/wiki/Valorisation de la production" title="Valorisation de la production">Valorisation de la production</a>
+		    <div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="/wiki/Rechercher_des_pratiques" title="Rechercher des pratiques">Rechercher des pratiques</a>
 		</div>
 	</li>
 
