@@ -1,3 +1,28 @@
+// For the main Search page, remove the side blocks and the title
+.page-Search {
+    .contentHeader {
+        display: none;
+    }
+
+    .leftSide {
+        display: none;
+    }
+
+    .interaction-bloc {
+        display: none;
+    }
+
+    .mw-indicators {
+        display: none;
+    }
+
+    #content {
+        max-width: 1400px;
+        margin   : auto;
+    }
+}
+
+
 label.wikisearch-pill {
     max-width       : 236px;
     background-color: $primary;
@@ -42,9 +67,4 @@ div.wikisearch-filters {
 
 ul.wikisearch-list-box {
     z-index: 20 !important;
-}
-
-.mw-body-search {
-    max-width: 1400px;
-    margin: auto;
 }
