@@ -68,3 +68,7 @@ div.wikisearch-filters {
 ul.wikisearch-list-box {
     z-index: 20 !important;
 }
+
+a.wikisearch-button.wssearch-button--show-filters {
+    z-index: 10;
+}
