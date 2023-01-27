@@ -294,7 +294,7 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>Connectez-vous ou créez un compte afin de rejoindre la communauté, pour pouvoir suivre les pages, commenter ou partager votre expérience !<br /> Cette opération ne prend qu'une minute !</p>
+                <p>Connectez-vous ou créez un compte afin de rejoindre la communauté, pour pouvoir suivre les pages, commenter ou partager votre expérience !<br /><br />Cette opération ne prend qu'une minute !</p>
             </div>
             <div class="modal-footer border-top-0">
                 <a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Créer un compte ou se connecter
@@ -316,7 +316,7 @@
             <div class="modal-body">
                 <p>Merci pour vos encouragements, ils sont appréciés par l’ensemble des membres de la communauté !</p>
 
-                <p>Connectez-vous ou créez un compte afin de rejoindre la communauté, pour pouvoir suivre les pages, commenter ou partager votre expérience !<br /> Cette opération ne prend qu'une minute !</p>
+                <p>Connectez-vous ou créez un compte afin de rejoindre la communauté, pour pouvoir suivre les pages, commenter ou partager votre expérience !<br /><br />Cette opération ne prend qu'une minute !</p>
             </div>
             <div class="modal-footer border-top-0">
                 <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Non merci pas encore</a>

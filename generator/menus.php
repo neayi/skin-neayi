@@ -92,7 +92,7 @@ foreach ($languages as $langfile)
     foreach ($thematiquesSecondCol as $k => $v)
         $footerMenus[4][''][$k] = $v;
 
-    $lastSection = $_['made_with_care']; // 'Fait avec ♡ par <a target="_blank" href="https://neayi.com/">Neayi</a>';
+    $lastSection = $_['made-with-care']; // 'Fait avec ♡ par <a target="_blank" href="https://neayi.com/">Neayi</a>';
     $footerMenus[5][$lastSection]['/wiki/Charte_d%E2%80%99utilisation'] = $_['platform-charter']; // "Charte de la plateforme";
     $footerMenus[5][$lastSection]['/wiki/Triple_Performance:Politique_de_confidentialité'] = $_['legal-notice']; // "Mentions légales";
     $footerMenus[5][$lastSection]['/wiki/Open_Source'] = $_['open-source']; // "Open Source";
