@@ -218,7 +218,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 			</div>
 			<div class="row">
 
-                <div class="col-xl-2 col-lg-6">
+                <div class="col-xl-2 col-lg-6 offset-xl-1">
 <p class="footer-title">Triple Performance</p>
 <ul class="list-unstyled">
 <li><a href="/wiki/%C3%80_propos" title="À propos">À propos</a></li>

@@ -1,37 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-<?xml-model href="https://cmln.github.io/chameleon/schema/1.0/layout.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-This file is part of the MediaWiki skin Chameleon.
-
-@copyright 2013 - 2019, Stephan Gambke
-@license   GNU General Public License, version 3 (or any later version)
-
-The Chameleon skin is free software: you can redistribute it and/or modify it
-under the terms of the GNU General Public License as published by the Free
-Software Foundation, either version 3 of the License, or (at your option) any
-later version.
-
-The Chameleon skin is distributed in the hope that it will be useful, but
-WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
-FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
-details.
-
-You should have received a copy of the GNU General Public License along
-with this program. If not, see <http://www.gnu.org/licenses/>.
-
-@author Stephan Gambke
-@since 1.0
-@ingroup Skins
--->
 <structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
-
 
 	<grid class="title-sticky d-block d-lg-none container">
 		<row>
 			<cell>
 				<component type="Html"><![CDATA[
 					<div class="d-flex">
-						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
+						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
 						<div class="align-self-center sticky-title-span"></div>
 					</div>
 					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
@@ -43,7 +18,7 @@ with this program. If not, see <http://www.gnu.org/licenses/>.
 	<component type="NavbarHorizontal">
 		<component type="Html" position="head">
 			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
-			<a href="/wiki/Triple_Performance" title="Visiter la page d’accueil"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" class="d-none d-lg-inline"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" class="d-lg-none"></a>
+			<a href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" class="d-none d-lg-inline"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" class="d-lg-none"></a>
 		</div>]]></component>
 
 		<component type="NavMenu" flatten="navigation"/>
