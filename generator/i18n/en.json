@@ -49,5 +49,39 @@
     "contact": "Contact",
     "follow-us-on-facebook": "Follow us on Facebook",
     "follow-us-on-twitter": "Follow us on Twitter",
-    "follow-us-on-linkedin": "Follow us on LinkedIn"
+    "follow-us-on-linkedin": "Follow us on LinkedIn",
+    "search-placeholder": "Search Triple Performance",
+    "create-or-connect": "Create an account<br/>or sign in",
+
+
+    "discuss-button": "Discussion",
+    "follow-button": "Follow",
+    "I-do-it-button": "I do it",
+    "whrere-is-the-community": "Where are those who are interested in this?",
+
+    "suggest-page": "Suggest a page?",
+    "share-on": "Share on:",
+
+    "create-an-account-to-join-the-community": "Log in or create an account to join the community, so you can follow pages, comment or share your experience!<br /><br />This only takes a minute!",
+    "thank-you-for-your-thumbup": "Thank you for your encouragement, it is appreciated by all members of the community!",
+    "no-thanks-not-yet": "No thanks not yet",
+    "thanks": "Thank you!",
+    "tell-us-more": "Tell the community more to enrich your exchanges with other farmers",
+    "since-when": "Since when?",
+    "tell-us-the-year": "Enter the year you started this technique, to help others understand your level of experience on the subject!",
+    "follow-the-page": "Follow the page?",
+    "save": "Save",
+    "learn-about-the-community": "Learn about the community!",
+    "statistics": "Statistics",
+    "where-are-those-who-do-it": "Where are those who do it?",
+    "frequent-farm-types": "Frequent farm type",
+    "most-frequent-specification": "Most frequent specifications",
+    "place": "Location",
+    "production": "Production",
+    "specification": "Specifications",
+    "see-only-who-did-it": "See only who did it",
+    "loading": "Loading...",
+    "please-sign-in-to-find-out-about-the-community": "Please sign-in to find out about the community!",
+    "meet-other-farmer-who-are-interested-in-this-page": "Meet other farmers, advisors and suppliers who are interested in this page",
+    "close": "Close"
 }

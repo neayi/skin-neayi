@@ -1,5 +1,12 @@
 <?php
 
+$htmlChunks = [
+    '@@interaction-bloc@@' => 'interaction.html',
+    '@@suggest-a-page@@' => 'suggest-button.html',
+    '@@share-on-social-networks@@' => 'share-on-social-networks.html',
+    '@@modal-dialogs@@' => 'modal-dialogs.html'
+];
+
 $xml_template = file_get_contents(__DIR__ . '/layout.template.xml');
 
 $languages = glob(__DIR__ . '/i18n/*.json');
@@ -156,7 +163,7 @@ MENU;
             {
                 switch ($link) {
                     case 'Special:Login':
-                        $strFooterMenu .= '<li><a rel="nofollow" class="login-links" href="/index.php?title=Special:Login">'.$title.'</a></li>' . PHP_EOL;
+                        $strFooterMenu .= '<li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">'.$title.'</a></li>' . PHP_EOL;
                         break;
 
                     case 'forum':
@@ -192,5 +199,27 @@ MENU;
 
     $localisedXML = str_replace('@@footer@@', $strFooterMenu, $localisedXML);
 
+    // Translate some other stuff:
+    $localisedXML = str_replace('placeholder="Rechercher"', 'placeholder="'.$_['search-placeholder'].'"', $localisedXML);
+
+    $connectLink = '<a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">';
+    $connectLink .= str_replace('<br', '</a><br', $_['create-or-connect']);
+    $localisedXML = str_replace('@@Connect-link@@', $connectLink, $localisedXML);
+
+    foreach ($htmlChunks as $key => $filename)
+        $localisedXML = str_replace($key, getTranslatedHTMLChunk(__DIR__ . '/html_chunks/' .  $filename, $_), $localisedXML);
+
     file_put_contents(__DIR__ . '/../layout.' . $langcode . '.xml', $localisedXML);
+}
+
+function getTranslatedHTMLChunk($htmlFilename, $translations)
+{
+    $html = file_get_contents($htmlFilename);
+
+    unset($translations['@metadata']);
+
+    foreach ($translations as $k => $v)
+        $html = str_replace('@@'.$k.'@@', $v, $html);
+
+    return $html;
 }

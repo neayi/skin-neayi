@@ -1,0 +1,41 @@
+<div class="interaction-bloc">
+	<div class="interaction-top">
+		<span id="interaction-title">&nbsp;</span>
+		<div class="container px-0 interaction-buttons">
+			<div class="row mx-n1">
+				<div class="col-auto px-1">
+					<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
+						<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
+					</button>
+					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
+				</div>
+				<div class="col px-1">
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">@@follow-button@@</button>
+					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
+				</div>
+				<div class="col px-1">
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">@@I-do-it-button@@</button>
+					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container px-0 interaction-links">
+		<div class="row mx-0">
+			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments">
+					<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
+					<span class="questions-text">@@discuss-button@@</span></a></div>
+			<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
+				<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport"
+					aria-haspopup="true" aria-expanded="false">
+					<span class="material-icons" aria-hidden="true">more_vert</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div id="side-map">
+		<div id="side-map-container"></div>
+		<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend"
+				style="display:none">@@whrere-is-the-community@@</a></div>
+	</div>
+</div>

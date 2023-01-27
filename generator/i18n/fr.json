@@ -50,5 +50,39 @@
     "contact": "Contact",
     "follow-us-on-facebook": "Suivez nous sur Facebook",
     "follow-us-on-twitter": "Suivez nous sur Twitter",
-    "follow-us-on-linkedin": "Suivez nous sur LinkedIn"
+    "follow-us-on-linkedin": "Suivez nous sur LinkedIn",
+    "search-placeholder": "Rechercher dans Triple Performance",
+    "create-or-connect": "Créez votre compte<br>ou connectez-vous",
+
+
+    "discuss-button": "Discussion",
+    "follow-button": "Suivre",
+    "I-do-it-button": "Je le fais",
+    "whrere-is-the-community": "Où se trouvent ceux qui s’intéressent à cette page ?",
+
+    "suggest-page": "Suggérer une page ?",
+    "share-on": "Partager sur :",
+
+    "create-an-account-to-join-the-community": "Connectez-vous ou créez un compte afin de rejoindre la communauté, pour pouvoir suivre les pages, commenter ou partager votre expérience !<br /><br />Cette opération ne prend qu'une minute !",
+    "thank-you-for-your-thumbup": "Merci pour vos encouragements, ils sont appréciés par l’ensemble des membres de la communauté !",
+    "no-thanks-not-yet": "Non merci pas encore",
+    "thanks": "Merci !",
+    "tell-us-more": "Dites en plus à la commauté pour enrichir vos échanges avec les autres agriculteurs",
+    "since-when": "Depuis quand ? ",
+    "tell-us-the-year": "Renseignez l’année où vous avez démarré cette technique, afin d’aider les autres à comprendre votre degré d’expérience sur le sujet !",
+    "follow-the-page": "Suivre la page ? ",
+    "save": "Enregistrer",
+    "learn-about-the-community": "En savoir plus sur la communauté !",
+    "statistics": "Statistiques",
+    "where-are-those-who-do-it": "Où sont ceux qui le font ?",
+    "frequent-farm-types": "Type d’exploitation les plus fréquents",
+    "most-frequent-specification": "Cahiers des charges les plus fréquents",
+    "place": "Lieu",
+    "production": "Production",
+    "specification": "Cahier des charges",
+    "see-only-who-did-it": "Voir uniquement ceux qui l’ont fait",
+    "loading": "Chargement... ",
+    "please-sign-in-to-find-out-about-the-community": "Veuillez vous connecter pour découvrir la communauté !",
+    "meet-other-farmer-who-are-interested-in-this-page": "Entrez en contact avec les autres agriculteurs, conseillers et fournisseurs qui s’intéressent à cette page",
+    "close": "Fermer"
 }

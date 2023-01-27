@@ -1,0 +1,174 @@
+<div class="modal fade" id="requiresLoginModal" tabindex="-1" aria-labelledby="requiresLoginModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <img width="200" src="/skins/skin-neayi/favicon/logo-triple-performance.svg"
+                    alt="Wiki Triple Performance">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>@@create-an-account-to-join-the-community@@</p>
+            </div>
+            <div class="modal-footer border-top-0">
+                <a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">@@create-an-account-or-sign-in@@
+                    <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="inviteLoginModal" tabindex="-1" aria-labelledby="requiresLoginModal" aria-hidden="true">
+    <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <img width="200" src="/skins/skin-neayi/favicon/logo-triple-performance.svg"
+                    alt="Wiki Triple Performance">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>@@thank-you-for-your-thumbup@@</p>
+
+                <p>@@create-an-account-to-join-the-community@@</p>
+            </div>
+            <div class="modal-footer border-top-0">
+                <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">@@no-thanks-not-yet@@</a>
+                <a rel="nofollow" class="btn btn-primary login-links" href="/wiki/Special:Login">@@create-an-account-or-sign-in@@
+                    <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="tellUsMoreModal" tabindex="-1" data-backdrop="static" aria-labelledby="tellUsMoreModal"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="tellUsMoreForm">
+                <div class="modal-header border-bottom-0">
+                    <h1 class="border-bottom-0">@@thanks@@</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>@@tell-us-more@@</p>
+                    <div class="row">
+                        <div class="col form-group">
+                            <label for="sinceInputId">@@since-when@@ <a href="#" role="button"
+                                    class="badge badge-pill badge-light popover-neayi-help" data-toggle="popover"
+                                    data-trigger="focus" title="Depuis quand ?"
+                                    data-content="@@tell-us-the-year@@Renseignez l'année où vous avez démarré cette technique, afin d'aider les autres à comprendre votre degré d'expérience sur le sujet !">?</a></label>
+                            <select class="form-control" id="sinceInputId" name="since"></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col form-check form-group">
+                            <input class="" id="followwheck" name="follow" type="checkbox" checked value="follow">
+                            <label class="form-check-label" for="followwheck">
+                                @@follow-the-page@@
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0">
+                    <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">@@no-thanks-not-yet@@</a>
+                    <button class="btn btn-primary" id="tellUsMoreModalSubmit">@@save@@</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade " id="communityModal" tabindex="-1" aria-labelledby="tellUsMoreModal" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <h1 class="border-bottom-0">@@learn-about-the-community@@</h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
+                            role="tab" aria-controls="home" aria-selected="true">@@statistics@@</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab"
+                            aria-controls="commununity" aria-selected="false">@@community@@</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="statistiques" role="tabpanel"
+                        aria-labelledby="statistiques-tab">
+                        <!-- Statistiques -->
+                        <div class="stats-title">@@where-are-those-who-do-it@@</div>
+                        <div class="row">
+                            <div id="map" class="col col-auto"></div>
+                            <div class="col col-auto" id="departments-stats"></div>
+                        </div>
+                        <div class="stats-features" id="famings-stats">
+                            <div class="stats-title">@@frequent-farm-types@@</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                        <div class="stats-features" id="cropping-systems-stats">
+                            <div class="stats-title">@@most-frequent-specification@@</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
+                        <!-- Communauté -->
+                        <div class="community-connected">
+                            <form>
+                                <div class="follower-search form-row align-items-center">
+                                    <div class="col-auto">
+                                        <select id="departments-select" class="community-select custom-select">
+                                            <option selected value="">@@place@@</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                        <select id="famings-select" class="community-select custom-select">
+                                            <option selected value="">@@production@@</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                        <select id="cropping-systems-select" class="community-select custom-select">
+                                            <option selected value="">@@specification@@</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="follower-search form-row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="custom-control custom-switch align-center">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="community-doneit-only" value="yes">
+                                            <label class="custom-control-label" for="community-doneit-only">@@see-only-who-did-it@@</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="community-items"></div>
+                            <div class="text-center"><a class="btn btn-primary" style="display:none"
+                                    id="load-more-community">
+                                    <span class="spinner-border spinner-border-sm" role="status"
+                                        aria-hidden="true"></span>
+                                    @@loading@@
+                                </a></div>
+                        </div>
+                        <div class="community-not-connected">
+                            <p>@@please-sign-in-to-find-out-about-the-community@@</p>
+                            <p class="small text-muted">@@meet-other-farmer-who-are-interested-in-this-page@@</p>
+                            <p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">@@create-an-account-or-sign-in@@
+                                     <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer border-top-0">
+                <button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">@@close@@</button>
+            </div>
+        </div>
+    </div>
+</div>
