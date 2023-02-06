@@ -173,7 +173,7 @@ MENU;
                     case 'socialLinks':
                         $strFooterMenu .= '<li><span class="social-links">' . PHP_EOL;
                         foreach ($socialLinks as $fontawesomecode => $sociallink)
-                            $strFooterMenu .= '<a href="'.$sociallink[0].'" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="'.htmlspecialchars($sociallink[1]).'"><span class="'.$fontawesomecode.'"></span></a>' . PHP_EOL;
+                            $strFooterMenu .= '<a href="'.$sociallink[0].'" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="'.htmlspecialchars($sociallink[1]).'"><span class="'.$fontawesomecode.'"></span></a>' . PHP_EOL;
                         $strFooterMenu .= '</span></li>' . PHP_EOL;
                         break;
 
