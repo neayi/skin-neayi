@@ -39,7 +39,7 @@ foreach ($languages as $langfile)
         $subMenus['productions'][$k] = $v;
 
     $subMenus['productions'][''] = '-';
-    $subMenus['productions']['/wiki/Search?Search?filters=A+un+type+de+page%5E%5EExemple+de+mise+en+œuvre&order=desc&ordertype=Modification+date'] = $_['search-for-feedbacks']; // 'Rechercher des retours d’expérience';
+    $subMenus['productions']['/wiki/Retours_d%27expérience'] = $_['search-for-feedbacks']; // 'Rechercher des retours d’expérience';
 
     $thematiques = array();
     $thematiques['/wiki/Agriculture de précision'] = $_['precision-agriculture']; // 'Agriculture de précision';
