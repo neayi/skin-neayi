@@ -122,6 +122,12 @@
 	<div class="interaction-top">
 		<span id="interaction-title">&nbsp;</span>
 		<div class="container px-0 interaction-buttons">
+			<div class="row">
+				<div class="col text-right"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
+				<div class="col text-left" ><a class="label-community-count" data-toggle="modal" data-target="#communityModal"></a></div>
+			</div>
+		</div>
+		<div class="container px-0 interaction-buttons">
 			<div class="row mx-n1">
 				<div class="col-auto px-1">
 					<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
@@ -137,12 +143,6 @@
 					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">I do it</button>
 					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
-			</div>
-		</div>
-		<div class="container px-0 interaction-buttons">
-			<div class="row">
-				<div class="col text-left"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
-				<div class="col" ><a class="label-community-count" data-toggle="modal" data-target="#communityModal"></a></div>
 			</div>
 		</div>
 	</div>
