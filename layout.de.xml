@@ -148,7 +148,7 @@
 	</div>
 	<div class="container px-0 interaction-links">
 		<div class="row mx-0">
-			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#cs-comments">
+			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#di-comments">
 					<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
 					<span class="questions-text">Diskussion</span></a></div>
 			<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
