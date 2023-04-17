@@ -16,7 +16,11 @@ foreach ($languages as $langfile)
     $langcode = str_replace('.json', '', basename($langfile));
 
     $contactLink = 'https://neayi.com/contact/';
-    $forumLink = 'https://forum.'.$langcode.'.tripleperformance.ag';
+
+    if ($langcode == 'fr')
+        $forumLink = 'https://forum.tripleperformance.fr';
+    else
+        $forumLink = 'https://forum.'.$langcode.'.tripleperformance.ag';
 
     $_ = json_decode(file_get_contents($langfile), true);
 
