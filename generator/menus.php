@@ -11,6 +11,9 @@ $xml_template = file_get_contents(__DIR__ . '/layout.template.xml');
 
 $languages = glob(__DIR__ . '/i18n/*.json');
 
+// finish with English
+$languages[] = __DIR__ . '/i18n/en.json';
+
 foreach ($languages as $langfile)
 {
     $langcode = str_replace('.json', '', basename($langfile));
@@ -216,6 +219,8 @@ MENU;
     file_put_contents(__DIR__ . '/../layout.' . $langcode . '.xml', $localisedXML);
 }
 
+buildPagesToTranslate($footerMenus);
+
 function getTranslatedHTMLChunk($htmlFilename, $translations)
 {
     $html = file_get_contents($htmlFilename);
@@ -226,4 +231,19 @@ function getTranslatedHTMLChunk($htmlFilename, $translations)
         $html = str_replace('@@'.$k.'@@', $v, $html);
 
     return $html;
+}
+
+function buildPagesToTranslate($menus)
+{
+    echo "Use this to input import_languages/auto_translate_from_fr.php\n\n";
+    echo "\$homePages = array[\n";
+    foreach ($menus as $subCols)
+        foreach ($subCols as $colItems)
+            foreach ($colItems as $link => $text)
+            {
+                if (strpos($link, 'wiki/') !== false)
+                    echo '"' . str_replace('_', ' ', rawurldecode(str_replace('/wiki/', '', $link))) . '" => "'.$text.'",' . "\n";
+            }
+
+    echo "]\n";
 }
