@@ -236,7 +236,7 @@ function getTranslatedHTMLChunk($htmlFilename, $translations)
 function buildPagesToTranslate($menus)
 {
     echo "Use this to input import_languages/auto_translate_from_fr.php\n\n";
-    echo "\$homePages = array[\n";
+    echo "\$homePages = [\n";
     foreach ($menus as $subCols)
         foreach ($subCols as $colItems)
             foreach ($colItems as $link => $text)
@@ -245,5 +245,5 @@ function buildPagesToTranslate($menus)
                     echo '"' . str_replace('_', ' ', rawurldecode(str_replace('/wiki/', '', $link))) . '" => "'.$text.'",' . "\n";
             }
 
-    echo "]\n";
+    echo "];\n";
 }
