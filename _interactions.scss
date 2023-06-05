@@ -126,8 +126,8 @@
     .label-community-count {
         margin-top: 20px;
         display   : inline-block;
-        font-size: 13px;
-        color: #0a6a4a7a !important;
+        font-size : 13px;
+        color     : #0a6a4a7a !important;
     }
 
     .avatars {
@@ -144,8 +144,10 @@
             margin-right : -22px;
 
             img {
-                width  : 100%;
-                display: block;
+                display   : block;
+                width     : 42px;
+                height    : 42px;
+                object-fit: cover;
             }
         }
     }
