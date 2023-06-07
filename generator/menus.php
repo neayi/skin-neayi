@@ -60,12 +60,15 @@ foreach ($languages as $langfile)
     $thematiques['/wiki/Diagnostic et performance d\'une ferme'] = $_['diagnosis-and-performance']; // 'Diagnostic et performance';
     $thematiques['/wiki/Gestion de l’eau'] = $_['water-management']; // 'Gestion de l’eau';
     $thematiques['/wiki/Matériel et machines agricoles'] = $_['agricultural-equipment-and-machinery']; // 'Matériel et machines agricoles';
-    $thematiques['/wiki/Organisation du travail'] = $_['work-organization']; // 'Organisation du travail';
+    //$thematiques['/wiki/Organisation du travail'] = $_['work-organization']; // 'Organisation du travail';
     $thematiques['/wiki/Outils de mesure et d’observation'] = $_['measurement-and-observation-tools']; // 'Outils de mesure et d’observation';
     $thematiques['/wiki/Production énergétique'] = $_['energy-production']; // 'Production énergétique';
     $thematiques['/wiki/Protection intégrée des cultures'] = $_['integrated-crop-protection']; // 'Protection intégrée des cultures';
     $thematiques['/wiki/Résilience climatique'] = $_['climate-resilience']; // 'Résilience climatique';
     $thematiques['/wiki/S\'installer en agriculture'] = $_['settling-down']; // 'S’installer';
+    $thematiques['/wiki/Transmettre sa ferme'] = $_['selling_the_farm']; // 'S’installer';
+
+
     $thematiques['/wiki/Agronomie des sols vivants'] = $_['living-soils']; // 'Sols vivants';
     $thematiques['/wiki/Valorisation de la production'] = $_['valuation-of-production']; // 'Valorisation de la production';
 

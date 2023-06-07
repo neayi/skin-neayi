@@ -56,12 +56,12 @@
 <a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnoza i wydajnosc">Diagnoza i wydajnosc</a>
 <a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Gospodarka wodna">Gospodarka wodna</a>
 <a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Sprzęt i maszyny rolnicze">Sprzęt i maszyny rolnicze</a>
-<a class="dropdown-item" href="/wiki/Organisation du travail" title="Organizacja pracy">Organizacja pracy</a>
 <a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Narzędzia pomiarowe i obserwacyjne">Narzędzia pomiarowe i obserwacyjne</a>
 <a class="dropdown-item" href="/wiki/Production énergétique" title="Produkcja energii">Produkcja energii</a>
 <a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Zintegrowana ochrona upraw">Zintegrowana ochrona upraw</a>
 <a class="dropdown-item" href="/wiki/Résilience climatique" title="Odporność na klimat">Odporność na klimat</a>
 <a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Osiedlenie się">Osiedlenie się</a>
+<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="Sprzedaje gospodarstwo">Sprzedaje gospodarstwo</a>
 <a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="żywe gleby">żywe gleby</a>
 <a class="dropdown-item" href="/wiki/Valorisation de la production" title="Wycena produkcji">Wycena produkcji</a>
 <div class="dropdown-divider"></div>
@@ -248,12 +248,12 @@
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
 <li><a href="/wiki/Matériel et machines agricoles" title="Sprzęt i maszyny rolnicze">Sprzęt i maszyny rolnicze</a></li>
-<li><a href="/wiki/Organisation du travail" title="Organizacja pracy">Organizacja pracy</a></li>
 <li><a href="/wiki/Outils de mesure et d’observation" title="Narzędzia pomiarowe i obserwacyjne">Narzędzia pomiarowe i obserwacyjne</a></li>
 <li><a href="/wiki/Production énergétique" title="Produkcja energii">Produkcja energii</a></li>
 <li><a href="/wiki/Protection intégrée des cultures" title="Zintegrowana ochrona upraw">Zintegrowana ochrona upraw</a></li>
 <li><a href="/wiki/Résilience climatique" title="Odporność na klimat">Odporność na klimat</a></li>
 <li><a href="/wiki/S'installer en agriculture" title="Osiedlenie się">Osiedlenie się</a></li>
+<li><a href="/wiki/Transmettre sa ferme" title="Sprzedaje gospodarstwo">Sprzedaje gospodarstwo</a></li>
 <li><a href="/wiki/Agronomie des sols vivants" title="żywe gleby">żywe gleby</a></li>
 <li><a href="/wiki/Valorisation de la production" title="Wycena produkcji">Wycena produkcji</a></li>
 </ul>

@@ -55,14 +55,14 @@
 <a class="dropdown-item" href="/wiki/Désherbage" title="Jäten">Jäten</a>
 <a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnose und Leistung">Diagnose und Leistung</a>
 <a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Wasserwirtschaft">Wasserwirtschaft</a>
-<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="landwirtschaftliche-geräte-und-maschinen">landwirtschaftliche-geräte-und-maschinen</a>
-<a class="dropdown-item" href="/wiki/Organisation du travail" title="Arbeitsorganisation">Arbeitsorganisation</a>
+<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Landwirtschaftliche-geräte-und-maschinen">Landwirtschaftliche-geräte-und-maschinen</a>
 <a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Measurement and Observation Tools">Measurement and Observation Tools</a>
 <a class="dropdown-item" href="/wiki/Production énergétique" title="Energieerzeugung">Energieerzeugung</a>
 <a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Integrierter Pflanzenschutz">Integrierter Pflanzenschutz</a>
 <a class="dropdown-item" href="/wiki/Résilience climatique" title="Klimaresilienz">Klimaresilienz</a>
-<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="sich niederlassen">sich niederlassen</a>
-<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="lebende Böden">lebende Böden</a>
+<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Sich niederlassen">Sich niederlassen</a>
+<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="Verkauf des Hofes">Verkauf des Hofes</a>
+<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Lebende Böden">Lebende Böden</a>
 <a class="dropdown-item" href="/wiki/Valorisation de la production" title="Bewertung der Produktion">Bewertung der Produktion</a>
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="/wiki/Search?filters=A+un+type+de+page%5E%5EPratique&order=desc&ordertype=Modification+date" title="Suche nach Praxen">Suche nach Praxen</a>
@@ -247,14 +247,14 @@
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
-<li><a href="/wiki/Matériel et machines agricoles" title="landwirtschaftliche-geräte-und-maschinen">landwirtschaftliche-geräte-und-maschinen</a></li>
-<li><a href="/wiki/Organisation du travail" title="Arbeitsorganisation">Arbeitsorganisation</a></li>
+<li><a href="/wiki/Matériel et machines agricoles" title="Landwirtschaftliche-geräte-und-maschinen">Landwirtschaftliche-geräte-und-maschinen</a></li>
 <li><a href="/wiki/Outils de mesure et d’observation" title="Measurement and Observation Tools">Measurement and Observation Tools</a></li>
 <li><a href="/wiki/Production énergétique" title="Energieerzeugung">Energieerzeugung</a></li>
 <li><a href="/wiki/Protection intégrée des cultures" title="Integrierter Pflanzenschutz">Integrierter Pflanzenschutz</a></li>
 <li><a href="/wiki/Résilience climatique" title="Klimaresilienz">Klimaresilienz</a></li>
-<li><a href="/wiki/S'installer en agriculture" title="sich niederlassen">sich niederlassen</a></li>
-<li><a href="/wiki/Agronomie des sols vivants" title="lebende Böden">lebende Böden</a></li>
+<li><a href="/wiki/S'installer en agriculture" title="Sich niederlassen">Sich niederlassen</a></li>
+<li><a href="/wiki/Transmettre sa ferme" title="Verkauf des Hofes">Verkauf des Hofes</a></li>
+<li><a href="/wiki/Agronomie des sols vivants" title="Lebende Böden">Lebende Böden</a></li>
 <li><a href="/wiki/Valorisation de la production" title="Bewertung der Produktion">Bewertung der Produktion</a></li>
 </ul>
 </div>
