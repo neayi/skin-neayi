@@ -87,7 +87,7 @@ foreach ($languages as $langfile)
     $footerMenus[1]["Triple Performance"]['/wiki/Comment_fonctionne_la_plateforme'] = $_['how-does-it-works']; // "Comment ça fonctionne ?";
     $footerMenus[1]["Triple Performance"]['neayi-tour'] = $_['guided-tour']; // "Lancer la visite guidée";
     $footerMenus[1][$_['community']]['Special:Login'] = $_['create-an-account-or-sign-in']; // "Créer un compte ou se connecter";
-    $footerMenus[1][$_['community']]['/wiki/Aide:Bienvenue'] = $_['to-contribute-start-here']; // "Contribuer&nbsp;? Ça commence ici&nbsp;!";
+    $footerMenus[1][$_['community']]['/wiki/Help:Bienvenue'] = $_['to-contribute-start-here']; // "Contribuer&nbsp;? Ça commence ici&nbsp;!";
     $footerMenus[1][$_['community']]['forum'] = $_['access-the-forum']; // "Accéder au forum";
 
     foreach ($productions as $k => $v)
