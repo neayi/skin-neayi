@@ -116,7 +116,7 @@
 					<component type="Toolbox" flatten="no" class="dropup">
                         <modification type="ShowOnlyFor" group="sysop" />
                     </component>
-					<component type="LangLinks" flatten="no" class="dropup"/>
+					<component type="LangLinks" flatten="no" class=""/>
 				</component>
 			</cell>
 		</row>
