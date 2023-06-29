@@ -1,5 +1,6 @@
 // For the main Search page, remove the side blocks and the title
-.page-Search, .page-Retours_d_expérience {
+.page-Search,
+.page-Retours_d_expérience {
     .contentHeader {
         display: none;
     }
@@ -22,6 +23,11 @@
     }
 }
 
+.wikisearch-results {
+    img.card-img {
+        width: 200px;
+    }
+}
 
 label.wikisearch-pill {
     max-width       : 236px;

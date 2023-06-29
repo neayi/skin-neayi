@@ -153,6 +153,32 @@ ul.mw-search-results {
 }
 
 .p-lang-dropdown {
-    display: inline-block;
+    display  : inline-block;
     font-size: 14px;
+}
+
+// Template Articles détaillés
+.bandeau-niveau-information {
+    color: #202122;
+    line-height: 1.6;
+    border-style: solid;
+    overflow: hidden;
+    font-size: 0.95em;
+    border-width: 1px 0;
+    padding: 0.2em 0.5em 0.3em 0;
+    margin: 0.3em 0 0.7em 2em;
+    border-color: #e7e7e7;
+    background-color: #fdfdfd;
+
+    .loupe {
+        color              : #202122;
+        font-size          : 0.95em;
+        vertical-align     : middle;
+        background-repeat  : no-repeat;
+        line-height        : 1.5em;
+        text-indent        : 23px;
+        display            : inline-block;
+        background-image   : url(//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Searchtool.svg/15px-Searchtool.svg.png);
+        background-position: 2px 3px;
+    }
 }

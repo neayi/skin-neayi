@@ -1,0 +1,25 @@
+@media print {
+
+    #neayi-searchform,
+    #scrollbar,
+    .leftSide,
+    .rightSide,
+    .navigation-not-searchable,
+    .interaction-bloc-inside,
+    .di-comments,
+    .social-sticky,
+    .footer,
+    .mw-editsection {
+        display: none !important;
+    }
+
+    .centralDiv,
+    .mainContainer .mw-body {
+        max-width: none;
+    }
+
+    .mw-body .mw-content-text p,
+    p {
+        line-height: 1.9rem !important;
+    }
+}
