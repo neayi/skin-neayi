@@ -8,6 +8,8 @@ $htmlChunks = [
 ];
 
 $xml_template = file_get_contents(__DIR__ . '/layout.template.xml');
+$insights_topblade_template = file_get_contents(__DIR__ . '/insights/top-navbar.blade.php');
+$insights_bottomblade_template = file_get_contents(__DIR__ . '/insights/footer.blade.php');
 
 $languages = glob(__DIR__ . '/i18n/*.json');
 
@@ -118,7 +120,8 @@ foreach ($languages as $langfile)
     $socialLinks['fab fa-twitter'] = ['https://twitter.com/TriplePerforma1', $_['follow-us-on-twitter']];
     $socialLinks['fab fa-linkedin-in'] = ['https://www.linkedin.com/company/neayi', $_['follow-us-on-linkedin']];
 
-    $localisedXML = $xml_template;
+    $replacements = [];
+
     foreach ($topMenus as $menuKey => $topMenuTitle)
     {
         // Prod Menus
@@ -140,7 +143,7 @@ foreach ($languages as $langfile)
 	</li>
 MENU;
 
-        $localisedXML = str_replace('@@'.$menuKey.'@@', $strMenu, $localisedXML);
+        $replacements['@@'.$menuKey.'@@'] = $strMenu;
     }
 
     $strMenu = '';
@@ -150,7 +153,7 @@ MENU;
     $strMenu .= '<li class="nav-item" id="forum-nav"><a class="nav-link" href="'.$forumLink.'" title="Forum">Forum</a></li>' . PHP_EOL;
     $strMenu .= '<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="'.$forumLink.'" title="Forum">Forum</a></li>' . PHP_EOL;
 
-    $localisedXML = str_replace('@@additionalMenus@@', $strMenu, $localisedXML);
+    $replacements['@@additionalMenus@@'] = $strMenu;
 
     $strFooterMenu = '';
     foreach ($footerMenus as $colNumber => $menus)
@@ -207,19 +210,38 @@ MENU;
         $strFooterMenu .= '</div>' . PHP_EOL;
     }
 
-    $localisedXML = str_replace('@@footer@@', $strFooterMenu, $localisedXML);
+    $replacements['@@footer@@'] = $strFooterMenu;
 
     // Translate some other stuff:
-    $localisedXML = str_replace('placeholder="Rechercher"', 'placeholder="'.$_['search-placeholder'].'"', $localisedXML);
+    $replacements['placeholder="Rechercher"'] = 'placeholder="'.$_['search-placeholder'].'"';
 
     $connectLink = '<a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">';
     $connectLink .= str_replace('<br', '</a><br', $_['create-or-connect']);
-    $localisedXML = str_replace('@@Connect-link@@', $connectLink, $localisedXML);
+    $replacements['@@Connect-link@@'] = $connectLink;
 
     foreach ($htmlChunks as $key => $filename)
-        $localisedXML = str_replace($key, getTranslatedHTMLChunk(__DIR__ . '/html_chunks/' .  $filename, $_), $localisedXML);
+        $replacements[$key] = getTranslatedHTMLChunk(__DIR__ . '/html_chunks/' .  $filename, $_);
+
+    // Produce the localized files:
+    $localisedXML = $xml_template;
+    $localisedTopBlade = $insights_topblade_template;
+    $localisedBottomBlade = $insights_bottomblade_template;
+
+    foreach ($replacements as $k => $v)
+    {
+        $localisedXML = str_replace($k, $v, $localisedXML);
+
+        $v = str_replace('"/wiki/', '"{{config(\'neayi.wiki_url\')}}/wiki/', $v);
+        $localisedTopBlade = str_replace($k, $v, $localisedTopBlade);
+        $localisedBottomBlade = str_replace($k, $v, $localisedBottomBlade);
+    }
+
 
     file_put_contents(__DIR__ . '/../layout.' . $langcode . '.xml', $localisedXML);
+
+    @mkdir(__DIR__ . '/insights/'.$langcode);
+    file_put_contents(__DIR__ . '/insights/'.$langcode.'/top-navbar.blade.php', $localisedTopBlade);
+    file_put_contents(__DIR__ . '/insights/'.$langcode.'/footer.blade.php', $localisedBottomBlade);
 }
 
 buildPagesToTranslate($footerMenus);
