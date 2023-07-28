@@ -20,46 +20,92 @@
         }
 
         div.hero-titles {
-            padding: 0px 30px;
+            padding: 0px 30px 60px 30px;
 
-            @media (min-width: 1095px) {
-                padding: 0px 62px;
+            img.portrait-agris {
+                border-radius: 50%;
+                border       : 3px solid #CCC;
+                object-fit   : cover;
+                position     : absolute;
+                display      : none;
             }
 
-            @media (min-width: 1384px) {
-                padding-left : 371px;
-                padding-right: 250px;
+            img.portrait-logo {
+                width        : 180px;
+                height       : 180px;
+                object-fit   : cover;
+                border-radius: 50%;
+                position     : absolute;
+                top          : 59px;
+                right        : 81px; // In order to center on the right green column
+                display      : none;
             }
 
             h1 {
                 font-family: $font-family-base;
 
                 font-weight   : 800;
+                font-size     : 2.75rem;
                 letter-spacing: 1.25px;
-                font-size     : 3.75rem;
                 border-bottom : none;
-
-                // When in mobile mode
-                @media (max-width: 800px) {
-                    font-size: 2.75rem;
-                }
             }
 
             h2 {
                 font-family: $font-family-base;
 
-                font-size    : 2.125rem;
                 font-weight  : 800;
-                margin-bottom: 50px;
                 border-bottom: none;
+                font-size    : 1.5rem;
+            }
 
-                // When in mobile mode
-                @media (max-width: 800px) {
-                    font-size: 1.5rem;
+            .hero-tags a {
+                background-color: white;
+                padding         : 3px 10px;
+                margin-right    : 5px;
+                border-radius   : 5px;
+                font-weight     : 700;
+                color           : #212529;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            @media (min-width: 850px) {
+                padding: 0px 60px 60px 320px;
+
+                img.portrait-agris {
+                    width  : 200px;
+                    height : 200px;
+                    left   : 60px;
+                    top    : 40px;
+                    display: block;
+                }
+            }
+
+            @media (min-width: 1384px) {
+                padding-left : 371px;
+                padding-right: 342px; // Width of the right green column
+
+                h1 {
+                    font-size: 3.75rem;
+                }
+
+                h2 {
+                    font-size: 2.125rem;
+                }
+
+                img.portrait-agris {
+                    width : 250px;
+                    height: 250px;
+                    left  : 50px;
+                }
+
+                img.portrait-logo {
+                    display: block;
                 }
             }
         }
-
 
         .black-layer {
             position        : absolute;

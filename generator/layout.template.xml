@@ -66,7 +66,7 @@
 <div class="black-layer"></div>
 <div class="col-12 mx-auto hero-titles">
 <h1 class="text-white mt-md-3"></h1>
-<h2 class="text-white mt-md-5"></h2>
+<h2 class="text-white"></h2>
 </div></div></div>]]></component>
 
 					<component type="Container" class="leftSide col-auto"></component>
