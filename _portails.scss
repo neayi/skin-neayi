@@ -31,14 +31,15 @@
             }
 
             img.portrait-logo {
-                width        : 180px;
-                height       : 180px;
-                object-fit   : cover;
-                border-radius: 50%;
-                position     : absolute;
-                top          : 59px;
-                right        : 81px; // In order to center on the right green column
-                display      : none;
+                width           : 180px;
+                height          : 180px;
+                object-fit      : cover;
+                border-radius   : 50%;
+                position        : absolute;
+                top             : 59px;
+                right           : 81px; // In order to center on the right green column
+                display         : none;
+                background-color: white;
             }
 
             h1 {
