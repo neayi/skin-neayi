@@ -380,5 +380,11 @@ div.forum-portail {
         font-weight: 600;
         color      : #222;
     }
+}
 
+// Hide the images that are used for the portal once they are rendered within the mw-content:
+#content .portail-background,
+#content img.portrait-agris,
+#content img.portrait-logo {
+    display: none;
 }
