@@ -281,7 +281,7 @@
 			<cell>
 				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
 					<component type="Toolbox" flatten="no" class="dropup">
-                        <modification type="ShowOnlyFor" group="sysop" />
+                        <modification type="ShowOnlyFor" group="user" />
                     </component>
 					<component type="LangLinks" flatten="no" class=""/>
 				</component>
