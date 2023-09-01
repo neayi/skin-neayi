@@ -60,7 +60,14 @@ body {
     }
 
     .mw-indicators {
-        margin-top: 37px;
+        border-radius: 50%;
+        background: white;
+        margin-top: 0px;
+
+        img {
+            border-radius: 14%;
+            margin: 16px;
+        }
     }
 
     p,
