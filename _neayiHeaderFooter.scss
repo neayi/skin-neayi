@@ -26,10 +26,26 @@
         }
     }
 
-    // When in desktop mode
+    @media (max-width: 1350px) {
+        .navbar-brand {
+            img {
+                height: 35px;
+                top: -3px;
+            }
+        }
+
+        .navbar-nav .nav-link {
+            padding-right: 7px !important;
+            padding-left: 7px !important;
+        }
+    }
+
     @media (min-width: 1105px) {
         padding: 0 0 0 16px;
+    }
 
+    // When in desktop mode
+    @media (min-width: 1351px) {
         .navbar-brand {
             img {
 
@@ -38,7 +54,6 @@
             }
         }
     }
-
 
     .navbar-tools {
         display: none;
@@ -217,15 +232,15 @@ div.neayi-square-button {
     }
 }
 
-#forum-nav {
-    display: inline;
+// #forum-nav {
+//     display: inline;
 
-    @media (max-width: 1350px) {
-        & {
-            display: none;
-        }
-    }
-}
+//     @media (max-width: 1350px) {
+//         & {
+//             display: none;
+//         }
+//     }
+// }
 
 .neayi-desktop-nav {
     display: inline;
