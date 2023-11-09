@@ -16,7 +16,8 @@
 <a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Maraîchage" title="Market gardening">Market gardening</a>
 <a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/PPAM" title="HMP">HMP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Retours_d%27expérience" title="Search for feedback">Search for feedback</a>
+<a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Retours_d%27expérience" title="Search for case studies">Search for case studies</a>
+<a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Portraits_de_ferme" title="Search for portraits">Search for portraits</a>
 
 		</div>
 	</li>

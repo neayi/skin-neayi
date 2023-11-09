@@ -48,7 +48,8 @@ foreach ($languages as $langfile)
         $subMenus['productions'][$k] = $v;
 
     $subMenus['productions'][''] = '-';
-    $subMenus['productions']['/wiki/Retours_d%27expérience'] = $_['search-for-feedbacks']; // 'Rechercher des retours d’expérience';
+    $subMenus['productions']['/wiki/Retours_d%27expérience'] = $_['search-for-case-studies']; // 'Rechercher des retours d’expérience';
+    $subMenus['productions']['/wiki/Portraits_de_ferme'] = $_['search-for-portraits']; // 'Rechercher des retours d’expérience';
 
     $thematiques = array();
     $thematiques['/wiki/Agriculture de précision'] = $_['precision-agriculture']; // 'Agriculture de précision';
