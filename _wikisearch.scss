@@ -79,3 +79,19 @@ ul.wikisearch-list-box {
 a.wikisearch-button.wssearch-button--show-filters {
     z-index: 100;
 }
+.wikisearch {
+    .wikisearch-checkbox__count {
+        margin-left: 0.5em;
+        white-space: nowrap;
+        background: #15a072;
+        color: white;
+        font-weight: 700;
+        font-size: 11px;
+        padding: 1px 5px;
+        border-radius: 8px;
+
+        &:before, &:after {
+            content: "";
+        }
+    }
+}
