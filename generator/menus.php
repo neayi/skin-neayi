@@ -232,7 +232,7 @@ MENU;
     {
         $localisedXML = str_replace($k, $v, $localisedXML);
 
-        $v = str_replace('"/wiki/', '"{{config(\'neayi.wiki_url\')}}/wiki/', $v);
+        $v = str_replace('"/wiki/', '"{{$wikiUrl}}/wiki/', $v);
         $localisedTopBlade = str_replace($k, $v, $localisedTopBlade);
         $localisedBottomBlade = str_replace($k, $v, $localisedBottomBlade);
     }
