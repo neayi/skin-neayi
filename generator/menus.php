@@ -81,7 +81,7 @@ foreach ($languages as $langfile)
         $subMenus['thematiques'][$k] = $v;
 
     $subMenus['thematiques'][''] = '-';
-    $subMenus['thematiques']['/wiki/Fiches techniques'] = $_['search-for-practices']; // 'Rechercher des pratiques';
+    $subMenus['thematiques']['/wiki/Search'] = $_['search']; // 'Rechercher des pratiques';
 
     $footerMenus = array();
     $footerMenus[1]["Triple Performance"]['/wiki/%C3%80_propos'] = $_['about']; // "À propos";

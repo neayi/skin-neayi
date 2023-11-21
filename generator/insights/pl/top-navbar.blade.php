@@ -45,7 +45,7 @@
 <a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Agronomie des sols vivants" title="żywe gleby">żywe gleby</a>
 <a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Valorisation de la production" title="Wycena produkcji">Wycena produkcji</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Fiches techniques" title="Wyszukaj praktyki">Wyszukaj praktyki</a>
+<a class="dropdown-item" href="{{config('neayi.wiki_url')}}/wiki/Search" title="Wyszukaj">Wyszukaj</a>
 
 		</div>
 	</li>
