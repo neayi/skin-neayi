@@ -6,18 +6,22 @@
 /**
  * Override the home page
 **/
-body.page-Accueil, body.page-Triple_Performance {
-    #firstHeading, #contentSub, .mw-body .catlinks {
+body.page-Accueil,
+body.page-Triple_Performance {
+
+    #firstHeading,
+    #contentSub,
+    .mw-body .catlinks {
         display: none;
     }
 
     .mw-indicators {
         margin-top: 37px;
-        display: none;
+        display   : none;
     }
 
     .WikiMainContent {
-        padding  : 0px;
+        padding: 0px;
 
         >.row {
             margin-right: 0;
@@ -46,8 +50,7 @@ body.page-Accueil, body.page-Triple_Performance {
                 max-width: 100%;
                 padding  : 0;
 
-                .interaction-bloc-mobile
-                {
+                .interaction-bloc-mobile {
                     display: none !important;
                 }
 
@@ -394,6 +397,6 @@ body.page-Accueil, body.page-Triple_Performance {
     }
 
     div#neayi-searchform {
-        margin          : 0 0;
+        margin: 0 0;
     }
 }

@@ -95,14 +95,14 @@
     a,
     a.external {
         font-weight     : 600;
-        color           : #fff;
+        color           : #fff !important;
         padding-right   : 0px;
         background-image: none;
         font-family     : $font-family-base;
 
         &:hover,
         &:visited {
-            color          : #FFF;
+            color          : #FFF !important;
             text-decoration: none;
         }
     }
@@ -241,3 +241,19 @@ table.calendrier {
     }
     border-radius: 0 3px 3px 0;
 }
+
+.user-avatar-200 {
+    border-radius: 50% !important;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.user-avatar-50 {
+    border-radius: 50% !important;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+
