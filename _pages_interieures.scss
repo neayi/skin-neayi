@@ -82,6 +82,14 @@
         line-height: 21px;
         padding    : 5px 0;
     }
+
+    p.card-subtitle {
+        font-weight: bold;
+        font-size: 50%;
+        font-family: $font-family-base;;
+        margin-top: -2em;
+        color: #6fb19a;
+    }
 }
 
 .btn-dark-green,
