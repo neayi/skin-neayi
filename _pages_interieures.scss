@@ -264,4 +264,8 @@ table.calendrier {
     object-fit: cover;
 }
 
-
+.gallery-150px img {
+    max-width: 250px;
+    max-height: 150px;
+    object-fit: contain;
+}
