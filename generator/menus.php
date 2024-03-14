@@ -110,6 +110,7 @@ foreach ($languages as $langfile)
     $footerMenus[5][$lastSection]['/wiki/Triple_Performance:Politique_de_confidentialité'] = $_['legal-notice']; // "Mentions légales";
     $footerMenus[5][$lastSection]['/wiki/Open_Source'] = $_['open-source']; // "Open Source";
     $footerMenus[5][$lastSection]['contact'] = $_['contact']; // "Contact";
+    $footerMenus[5][$lastSection]['/wiki/Triple_Performance:Stats'] = $_['stats']; // "Stats";
     $footerMenus[5][$lastSection]['socialLinks'] = "socialLinks";
 
     // Additional mobile menus

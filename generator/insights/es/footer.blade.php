@@ -71,6 +71,7 @@
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Legal notice">Legal notice</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Open_Source" title="Open-Source">Open-Source</a></li>
 <li><a target="_blank" href="https://neayi.com/contact/">Contact</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Stats" title="Stats">Stats</a></li>
 <li><span class="social-links">
 <a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on Facebook"><span class="fab fa-facebook-f"></span></a>
 <a href="https://twitter.com/TriplePerforma1" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on Twitter"><span class="fab fa-twitter"></span></a>
