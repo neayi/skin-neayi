@@ -163,7 +163,11 @@ body.page-Triple_Performance {
         .content-col {
             max-width: 1800px;
         }
-
+    
+        span.smw-plainlist-furtherresults {
+            display: none;
+        }
+        
         // Cards
         .card {
             border       : 1px solid #efefef;
