@@ -27,12 +27,16 @@ foreach ($languages as $langfile)
     else
         $forumLink = 'https://forum.'.$langcode.'.tripleperformance.ag';
 
+    $forumMenu = $_['forum'];
+
     $_ = json_decode(file_get_contents($langfile), true);
 
     $topMenus = array();
     $topMenus['productions'] = $_['productions'];
     $topMenus['thematiques'] = $_['themes'];
-
+    $trainingCoursesMenu = $_['training courses'];
+    $trainingCoursesLink = '/wiki/' . $_['training courses'];
+    
     $productions = array();
     $productions['/wiki/Grandes cultures'] = $_['field-crops'];
     $productions['/wiki/Élevage'] = $_['breeding'];
@@ -152,8 +156,9 @@ MENU;
     foreach ($addMobileMenus as $link => $title)
         $strMenu .= '<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="'.$link.'" title="'.htmlspecialchars($title).'">'.$title.'</a></li>' . PHP_EOL;
 
-    $strMenu .= '<li class="nav-item" id="forum-nav"><a class="nav-link" href="'.$forumLink.'" title="Forum">Forum</a></li>' . PHP_EOL;
-    $strMenu .= '<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="'.$forumLink.'" title="Forum">Forum</a></li>' . PHP_EOL;
+    $strMenu .= '<li class="nav-item"><a class="nav-link" href="'.$forumLink.'" title="'.$forumMenu.'">'.$forumMenu.'</a></li>' . PHP_EOL;
+    $strMenu .= '<li class="nav-item"><a class="nav-link" href="'.$trainingCoursesLink.'" title="'.$trainingCoursesMenu.'">'.$trainingCoursesMenu.'</a></li>' . PHP_EOL;
+    $strMenu .= '<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $(\'#searchInput\').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="'.$_["search"].'">'.$_["search"].'</a></li>' . PHP_EOL;
 
     $replacements['@@additionalMenus@@'] = $strMenu;
 

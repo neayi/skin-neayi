@@ -20,39 +20,61 @@
     }
 
     .navbar-brand {
-        img {
+            
+        // Customize when in the desktop view (> 1105px)
+        @media (max-width: 1105px) {
+            img#logo-large { display: none; }
+            img#logo-medium { display: inline; }
+            img#logo-square { display: none; }
+        }
+        
+        @media (min-width: 1105px) and (max-width: 1500px) {
+            img#logo-large { display: none; }
+            img#logo-medium { display: none; }
+            img#logo-square { display: inline; }
+        }
+
+        @media (min-width: 1500px) {
+            img#logo-large { display: inline; }
+            img#logo-medium { display: none; }
+            img#logo-square { display: none; }
+        }
+
+        img#logo-large {
             height: 29px;
             top   : -2px;
         }
+
+        img#logo-medium {
+            height: 35px;
+            top   : -3px;
+        }
+
     }
 
-    @media (max-width: 1350px) {
-        .navbar-brand {
-            img {
-                height: 35px;
-                top: -3px;
-            }
-        }
+    // Reduce the padding when not enough space to fit all menus
+    @media (max-width: 1500px) {
 
         .navbar-nav .nav-link {
             padding-right: 7px !important;
-            padding-left: 7px !important;
+            padding-left : 7px !important;
         }
     }
 
-    @media (min-width: 1105px) {
-        padding: 0 0 0 16px;
-    }
-
-    // When in desktop mode
-    @media (min-width: 1351px) {
+    // Use the large logo when in desktop mode
+    @media (min-width: 1501px) {
         .navbar-brand {
-            img {
+            img#logo-large {
 
                 height: 49px;
                 top   : -8px;
             }
         }
+    }
+    
+    // Customize when in the desktop view (> 1105px)
+    @media (min-width: 1105px) {
+        padding: 0 0 0 16px;
     }
 
     .navbar-tools {
@@ -236,16 +258,6 @@ div.neayi-square-button {
     }
 }
 
-// #forum-nav {
-//     display: inline;
-
-//     @media (max-width: 1350px) {
-//         & {
-//             display: none;
-//         }
-//     }
-// }
-
 .neayi-desktop-nav {
     display: inline;
 
@@ -254,19 +266,26 @@ div.neayi-square-button {
             display: none;
         }
     }
-
 }
 
 #neayi-add-button {
     display: inline-block;
 
-    @media (max-width: 1269px) {
+    @media (max-width: 1330px) {
         & {
             display: none;
         }
     }
 }
+#neayi-search-button {
+    display: inline-block;
 
+    @media (max-width: 1130px) {
+        & {
+            display: none;
+        }
+    }
+}
 
 div#neayi-searchform {
     background-color: #15A072;
@@ -376,7 +395,7 @@ div#neayi-searchform {
     height : 0; // 52px max
 
     #scrollbar-mobile {
-        top: 50px; // 2 less than height above
+        top: 50px; // 2 less than height bellow
     }
 
     .col {
@@ -397,6 +416,5 @@ div#neayi-searchform {
                 line-height: 21px;
             }
         }
-
     }
 }

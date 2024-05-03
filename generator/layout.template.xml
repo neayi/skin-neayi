@@ -18,7 +18,7 @@
 	<component type="NavbarHorizontal">
 		<component type="Html" position="head">
 			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
-			<a href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" class="d-none d-lg-inline"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" class="d-lg-none"></a>
+			<a href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" id="logo-large"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" id="logo-medium"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" id="logo-square"></a>
 		</div>]]></component>
 
 		<component type="NavMenu" flatten="navigation"/>
