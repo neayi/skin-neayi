@@ -195,3 +195,18 @@ table.small th, table.small td {
     font-size: 80%;
     line-height: 1.7;
 }
+
+// References
+.mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol {
+    margin-left: 2em;
+}
+
+ol.references > li {
+    list-style-type: disc;
+}
+
+.over-thumbnail {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}

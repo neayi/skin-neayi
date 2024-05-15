@@ -1,0 +1,29 @@
+
+.infos-formation-image {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.infos-formation-image img {
+    width: 300px;
+}
+
+/* Vert foncé*/
+table.infos-formation {
+    float: right;
+    border: 1px solid #15a072;
+    clear: right;
+    width: 300px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+table.infos-formation td, table.infos-formation th {
+   padding: 1px 6px;
+   font-size: 80%;
+}
+
+/* Vert clair */
+th.infos-formation-titre {
+    background: #ccf1e5;
+}
