@@ -30,6 +30,5 @@
 
 // Move the insert template window down a bit
 .oo-ui-windowManager-modal.oo-ui-windowManager-floating > .oo-ui-dialog > .oo-ui-window-frame {
-    margin-top: 83px;
-    max-height: calc(100% - 7em);
+    top: 7em;
 }
