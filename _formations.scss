@@ -2,13 +2,12 @@
 .infos-formation-image {
     float: right;
     margin-bottom: 10px;
+
+    img {
+        width: 300px;
+    }
 }
 
-.infos-formation-image img {
-    width: 300px;
-}
-
-/* Vert foncé*/
 table.infos-formation {
     float: right;
     border: 1px solid #15a072;
@@ -16,11 +15,12 @@ table.infos-formation {
     width: 300px;
     margin-bottom: 20px;
     margin-left: 20px;
-}
 
-table.infos-formation td, table.infos-formation th {
-   padding: 1px 6px;
-   font-size: 80%;
+    td, th {
+        font-size: 80%;
+        padding: 5px 6px;
+        line-height: 21px;     
+    }
 }
 
 /* Vert clair */
