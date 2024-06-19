@@ -70,7 +70,7 @@
 <li><a href="{{$wikiUrl}}/wiki/Charte_d%E2%80%99utilisation" title="Czarter platformy">Czarter platformy</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Nota prawna">Nota prawna</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Open_Source" title="open source">open source</a></li>
-<li><a target="_blank" href="https://neayi.com/contact/">Kontakt</a></li>
+<li><a target="_blank" href="https://neayi.com/contact/">Kontakt</a> - <a target="_blank" href="{{$wikiUrl}}/wiki/Triple Performance:Newsletter">Newsletter</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Stats" title="Stats">Stats</a></li>
 <li><span class="social-links">
 <a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Obserwuj nas na Facebooku"><span class="fab fa-facebook-f"></span></a>

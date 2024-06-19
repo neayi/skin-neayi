@@ -198,7 +198,7 @@ MENU;
                         break;
 
                     case 'contact':
-                        $strFooterMenu .= '<li><a target="_blank" href="'.$contactLink.'">'.$title.'</a></li>' . PHP_EOL;
+                        $strFooterMenu .= '<li><a target="_blank" href="'.$contactLink.'">'.$title.'</a> - <a target="_blank" href="/wiki/Triple Performance:Newsletter">'.$_['newsletter'].'</a></li>' . PHP_EOL;
                         break;
 
                     case 'neayi-tour':
