@@ -52,7 +52,7 @@
 
             <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="{{$wikiUrl}}/wiki/Productions" title="Produktionen">Produktionen</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="{{$wikiUrl}}/wiki/Thématiques" title="Themen">Themen</a></li>
-<li class="nav-item"><a class="nav-link" href="https://forum.de.tripleperformance.ag" title=""></a></li>
+<li class="nav-item"><a class="nav-link" href="https://de.forum.tripleperformance.ag" title=""></a></li>
 <li class="nav-item"><a class="nav-link" href="{{$wikiUrl}}/wiki/Training courses" title="Training courses">Training courses</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Suche">Suche</a></li>
 

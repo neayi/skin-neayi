@@ -25,7 +25,7 @@ foreach ($languages as $langfile)
     if ($langcode == 'fr')
         $forumLink = 'https://forum.tripleperformance.fr';
     else
-        $forumLink = 'https://forum.'.$langcode.'.tripleperformance.ag';
+        $forumLink = 'https://'.$langcode.'.forum.tripleperformance.ag';
 
     $forumMenu = $_['forum'];
 

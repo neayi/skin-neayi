@@ -73,7 +73,7 @@
 
     <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Produkcje">Produkcje</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Tematy">Tematy</a></li>
-<li class="nav-item"><a class="nav-link" href="https://forum.pl.tripleperformance.ag" title="Forum">Forum</a></li>
+<li class="nav-item"><a class="nav-link" href="https://pl.forum.tripleperformance.ag" title="Forum">Forum</a></li>
 <li class="nav-item"><a class="nav-link" href="/wiki/Training courses" title="Training courses">Training courses</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Wyszukaj">Wyszukaj</a></li>
 
@@ -217,7 +217,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">Utwórz konto lub zaloguj się</a></li>
 <li><a href="/wiki/Help:Bienvenue" title="Wesprzyj? To zaczyna się tutaj!">Wesprzyj? To zaczyna się tutaj!</a></li>
-<li><a href="https://forum.pl.tripleperformance.ag">Dostęp do forum</a></li>
+<li><a href="https://pl.forum.tripleperformance.ag">Dostęp do forum</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

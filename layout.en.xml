@@ -73,7 +73,7 @@
 
     <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Productions">Productions</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Themes">Themes</a></li>
-<li class="nav-item"><a class="nav-link" href="https://forum.en.tripleperformance.ag" title="Forum">Forum</a></li>
+<li class="nav-item"><a class="nav-link" href="https://en.forum.tripleperformance.ag" title="Forum">Forum</a></li>
 <li class="nav-item"><a class="nav-link" href="/wiki/Training courses" title="Training courses">Training courses</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Search">Search</a></li>
 
@@ -217,7 +217,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">Create an account or sign in</a></li>
 <li><a href="/wiki/Help:Bienvenue" title="Contribute? It starts here!">Contribute? It starts here!</a></li>
-<li><a href="https://forum.en.tripleperformance.ag">Access the forum</a></li>
+<li><a href="https://en.forum.tripleperformance.ag">Access the forum</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

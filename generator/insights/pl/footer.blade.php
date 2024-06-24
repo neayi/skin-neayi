@@ -21,7 +21,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Utwórz konto lub zaloguj się</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Wesprzyj? To zaczyna się tutaj!">Wesprzyj? To zaczyna się tutaj!</a></li>
-<li><a href="https://forum.pl.tripleperformance.ag">Dostęp do forum</a></li>
+<li><a href="https://pl.forum.tripleperformance.ag">Dostęp do forum</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

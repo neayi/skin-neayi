@@ -21,7 +21,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Konto erstellen oder anmelden</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Beitragen? Hier fängt es an!">Beitragen? Hier fängt es an!</a></li>
-<li><a href="https://forum.de.tripleperformance.ag">Auf das Forum zugreifen</a></li>
+<li><a href="https://de.forum.tripleperformance.ag">Auf das Forum zugreifen</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
@@ -70,7 +70,7 @@
 <li><a href="{{$wikiUrl}}/wiki/Charte_d%E2%80%99utilisation" title="Plattform-Charta">Plattform-Charta</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Rechtlicher Hinweis">Rechtlicher Hinweis</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Open_Source" title="Open Source">Open Source</a></li>
-<li><a target="_blank" href="https://neayi.com/contact/">Kontakt</a> - <a target="_blank" href="{{$wikiUrl}}/wiki/Triple Performance:Newsletter"></a></li>
+<li><a target="_blank" href="https://neayi.com/contact/">Kontakt</a> - <a target="_blank" href="{{$wikiUrl}}/wiki/Triple Performance:Newsletter">Newsletter</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Stats" title="Stats">Stats</a></li>
 <li><span class="social-links">
 <a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="folge-uns-auf-facebook"><span class="fab fa-facebook-f"></span></a>
