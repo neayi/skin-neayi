@@ -1,0 +1,63 @@
+#side-map path, #map path {
+    fill        : #e3e3e3;
+    stroke      : white;
+    stroke-width: 1px;
+}
+
+#side-map path.current,
+#map path.current {
+    fill: #404964;
+    stroke: #404964;
+    stroke-width: 4px;
+    stroke-linejoin: bevel;
+}
+
+#side-map path.department,
+#map path.department {
+    cursor: pointer;
+}
+
+#side-map path, #map path {
+	&.q0-3 {fill:#CDECE0}
+	&.q1-3 {fill:#71C6A8}
+	&.q2-3 {fill:#15A072}
+	&.q0-4 {fill:#CDECE0}
+	&.q1-4 {fill:#8FD3BA}
+	&.q2-4 {fill:#52BA96}
+	&.q3-4 {fill:#15A072}
+	&.q0-5 {fill:#CDECE0}
+	&.q1-5 {fill:#9FD9C4}
+	&.q2-5 {fill:#71C6A8}
+	&.q3-5 {fill:#43B38D}
+	&.q4-5 {fill:#15A072}
+	&.q0-6 {fill:#CDECE0}
+	&.q1-6 {fill:#A8DDC9}
+	&.q2-6 {fill:#83CEB3}
+	&.q3-6 {fill:#5EBF9D}
+	&.q4-6 {fill:#3AB087}
+	&.q5-6 {fill:#15A072}
+	&.q0-7 {fill:#CDECE0}
+	&.q1-7 {fill:#AEDFCD}
+	&.q2-7 {fill:#8FD3BA}
+	&.q3-7 {fill:#71C6A8}
+	&.q4-7 {fill:#52BA96}
+	&.q5-7 {fill:#33AD84}
+	&.q6-7 {fill:#15A072}
+	&.q0-8 {fill:#CDECE0}
+	&.q1-8 {fill:#B3E1D0}
+	&.q2-8 {fill:#98D7C0}
+	&.q3-8 {fill:#7ECCB0}
+	&.q4-8 {fill:#63C1A0}
+	&.q5-8 {fill:#49B691}
+	&.q6-8 {fill:#2FAB81}
+	&.q7-8 {fill:#15A072}
+	&.q0-9 {fill:#CDECE0}
+	&.q1-9 {fill:#B6E2D2}
+	&.q2-9 {fill:#9FD9C4}
+	&.q3-9 {fill:#88D0B6}
+	&.q4-9 {fill:#71C6A8}
+	&.q5-9 {fill:#5ABD9A}
+	&.q6-9 {fill:#43B38D}
+	&.q7-9 {fill:#2CAA7F}
+	&.q8-9 {fill:#15A072}
+}
