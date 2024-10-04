@@ -6,7 +6,7 @@
 			<cell>
 				<component type="Html"><![CDATA[
 					<div class="d-flex">
-						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
+						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Triple Performance"><img id="square-mobile-logo" src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
 						<div class="align-self-center sticky-title-span"></div>
 					</div>
 					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
@@ -200,7 +200,7 @@
 				<component type="Html"><![CDATA[
             <div class="row align-items-center">
                 <div class="col-md-10 pb-4 offset-xl-1">
-                    <img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
+                    <img id="footer_logo_large" src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
                 </div>
 			</div>
 			<div class="row">

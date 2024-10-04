@@ -10,7 +10,7 @@
 
 table.infos-formation {
     float: right;
-    border: 1px solid #15a072;
+    border: 1px solid $accentColorBackground;
     clear: right;
     width: 300px;
     margin-bottom: 20px;
@@ -25,5 +25,5 @@ table.infos-formation {
 
 /* Vert clair */
 th.infos-formation-titre {
-    background: #ccf1e5;
+    background-color: $lightAccentColorBackground;
 }

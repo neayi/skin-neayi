@@ -97,8 +97,8 @@
             padding-left: 55px;
 
             .custom-control-input:checked~.custom-control-label::before {
-                border-color    : $darkGreen;
-                background-color: $darkGreen;
+                border-color    : $accentColorBackground;
+                background-color: $accentColorBackground;
             }
 
             .custom-control-input:checked~.custom-control-label::after {
@@ -256,7 +256,7 @@
 
     .community-not-connected {
         text-align : center;
-        border     : 2px solid #15A072;
+        border     : 2px solid $accentColorBackground;
         max-width  : 500px;
         margin     : 100px auto;
         font-weight: bold;

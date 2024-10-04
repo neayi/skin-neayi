@@ -94,10 +94,12 @@
 
 .btn-dark-green,
 .btn-primary {
-    background-color: $darkGreen;
+    // Don't use background-color as the background is by default a shade that we need to override
+    background: $accentColorBackground;
+    border: none;
 
     &:hover {
-        background: darken($darkGreen, 6%);
+        background: darken($accentColorBackground, 6%);
     }
 
     a,

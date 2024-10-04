@@ -105,7 +105,7 @@ li.gallerybox div.thumb {
 }
 
 q {
-    background-color: #ccf1e5;
+    background-color: $lightAccentColorBackground;
     padding         : 20px;
     margin          : 30px 0;
     display         : block;
@@ -209,4 +209,8 @@ ol.references > li {
     position: absolute;
     top: 7px;
     right: 7px;
+}
+
+.badge-primary {
+    background-color: $brand-primary;
 }

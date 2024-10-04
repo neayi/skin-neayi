@@ -7,6 +7,7 @@
     position: sticky;
     top     : 0px;
     z-index : 100;
+    background-color: $menuBackground;
 
     .navbar-collapse {
         .nav-link {
@@ -123,7 +124,7 @@
     }
 
     .create-profile {
-        background-color: $brand-primary;
+        background-color: $accentColorBackground;
         color           : $body-bg;
         width           : 342px;
         height          : 88px;
@@ -165,7 +166,7 @@
     color           : $darkPurple;
     font-size       : 1rem;
     max-width       : 100%;
-    background-color: #e9ecef;
+    background-color: $menuBackground;
     font-family     : $font-family-base;
 
     li {
@@ -288,7 +289,7 @@ div.neayi-square-button {
 }
 
 div#neayi-searchform {
-    background-color: #15A072;
+    background-color: $accentColorBackground;
     color           : #fff;
     height          : 88px;
     padding         : 0 15px;
@@ -382,7 +383,7 @@ div#neayi-searchform {
 
 .title-sticky {
 
-    background-color: #e9ecef;
+    background-color: $menuBackground;
     padding         : 0px 10px;
     overflow        : hidden;
     position        : sticky;

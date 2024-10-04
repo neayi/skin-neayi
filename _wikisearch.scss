@@ -32,11 +32,11 @@
 
 label.wikisearch-pill {
     max-width       : 236px;
-    background-color: $primary;
+    background-color: $brand-primary;
     color           : white;
 
     &:hover {
-        background-color: $primary;
+        background-color: $brand-primary;
     }
 
     &:after {
@@ -45,7 +45,7 @@ label.wikisearch-pill {
 }
 
 a.wikisearch-button.wikisearch-button--progressive {
-    background-color: #15a072;
+    background-color: $accentColorBackground;
     border-color    : #a0a8b0;
     color           : white;
 }
@@ -83,7 +83,7 @@ a.wikisearch-button.wssearch-button--show-filters {
     .wikisearch-checkbox__count {
         margin-left: 0.5em;
         white-space: nowrap;
-        background: #15a072;
+        background: $accentColorBackground;
         color: white;
         font-weight: 700;
         font-size: 11px;

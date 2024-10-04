@@ -69,9 +69,9 @@ body.page-Triple_Performance {
     }
 
     .bodyContent {
-        font-size  : $font-size-base;
+        font-size  : 1.38rem;
         font-family: $font-family-base;
-        line-height: $line-height-base;
+        line-height: 2.25rem;
 
         h1,
         h2,
@@ -322,7 +322,7 @@ body.page-Triple_Performance {
                     &:hover {
                         outline     : none;
                         box-shadow  : none;
-                        border-color: $darkGreen;
+                        border-color: $accentColorBackground;
                         z-index     : 200;
                     }
                 }
@@ -334,7 +334,7 @@ body.page-Triple_Performance {
                     border-bottom-right-radius: 28px;
                     position                  : relative;
                     z-index                   : 2;
-                    background-color          : $darkGreen;
+                    background-color          : $accentColorBackground;
                     font-weight               : 800;
                     letter-spacing            : 0.5px;
                     color                     : $white;

@@ -7,7 +7,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap");
 
-@import "neayiVariables";
 @import "mwOverrides";
 @import "caracteristiques_exploitation";
 @import "commentStream";
@@ -25,6 +24,9 @@
 @import "agrilismat";
 @import "formations";
 @import "print";
+@import "mapColors";
+
+@import "TriplePerformanceIcons";
 
 .introjs-tooltip {
     min-width: 350px;
@@ -94,16 +96,16 @@ button:focus {
 }
 
 .btn-dark-green {
-    background-color: $darkGreen;
+    background-color: $accentColorBackground;
 
     &:hover {
-        background: darken($darkGreen, 6%);
+        background: darken($accentColorBackground, 6%);
     }
 }
 
 .btn-outline-darkgreen {
     background-color: white;
-    border          : 2px solid $darkGreen;
+    border          : 2px solid $accentColorBackground;
 
     &:hover {
         background: rgba(21, 160, 114, 0.1);
