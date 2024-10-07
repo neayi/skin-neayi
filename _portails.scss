@@ -131,44 +131,54 @@
     font-family: $font-family-base;
     padding    : 10px 15px;
 
-    div>div {
-        min-height   : 97px;
-        background   : #f2f3f6;
-        line-height  : 13px;
-        padding      : 17px 17px 7px 80px;
-        border-radius: 5px;
-        position     : relative;
-
-        img {
-            width          : 60px;
-            height         : 60px;
-            position       : absolute;
-            top            : 11px;
-            left           : 11px;
-            image-rendering: crisp-edges;
-            image-rendering: -webkit-optimize-contrast;
-        }
-
-        h4,
-        .h4 {
-            font-weight: bold;
-            font-size  : 17px;
-            color      : #000;
-            padding    : 0px 0px 4px 0px;
-            margin     : 0px;
-            line-height: 14px;
+    div {
+        div.icone-thematique {
+            width      : 60px;
+            height     : 60px;
+            position   : absolute;
+            top        : 18px;
+            left       : 28px;
+            font-size  : 60px;
+            margin     : 0;
+            padding    : 0 !important;
+            line-height: normal !important;
+            color      : $darkGreen;
 
             a,
             a:hover,
             a:visited {
-                color: #000;
+                color: $darkGreen;
             }
         }
 
-        p {
-            font-size : 13px;
-            text-align: left;
-            color     : #000000d9;
+        div.texte-thematique {
+            line-height  : 13px;
+            padding      : 17px 17px 7px 80px;
+            border-radius: 5px;
+            background   : #f2f3f6;
+            min-height   : 97px;
+
+            h4,
+            .h4 {
+                font-weight: bold;
+                font-size  : 17px;
+                color      : #000;
+                padding    : 0px 0px 4px 0px;
+                margin     : 0px;
+                line-height: 14px;
+
+                a,
+                a:hover,
+                a:visited {
+                    color: #000;
+                }
+            }
+
+            p {
+                font-size : 13px;
+                text-align: left;
+                color     : #000000d9;
+            }
         }
     }
 }
@@ -397,7 +407,8 @@ div.forum-portail {
         margin-left  : 17px;
     }
 
-    .small-text, .small-text a {
+    .small-text,
+    .small-text a {
         line-height: 1.3;
         font-size  : 14px;
         color      : #939393 !important;

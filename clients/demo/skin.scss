@@ -3,47 +3,7 @@
     background-color: #f1eee5;
 }
 
-// Override the logo
-#logo-large, #footer_logo_large {
-    display        : block;
-    -moz-box-sizing: border-box;
-    box-sizing     : border-box;
-    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_large.svg) no-repeat;
-    width          : 200px; // Width of new image
-    height         : 61px; // Height of new image
-    padding-left   : 200px; // Equal to width of new image
-}
-
-#logo-medium {
-    display        : block;
-    -moz-box-sizing: border-box;
-    box-sizing     : border-box;
-    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_small.svg) no-repeat;
-    width          : 75px; // Width of new image
-    height         : 35px; // Height of new image
-    padding-left   : 75px; // Equal to width of new image
-}
-
-#logo-square {
-    display        : block;
-    -moz-box-sizing: border-box;
-    box-sizing     : border-box;
-    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_square.svg) no-repeat;
-    width          : 40px; // Width of new image
-    height         : 40px; // Height of new image
-    padding-left   : 40px; // Equal to width of new image
-}
-
-#square-mobile-logo {
-    display        : block;
-    -moz-box-sizing: border-box;
-    box-sizing     : border-box;
-    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_square.svg) no-repeat;
-    width          : 29px; // Width of new image
-    height         : 29px; // Height of new image
-    padding-left   : 29px; // Equal to width of new image
-}
-
+// Override the colors
 #side-map path, #map path {
 	&.q0-3 {fill:#F5DCD6}
 	&.q1-3 {fill:#E09C8B}
@@ -102,4 +62,75 @@
             }
         }
     }
+}
+
+
+
+
+/////
+
+.p-navbar {
+
+    .navbar-brand {
+
+        img#logo-large {
+            -moz-box-sizing: border-box;
+            box-sizing     : border-box;
+            background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_large.svg) no-repeat;
+            width          : 200px; // Width of new image
+            height         : 61px; // Height of new image
+            padding-left   : 200px; // Equal to width of new image
+        }
+
+        img#logo-medium {
+            -moz-box-sizing: border-box;
+            box-sizing     : border-box;
+            background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_small.svg) no-repeat;
+            width          : 75px; // Width of new image
+            height         : 35px; // Height of new image
+            padding-left   : 75px; // Equal to width of new image
+        }
+
+        img#logo-square {
+            -moz-box-sizing: border-box;
+            box-sizing     : border-box;
+            background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_square.svg) no-repeat;
+            width          : 40px; // Width of new image
+            height         : 40px; // Height of new image
+            padding-left   : 40px; // Equal to width of new image
+        }
+        
+
+    }
+
+    // Use the large logo when in desktop mode
+    @media (min-width: 1501px) {
+        .navbar-brand {
+            img#logo-large {
+
+            }
+        }
+    }
+}
+
+// Override the logo
+#footer_logo_large {
+    display        : block;
+    -moz-box-sizing: border-box;
+    box-sizing     : border-box;
+    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_large.svg) no-repeat;
+    width          : 200px; // Width of new image
+    height         : 61px; // Height of new image
+    padding-left   : 200px; // Equal to width of new image
+}
+
+
+#square-mobile-logo {
+    display        : block;
+    -moz-box-sizing: border-box;
+    box-sizing     : border-box;
+    background     : url(/skins/skin-neayi/clients/demo/images/demo_logo_square.svg) no-repeat;
+    width          : 29px; // Width of new image
+    height         : 29px; // Height of new image
+    padding-left   : 29px; // Equal to width of new image
 }
