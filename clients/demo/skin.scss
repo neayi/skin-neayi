@@ -4,49 +4,175 @@
 }
 
 // Override the colors
-#side-map path, #map path {
-	&.q0-3 {fill:#F5DCD6}
-	&.q1-3 {fill:#E09C8B}
-	&.q2-3 {fill:#CB6040}
-	&.q0-4 {fill:#F5DCD6}
-	&.q1-4 {fill:#E7B1A4}
-	&.q2-4 {fill:#D98872}
-	&.q3-4 {fill:#CB6040}
-	&.q0-5 {fill:#F5DCD6}
-	&.q1-5 {fill:#EBBCB0}
-	&.q2-5 {fill:#E09C8B}
-	&.q3-5 {fill:#D67E65}
-	&.q4-5 {fill:#CB6040}
-	&.q0-6 {fill:#F5DCD6}
-	&.q1-6 {fill:#EDC2B8}
-	&.q2-6 {fill:#E5A99A}
-	&.q3-6 {fill:#DC907C}
-	&.q4-6 {fill:#D4785E}
-	&.q5-6 {fill:#CB6040}
-	&.q0-7 {fill:#F5DCD6}
-	&.q1-7 {fill:#EEC6BD}
-	&.q2-7 {fill:#E7B1A4}
-	&.q3-7 {fill:#E09C8B}
-	&.q4-7 {fill:#D98872}
-	&.q5-7 {fill:#D27459}
-	&.q6-7 {fill:#CB6040}
-	&.q0-8 {fill:#F5DCD6}
-	&.q1-8 {fill:#EFC9C1}
-	&.q2-8 {fill:#E9B7AB}
-	&.q3-8 {fill:#E3A595}
-	&.q4-8 {fill:#DD9380}
-	&.q5-8 {fill:#D7826B}
-	&.q6-8 {fill:#D17155}
-	&.q7-8 {fill:#CB6040}
-	&.q0-9 {fill:#F5DCD6}
-	&.q1-9 {fill:#F0CCC3}
-	&.q2-9 {fill:#EBBCB0}
-	&.q3-9 {fill:#E6AC9D}
-	&.q4-9 {fill:#E09C8B}
-	&.q5-9 {fill:#DB8D78}
-	&.q6-9 {fill:#D67E65}
-	&.q7-9 {fill:#D06F53}
-	&.q8-9 {fill:#CB6040}
+#side-map path,
+#map path {
+    &.q0-3 {
+        fill: #F5DCD6
+    }
+
+    &.q1-3 {
+        fill: #E09C8B
+    }
+
+    &.q2-3 {
+        fill: #CB6040
+    }
+
+    &.q0-4 {
+        fill: #F5DCD6
+    }
+
+    &.q1-4 {
+        fill: #E7B1A4
+    }
+
+    &.q2-4 {
+        fill: #D98872
+    }
+
+    &.q3-4 {
+        fill: #CB6040
+    }
+
+    &.q0-5 {
+        fill: #F5DCD6
+    }
+
+    &.q1-5 {
+        fill: #EBBCB0
+    }
+
+    &.q2-5 {
+        fill: #E09C8B
+    }
+
+    &.q3-5 {
+        fill: #D67E65
+    }
+
+    &.q4-5 {
+        fill: #CB6040
+    }
+
+    &.q0-6 {
+        fill: #F5DCD6
+    }
+
+    &.q1-6 {
+        fill: #EDC2B8
+    }
+
+    &.q2-6 {
+        fill: #E5A99A
+    }
+
+    &.q3-6 {
+        fill: #DC907C
+    }
+
+    &.q4-6 {
+        fill: #D4785E
+    }
+
+    &.q5-6 {
+        fill: #CB6040
+    }
+
+    &.q0-7 {
+        fill: #F5DCD6
+    }
+
+    &.q1-7 {
+        fill: #EEC6BD
+    }
+
+    &.q2-7 {
+        fill: #E7B1A4
+    }
+
+    &.q3-7 {
+        fill: #E09C8B
+    }
+
+    &.q4-7 {
+        fill: #D98872
+    }
+
+    &.q5-7 {
+        fill: #D27459
+    }
+
+    &.q6-7 {
+        fill: #CB6040
+    }
+
+    &.q0-8 {
+        fill: #F5DCD6
+    }
+
+    &.q1-8 {
+        fill: #EFC9C1
+    }
+
+    &.q2-8 {
+        fill: #E9B7AB
+    }
+
+    &.q3-8 {
+        fill: #E3A595
+    }
+
+    &.q4-8 {
+        fill: #DD9380
+    }
+
+    &.q5-8 {
+        fill: #D7826B
+    }
+
+    &.q6-8 {
+        fill: #D17155
+    }
+
+    &.q7-8 {
+        fill: #CB6040
+    }
+
+    &.q0-9 {
+        fill: #F5DCD6
+    }
+
+    &.q1-9 {
+        fill: #F0CCC3
+    }
+
+    &.q2-9 {
+        fill: #EBBCB0
+    }
+
+    &.q3-9 {
+        fill: #E6AC9D
+    }
+
+    &.q4-9 {
+        fill: #E09C8B
+    }
+
+    &.q5-9 {
+        fill: #DB8D78
+    }
+
+    &.q6-9 {
+        fill: #D67E65
+    }
+
+    &.q7-9 {
+        fill: #D06F53
+    }
+
+    &.q8-9 {
+        fill: #CB6040
+    }
 }
 
 .resume-exploitation {
@@ -54,21 +180,49 @@
 
         .caracteristique-exploitation {
             a {
-                color      : #CB6040;
+                color: #CB6040;
             }
 
-            span, span.label {
-                color         : #CB6040;
+            span,
+            span.label {
+                color: #CB6040;
             }
         }
     }
 }
 
+label.wikisearch-pill {
+    background-color: #FD8B51;
+    border-color    : #FD8B51;
+}
+
+// Search bar
+div#neayi-searchform {
+
+    .input-group {
+
+        input#searchInput,
+        button#searchGoButton,
+        input#searchInput::placeholder {
+            color: #665c4c;
+        }
+    }
+
+    div#editing-view-port,
+    div#editing-view-port div,
+    #searchform-close,
+    div#placeholder  {
+        color: #665c4c;
+    }
+
+    div#search-clear {
+        color: #665c4c;
+    }
+}
 
 
 
-/////
-
+// Logos
 .p-navbar {
 
     .navbar-brand {
@@ -99,16 +253,14 @@
             height         : 40px; // Height of new image
             padding-left   : 40px; // Equal to width of new image
         }
-        
+
 
     }
 
     // Use the large logo when in desktop mode
     @media (min-width: 1501px) {
         .navbar-brand {
-            img#logo-large {
-
-            }
+            img#logo-large {}
         }
     }
 }
