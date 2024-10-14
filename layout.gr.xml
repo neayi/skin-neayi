@@ -86,7 +86,7 @@
 		</component>
 		<component type="Container" position="right" class="create-profile"><component type="Html">
 			<![CDATA[<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
-			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">Δημιουργία-ή-σύνδεση</div>
+			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">Δημιουργήστε έναν λογαριασμό</a><br/>ή συνδεθείτε</div>
 			</div>]]></component></component>
 	</component>
 
