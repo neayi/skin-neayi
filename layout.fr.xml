@@ -351,7 +351,7 @@
                     <p>Dites en plus à la commauté pour enrichir vos échanges avec les autres agriculteurs</p>
                     <div class="row">
                         <div class="col form-group">
-                            <label for="sinceInputId">Depuis quand ?  <a href="#" role="button"
+                            <label for="sinceInputId">Depuis quand ? <a href="#" role="button"
                                     class="badge badge-pill badge-light popover-neayi-help" data-toggle="popover"
                                     data-trigger="focus" title="Depuis quand ?"
                                     data-content="Renseignez l’année où vous avez démarré cette technique, afin d’aider les autres à comprendre votre degré d’expérience sur le sujet !Renseignez l'année où vous avez démarré cette technique, afin d'aider les autres à comprendre votre degré d'expérience sur le sujet !">?</a></label>
@@ -362,7 +362,7 @@
                         <div class="col form-check form-group">
                             <input class="" id="followwheck" name="follow" type="checkbox" checked value="follow">
                             <label class="form-check-label" for="followwheck">
-                                Suivre la page ? 
+                                Suivre la page ?
                             </label>
                         </div>
                     </div>
@@ -449,7 +449,7 @@
                                     id="load-more-community">
                                     <span class="spinner-border spinner-border-sm" role="status"
                                         aria-hidden="true"></span>
-                                    Chargement... 
+                                    Chargement...
                                 </a></div>
                         </div>
                         <div class="community-not-connected">

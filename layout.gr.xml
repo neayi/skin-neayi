@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<structure xmlns="https://cmln.github.io/chameleon/schema/3.0/layout.rng">
+
+	<grid class="title-sticky d-block d-lg-none container">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[
+					<div class="d-flex">
+						<div class="align-self-center"><a class="sticky-title-logo" href="/wiki/Triple_Performance" title="Triple Performance"><img id="square-mobile-logo" src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" class="d-lg-none"></a></div>
+						<div class="align-self-center sticky-title-span"></div>
+					</div>
+					<div id="scrollbar-mobile" class="scrollbars"><div class="scrollbar-bg"></div></div>
+				]]></component>
+			</cell>
+		</row>
+	</grid>
+
+	<component type="NavbarHorizontal">
+		<component type="Html" position="head">
+			<![CDATA[<div id="p-logo" class="navbar-brand p-logo" role="banner">
+			<a href="/wiki/Triple_Performance" title="Triple Performance"><img src="/skins/skin-neayi/favicon/logo-triple-performance.svg" alt="Triple Performance" id="logo-large"><img src="/skins/skin-neayi/favicon/logo-triple-performance-mobile.svg" alt="Triple Performance" id="logo-medium"><img src="/skins/skin-neayi/favicon/logo-triple-performance-square.svg" alt="Triple Performance" id="logo-square"></a>
+		</div>]]></component>
+
+		<component type="NavMenu" flatten="navigation"/>
+		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
+		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Αναζήτηση Triple Performance" />
+		<component type="PersonalTools" class="my-auto"/>
+		<component type="Container" class=""><component type="Html">
+			<![CDATA[<ul class="navbar-nav">
+	        <li class="nav-item dropdown neayi-desktop-nav">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_productions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Παραγωγές</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/wiki/Grandes cultures" title="Αγρό-καλλιέργειες">Αγρό-καλλιέργειες</a>
+<a class="dropdown-item" href="/wiki/Élevage" title="Αναπαραγωγή">Αναπαραγωγή</a>
+<a class="dropdown-item" href="/wiki/Viticulture" title="Αμπελουργία">Αμπελουργία</a>
+<a class="dropdown-item" href="/wiki/Arboriculture" title="Δενδροκομία">Δενδροκομία</a>
+<a class="dropdown-item" href="/wiki/Maraîchage" title="Εμποροκηπευτική">Εμποροκηπευτική</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="Hmp">Hmp</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Αναζήτηση για μελέτες περιπτώσεων">Αναζήτηση για μελέτες περιπτώσεων</a>
+<a class="dropdown-item" href="/wiki/Portraits_de_ferme" title="Αναζήτηση για πορτραίτα">Αναζήτηση για πορτραίτα</a>
+
+		</div>
+	</li>
+
+            <li class="nav-item dropdown neayi-desktop-nav">
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_thematiques" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Θέματα</a>
+		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/wiki/Agriculture de précision" title="Γεωργία ακριβείας">Γεωργία ακριβείας</a>
+<a class="dropdown-item" href="/wiki/Agroforesterie" title="Αγροδασοκομία">Αγροδασοκομία</a>
+<a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a>
+<a class="dropdown-item" href="/wiki/Biodiversité" title="Βιοποικιλότητα">Βιοποικιλότητα</a>
+<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Συνεργασία-και-συνεργασία-στη-γεωργία">Συνεργασία-και-συνεργασία-στη-γεωργία</a>
+<a class="dropdown-item" href="/wiki/Couverts végétaux" title="Καλύμματα">Καλύμματα</a>
+<a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Κύκλος άνθρακα και GHG">Κύκλος άνθρακα και GHG</a>
+<a class="dropdown-item" href="/wiki/Désherbage" title="Βοτάνισμα">Βοτάνισμα</a>
+<a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Διάγνωση και απόδοση">Διάγνωση και απόδοση</a>
+<a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Διαχείριση υδάτων">Διαχείριση υδάτων</a>
+<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Γεωργικός-εξοπλισμός-και-μηχανήματα">Γεωργικός-εξοπλισμός-και-μηχανήματα</a>
+<a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Εργαλεία μέτρησης και παρατήρησης">Εργαλεία μέτρησης και παρατήρησης</a>
+<a class="dropdown-item" href="/wiki/Production énergétique" title="Παραγωγή ενέργειας">Παραγωγή ενέργειας</a>
+<a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Ολοκληρωμένη-προστασία-καλλιεργειών">Ολοκληρωμένη-προστασία-καλλιεργειών</a>
+<a class="dropdown-item" href="/wiki/Résilience climatique" title="Ανθεκτικότητα στο κλίμα">Ανθεκτικότητα στο κλίμα</a>
+<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Τακτοποίηση">Τακτοποίηση</a>
+<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="Πώληση της φάρμας">Πώληση της φάρμας</a>
+<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Ζωντανά εδάφη">Ζωντανά εδάφη</a>
+<a class="dropdown-item" href="/wiki/Valorisation de la production" title="Αποτίμηση της παραγωγής">Αποτίμηση της παραγωγής</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="/wiki/Search" title="Αναζήτηση">Αναζήτηση</a>
+
+		</div>
+	</li>
+
+    <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Παραγωγές">Παραγωγές</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Θέματα">Θέματα</a></li>
+<li class="nav-item"><a class="nav-link" href="https://gr.forum.tripleperformance.ag" title="Φόρουμ">Φόρουμ</a></li>
+<li class="nav-item"><a class="nav-link" href="/wiki/Μαθήματα κατάρτισης" title="Μαθήματα κατάρτισης">Μαθήματα κατάρτισης</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Αναζήτηση">Αναζήτηση</a></li>
+
+
+</ul>]]></component></component>
+		<component type="Container" position="right" class=""><component type="Html">
+			<![CDATA[<div class="neayi-square-button" id="neayi-search-button"><span class="material-icons" aria-hidden="true">search</span></div>
+					<div class="neayi-square-button" id="neayi-add-button"><a class="stretched-link" href="/wiki/Help:Créer_une_page"><span class="material-icons" aria-hidden="true">add</span></a></div>]]>
+			</component>
+		</component>
+		<component type="Container" position="right" class="create-profile"><component type="Html">
+			<![CDATA[<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
+			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">Δημιουργία-ή-σύνδεση</div>
+			</div>]]></component></component>
+	</component>
+
+	<grid mode="fluid" class="flex-fill WikiMainContent">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[<div id="scrollbar" class="scrollbars"><div class="scrollbar-bg"></div></div>
+				<div id="neayi-searchform"><span id="searchform-close" class="material-icons" aria-hidden="true">close</span></div>]]></component>
+			</cell>
+		</row>
+
+		<row>
+			<cell>
+				<component type="SiteNotice"/>
+			</cell>
+		</row>
+
+		<row>
+			<cell>
+				<component type="Container" class="row mainContainer">
+					<component type='Html'><![CDATA[<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
+<div class="black-layer"></div>
+<div class="col-12 mx-auto hero-titles">
+<h1 class="text-white mt-md-3"></h1>
+<h2 class="text-white"></h2>
+</div></div></div>]]></component>
+
+					<component type="Container" class="leftSide col-auto"></component>
+					<component type="Container" class="centralDiv col">
+					<component type='Html'><![CDATA[]]></component>
+						<component type="MainContent" class=""></component>
+					</component>
+					<component type="Container" class="rightSide col-auto d-lg-block d-none">
+					<component type='Html'><![CDATA[<div class="interaction-bloc">
+	<div class="interaction-top">
+		<span id="interaction-title">&nbsp;</span>
+		<div class="container px-0 interaction-buttons">
+			<div class="row">
+				<div class="col text-right"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
+				<div class="col text-left" ><a class="label-community-count" data-toggle="modal" data-target="#communityModal"></a></div>
+			</div>
+		</div>
+		<div class="container px-0 interaction-buttons">
+			<div class="row mx-n1">
+				<div class="col-auto px-1">
+					<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
+						<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
+					</button>
+					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
+				</div>
+				<div class="col px-1">
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Ακολουθώ</button>
+					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
+				</div>
+				<div class="col px-1">
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Κουμπί I-do-it</button>
+					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container px-0 interaction-links">
+		<div class="row mx-0">
+			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#di-comments">
+					<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
+					<span class="questions-text">Συζήτηση</span></a></div>
+			<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
+				<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport"
+					aria-haspopup="true" aria-expanded="false">
+					<span class="material-icons" aria-hidden="true">more_vert</span>
+				</button>
+			</div>
+		</div>
+	</div>
+	<div id="side-map">
+		<div id="side-map-container"></div>
+		<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend"
+				style="display:none">Που-είναι-η-κοινότητα</a></div>
+	</div>
+</div>]]></component>
+
+					</component>
+				</component>
+			</cell>
+		</row>
+	</grid>
+
+	<grid class="social-sticky container text-center py-2">
+		<row>
+			<cell class="d-none d-md-block text-left">
+				<component type="Html"><![CDATA[<a class="suggest-button" target="_blank" title=""
+    href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i>
+    Προτείνω-σελίδα</a>]]></component>
+			</cell>
+			<cell class="text-md-right">
+				<component type="Html"><![CDATA[<div class="d-inline-block text-center">
+	<span>Κοινοποίηση στο:</span>
+	<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span> </a>
+	<a class="share-twitter d-none d-lg-inline" target="_blank" title=""><span class="fab fa-twitter"></span> </a>
+	<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span> </a>
+	<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span> </a>
+</div>]]></component>
+			</cell>
+
+		</row>
+	</grid>
+
+	<grid class="footer py-5">
+		<row>
+			<cell>
+				<component type="Html"><![CDATA[
+            <div class="row align-items-center">
+                <div class="col-md-10 pb-4 offset-xl-1">
+                    <img id="footer_logo_large" src="/skins/skin-neayi/favicon/logo-triple-performance.svg" class="img-fluid mb-md-0 mb-3">
+                </div>
+			</div>
+			<div class="row">
+                <div class="col-xl-2 col-lg-6 offset-xl-1">
+<p class="footer-title">Triple Performance</p>
+<ul class="list-unstyled">
+<li><a href="/wiki/%C3%80_propos" title="Για το">Για το</a></li>
+<li><a href="/wiki/Partenaires" title="Συνεργάτες">Συνεργάτες</a></li>
+<li><a href="/wiki/Manifeste_de_la_plateforme_Triple_Performance" title="Γιατί;">Γιατί;</a></li>
+<li><a href="/wiki/Comment_fonctionne_la_plateforme" title="Πώς λειτουργεί;">Πώς λειτουργεί;</a></li>
+<li><a href="#" class="neayi-tour">Ξενάγηση</a> <i class="fas fa-route"></i></li>
+</ul>
+<p class="footer-title">Κοινότητα</p>
+<ul class="list-unstyled">
+<li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">Δημιουργήστε ένα λογαριασμό ή συνδεθείτε</a></li>
+<li><a href="/wiki/Help:Bienvenue" title="Συνεισφέρω; Ξεκινά εδώ!">Συνεισφέρω; Ξεκινά εδώ!</a></li>
+<li><a href="https://gr.forum.tripleperformance.ag">Πρόσβαση στο φόρουμ</a></li>
+</ul>
+</div>
+<div class="col-xl-2 col-lg-6">
+<p class="footer-title">Παραγωγές</p>
+<ul class="list-unstyled">
+<li><a href="/wiki/Grandes cultures" title="Αγρό-καλλιέργειες">Αγρό-καλλιέργειες</a></li>
+<li><a href="/wiki/Élevage" title="Αναπαραγωγή">Αναπαραγωγή</a></li>
+<li><a href="/wiki/Viticulture" title="Αμπελουργία">Αμπελουργία</a></li>
+<li><a href="/wiki/Arboriculture" title="Δενδροκομία">Δενδροκομία</a></li>
+<li><a href="/wiki/Maraîchage" title="Εμποροκηπευτική">Εμποροκηπευτική</a></li>
+<li><a href="/wiki/PPAM" title="Hmp">Hmp</a></li>
+</ul>
+</div>
+<div class="col-xl-2 col-lg-6">
+<p class="footer-title">Θέματα</p>
+<ul class="list-unstyled">
+<li><a href="/wiki/Agriculture de précision" title="Γεωργία ακριβείας">Γεωργία ακριβείας</a></li>
+<li><a href="/wiki/Agroforesterie" title="Αγροδασοκομία">Αγροδασοκομία</a></li>
+<li><a href="/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a></li>
+<li><a href="/wiki/Biodiversité" title="Βιοποικιλότητα">Βιοποικιλότητα</a></li>
+<li><a href="/wiki/Collaboration et coopération en agriculture" title="Συνεργασία-και-συνεργασία-στη-γεωργία">Συνεργασία-και-συνεργασία-στη-γεωργία</a></li>
+<li><a href="/wiki/Couverts végétaux" title="Καλύμματα">Καλύμματα</a></li>
+<li><a href="/wiki/Cycle du carbone et GES" title="Κύκλος άνθρακα και GHG">Κύκλος άνθρακα και GHG</a></li>
+<li><a href="/wiki/Désherbage" title="Βοτάνισμα">Βοτάνισμα</a></li>
+<li><a href="/wiki/Diagnostic et performance d'une ferme" title="Διάγνωση και απόδοση">Διάγνωση και απόδοση</a></li>
+<li><a href="/wiki/Gestion de l’eau" title="Διαχείριση υδάτων">Διαχείριση υδάτων</a></li>
+</ul>
+</div>
+<div class="col-xl-2 col-lg-6">
+<p class="footer-title d-none d-md-block">&nbsp;</p>
+<ul class="list-unstyled">
+<li><a href="/wiki/Matériel et machines agricoles" title="Γεωργικός-εξοπλισμός-και-μηχανήματα">Γεωργικός-εξοπλισμός-και-μηχανήματα</a></li>
+<li><a href="/wiki/Outils de mesure et d’observation" title="Εργαλεία μέτρησης και παρατήρησης">Εργαλεία μέτρησης και παρατήρησης</a></li>
+<li><a href="/wiki/Production énergétique" title="Παραγωγή ενέργειας">Παραγωγή ενέργειας</a></li>
+<li><a href="/wiki/Protection intégrée des cultures" title="Ολοκληρωμένη-προστασία-καλλιεργειών">Ολοκληρωμένη-προστασία-καλλιεργειών</a></li>
+<li><a href="/wiki/Résilience climatique" title="Ανθεκτικότητα στο κλίμα">Ανθεκτικότητα στο κλίμα</a></li>
+<li><a href="/wiki/S'installer en agriculture" title="Τακτοποίηση">Τακτοποίηση</a></li>
+<li><a href="/wiki/Transmettre sa ferme" title="Πώληση της φάρμας">Πώληση της φάρμας</a></li>
+<li><a href="/wiki/Agronomie des sols vivants" title="Ζωντανά εδάφη">Ζωντανά εδάφη</a></li>
+<li><a href="/wiki/Valorisation de la production" title="Αποτίμηση της παραγωγής">Αποτίμηση της παραγωγής</a></li>
+</ul>
+</div>
+<div class="col-xl-2 col-lg-6">
+<p class="footer-title">Κατασκευάστηκε με ♡ από την <a target="_blank" href="https://neayi.com/">Neayi</a></p>
+<ul class="list-unstyled">
+<li><a href="/wiki/Charte_d%E2%80%99utilisation" title="Χάρτα πλατφόρμας">Χάρτα πλατφόρμας</a></li>
+<li><a href="/wiki/Triple_Performance:Politique_de_confidentialité" title="Νομική-ανακοίνωση">Νομική-ανακοίνωση</a></li>
+<li><a href="/wiki/Open_Source" title="Ανοιχτού Κώδικα">Ανοιχτού Κώδικα</a></li>
+<li><a target="_blank" href="https://neayi.com/contact/">Επικοινωνία</a> - <a target="_blank" href="/wiki/Triple Performance:Newsletter">Ενημερωτικό δελτίο</a></li>
+<li><a href="/wiki/Triple_Performance:Stats" title="Στατιστικά στοιχεία">Στατιστικά στοιχεία</a></li>
+<li><span class="social-links">
+<a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Ακολουθήστε μας στο facebook"><span class="fab fa-facebook-f"></span></a>
+<a href="https://twitter.com/TriplePerforma1" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Ακολουθήστε μας στο Twitter"><span class="fab fa-twitter"></span></a>
+<a href="https://www.linkedin.com/company/neayi" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Ακολουθήστε μας στο LinkedIn"><span class="fab fa-linkedin-in"></span></a>
+</span></li>
+</ul>
+</div>
+
+            </div>]]></component>
+			</cell>
+		</row>
+
+		<row>
+			<cell>
+				<component type="NavbarHorizontal" collapsible="no" class="small mb-2" >
+					<component type="Toolbox" flatten="no" class="dropup">
+                        <modification type="ShowOnlyFor" group="user" />
+                    </component>
+					<component type="LangLinks" flatten="no" class=""/>
+				</component>
+			</cell>
+		</row>
+
+	</grid>
+
+	<component type="Html"><![CDATA[<div class="modal fade" id="requiresLoginModal" tabindex="-1" aria-labelledby="requiresLoginModal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <img width="200" src="/skins/skin-neayi/favicon/logo-triple-performance.svg"
+                    alt="Wiki Triple Performance">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Συνδεθείτε ή δημιουργήστε έναν λογαριασμό για να εγγραφείτε στην κοινότητα, ώστε να μπορείτε να παρακολουθείτε σελίδες, να σχολιάζετε ή να μοιράζεστε την εμπειρία σας!<br /><br />Αυτό διαρκεί μόνο ένα λεπτό!</p>
+            </div>
+            <div class="modal-footer border-top-0">
+                <a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Δημιουργήστε ένα λογαριασμό ή συνδεθείτε
+                    <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="inviteLoginModal" tabindex="-1" aria-labelledby="requiresLoginModal" aria-hidden="true">
+    <div class="modal-dialog  modal-lg">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <img width="200" src="/skins/skin-neayi/favicon/logo-triple-performance.svg"
+                    alt="Wiki Triple Performance">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Σας ευχαριστούμε για την ενθάρρυνση σας, εκτιμάται από όλα τα μέλη της κοινότητας!</p>
+
+                <p>Συνδεθείτε ή δημιουργήστε έναν λογαριασμό για να εγγραφείτε στην κοινότητα, ώστε να μπορείτε να παρακολουθείτε σελίδες, να σχολιάζετε ή να μοιράζεστε την εμπειρία σας!<br /><br />Αυτό διαρκεί μόνο ένα λεπτό!</p>
+            </div>
+            <div class="modal-footer border-top-0">
+                <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Όχι-ευχαριστώ-όχι-ακόμη</a>
+                <a rel="nofollow" class="btn btn-primary login-links" href="/wiki/Special:Login">Δημιουργήστε ένα λογαριασμό ή συνδεθείτε
+                    <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="tellUsMoreModal" tabindex="-1" data-backdrop="static" aria-labelledby="tellUsMoreModal"
+    aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form id="tellUsMoreForm">
+                <div class="modal-header border-bottom-0">
+                    <h1 class="border-bottom-0">Ευχαριστώ</h1>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Πείτε στην κοινότητα περισσότερα για να εμπλουτίσετε τις ανταλλαγές σας με άλλους αγρότες</p>
+                    <div class="row">
+                        <div class="col form-group">
+                            <label for="sinceInputId">Από πότε; <a href="#" role="button"
+                                    class="badge badge-pill badge-light popover-neayi-help" data-toggle="popover"
+                                    data-trigger="focus" title="Depuis quand ?"
+                                    data-content="Εισαγάγετε τη χρονιά που ξεκινήσατε αυτήν την τεχνική, για να βοηθήσετε τους άλλους να κατανοήσουν το επίπεδο εμπειρίας σας στο θέμα!Renseignez l'année où vous avez démarré cette technique, afin d'aider les autres à comprendre votre degré d'expérience sur le sujet !">?</a></label>
+                            <select class="form-control" id="sinceInputId" name="since"></select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col form-check form-group">
+                            <input class="" id="followwheck" name="follow" type="checkbox" checked value="follow">
+                            <label class="form-check-label" for="followwheck">
+                                Ακολουθήστε τη σελίδα
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer border-top-0">
+                    <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Όχι-ευχαριστώ-όχι-ακόμη</a>
+                    <button class="btn btn-primary" id="tellUsMoreModalSubmit">Εκτός</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="modal fade " id="communityModal" tabindex="-1" aria-labelledby="tellUsMoreModal" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <h1 class="border-bottom-0">Μάθετε-για-την-κοινότητα</h1>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
+                            role="tab" aria-controls="home" aria-selected="true">Στατιστικά στοιχεία</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab"
+                            aria-controls="commununity" aria-selected="false">Κοινότητα</a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="statistiques" role="tabpanel"
+                        aria-labelledby="statistiques-tab">
+                        <!-- Statistiques -->
+                        <div class="stats-title">Πού-είναι-αυτοί-που-το-κάνουν</div>
+                        <div class="row">
+                            <div id="map" class="col col-auto"></div>
+                            <div class="col col-auto" id="departments-stats"></div>
+                        </div>
+                        <div class="stats-features" id="famings-stats">
+                            <div class="stats-title">Συχνός τύπος αγροκτήματος</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                        <div class="stats-features" id="cropping-systems-stats">
+                            <div class="stats-title">Πιο-συχνές-προδιαγραφές</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
+                        <!-- Communauté -->
+                        <div class="community-connected">
+                            <form>
+                                <div class="follower-search form-row align-items-center">
+                                    <div class="col-auto">
+                                        <select id="departments-select" class="community-select custom-select">
+                                            <option selected value="">Τόπος</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                        <select id="famings-select" class="community-select custom-select">
+                                            <option selected value="">Παραγωγή</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-auto">
+                                        <select id="cropping-systems-select" class="community-select custom-select">
+                                            <option selected value="">Προδιαγραφή</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="follower-search form-row align-items-center">
+                                    <div class="col-auto">
+                                        <div class="custom-control custom-switch align-center">
+                                            <input type="checkbox" class="custom-control-input"
+                                                id="community-doneit-only" value="yes">
+                                            <label class="custom-control-label" for="community-doneit-only">Δείτε μόνο ποιος το έκανε</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <div id="community-items"></div>
+                            <div class="text-center"><a class="btn btn-primary" style="display:none"
+                                    id="load-more-community">
+                                    <span class="spinner-border spinner-border-sm" role="status"
+                                        aria-hidden="true"></span>
+                                    Φόρτωση
+                                </a></div>
+                        </div>
+                        <div class="community-not-connected">
+                            <p>Παρακαλώ εγγραφείτε για να μάθετε για την κοινότητα</p>
+                            <p class="small text-muted">Γνωρίστε άλλους αγρότες, συμβούλους και προμηθευτές που ενδιαφέρονται για αυτήν τη σελίδα</p>
+                            <p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Δημιουργήστε ένα λογαριασμό ή συνδεθείτε
+                                     <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer border-top-0">
+                <button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">Κοντά</button>
+            </div>
+        </div>
+    </div>
+</div>]]></component>
+</structure>

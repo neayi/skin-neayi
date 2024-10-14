@@ -23,59 +23,59 @@
 
 		<component type="NavMenu" flatten="navigation"/>
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
-		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Search Triple Performance" />
+		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Zoeken in Triple Performance" />
 		<component type="PersonalTools" class="my-auto"/>
 		<component type="Container" class=""><component type="Html">
 			<![CDATA[<ul class="navbar-nav">
 	        <li class="nav-item dropdown neayi-desktop-nav">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_productions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productions</a>
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_productions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Producties</a>
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/wiki/Grandes cultures" title="Field crops">Field crops</a>
-<a class="dropdown-item" href="/wiki/Élevage" title="Breeding">Breeding</a>
-<a class="dropdown-item" href="/wiki/Viticulture" title="Viticulture">Viticulture</a>
-<a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
-<a class="dropdown-item" href="/wiki/Maraîchage" title="Market gardening">Market gardening</a>
-<a class="dropdown-item" href="/wiki/PPAM" title="HMP">HMP</a>
+            <a class="dropdown-item" href="/wiki/Grandes cultures" title="Grote culturen">Grote culturen</a>
+<a class="dropdown-item" href="/wiki/Élevage" title="Fokken">Fokken</a>
+<a class="dropdown-item" href="/wiki/Viticulture" title="Wijnbouw">Wijnbouw</a>
+<a class="dropdown-item" href="/wiki/Arboriculture" title="Boomkwekerij">Boomkwekerij</a>
+<a class="dropdown-item" href="/wiki/Maraîchage" title="Tuinieren">Tuinieren</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="PMAP">PMAP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Search for case studies">Search for case studies</a>
-<a class="dropdown-item" href="/wiki/Portraits_de_ferme" title="Search for farm portraits">Search for farm portraits</a>
+<a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Zoeken naar casestudies">Zoeken naar casestudies</a>
+<a class="dropdown-item" href="/wiki/Portraits_de_ferme" title="Portretten zoeken">Portretten zoeken</a>
 
 		</div>
 	</li>
 
             <li class="nav-item dropdown neayi-desktop-nav">
-		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_thematiques" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Themes</a>
+		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown_thematiques" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Thema's</a>
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="/wiki/Agriculture de précision" title="Precision agriculture">Precision agriculture</a>
-<a class="dropdown-item" href="/wiki/Agroforesterie" title="Agroforestry">Agroforestry</a>
-<a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a>
-<a class="dropdown-item" href="/wiki/Biodiversité" title="Biodiversity">Biodiversity</a>
-<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Collaboration and cooperation in agriculture">Collaboration and cooperation in agriculture</a>
-<a class="dropdown-item" href="/wiki/Couverts végétaux" title="Plant cover">Plant cover</a>
-<a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Carbon cycle and GHG">Carbon cycle and GHG</a>
-<a class="dropdown-item" href="/wiki/Désherbage" title="Weeding">Weeding</a>
-<a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnosis and performance">Diagnosis and performance</a>
-<a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Water management">Water management</a>
-<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Agricultural equipment and machinery">Agricultural equipment and machinery</a>
-<a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Measurement and observation tools">Measurement and observation tools</a>
-<a class="dropdown-item" href="/wiki/Production énergétique" title="Energy production">Energy production</a>
-<a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Integrated crop protection">Integrated crop protection</a>
-<a class="dropdown-item" href="/wiki/Résilience climatique" title="Climate resilience">Climate resilience</a>
-<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Settling down">Settling down</a>
-<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="Selling the farm">Selling the farm</a>
-<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Living soils">Living soils</a>
-<a class="dropdown-item" href="/wiki/Valorisation de la production" title="Valuation of production">Valuation of production</a>
+            <a class="dropdown-item" href="/wiki/Agriculture de précision" title="Precisie landbouw">Precisie landbouw</a>
+<a class="dropdown-item" href="/wiki/Agroforesterie" title="Agrobosbouw">Agrobosbouw</a>
+<a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioagressors">Bioagressors</a>
+<a class="dropdown-item" href="/wiki/Biodiversité" title="Biodiversiteit">Biodiversiteit</a>
+<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Samenwerking en samenwerking in de landbouw">Samenwerking en samenwerking in de landbouw</a>
+<a class="dropdown-item" href="/wiki/Couverts végétaux" title="Bedekking van planten">Bedekking van planten</a>
+<a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Koolstofcyclus en broeikasgassen">Koolstofcyclus en broeikasgassen</a>
+<a class="dropdown-item" href="/wiki/Désherbage" title="Wieden">Wieden</a>
+<a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnose en uitvoering">Diagnose en uitvoering</a>
+<a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Water beheersing">Water beheersing</a>
+<a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Landbouwwerktuigen en -machines">Landbouwwerktuigen en -machines</a>
+<a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Meet- en observatie-instrumenten">Meet- en observatie-instrumenten</a>
+<a class="dropdown-item" href="/wiki/Production énergétique" title="Energie productie">Energie productie</a>
+<a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Geïntegreerde gewasbescherming">Geïntegreerde gewasbescherming</a>
+<a class="dropdown-item" href="/wiki/Résilience climatique" title="Klimaatbestendigheid">Klimaatbestendigheid</a>
+<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Schikken">Schikken</a>
+<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="De boerderij verkopen">De boerderij verkopen</a>
+<a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Levende bodems">Levende bodems</a>
+<a class="dropdown-item" href="/wiki/Valorisation de la production" title="Waardebepaling van de productie">Waardebepaling van de productie</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="/wiki/Search" title="Search">Search</a>
+<a class="dropdown-item" href="/wiki/Search" title="Zoeken">Zoeken</a>
 
 		</div>
 	</li>
 
-    <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Productions">Productions</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Themes">Themes</a></li>
+    <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Producties">Producties</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Thema&#039;s">Thema's</a></li>
 <li class="nav-item"><a class="nav-link" href="https://nl.forum.tripleperformance.ag" title="Forum">Forum</a></li>
-<li class="nav-item"><a class="nav-link" href="/wiki/Training courses" title="Training courses">Training courses</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Search">Search</a></li>
+<li class="nav-item"><a class="nav-link" href="/wiki/Cursussen" title="Cursussen">Cursussen</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Zoeken">Zoeken</a></li>
 
 
 </ul>]]></component></component>
@@ -86,7 +86,7 @@
 		</component>
 		<component type="Container" position="right" class="create-profile"><component type="Html">
 			<![CDATA[<div class="row align-items-center" id="neayi-createaccount" style="margin: 0; height: 100%;">
-			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">Create an account</a><br/>or sign in</div>
+			 	<div class="col text-center"><a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">Maak uw account aan</a><br>of log in</div>
 			</div>]]></component></component>
 	</component>
 
@@ -138,11 +138,11 @@
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Follow</button>
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">Volgen</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">I do it</button>
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Ik doe</button>
 					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -152,7 +152,7 @@
 		<div class="row mx-0">
 			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#di-comments">
 					<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
-					<span class="questions-text">Discussion</span></a></div>
+					<span class="questions-text">Discussie</span></a></div>
 			<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
 				<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport"
 					aria-haspopup="true" aria-expanded="false">
@@ -164,7 +164,7 @@
 	<div id="side-map">
 		<div id="side-map-container"></div>
 		<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend"
-				style="display:none">Where are those who are interested in this?</a></div>
+				style="display:none">Waar bevinden degenen die geïnteresseerd zijn in deze pagina zich?</a></div>
 	</div>
 </div>]]></component>
 
@@ -179,11 +179,11 @@
 			<cell class="d-none d-md-block text-left">
 				<component type="Html"><![CDATA[<a class="suggest-button" target="_blank" title=""
     href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i>
-    Suggest a page?</a>]]></component>
+    Een pagina voorstellen?</a>]]></component>
 			</cell>
 			<cell class="text-md-right">
 				<component type="Html"><![CDATA[<div class="d-inline-block text-center">
-	<span>Share on:</span>
+	<span>Delen op :</span>
 	<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span> </a>
 	<a class="share-twitter d-none d-lg-inline" target="_blank" title=""><span class="fab fa-twitter"></span> </a>
 	<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span> </a>
@@ -207,71 +207,71 @@
                 <div class="col-xl-2 col-lg-6 offset-xl-1">
 <p class="footer-title">Triple Performance</p>
 <ul class="list-unstyled">
-<li><a href="/wiki/%C3%80_propos" title="About">About</a></li>
+<li><a href="/wiki/%C3%80_propos" title="Met betrekking tot">Met betrekking tot</a></li>
 <li><a href="/wiki/Partenaires" title="Partners">Partners</a></li>
-<li><a href="/wiki/Manifeste_de_la_plateforme_Triple_Performance" title="Why?">Why?</a></li>
-<li><a href="/wiki/Comment_fonctionne_la_plateforme" title="How does it work?">How does it work?</a></li>
-<li><a href="#" class="neayi-tour">Launch the guided tour</a> <i class="fas fa-route"></i></li>
+<li><a href="/wiki/Manifeste_de_la_plateforme_Triple_Performance" title="Waarvoor ?">Waarvoor ?</a></li>
+<li><a href="/wiki/Comment_fonctionne_la_plateforme" title="Hoe het werkt ?">Hoe het werkt ?</a></li>
+<li><a href="#" class="neayi-tour">Start de rondleiding</a> <i class="fas fa-route"></i></li>
 </ul>
-<p class="footer-title">Community</p>
+<p class="footer-title">Gemeenschap</p>
 <ul class="list-unstyled">
-<li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">Create an account or sign in</a></li>
-<li><a href="/wiki/Help:Bienvenue" title="Contribute? It starts here!">Contribute? It starts here!</a></li>
-<li><a href="https://nl.forum.tripleperformance.ag">Access the forum</a></li>
-</ul>
-</div>
-<div class="col-xl-2 col-lg-6">
-<p class="footer-title">Productions</p>
-<ul class="list-unstyled">
-<li><a href="/wiki/Grandes cultures" title="Field crops">Field crops</a></li>
-<li><a href="/wiki/Élevage" title="Breeding">Breeding</a></li>
-<li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
-<li><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
-<li><a href="/wiki/Maraîchage" title="Market gardening">Market gardening</a></li>
-<li><a href="/wiki/PPAM" title="HMP">HMP</a></li>
+<li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">Maak een account aan of meld u aan</a></li>
+<li><a href="/wiki/Help:Bienvenue" title="Bijdragen? Het begint hier!">Bijdragen? Het begint hier!</a></li>
+<li><a href="https://nl.forum.tripleperformance.ag">Toegang tot het forum</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
-<p class="footer-title">Themes</p>
+<p class="footer-title">Producties</p>
 <ul class="list-unstyled">
-<li><a href="/wiki/Agriculture de précision" title="Precision agriculture">Precision agriculture</a></li>
-<li><a href="/wiki/Agroforesterie" title="Agroforestry">Agroforestry</a></li>
-<li><a href="/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a></li>
-<li><a href="/wiki/Biodiversité" title="Biodiversity">Biodiversity</a></li>
-<li><a href="/wiki/Collaboration et coopération en agriculture" title="Collaboration and cooperation in agriculture">Collaboration and cooperation in agriculture</a></li>
-<li><a href="/wiki/Couverts végétaux" title="Plant cover">Plant cover</a></li>
-<li><a href="/wiki/Cycle du carbone et GES" title="Carbon cycle and GHG">Carbon cycle and GHG</a></li>
-<li><a href="/wiki/Désherbage" title="Weeding">Weeding</a></li>
-<li><a href="/wiki/Diagnostic et performance d'une ferme" title="Diagnosis and performance">Diagnosis and performance</a></li>
-<li><a href="/wiki/Gestion de l’eau" title="Water management">Water management</a></li>
+<li><a href="/wiki/Grandes cultures" title="Grote culturen">Grote culturen</a></li>
+<li><a href="/wiki/Élevage" title="Fokken">Fokken</a></li>
+<li><a href="/wiki/Viticulture" title="Wijnbouw">Wijnbouw</a></li>
+<li><a href="/wiki/Arboriculture" title="Boomkwekerij">Boomkwekerij</a></li>
+<li><a href="/wiki/Maraîchage" title="Tuinieren">Tuinieren</a></li>
+<li><a href="/wiki/PPAM" title="PMAP">PMAP</a></li>
+</ul>
+</div>
+<div class="col-xl-2 col-lg-6">
+<p class="footer-title">Thema's</p>
+<ul class="list-unstyled">
+<li><a href="/wiki/Agriculture de précision" title="Precisie landbouw">Precisie landbouw</a></li>
+<li><a href="/wiki/Agroforesterie" title="Agrobosbouw">Agrobosbouw</a></li>
+<li><a href="/wiki/Bioagresseurs" title="Bioagressors">Bioagressors</a></li>
+<li><a href="/wiki/Biodiversité" title="Biodiversiteit">Biodiversiteit</a></li>
+<li><a href="/wiki/Collaboration et coopération en agriculture" title="Samenwerking en samenwerking in de landbouw">Samenwerking en samenwerking in de landbouw</a></li>
+<li><a href="/wiki/Couverts végétaux" title="Bedekking van planten">Bedekking van planten</a></li>
+<li><a href="/wiki/Cycle du carbone et GES" title="Koolstofcyclus en broeikasgassen">Koolstofcyclus en broeikasgassen</a></li>
+<li><a href="/wiki/Désherbage" title="Wieden">Wieden</a></li>
+<li><a href="/wiki/Diagnostic et performance d'une ferme" title="Diagnose en uitvoering">Diagnose en uitvoering</a></li>
+<li><a href="/wiki/Gestion de l’eau" title="Water beheersing">Water beheersing</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
-<li><a href="/wiki/Matériel et machines agricoles" title="Agricultural equipment and machinery">Agricultural equipment and machinery</a></li>
-<li><a href="/wiki/Outils de mesure et d’observation" title="Measurement and observation tools">Measurement and observation tools</a></li>
-<li><a href="/wiki/Production énergétique" title="Energy production">Energy production</a></li>
-<li><a href="/wiki/Protection intégrée des cultures" title="Integrated crop protection">Integrated crop protection</a></li>
-<li><a href="/wiki/Résilience climatique" title="Climate resilience">Climate resilience</a></li>
-<li><a href="/wiki/S'installer en agriculture" title="Settling down">Settling down</a></li>
-<li><a href="/wiki/Transmettre sa ferme" title="Selling the farm">Selling the farm</a></li>
-<li><a href="/wiki/Agronomie des sols vivants" title="Living soils">Living soils</a></li>
-<li><a href="/wiki/Valorisation de la production" title="Valuation of production">Valuation of production</a></li>
+<li><a href="/wiki/Matériel et machines agricoles" title="Landbouwwerktuigen en -machines">Landbouwwerktuigen en -machines</a></li>
+<li><a href="/wiki/Outils de mesure et d’observation" title="Meet- en observatie-instrumenten">Meet- en observatie-instrumenten</a></li>
+<li><a href="/wiki/Production énergétique" title="Energie productie">Energie productie</a></li>
+<li><a href="/wiki/Protection intégrée des cultures" title="Geïntegreerde gewasbescherming">Geïntegreerde gewasbescherming</a></li>
+<li><a href="/wiki/Résilience climatique" title="Klimaatbestendigheid">Klimaatbestendigheid</a></li>
+<li><a href="/wiki/S'installer en agriculture" title="Schikken">Schikken</a></li>
+<li><a href="/wiki/Transmettre sa ferme" title="De boerderij verkopen">De boerderij verkopen</a></li>
+<li><a href="/wiki/Agronomie des sols vivants" title="Levende bodems">Levende bodems</a></li>
+<li><a href="/wiki/Valorisation de la production" title="Waardebepaling van de productie">Waardebepaling van de productie</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
-<p class="footer-title">Made with ♡ by <a target="_blank" href="https://neayi.com/">Neayi</a></p>
+<p class="footer-title">Gemaakt met ♡ door <a target="_blank" href="https://neayi.com/">Neayi</a></p>
 <ul class="list-unstyled">
-<li><a href="/wiki/Charte_d%E2%80%99utilisation" title="Platform charter">Platform charter</a></li>
-<li><a href="/wiki/Triple_Performance:Politique_de_confidentialité" title="Legal notice">Legal notice</a></li>
-<li><a href="/wiki/Open_Source" title="Open-Source">Open-Source</a></li>
-<li><a target="_blank" href="https://neayi.com/contact/">Contact</a> - <a target="_blank" href="/wiki/Triple Performance:Newsletter">Newsletter</a></li>
-<li><a href="/wiki/Triple_Performance:Stats" title="Stats">Stats</a></li>
+<li><a href="/wiki/Charte_d%E2%80%99utilisation" title="Platformcharter">Platformcharter</a></li>
+<li><a href="/wiki/Triple_Performance:Politique_de_confidentialité" title="Juridische kennisgeving">Juridische kennisgeving</a></li>
+<li><a href="/wiki/Open_Source" title="Open source">Open source</a></li>
+<li><a target="_blank" href="https://neayi.com/contact/">Contact</a> - <a target="_blank" href="/wiki/Triple Performance:Newsletter">Nieuwsbrief</a></li>
+<li><a href="/wiki/Triple_Performance:Stats" title="Statistieken">Statistieken</a></li>
 <li><span class="social-links">
-<a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on Facebook"><span class="fab fa-facebook-f"></span></a>
-<a href="https://twitter.com/TriplePerforma1" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on Twitter"><span class="fab fa-twitter"></span></a>
-<a href="https://www.linkedin.com/company/neayi" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Follow us on LinkedIn"><span class="fab fa-linkedin-in"></span></a>
+<a href="https://www.facebook.com/tripleperformance" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Volg ons op facebook"><span class="fab fa-facebook-f"></span></a>
+<a href="https://twitter.com/TriplePerforma1" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Volg ons op Twitter"><span class="fab fa-twitter"></span></a>
+<a href="https://www.linkedin.com/company/neayi" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Volg ons op LinkedIn"><span class="fab fa-linkedin-in"></span></a>
 </span></li>
 </ul>
 </div>
@@ -304,10 +304,10 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>Log in or create an account to join the community, so you can follow pages, comment or share your experience!<br /><br />This only takes a minute!</p>
+                <p>Log in of maak een account aan om lid te worden van de community, om de pagina's te kunnen volgen, commentaar te geven of uw ervaring te delen!<br /><br />Deze handeling duurt slechts een minuut!</p>
             </div>
             <div class="modal-footer border-top-0">
-                <a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Create an account or sign in
+                <a rel="nofollow" class="login-links btn btn-primary" href="/index.php?title=Special:Login">Maak een account aan of meld u aan
                     <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
             </div>
         </div>
@@ -324,13 +324,13 @@
                 </button>
             </div>
             <div class="modal-body">
-                <p>Thank you for your encouragement, it is appreciated by all members of the community!</p>
+                <p>Bedankt voor je aanmoediging, ze worden gewaardeerd door alle leden van de gemeenschap!</p>
 
-                <p>Log in or create an account to join the community, so you can follow pages, comment or share your experience!<br /><br />This only takes a minute!</p>
+                <p>Log in of maak een account aan om lid te worden van de community, om de pagina's te kunnen volgen, commentaar te geven of uw ervaring te delen!<br /><br />Deze handeling duurt slechts een minuut!</p>
             </div>
             <div class="modal-footer border-top-0">
-                <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">No thanks not yet</a>
-                <a rel="nofollow" class="btn btn-primary login-links" href="/wiki/Special:Login">Create an account or sign in
+                <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Nee bedankt nog niet</a>
+                <a rel="nofollow" class="btn btn-primary login-links" href="/wiki/Special:Login">Maak een account aan of meld u aan
                     <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a>
             </div>
         </div>
@@ -342,19 +342,19 @@
         <div class="modal-content">
             <form id="tellUsMoreForm">
                 <div class="modal-header border-bottom-0">
-                    <h1 class="border-bottom-0">Thank you!</h1>
+                    <h1 class="border-bottom-0">Dankjewel !</h1>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <p>Tell the community more to enrich your exchanges with other farmers</p>
+                    <p>Vertel de gemeenschap meer om uw uitwisselingen met andere boeren te verrijken</p>
                     <div class="row">
                         <div class="col form-group">
-                            <label for="sinceInputId">Since when? <a href="#" role="button"
+                            <label for="sinceInputId">Sinds wanneer ? <a href="#" role="button"
                                     class="badge badge-pill badge-light popover-neayi-help" data-toggle="popover"
                                     data-trigger="focus" title="Depuis quand ?"
-                                    data-content="Enter the year you started this technique, to help others understand your level of experience on the subject!Renseignez l'année où vous avez démarré cette technique, afin d'aider les autres à comprendre votre degré d'expérience sur le sujet !">?</a></label>
+                                    data-content="Vul het jaar in waarin u met deze techniek bent begonnen, om anderen te helpen uw niveau van ervaring met dit onderwerp te begrijpen!Renseignez l'année où vous avez démarré cette technique, afin d'aider les autres à comprendre votre degré d'expérience sur le sujet !">?</a></label>
                             <select class="form-control" id="sinceInputId" name="since"></select>
                         </div>
                     </div>
@@ -362,14 +362,14 @@
                         <div class="col form-check form-group">
                             <input class="" id="followwheck" name="follow" type="checkbox" checked value="follow">
                             <label class="form-check-label" for="followwheck">
-                                Follow the page?
+                                De pagina volgen?
                             </label>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer border-top-0">
-                    <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">No thanks not yet</a>
-                    <button class="btn btn-primary" id="tellUsMoreModalSubmit">Save</button>
+                    <a class="text-primary not-yet-link" data-dismiss="modal" id="tellUsMoreModalDismiss" href="#">Nee bedankt nog niet</a>
+                    <button class="btn btn-primary" id="tellUsMoreModalSubmit">Opnemen</button>
                 </div>
             </form>
         </div>
@@ -379,7 +379,7 @@
     <div class="modal-dialog modal-xl">
         <div class="modal-content">
             <div class="modal-header border-bottom-0">
-                <h1 class="border-bottom-0">Learn about the community!</h1>
+                <h1 class="border-bottom-0">Leer meer over de gemeenschap!</h1>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -388,28 +388,28 @@
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
-                            role="tab" aria-controls="home" aria-selected="true">Statistics</a>
+                            role="tab" aria-controls="home" aria-selected="true">Statistieken</a>
                     </li>
                     <li class="nav-item" role="presentation">
                         <a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab"
-                            aria-controls="commununity" aria-selected="false">Community</a>
+                            aria-controls="commununity" aria-selected="false">Gemeenschap</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="statistiques" role="tabpanel"
                         aria-labelledby="statistiques-tab">
                         <!-- Statistiques -->
-                        <div class="stats-title">Where are those who do it?</div>
+                        <div class="stats-title">Waar zijn degenen die dat doen?</div>
                         <div class="row">
                             <div id="map" class="col col-auto"></div>
                             <div class="col col-auto" id="departments-stats"></div>
                         </div>
                         <div class="stats-features" id="famings-stats">
-                            <div class="stats-title">Frequent farm type</div>
+                            <div class="stats-title">Meest voorkomende vorm van uitbuiting</div>
                             <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
                         </div>
                         <div class="stats-features" id="cropping-systems-stats">
-                            <div class="stats-title">Most frequent specifications</div>
+                            <div class="stats-title">Meest voorkomende specificaties</div>
                             <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
                         </div>
                     </div>
@@ -420,17 +420,17 @@
                                 <div class="follower-search form-row align-items-center">
                                     <div class="col-auto">
                                         <select id="departments-select" class="community-select custom-select">
-                                            <option selected value="">Location</option>
+                                            <option selected value="">Plaats</option>
                                         </select>
                                     </div>
                                     <div class="col-auto">
                                         <select id="famings-select" class="community-select custom-select">
-                                            <option selected value="">Production</option>
+                                            <option selected value="">Productie</option>
                                         </select>
                                     </div>
                                     <div class="col-auto">
                                         <select id="cropping-systems-select" class="community-select custom-select">
-                                            <option selected value="">Specifications</option>
+                                            <option selected value="">Specificaties</option>
                                         </select>
                                     </div>
                                 </div>
@@ -439,7 +439,7 @@
                                         <div class="custom-control custom-switch align-center">
                                             <input type="checkbox" class="custom-control-input"
                                                 id="community-doneit-only" value="yes">
-                                            <label class="custom-control-label" for="community-doneit-only">See only who did it</label>
+                                            <label class="custom-control-label" for="community-doneit-only">Zie alleen degenen die het hebben gedaan</label>
                                         </div>
                                     </div>
                                 </div>
@@ -449,20 +449,20 @@
                                     id="load-more-community">
                                     <span class="spinner-border spinner-border-sm" role="status"
                                         aria-hidden="true"></span>
-                                    Loading...
+                                    Bezig met laden...
                                 </a></div>
                         </div>
                         <div class="community-not-connected">
-                            <p>Please sign-in to find out about the community!</p>
-                            <p class="small text-muted">Meet other farmers, advisors and suppliers who are interested in this page</p>
-                            <p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Create an account or sign in
+                            <p>Log in om de community te ontdekken!</p>
+                            <p class="small text-muted">Kom in contact met andere boeren, adviseurs en leveranciers die geïnteresseerd zijn in deze pagina</p>
+                            <p> <a rel="nofollow" class="btn btn-primary login-links" href="/index.php?title=Special:Login">Maak een account aan of meld u aan
                                      <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="modal-footer border-top-0">
-                <button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">Close</button>
+                <button class="btn btn-primary" id="tellUsMoreModalSubmit" data-dismiss="modal">Sluiten</button>
             </div>
         </div>
     </div>

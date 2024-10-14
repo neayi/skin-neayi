@@ -19,6 +19,7 @@ $languages[] = __DIR__ . '/i18n/en.json';
 foreach ($languages as $langfile)
 {
     $langcode = str_replace('.json', '', basename($langfile));
+    $_ = json_decode(file_get_contents($langfile), true);
 
     $contactLink = 'https://neayi.com/contact/';
 
@@ -28,8 +29,6 @@ foreach ($languages as $langfile)
         $forumLink = 'https://'.$langcode.'.forum.tripleperformance.ag';
 
     $forumMenu = $_['forum'];
-
-    $_ = json_decode(file_get_contents($langfile), true);
 
     $topMenus = array();
     $topMenus['productions'] = $_['productions'];
