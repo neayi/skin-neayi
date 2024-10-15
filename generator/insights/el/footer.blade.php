@@ -21,13 +21,13 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Δημιουργήστε ένα λογαριασμό ή συνδεθείτε</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Συνεισφέρω; Ξεκινά εδώ!">Συνεισφέρω; Ξεκινά εδώ!</a></li>
-<li><a href="https://gr.forum.tripleperformance.ag">Πρόσβαση στο φόρουμ</a></li>
+<li><a href="https://el.forum.tripleperformance.ag">Πρόσβαση στο φόρουμ</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title">Παραγωγές</p>
 <ul class="list-unstyled">
-<li><a href="{{$wikiUrl}}/wiki/Grandes cultures" title="Αγρό-καλλιέργειες">Αγρό-καλλιέργειες</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Grandes cultures" title="Καλλιέργειες αγρού">Καλλιέργειες αγρού</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Élevage" title="Αναπαραγωγή">Αναπαραγωγή</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Viticulture" title="Αμπελουργία">Αμπελουργία</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Arboriculture" title="Δενδροκομία">Δενδροκομία</a></li>
@@ -42,7 +42,7 @@
 <li><a href="{{$wikiUrl}}/wiki/Agroforesterie" title="Αγροδασοκομία">Αγροδασοκομία</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Biodiversité" title="Βιοποικιλότητα">Βιοποικιλότητα</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Collaboration et coopération en agriculture" title="Συνεργασία-και-συνεργασία-στη-γεωργία">Συνεργασία-και-συνεργασία-στη-γεωργία</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Collaboration et coopération en agriculture" title="Συνεργασία και συνεργασία στη γεωργία">Συνεργασία και συνεργασία στη γεωργία</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Couverts végétaux" title="Καλύμματα">Καλύμματα</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Cycle du carbone et GES" title="Κύκλος άνθρακα και GHG">Κύκλος άνθρακα και GHG</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Désherbage" title="Βοτάνισμα">Βοτάνισμα</a></li>
@@ -53,10 +53,10 @@
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
-<li><a href="{{$wikiUrl}}/wiki/Matériel et machines agricoles" title="Γεωργικός-εξοπλισμός-και-μηχανήματα">Γεωργικός-εξοπλισμός-και-μηχανήματα</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Matériel et machines agricoles" title="Γεωργικός εξοπλισμός και μηχανήματα">Γεωργικός εξοπλισμός και μηχανήματα</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Outils de mesure et d’observation" title="Εργαλεία μέτρησης και παρατήρησης">Εργαλεία μέτρησης και παρατήρησης</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Production énergétique" title="Παραγωγή ενέργειας">Παραγωγή ενέργειας</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Protection intégrée des cultures" title="Ολοκληρωμένη-προστασία-καλλιεργειών">Ολοκληρωμένη-προστασία-καλλιεργειών</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Protection intégrée des cultures" title="Ολοκληρωμένη φυτοπροστασία">Ολοκληρωμένη φυτοπροστασία</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Résilience climatique" title="Ανθεκτικότητα στο κλίμα">Ανθεκτικότητα στο κλίμα</a></li>
 <li><a href="{{$wikiUrl}}/wiki/S'installer en agriculture" title="Τακτοποίηση">Τακτοποίηση</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Transmettre sa ferme" title="Πώληση της φάρμας">Πώληση της φάρμας</a></li>
@@ -68,7 +68,7 @@
 <p class="footer-title">Κατασκευάστηκε με ♡ από την <a target="_blank" href="https://neayi.com/">Neayi</a></p>
 <ul class="list-unstyled">
 <li><a href="{{$wikiUrl}}/wiki/Charte_d%E2%80%99utilisation" title="Χάρτα πλατφόρμας">Χάρτα πλατφόρμας</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Νομική-ανακοίνωση">Νομική-ανακοίνωση</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Νομική ειδοποίηση">Νομική ειδοποίηση</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Open_Source" title="Ανοιχτού Κώδικα">Ανοιχτού Κώδικα</a></li>
 <li><a target="_blank" href="https://neayi.com/contact/">Επικοινωνία</a> - <a target="_blank" href="{{$wikiUrl}}/wiki/Triple Performance:Newsletter">Ενημερωτικό δελτίο</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Stats" title="Στατιστικά στοιχεία">Στατιστικά στοιχεία</a></li>
