@@ -65,7 +65,7 @@
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
-<p class="footer-title">Készítette: ♡ <a target="_blank" href="https://neayi.com/">Neayi</a></p>
+<p class="footer-title">Készítette ♡ <a target="_blank" href="https://neayi.com/">Neayi</a></p>
 <ul class="list-unstyled">
 <li><a href="{{$wikiUrl}}/wiki/Charte_d%E2%80%99utilisation" title="Platform charta">Platform charta</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Triple_Performance:Politique_de_confidentialité" title="Jogi közlemény">Jogi közlemény</a></li>

@@ -142,7 +142,7 @@
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">I-do-it-gomb</button>
+					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">Én csinálom</button>
 					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -261,7 +261,7 @@
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
-<p class="footer-title">Készítette: ♡ <a target="_blank" href="https://neayi.com/">Neayi</a></p>
+<p class="footer-title">Készítette ♡ <a target="_blank" href="https://neayi.com/">Neayi</a></p>
 <ul class="list-unstyled">
 <li><a href="/wiki/Charte_d%E2%80%99utilisation" title="Platform charta">Platform charta</a></li>
 <li><a href="/wiki/Triple_Performance:Politique_de_confidentialité" title="Jogi közlemény">Jogi közlemény</a></li>
