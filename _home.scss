@@ -163,11 +163,11 @@ body.page-Triple_Performance {
         .content-col {
             max-width: 1800px;
         }
-    
+
         span.smw-plainlist-furtherresults {
             display: none;
         }
-        
+
         // Cards
         .card {
             border       : 1px solid #efefef;
@@ -266,6 +266,39 @@ body.page-Triple_Performance {
         // section caractéristiques agriculture
 
         .icons {
+            color: #414A64;
+
+            div {
+                max-width: 100px;
+                margin   : 0 auto;
+            }
+
+            span.glyph-departement {
+                font-size: 30px;
+                display  : inline-block;
+                position : relative;
+                top      : 10px;
+            }
+
+            span.glyph-caracteristique {
+                font-size: 60px;
+                display  : inline-block;
+                position : relative;
+                top      : -13px;
+            }
+
+            span.label {
+                position      : absolute;
+                width         : 100%;
+                left          : 0px;
+                top           : 59px;
+                font-size     : 12px;
+                line-height   : 1.2;
+                font-weight   : bold;
+                letter-spacing: normal;
+                text-align    : center;
+            }
+
             img {
                 height: 24px;
                 width : auto;
