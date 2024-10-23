@@ -50,19 +50,16 @@
 <a class="dropdown-item" href="/wiki/Agroforesterie" title="Agroflorestação">Agroflorestação</a>
 <a class="dropdown-item" href="/wiki/Bioagresseurs" title="Bioagressores">Bioagressores</a>
 <a class="dropdown-item" href="/wiki/Biodiversité" title="Biodiversidade">Biodiversidade</a>
-<a class="dropdown-item" href="/wiki/Collaboration et coopération en agriculture" title="Colaboração e cooperação na agricultura">Colaboração e cooperação na agricultura</a>
 <a class="dropdown-item" href="/wiki/Couverts végétaux" title="Coberturas">Coberturas</a>
 <a class="dropdown-item" href="/wiki/Cycle du carbone et GES" title="Ciclo do carbono e GEE">Ciclo do carbono e GEE</a>
 <a class="dropdown-item" href="/wiki/Désherbage" title="Monda">Monda</a>
-<a class="dropdown-item" href="/wiki/Diagnostic et performance d'une ferme" title="Diagnóstico e desempenho">Diagnóstico e desempenho</a>
+<a class="dropdown-item" href="/wiki/Gestion_d’entreprise" title="Gestão empresarial">Gestão empresarial</a>
 <a class="dropdown-item" href="/wiki/Gestion de l’eau" title="Gestão da água">Gestão da água</a>
 <a class="dropdown-item" href="/wiki/Matériel et machines agricoles" title="Equipamento e maquinaria agrícola">Equipamento e maquinaria agrícola</a>
 <a class="dropdown-item" href="/wiki/Outils de mesure et d’observation" title="Ferramentas de medição e observação">Ferramentas de medição e observação</a>
 <a class="dropdown-item" href="/wiki/Production énergétique" title="Produção de energia">Produção de energia</a>
 <a class="dropdown-item" href="/wiki/Protection intégrée des cultures" title="Proteção integrada das culturas">Proteção integrada das culturas</a>
 <a class="dropdown-item" href="/wiki/Résilience climatique" title="Resistência ao clima">Resistência ao clima</a>
-<a class="dropdown-item" href="/wiki/S'installer en agriculture" title="Estabelecendo-se">Estabelecendo-se</a>
-<a class="dropdown-item" href="/wiki/Transmettre sa ferme" title="Vender a quinta">Vender a quinta</a>
 <a class="dropdown-item" href="/wiki/Agronomie des sols vivants" title="Solos vivos">Solos vivos</a>
 <a class="dropdown-item" href="/wiki/Valorisation de la production" title="Avaliação da produção">Avaliação da produção</a>
 <div class="dropdown-divider"></div>
@@ -238,24 +235,21 @@
 <li><a href="/wiki/Agroforesterie" title="Agroflorestação">Agroflorestação</a></li>
 <li><a href="/wiki/Bioagresseurs" title="Bioagressores">Bioagressores</a></li>
 <li><a href="/wiki/Biodiversité" title="Biodiversidade">Biodiversidade</a></li>
-<li><a href="/wiki/Collaboration et coopération en agriculture" title="Colaboração e cooperação na agricultura">Colaboração e cooperação na agricultura</a></li>
 <li><a href="/wiki/Couverts végétaux" title="Coberturas">Coberturas</a></li>
 <li><a href="/wiki/Cycle du carbone et GES" title="Ciclo do carbono e GEE">Ciclo do carbono e GEE</a></li>
 <li><a href="/wiki/Désherbage" title="Monda">Monda</a></li>
-<li><a href="/wiki/Diagnostic et performance d'une ferme" title="Diagnóstico e desempenho">Diagnóstico e desempenho</a></li>
-<li><a href="/wiki/Gestion de l’eau" title="Gestão da água">Gestão da água</a></li>
+<li><a href="/wiki/Gestion_d’entreprise" title="Gestão empresarial">Gestão empresarial</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
+<li><a href="/wiki/Gestion de l’eau" title="Gestão da água">Gestão da água</a></li>
 <li><a href="/wiki/Matériel et machines agricoles" title="Equipamento e maquinaria agrícola">Equipamento e maquinaria agrícola</a></li>
 <li><a href="/wiki/Outils de mesure et d’observation" title="Ferramentas de medição e observação">Ferramentas de medição e observação</a></li>
 <li><a href="/wiki/Production énergétique" title="Produção de energia">Produção de energia</a></li>
 <li><a href="/wiki/Protection intégrée des cultures" title="Proteção integrada das culturas">Proteção integrada das culturas</a></li>
 <li><a href="/wiki/Résilience climatique" title="Resistência ao clima">Resistência ao clima</a></li>
-<li><a href="/wiki/S'installer en agriculture" title="Estabelecendo-se">Estabelecendo-se</a></li>
-<li><a href="/wiki/Transmettre sa ferme" title="Vender a quinta">Vender a quinta</a></li>
 <li><a href="/wiki/Agronomie des sols vivants" title="Solos vivos">Solos vivos</a></li>
 <li><a href="/wiki/Valorisation de la production" title="Avaliação da produção">Avaliação da produção</a></li>
 </ul>

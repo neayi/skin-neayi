@@ -42,24 +42,21 @@
 <li><a href="{{$wikiUrl}}/wiki/Agroforesterie" title="Agroerdészet">Agroerdészet</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Bioagresseurs" title="Bioagresszorok">Bioagresszorok</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Biodiversité" title="Biodiverzitás">Biodiverzitás</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Collaboration et coopération en agriculture" title="Együttműködés és együttműködés a mezőgazdaságban">Együttműködés és együttműködés a mezőgazdaságban</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Couverts végétaux" title="Fedezetek">Fedezetek</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Cycle du carbone et GES" title="Szénciklus és ÜHG">Szénciklus és ÜHG</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Désherbage" title="Gyomlálás">Gyomlálás</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Diagnostic et performance d'une ferme" title="Diagnózis és teljesítmény">Diagnózis és teljesítmény</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Gestion de l’eau" title="Vízgazdálkodás">Vízgazdálkodás</a></li>
+<li><a href="{{$wikiUrl}}/wiki/Gestion_d’entreprise" title="Üzletvezetés">Üzletvezetés</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
 <p class="footer-title d-none d-md-block">&nbsp;</p>
 <ul class="list-unstyled">
+<li><a href="{{$wikiUrl}}/wiki/Gestion de l’eau" title="Vízgazdálkodás">Vízgazdálkodás</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Matériel et machines agricoles" title="Mezőgazdasági berendezések és gépek">Mezőgazdasági berendezések és gépek</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Outils de mesure et d’observation" title="Mérő és megfigyelő eszközök">Mérő és megfigyelő eszközök</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Production énergétique" title="Energiatermelés">Energiatermelés</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Protection intégrée des cultures" title="Integrált növényvédelem">Integrált növényvédelem</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Résilience climatique" title="Klíma-reziliencia">Klíma-reziliencia</a></li>
-<li><a href="{{$wikiUrl}}/wiki/S'installer en agriculture" title="Letelepedés">Letelepedés</a></li>
-<li><a href="{{$wikiUrl}}/wiki/Transmettre sa ferme" title="A gazdaság eladása">A gazdaság eladása</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Agronomie des sols vivants" title="Élő-talajok">Élő-talajok</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Valorisation de la production" title="Termelés értékelése">Termelés értékelése</a></li>
 </ul>

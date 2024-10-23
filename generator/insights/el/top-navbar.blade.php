@@ -29,19 +29,16 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Agroforesterie" title="Αγροδασοκομία">Αγροδασοκομία</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Biodiversité" title="Βιοποικιλότητα">Βιοποικιλότητα</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Collaboration et coopération en agriculture" title="Συνεργασία και συνεργασία στη γεωργία">Συνεργασία και συνεργασία στη γεωργία</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Couverts végétaux" title="Καλύμματα">Καλύμματα</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Cycle du carbone et GES" title="Κύκλος άνθρακα και GHG">Κύκλος άνθρακα και GHG</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Désherbage" title="Βοτάνισμα">Βοτάνισμα</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Diagnostic et performance d'une ferme" title="Διάγνωση και απόδοση">Διάγνωση και απόδοση</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Gestion_d’entreprise" title="Διοίκηση επιχειρήσεων">Διοίκηση επιχειρήσεων</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Gestion de l’eau" title="Διαχείριση υδάτων">Διαχείριση υδάτων</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Matériel et machines agricoles" title="Γεωργικός εξοπλισμός και μηχανήματα">Γεωργικός εξοπλισμός και μηχανήματα</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Outils de mesure et d’observation" title="Εργαλεία μέτρησης και παρατήρησης">Εργαλεία μέτρησης και παρατήρησης</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Production énergétique" title="Παραγωγή ενέργειας">Παραγωγή ενέργειας</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Protection intégrée des cultures" title="Ολοκληρωμένη φυτοπροστασία">Ολοκληρωμένη φυτοπροστασία</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Résilience climatique" title="Ανθεκτικότητα στο κλίμα">Ανθεκτικότητα στο κλίμα</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/S'installer en agriculture" title="Τακτοποίηση">Τακτοποίηση</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Transmettre sa ferme" title="Πώληση της φάρμας">Πώληση της φάρμας</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Agronomie des sols vivants" title="Ζωντανά εδάφη">Ζωντανά εδάφη</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Valorisation de la production" title="Αποτίμηση της παραγωγής">Αποτίμηση της παραγωγής</a>
 <div class="dropdown-divider"></div>

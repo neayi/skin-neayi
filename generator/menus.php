@@ -59,22 +59,16 @@ foreach ($languages as $langfile)
     $thematiques['/wiki/Agroforesterie'] = $_['agroforestry']; // 'Agroforesterie';
     $thematiques['/wiki/Bioagresseurs'] = $_['bioaggressors']; // 'Bioagresseurs';
     $thematiques['/wiki/Biodiversité'] = $_['biodiversity']; // 'Biodiversité';
-    $thematiques['/wiki/Collaboration et coopération en agriculture'] = $_['collaboration-and-cooperation-in-agriculture']; // 'Collaboration et coopération en agriculture';
     $thematiques['/wiki/Couverts végétaux'] = $_['covers']; // 'Couverts végétaux';
     $thematiques['/wiki/Cycle du carbone et GES'] = $_['carbon-cycle-and-ghg']; // 'Cycle du carbone et GES';
     $thematiques['/wiki/Désherbage'] = $_['weeding']; // 'Désherbage';
-    $thematiques['/wiki/Diagnostic et performance d\'une ferme'] = $_['diagnosis-and-performance']; // 'Diagnostic et performance';
+    $thematiques["/wiki/Gestion_d’entreprise"] = $_['business-management']; // 'Gestion d'entreprise';
     $thematiques['/wiki/Gestion de l’eau'] = $_['water-management']; // 'Gestion de l’eau';
     $thematiques['/wiki/Matériel et machines agricoles'] = $_['agricultural-equipment-and-machinery']; // 'Matériel et machines agricoles';
-    //$thematiques['/wiki/Organisation du travail'] = $_['work-organization']; // 'Organisation du travail';
     $thematiques['/wiki/Outils de mesure et d’observation'] = $_['measurement-and-observation-tools']; // 'Outils de mesure et d’observation';
     $thematiques['/wiki/Production énergétique'] = $_['energy-production']; // 'Production énergétique';
     $thematiques['/wiki/Protection intégrée des cultures'] = $_['integrated-crop-protection']; // 'Protection intégrée des cultures';
     $thematiques['/wiki/Résilience climatique'] = $_['climate-resilience']; // 'Résilience climatique';
-    $thematiques['/wiki/S\'installer en agriculture'] = $_['settling-down']; // 'S’installer';
-    $thematiques['/wiki/Transmettre sa ferme'] = $_['selling_the_farm']; // 'S’installer';
-
-
     $thematiques['/wiki/Agronomie des sols vivants'] = $_['living-soils']; // 'Sols vivants';
     $thematiques['/wiki/Valorisation de la production'] = $_['valuation-of-production']; // 'Valorisation de la production';
 
@@ -267,13 +261,13 @@ function getTranslatedHTMLChunk($htmlFilename, $translations)
 function buildPagesToTranslate($menus)
 {
     echo "Use this to input import_languages/auto_translate_from_fr.php\n\n";
-    echo "\$homePages = [\n";
+    echo "\$GLOBALS['homePages'] = [\n";
     foreach ($menus as $subCols)
         foreach ($subCols as $colItems)
             foreach ($colItems as $link => $text)
             {
                 if (strpos($link, 'wiki/') !== false)
-                    echo '"' . str_replace('_', ' ', rawurldecode(str_replace('/wiki/', '', $link))) . '" => "'.$text.'",' . "\n";
+                    echo '"' . str_replace('_', ' ', rawurldecode(str_replace('/wiki/', '', $link))) . '",' . "\n";
             }
 
     echo "];\n";
