@@ -261,7 +261,7 @@ function getTranslatedHTMLChunk($htmlFilename, $translations)
 function buildPagesToTranslate($menus)
 {
     echo "Use this to input import_languages/auto_translate_from_fr.php\n\n";
-    echo "\$GLOBALS['homePages'] = [\n";
+    echo "<?php\n\n\$GLOBALS['homePages'] = [\n";
     foreach ($menus as $subCols)
         foreach ($subCols as $colItems)
             foreach ($colItems as $link => $text)
