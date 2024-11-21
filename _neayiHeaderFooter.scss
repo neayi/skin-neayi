@@ -176,6 +176,12 @@
         a {
             color: $darkPurple;
         }
+
+        select {
+            color: #404964;
+            border: #40496440 1px solid;
+            border-radius: 2px;
+        }
     }
 
     p.footer-title {

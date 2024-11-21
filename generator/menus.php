@@ -16,6 +16,20 @@ $languages = glob(__DIR__ . '/i18n/*.json');
 // finish with English
 $languages[] = __DIR__ . '/i18n/en.json';
 
+$GLOBALS['languageNames'] = [
+    'fr' => 'Français',
+    'en' => 'English',
+    'es' => 'Español',
+    'de' => 'Deutsch',
+    'pt' => 'Português',
+    'nl' => 'Nederlands',
+    'el' => 'Ελληνικά',
+    'fi' => 'Suomi',
+    'hu' => 'Magyar',
+    'it' => 'Italiano',
+    'pl' => 'Polski'
+]; 
+
 foreach ($languages as $langfile)
 {
     $langcode = str_replace('.json', '', basename($langfile));
@@ -109,6 +123,7 @@ foreach ($languages as $langfile)
     $footerMenus[5][$lastSection]['contact'] = $_['contact']; // "Contact";
     $footerMenus[5][$lastSection]['/wiki/Triple_Performance:Stats'] = $_['stats']; // "Stats";
     $footerMenus[5][$lastSection]['socialLinks'] = "socialLinks";
+    $footerMenus[5][$lastSection]['langSelector'] = "langSelector";
 
     // Additional mobile menus
     $addMobileMenus = array();
@@ -190,6 +205,13 @@ MENU;
                         $strFooterMenu .= '</span></li>' . PHP_EOL;
                         break;
 
+                    case 'langSelector':
+                        $strFooterMenu .= '<li><select onchange="window.location = this.value" class="form-select tp-lang-select">' . PHP_EOL;
+                        foreach ($GLOBALS['languageNames'] as $code => $name)
+                            $strFooterMenu .= '<option value="https://'.$code.'.tripleperformance.ag/" '.($langcode == $code ? 'selected' : '').'>'.$name.'</option>' . PHP_EOL;
+                        $strFooterMenu .= '</select></li>' . PHP_EOL;
+                        break;                        
+                        
                     case 'contact':
                         $strFooterMenu .= '<li><a target="_blank" href="'.$contactLink.'">'.$title.'</a> - <a target="_blank" href="/wiki/Triple Performance:Newsletter">'.$_['newsletter'].'</a></li>' . PHP_EOL;
                         break;
