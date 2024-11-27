@@ -27,6 +27,7 @@ $GLOBALS['languageNames'] = [
     'fi' => 'Suomi',
     'hu' => 'Magyar',
     'it' => 'Italiano',
+//    'ar' => 'الدارجة',
     'pl' => 'Polski'
 ]; 
 

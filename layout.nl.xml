@@ -267,7 +267,7 @@
 <a href="https://twitter.com/TriplePerforma1" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Volg ons op Twitter"><span class="fab fa-twitter"></span></a>
 <a href="https://www.linkedin.com/company/neayi" target="_blank" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Volg ons op LinkedIn"><span class="fab fa-linkedin-in"></span></a>
 </span></li>
-<li><select onchange="window.location = this.value" class="form-select">
+<li><select onchange="window.location = this.value" class="form-select tp-lang-select">
 <option value="https://fr.tripleperformance.ag/" >Français</option>
 <option value="https://en.tripleperformance.ag/" >English</option>
 <option value="https://es.tripleperformance.ag/" >Español</option>
