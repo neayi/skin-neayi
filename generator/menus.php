@@ -38,6 +38,9 @@ foreach ($languages as $langfile)
 
     $contactLink = 'https://neayi.com/contact/';
 
+    if ($langcode == 'qqq')
+        continue;
+
     if ($langcode == 'fr')
         $forumLink = 'https://forum.tripleperformance.fr';
     else
