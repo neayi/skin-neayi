@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Tuinieren">Tuinieren</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="PMAP">PMAP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Zoeken naar casestudies">Zoeken naar casestudies</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Portretten zoeken">Portretten zoeken</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Zoeken naar boerderijen">Zoeken naar boerderijen</a>
 
 		</div>
 	</li>

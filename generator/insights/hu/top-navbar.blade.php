@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Zöldségtermesztés">Zöldségtermesztés</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="Hmp">Hmp</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Esettanulmányok keresése">Esettanulmányok keresése</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Portrék keresése">Portrék keresése</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Farmok keresése">Farmok keresése</a>
 
 		</div>
 	</li>

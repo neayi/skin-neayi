@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="البستنة التسويقية">البستنة التسويقية</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="HMP">HMP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="البحث عن دراسات الحالة">البحث عن دراسات الحالة</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="البحث عن الصور الشخصية">البحث عن الصور الشخصية</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="البحث عن المزارع">البحث عن المزارع</a>
 
 		</div>
 	</li>

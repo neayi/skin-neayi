@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Horticultura de mercado">Horticultura de mercado</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="Hmp">Hmp</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Procurar estudos de casos">Procurar estudos de casos</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Pesquisar retratos">Pesquisar retratos</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Procure por quintas">Procure por quintas</a>
 
 		</div>
 	</li>

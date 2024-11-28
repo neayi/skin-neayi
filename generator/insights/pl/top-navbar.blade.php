@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Ogrodnictwo targowe">Ogrodnictwo targowe</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="PMAP">PMAP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Wyszukiwanie studiów przypadku">Wyszukiwanie studiów przypadku</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Wyszukiwanie portretów">Wyszukiwanie portretów</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Wyszukaj gospodarstwa">Wyszukaj gospodarstwa</a>
 
 		</div>
 	</li>

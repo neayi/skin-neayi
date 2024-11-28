@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Kauppapuutarhanhoito">Kauppapuutarhanhoito</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="HMP">HMP</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Etsi tapaustutkimuksia">Etsi tapaustutkimuksia</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Etsi muotokuvia">Etsi muotokuvia</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Etsi maatiloja">Etsi maatiloja</a>
 
 		</div>
 	</li>

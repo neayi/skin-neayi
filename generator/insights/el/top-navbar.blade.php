@@ -16,8 +16,7 @@
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Maraîchage" title="Εμποροκηπευτική">Εμποροκηπευτική</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/PPAM" title="Hmp">Hmp</a>
 <div class="dropdown-divider"></div>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Αναζήτηση για μελέτες περιπτώσεων">Αναζήτηση για μελέτες περιπτώσεων</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Portraits_de_ferme" title="Αναζήτηση για πορτραίτα">Αναζήτηση για πορτραίτα</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Retours_d%27expérience" title="Αναζήτηση για αγροκτήματα">Αναζήτηση για αγροκτήματα</a>
 
 		</div>
 	</li>
