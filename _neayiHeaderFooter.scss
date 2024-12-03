@@ -4,9 +4,9 @@
 .p-navbar {
 
     // sticky
-    position: sticky;
-    top     : 0px;
-    z-index : 100;
+    position        : sticky;
+    top             : 0px;
+    z-index         : 100;
     background-color: $menuBackground;
 
     .navbar-collapse {
@@ -21,24 +21,48 @@
     }
 
     .navbar-brand {
-            
+
         // Customize when in the desktop view (> 1105px)
         @media (max-width: 1105px) {
-            img#logo-large { display: none; }
-            img#logo-medium { display: inline; }
-            img#logo-square { display: none; }
+            img#logo-large {
+                display: none;
+            }
+
+            img#logo-medium {
+                display: inline;
+            }
+
+            img#logo-square {
+                display: none;
+            }
         }
-        
+
         @media (min-width: 1105px) and (max-width: 1500px) {
-            img#logo-large { display: none; }
-            img#logo-medium { display: none; }
-            img#logo-square { display: inline; }
+            img#logo-large {
+                display: none;
+            }
+
+            img#logo-medium {
+                display: none;
+            }
+
+            img#logo-square {
+                display: inline;
+            }
         }
 
         @media (min-width: 1500px) {
-            img#logo-large { display: inline; }
-            img#logo-medium { display: none; }
-            img#logo-square { display: none; }
+            img#logo-large {
+                display: inline;
+            }
+
+            img#logo-medium {
+                display: none;
+            }
+
+            img#logo-square {
+                display: none;
+            }
         }
 
         img#logo-large {
@@ -72,7 +96,7 @@
             }
         }
     }
-    
+
     // Customize when in the desktop view (> 1105px)
     @media (min-width: 1105px) {
         padding: 0 0 0 16px;
@@ -178,9 +202,10 @@
         }
 
         select {
-            color: #404964;
-            border: #40496440 1px solid;
+            color        : #404964;
+            border       : #40496440 1px solid;
             border-radius: 2px;
+            font-family  : $font-family-base !important;
         }
     }
 
@@ -284,6 +309,7 @@ div.neayi-square-button {
         }
     }
 }
+
 #neayi-search-button {
     display: inline-block;
 
