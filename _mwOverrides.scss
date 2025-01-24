@@ -228,3 +228,18 @@ ol.references > li {
         float: none;
     }
 }
+
+.sitenotice {
+    margin: 10px auto;
+    width: 500px;
+    max-width: 100%;
+    border: 2px solid #15a072;
+    border-radius: 5px;
+    color: #15a072;
+    padding: 3px;
+    font-weight: 600;
+
+    p {
+        margin: 0;
+    }
+}

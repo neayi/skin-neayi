@@ -96,12 +96,6 @@
 
 		<row>
 			<cell>
-				<component type="SiteNotice"/>
-			</cell>
-		</row>
-
-		<row>
-			<cell>
 				<component type="Container" class="row mainContainer">
 					<component type='Html'><![CDATA[<div class="col-12 hero-portail" style="display:none"><div class="row pt-md-5"><div class="hero-portail-img"><img></div>
 <div class="black-layer"></div>
@@ -112,9 +106,10 @@
 
 					<component type="Container" class="leftSide col-auto"></component>
 					<component type="Container" class="centralDiv col">
-					<component type='Html'><![CDATA[]]></component>
-						<component type="MainContent" class=""></component>
-					</component>
+						<component type="SiteNotice"/>
+						<component type='Html'><![CDATA[]]></component>
+							<component type="MainContent" class=""></component>
+						</component>
 					<component type="Container" class="rightSide col-auto d-lg-block d-none">
 					<component type='Html'><![CDATA[<div class="interaction-bloc">
 	<div class="interaction-top">
