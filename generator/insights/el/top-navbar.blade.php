@@ -26,7 +26,7 @@
 		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Agriculture de précision" title="Γεωργία ακριβείας">Γεωργία ακριβείας</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Agroforesterie" title="Αγροδασοκομία">Αγροδασοκομία</a>
-<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Bioagresseurs" title="Bioaggressors">Bioaggressors</a>
+<a class="dropdown-item" href="{{$wikiUrl}}/wiki/Bioagresseurs" title="Βιοεπιθετικοί">Βιοεπιθετικοί</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Biodiversité" title="Βιοποικιλότητα">Βιοποικιλότητα</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Couverts végétaux" title="Καλύμματα">Καλύμματα</a>
 <a class="dropdown-item" href="{{$wikiUrl}}/wiki/Cycle du carbone et GES" title="Κύκλος άνθρακα και GHG">Κύκλος άνθρακα και GHG</a>
