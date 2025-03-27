@@ -32,6 +32,13 @@
         .toctitle {
             text-align: left;
             padding   : 0 0 0 20px;
+
+            a.page-views {
+                margin-left: 10px;
+                font-size  : 11px;
+                float      : right;
+                color      : $muted;
+            }
         }
 
         ul {
@@ -80,15 +87,17 @@
 
     p.card-text {
         line-height: 21px;
+        font-size  : 14px;
         padding    : 5px 0;
     }
 
     p.card-subtitle {
         font-weight: bold;
-        font-size: 66%;
-        font-family: $font-family-base;;
+        font-size  : 66%;
+        font-family: $font-family-base;
+        ;
         margin-top: -17px;
-        color: #6fb19a;
+        color     : #6fb19a;
     }
 }
 
@@ -96,7 +105,8 @@
 .btn-primary {
     // Don't use background-color as the background is by default a shade that we need to override
     background: $accentColorBackground;
-    border: none;
+    border    : none;
+    color     : #FFF !important;
 
     &:hover {
         background: darken($accentColorBackground, 6%);
@@ -113,6 +123,56 @@
         &:hover,
         &:visited {
             color          : #FFF !important;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-light-green {
+    background: lighten($accentColorBackground, 6%);
+    border    : none;
+    color     : #FFF !important;
+
+    &:hover {
+        background: darken($accentColorBackground, 6%);
+    }
+
+    a,
+    a.external {
+        font-weight     : 600;
+        color           : #fff !important;
+        padding-right   : 0px;
+        background-image: none;
+        font-family     : $font-family-base;
+
+        &:hover,
+        &:visited {
+            color          : #FFF !important;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-light-gray {
+    background: darken($menuBackground, 6%);
+    border    : none;
+    color     : $darkGreen !important;
+
+    &:hover {
+        background: darken($menuBackground, 10%);
+    }
+
+    a,
+    a.external {
+        font-weight     : 600;
+        color           : $darkGreen !important;
+        padding-right   : 0px;
+        background-image: none;
+        font-family     : $font-family-base;
+
+        &:hover,
+        &:visited {
+            color          : $darkGreen !important;
             text-decoration: none;
         }
     }
@@ -141,6 +201,43 @@
 
         &:hover {
             color: #FFFFFF !important;
+        }
+    }
+}
+
+#firstHeading {
+    span.pageMenu {
+        top: -22px;
+    }
+}
+
+span.pageMenu {
+    position: relative !important;
+
+    .btn {
+        font-size    : 12px;
+        border-radius: 50%;
+        width        : 19px;
+        height       : 19px;
+        padding      : 3px 0;
+        line-height  : 0px;
+
+        span {
+            font-size: 12px;
+        }
+    }
+
+    .mw-list-item {
+        font-weight: normal;
+        font-size  : 15px;
+
+        a {
+            color: $darkPurple;
+
+            &:visited,
+            &:hover {
+                color: $darkPurple;
+            }
         }
     }
 }
@@ -196,19 +293,22 @@ table.calendrier {
     }
 }
 
-.leftLabelGrey, .rightLabelRed, .rightLabelGreen, .rightLabelBlue {
-    height: 20px;
-    color: #f2f2f2;
+.leftLabelGrey,
+.rightLabelRed,
+.rightLabelGreen,
+.rightLabelBlue {
+    height     : 20px;
+    color      : #f2f2f2;
     font-family: Tahoma-Bold, Tahoma;
-    font-size: 11px;
+    font-size  : 11px;
     font-weight: 700;
-    padding: 3px 6px;
+    padding    : 3px 6px;
     text-shadow: 1px 1px 2px #00000082;
     white-space: pre;
 
     a,
     a.external {
-        color           : #f2f2f2;
+        color: #f2f2f2;
 
         &:hover,
         &:visited {
@@ -224,49 +324,56 @@ table.calendrier {
     &:hover {
         background: darken(#5B5B5B, 6%);
     }
+
     border-radius: 3px 0 0 3px;
 }
+
 .rightLabelBlue {
     background-color: #6880bf;
 
     &:hover {
         background: darken(#5B5B5B, 6%);
     }
+
     border-radius: 0 3px 3px 0;
 }
 
 .rightLabelRed {
     background-color: #C82020;
+
     &:hover {
         background: darken(#C82020, 6%);
     }
+
     border-radius: 0 3px 3px 0;
 }
 
 .rightLabelGreen {
     background-color: #4EC820;
+
     &:hover {
         background: darken(#4EC820, 6%);
     }
+
     border-radius: 0 3px 3px 0;
 }
 
 .user-avatar-200 {
     border-radius: 50% !important;
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
+    width        : 200px;
+    height       : 200px;
+    object-fit   : cover;
 }
 
 .user-avatar-50 {
     border-radius: 50% !important;
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+    width        : 50px;
+    height       : 50px;
+    object-fit   : cover;
 }
 
 .gallery-150px img {
-    max-width: 250px;
+    max-width : 250px;
     max-height: 150px;
     object-fit: contain;
 }

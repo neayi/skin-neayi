@@ -21,7 +21,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Utwórz konto lub zaloguj się</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Brać w czymś udział? Zaczyna się tutaj!">Brać w czymś udział? Zaczyna się tutaj!</a></li>
-<li><a href="https://pl.forum.tripleperformance.ag">Wejdź na forum</a></li>
+<li><a href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open" title="&lt;i class=&quot;far fa-lightbulb&quot;&gt;&lt;/i&gt; Zaproponować stronę?"><i class="far fa-lightbulb"></i> Zaproponować stronę?</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

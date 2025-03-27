@@ -3,6 +3,7 @@
 $htmlChunks = [
     '@@interaction-bloc@@' => 'interaction.html',
     '@@suggest-a-page@@' => 'suggest-button.html',
+    '@@interaction-footer@@' => 'interaction-footer.html',
     '@@share-on-social-networks@@' => 'share-on-social-networks.html',
     '@@modal-dialogs@@' => 'modal-dialogs.html'
 ];
@@ -105,8 +106,9 @@ foreach ($languages as $langfile)
     $footerMenus[1]["Triple Performance"]['neayi-tour'] = $_['guided-tour']; // "Lancer la visite guidée";
     $footerMenus[1][$_['community']]['Special:Login'] = $_['create-an-account-or-sign-in']; // "Créer un compte ou se connecter";
     $footerMenus[1][$_['community']]['/wiki/Help:Bienvenue'] = $_['to-contribute-start-here']; // "Contribuer&nbsp;? Ça commence ici&nbsp;!";
-    $footerMenus[1][$_['community']]['forum'] = $_['access-the-forum']; // "Accéder au forum";
-
+    // $footerMenus[1][$_['community']]['forum'] = $_['access-the-forum']; // "Accéder au forum";
+    $footerMenus[1][$_['community']]['https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open'] = '<i class="far fa-lightbulb"></i> ' . $_['suggest-page']; // "Suggérer une page ?";
+    
     foreach ($productions as $k => $v)
         $footerMenus[2][$_['productions']][$k] = $v;
 
@@ -243,6 +245,12 @@ MENU;
     $connectLink = '<a rel="nofollow" class="neayi-username my-auto mx-auto stretched-link" href="/wiki/Special:Login">';
     $connectLink .= str_replace('<br', '</a><br', $_['create-or-connect']);
     $replacements['@@Connect-link@@'] = $connectLink;
+
+    $_['applause-label'] = $_['applause-button'];
+    $_['share-label'] = $_['share'];
+
+    $_['applause-button'] = '<span class="material-icons">thumb_up</span> ' . $_['applause-button'];
+    $_['follow-button'] = '<span class="material-icons-outlined">notifications</span> ' . $_['follow-button'];
 
     foreach ($htmlChunks as $key => $filename)
         $replacements[$key] = getTranslatedHTMLChunk(__DIR__ . '/html_chunks/' .  $filename, $_);

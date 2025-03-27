@@ -2,7 +2,7 @@
     div.row {
         min-height: 350px;
         position  : relative;
-        overflow-y: hidden;
+        overflow-y: visible;
 
         div.hero-portail-img {
             position: absolute;
@@ -49,7 +49,8 @@
                 font-size     : 2.75rem;
                 letter-spacing: 1.25px;
                 border-bottom : none;
-
+                overflow: visible;
+                
                 a.p-lang-toggle {
                     color: white;
 
@@ -57,6 +58,11 @@
                         color: white;
                     }
                 }
+
+                span.pageMenu {
+                    top: -27px;
+                }
+
             }
 
             h2 {
@@ -376,6 +382,7 @@ div.forum-portail {
 
 .very-small-card {
     border-radius: 15px;
+    border-color : $darkGreen;
 
     .image-col {
         max-height: 120px;
@@ -393,7 +400,7 @@ div.forum-portail {
     }
 
     .card-text a {
-        font-family: "Raleway";
+        font-family: $font-family-base;
         font-weight: 600;
         color      : #222;
     }

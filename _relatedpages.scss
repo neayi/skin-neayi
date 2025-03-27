@@ -1,0 +1,47 @@
+div.related-pages {
+    background-color: white;
+    padding         : 10px 23px 0 0;
+
+    .related-tags {
+        margin-bottom: 10px;
+        position     : relative;
+        margin-right : -15px;
+
+        .related-tags-scroll-left,
+        .related-tags-scroll-right {
+            color   : $darkGreen;
+            width   : 30px;
+            position: absolute;
+            cursor  : pointer;
+            height  : 100%;
+
+            a {
+                line-height: 29px;
+            }
+        }
+
+        .related-tags-scroll-right {
+            text-align: right;
+            right     : 0;
+            background: linear-gradient(-90deg, white 0%, white 30%, rgba(255, 255, 255, 0) 100%);
+        }
+
+        .related-tags-scroll-left {
+            background: linear-gradient(90deg, white 0%, white 30%, rgba(255, 255, 255, 0) 100%);
+            display   : none;
+            text-align: left;
+        }
+
+        .related-tags-scrollable {
+            overflow-x     : scroll;
+            white-space    : nowrap;
+            scrollbar-width: none;
+
+            a {
+                font-weight : 600;
+                margin-right: 6px;
+                font-size   : 14px;
+            }
+        }
+    }
+}

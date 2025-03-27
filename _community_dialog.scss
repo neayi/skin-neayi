@@ -1,6 +1,18 @@
 .modal-dialog {
     color: $darkPurple;
 
+    @media (max-width: 575px) {
+        & {
+            margin: 0;
+            width : 100vw;
+
+            .modal-content {
+                border-radius: 0;
+                border       : 0;
+            }
+        }
+    }
+
     h1 {
         color         : $darkPurple;
         margin-bottom : 0px;
@@ -203,6 +215,7 @@
                             margin-left     : 11px;
                             position        : relative;
                             top             : -5px;
+                            display         : none;
                         }
                     }
 
@@ -221,6 +234,11 @@
                                 text-decoration: underline;
                             }
                         }
+                    }
+                    
+                    .direct-message {
+                        font-weight: 600;
+                        font-size  : 13px;
                     }
                 }
 
@@ -271,6 +289,10 @@
                     }
                 }
             }
+        }
+
+        #load-more-community {
+            margin-top: 20px;
         }
 
         .community-not-connected {

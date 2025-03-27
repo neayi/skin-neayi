@@ -21,7 +21,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Maak een account aan of meld u aan</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Bijdragen? Het begint hier!">Bijdragen? Het begint hier!</a></li>
-<li><a href="https://nl.forum.tripleperformance.ag">Toegang tot het forum</a></li>
+<li><a href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open" title="&lt;i class=&quot;far fa-lightbulb&quot;&gt;&lt;/i&gt; Een pagina voorstellen?"><i class="far fa-lightbulb"></i> Een pagina voorstellen?</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
