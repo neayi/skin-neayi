@@ -1,7 +1,7 @@
 .mainContainer {
     .mw-body {
         max-width: 1100px;
-        margin   : 0 auto;
+        margin   : 0 auto 10px auto;
     }
 
     .leftSide {
@@ -85,8 +85,9 @@
         overflow-x: hidden;
 
         div.tags {
-            line-height: 20px;
-            margin-top : -9px;
+            line-height  : 20px;
+            margin-top   : -9px;
+            margin-bottom: 10px;
         }
     }
 }
