@@ -11,11 +11,12 @@
             width   : 100%;
 
             img {
-                height    : 100%;
-                position  : absolute;
-                top       : 0;
-                object-fit: cover;
-                width     : 100%;
+                height         : 100%;
+                position       : absolute;
+                top            : 0;
+                object-fit     : cover;
+                object-position: top;
+                width          : 100%;
             }
         }
 
@@ -23,17 +24,19 @@
             padding: 0px 30px 60px 30px;
 
             img.portrait-agris {
-                border-radius: 50%;
-                border       : 3px solid #ccc;
-                object-fit   : cover;
-                position     : absolute;
-                display      : none;
+                border-radius  : 50%;
+                border         : 3px solid #ccc;
+                object-fit     : cover;
+                object-position: top;
+                position       : absolute;
+                display        : none;
             }
 
             img.portrait-logo {
                 width           : 180px;
                 height          : 180px;
                 object-fit      : cover;
+                object-position : top;
                 border-radius   : 50%;
                 position        : absolute;
                 top             : 59px;
@@ -49,8 +52,8 @@
                 font-size     : 2.75rem;
                 letter-spacing: 1.25px;
                 border-bottom : none;
-                overflow: visible;
-                
+                overflow      : visible;
+
                 a.p-lang-toggle {
                     color: white;
 
@@ -73,16 +76,20 @@
                 font-size    : 1.5rem;
             }
 
-            .hero-tags a {
-                background-color: white;
-                padding         : 3px 10px;
-                margin-right    : 5px;
-                border-radius   : 5px;
-                font-weight     : 700;
-                color           : #212529;
+            .hero-tags {
+                line-height: 34px;
 
-                &:hover {
-                    text-decoration: none;
+                a {
+                    background-color: white;
+                    padding         : 3px 10px;
+                    margin-right    : 5px;
+                    border-radius   : 5px;
+                    font-weight     : 700;
+                    color           : #212529;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
                 }
             }
 
@@ -256,10 +263,11 @@ div.forum-portail {
         display : inline-block;
 
         img {
-            border-radius: 15px;
-            object-fit   : cover;
-            width        : 100%;
-            height       : 100%;
+            border-radius  : 15px;
+            object-fit     : cover;
+            object-position: top;
+            width          : 100%;
+            height         : 100%;
         }
 
         .card-img,
@@ -310,9 +318,10 @@ div.forum-portail {
         }
 
         .avatar {
-            width     : 48px;
-            height    : 48px;
-            object-fit: cover;
+            width          : 48px;
+            height         : 48px;
+            object-fit     : cover;
+            object-position: top;
         }
 
         .badge-light {
@@ -335,11 +344,12 @@ div.forum-portail {
         position: relative;
 
         img.thumbnail {
-            border-radius : 15px;
-            object-fit    : cover;
-            width         : 100%;
-            height        : 100%;
-            vertical-align: baseline;
+            border-radius  : 15px;
+            object-fit     : cover;
+            object-position: top;
+            width          : 100%;
+            height         : 100%;
+            vertical-align : baseline;
         }
 
         img.play-arrow {
@@ -390,8 +400,10 @@ div.forum-portail {
         min-height: 100px;
 
         img {
-            object-fit                : cover;
-            height                    : 100%;
+            object-fit     : cover;
+            object-position: top;
+            height         : 100%;
+
             border-bottom-left-radius : 15px;
             border-top-left-radius    : 15px;
             border-bottom-right-radius: 0px;
@@ -406,12 +418,13 @@ div.forum-portail {
     }
 
     .user-avatar-50 {
-        border-radius: 50% !important;
-        width        : 60px !important;
-        height       : 60px !important;
-        object-fit   : cover;
-        margin-top   : 12px;
-        margin-left  : 17px;
+        border-radius  : 50% !important;
+        width          : 60px !important;
+        height         : 60px !important;
+        object-fit     : cover;
+        object-position: top;
+        margin-top     : 12px;
+        margin-left    : 17px;
     }
 
     .small-text,

@@ -27,16 +27,6 @@
                 font-weight  : 600;
             }
         }
-
-        .neayi-interaction-suivre-label, .neayi-interaction-applause-label {
-            visibility: hidden;
-        }
-        
-        &:hover {
-            .neayi-interaction-suivre-label, .neayi-interaction-applause-label {
-                visibility: visible;
-            }
-        }
     }
 
     .interaction-links {
@@ -238,6 +228,7 @@
 
             .spinner-border {
                 margin-bottom: 10px; // same with the spinner
+                margin-top   : 8px;
             }
 
             .neayi-footer-button-label {
@@ -389,10 +380,11 @@
             border          : 2px solid $lightAccentColorBackground;
 
             img {
-                display   : block;
-                width     : 100%;
-                height    : 100%;
-                object-fit: cover;
+                display        : block;
+                width          : 100%;
+                height         : 100%;
+                object-fit     : cover;
+                object-position: top;
             }
         }
 

@@ -126,7 +126,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="interaction-discussions mx-2">
+	<div class="interaction-discussions d-none mx-2">
 		<div class="container interaction-buttons">
 			<div class="di-followers d-flex align-items-center">
 				<div class="flex-fill text-left"><span class="label-community-count"></span></div>
@@ -172,7 +172,7 @@
             <br><a class="neayi-footer-button-label">Follow</a>
         </div>
 
-        <div class="footer-button footer-discuss-button">
+        <div class="d-none footer-button footer-discuss-button">
             <a class="neayi-footer-button-discuss stretched-link" type="button"><span class="material-icons-outlined">forum</span></a>
             <br><a class="neayi-footer-button-label">Discussions</a>
         </div>
@@ -187,7 +187,7 @@
 </div>
 <div class="footer-drawer">
     <div class="footer-drawer-content">
-        <div class="interaction-discussions">
+        <div class="interaction-discussions d-none">
             <div class="container interaction-buttons">
                 <div class="di-followers d-flex align-items-center">
                     <div class="flex-fill text-left"><span class="label-community-count">Poser une question, partager un retour :</span></div>

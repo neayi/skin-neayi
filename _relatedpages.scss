@@ -9,11 +9,12 @@ div.related-pages {
 
         .related-tags-scroll-left,
         .related-tags-scroll-right {
-            color   : $darkGreen;
-            width   : 30px;
-            position: absolute;
-            cursor  : pointer;
-            height  : 100%;
+            color      : $darkGreen;
+            font-weight: bold;
+            width      : 20px;
+            position   : absolute;
+            cursor     : pointer;
+            height     : 100%;
 
             a {
                 line-height: 29px;
@@ -23,11 +24,11 @@ div.related-pages {
         .related-tags-scroll-right {
             text-align: right;
             right     : 0;
-            background: linear-gradient(-90deg, white 0%, white 30%, rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(-90deg, white 0%, white 50%, rgba(255, 255, 255, 0) 100%);
         }
 
         .related-tags-scroll-left {
-            background: linear-gradient(90deg, white 0%, white 30%, rgba(255, 255, 255, 0) 100%);
+            background: linear-gradient(90deg, white 0%, white 50%, rgba(255, 255, 255, 0) 100%);
             display   : none;
             text-align: left;
         }
@@ -43,5 +44,38 @@ div.related-pages {
                 font-size   : 14px;
             }
         }
+
+
+        .related-tag {
+            border    : none;
+            background: #ccf1e585;
+            color     : $accentColorBackground !important;
+        
+            &:hover {
+                background: darken($accentColorBackground, 6%);
+                color     : #FFF !important;   
+            }
+
+            &.active {
+                background: $accentColorBackground;
+                color     : #FFF !important;    
+                box-shadow: none;
+            }
+        
+            a {
+                font-weight     : 600;
+                color           : #fff !important;
+                padding-right   : 0px;
+                background-image: none;
+                font-family     : $font-family-base;
+        
+                &:hover,
+                &:visited {
+                    color          : #FFF !important;
+                    text-decoration: none;
+                }
+            }
+        }
+                
     }
 }

@@ -4,7 +4,8 @@
     }
 
     .leftSide {
-        width: 310px;
+        width        : 310px;
+        padding-right: 0;
 
         @media (max-width: 1390px) {
             & {
@@ -77,6 +78,11 @@
 
     .centralDiv {
         overflow-x: hidden;
+
+        div.tags {
+            line-height: 20px;
+            margin-top: -9px;
+        }
     }
 }
 
@@ -180,8 +186,9 @@
 
 .cepage {
     img.card-img {
-        object-fit: cover;
-        height    : 190px;
+        object-fit     : cover;
+        object-position: top;
+        height         : 190px;
     }
 }
 
@@ -359,17 +366,19 @@ table.calendrier {
 }
 
 .user-avatar-200 {
-    border-radius: 50% !important;
-    width        : 200px;
-    height       : 200px;
-    object-fit   : cover;
+    border-radius  : 50% !important;
+    width          : 200px;
+    height         : 200px;
+    object-fit     : cover;
+    object-position: top;
 }
 
 .user-avatar-50 {
-    border-radius: 50% !important;
-    width        : 50px;
-    height       : 50px;
-    object-fit   : cover;
+    border-radius  : 50% !important;
+    width          : 50px;
+    height         : 50px;
+    object-fit     : cover;
+    object-position: top;
 }
 
 .gallery-150px img {
