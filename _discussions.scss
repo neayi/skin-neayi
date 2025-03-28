@@ -1,0 +1,124 @@
+.interaction-discussions {
+    background    : $lightAccentColorBackground;
+    padding-bottom: 10px;
+
+    .label-community-count {
+        display    : inline-block;
+        color      : $accentColorBackground;
+        font-size  : 14px;
+        font-weight: 700;
+        line-height: 21px;
+        padding-top: 8px;
+    }
+
+    .di-ask-question {
+        box-shadow : rgba(0, 0, 0, 0.2) 0px 1px 3px 0px inset;
+        width      : 100%;
+        transition : max-height 0.3s cubic-bezier(.52, .09, .91, .45);
+        max-height : 37px;
+        height     : 180px;
+        resize     : none;
+        border     : none;
+        padding    : 9px;
+        overflow   : hidden;
+        font-family: $font-family-serif;
+        font-size  : 16px;
+
+        &::placeholder {
+            font-family: $font-family-base;
+            color      : #b5b4b4;
+        }
+
+        &.di-asked-open {
+            resize    : auto;
+            max-height: 180px;
+        }
+    }
+
+    .neayi-interaction-send {
+        padding: 0;
+        width  : 40px;
+        height : 36px;
+    }
+
+    .di-error {
+        font-size: 12px;
+        color    : red;
+        margin   : 10px 0;
+    }
+
+    .di-messages {
+        position: relative;
+
+        .di-message {
+            margin-bottom: 10px;
+            display      : flex;
+
+            .di-message-send-button,
+            .di-message-content {
+                width: 254px;
+                flex : 1 1 auto !important;
+            }
+
+            .di-message-content {
+                background-color: white;
+                border-radius   : 5px;
+                padding         : 7px 10px;
+                font-size       : 14px;
+                font-family     : $font-family-serif;
+                max-height      : 92px;
+                position        : relative;
+                overflow        : hidden;
+                color           : $darkPurple;
+                text-align      : left;
+
+                &::after {
+                    content   : "";
+                    background: linear-gradient(0deg, white 0, rgba(255, 255, 255, 1) 13px, rgba(255, 255, 255, 0) 50px);
+                    position  : absolute;
+                    width     : 100%;
+                    height    : 100%;
+                    left      : 0px;
+                    top       : 0px;
+                    min-height: 92px; // NB : only start showing when content is clipped - should match max-height above !
+                }
+
+                p {
+                    margin-bottom: 0.5rem;
+                }
+
+                .lightbox-wrapper {
+                    .meta {
+                        display: none;
+                    }
+                }
+            }
+
+            .di-message-avatar {
+                flex: 1 1 auto !important;
+
+                img {
+                    border-radius  : 50%;
+                    width          : 30px;
+                    height         : 30px;
+                    object-fit     : cover;
+                    object-position: top;
+                    margin-right   : 10px;
+                }
+            }
+        }
+
+
+        .di-more {
+            a {
+                color: white;
+                width: 100%;
+
+                &:visited,
+                &:hover {
+                    color: white;
+                }
+            }
+        }
+    }
+}

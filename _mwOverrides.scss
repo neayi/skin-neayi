@@ -221,6 +221,15 @@ ol.references > li {
 
 .dropdown-menu {
     min-width: 16rem;
+
+    .dropdown-item {
+        font-weight: bold;
+        color: $darkPurple;
+
+        &:visited {
+            color: $darkPurple;
+        }
+    }
 }
 
 @media (max-width: 500px) {

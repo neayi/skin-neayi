@@ -148,10 +148,9 @@
     }
 
     .create-profile {
-        background-color: $accentColorBackground;
-        color           : $body-bg;
-        width           : 342px;
-        height          : 88px;
+        width      : 342px;
+        height     : 88px;
+        border-left: 2px white solid;
 
         .neayi-avatar {
             width        : 72px;
@@ -164,7 +163,6 @@
             font-family   : $font-family-base;
             font-size     : 16px;
             font-weight   : bold;
-            color         : white !important;
             text-transform: none;
             letter-spacing: normal;
             white-space   : normal;
@@ -334,6 +332,12 @@ div#neayi-searchform {
         & {
             display: block;
         }
+    }
+
+    input[type="search"]::-webkit-search-cancel-button {
+
+        /* Remove default */
+        -webkit-appearance: none;
     }
 
     span#searchform-close {

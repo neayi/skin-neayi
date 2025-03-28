@@ -11,8 +11,11 @@ body.page-Triple_Performance {
 
     #firstHeading,
     #contentSub,
-    .mw-body .catlinks {
-        display: none;
+    .mw-body .catlinks,
+    .siteNotice,
+    .social-sticky
+    {
+        display: none !important;
     }
 
     .mw-indicators {
@@ -100,7 +103,8 @@ body.page-Triple_Performance {
         }
 
         .avatar {
-            object-fit: cover;
+            object-fit     : cover;
+            object-position: top;
 
             &.big {
                 width : 98px;
@@ -206,15 +210,15 @@ body.page-Triple_Performance {
                 }
             }
 
-
             .img-top-container {
                 position: relative;
                 display : inline-block;
                 height  : 168px;
 
                 img {
-                    object-fit: cover;
-                    height    : 100%;
+                    object-fit     : cover;
+                    object-position: top;
+                    height         : 100%;
                 }
 
                 .card-img-top-overlay {
@@ -445,7 +449,4 @@ body.page-Triple_Performance {
         margin: 0 0;
     }
 
-    .siteNotice {
-        display: none;
-    }
 }

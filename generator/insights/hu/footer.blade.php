@@ -21,7 +21,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="{{$wikiUrl}}/wiki/Special:Login">Fiók létrehozása vagy bejelentkezés</a></li>
 <li><a href="{{$wikiUrl}}/wiki/Help:Bienvenue" title="Hozzájárul? Itt kezdődik!">Hozzájárul? Itt kezdődik!</a></li>
-<li><a href="https://hu.forum.tripleperformance.ag">Hozzáférés a fórumhoz</a></li>
+<li><a href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open" title="&lt;i class=&quot;far fa-lightbulb&quot;&gt;&lt;/i&gt; Javasolsz egy oldalt?"><i class="far fa-lightbulb"></i> Javasolsz egy oldalt?</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

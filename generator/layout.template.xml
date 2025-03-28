@@ -78,16 +78,8 @@
 		</row>
 	</grid>
 
-	<grid class="social-sticky container text-center py-2">
-		<row>
-			<cell class="d-none d-md-block text-left">
-				<component type="Html"><![CDATA[@@suggest-a-page@@]]></component>
-			</cell>
-			<cell class="text-md-right">
-				<component type="Html"><![CDATA[@@share-on-social-networks@@]]></component>
-			</cell>
-
-		</row>
+	<grid class="social-sticky container text-center">
+		<component type="Html"><![CDATA[@@interaction-footer@@]]></component>
 	</grid>
 
 	<grid class="footer py-5">

@@ -113,51 +113,40 @@
 					<component type="Container" class="rightSide col-auto d-lg-block d-none">
 					<component type='Html'><![CDATA[<div class="interaction-bloc">
 	<div class="interaction-top">
-		<span id="interaction-title">&nbsp;</span>
-		<div class="container px-0 interaction-buttons">
-			<div class="row">
-				<div class="col text-right"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
-				<div class="col text-left" ><a class="label-community-count" data-toggle="modal" data-target="#communityModal"></a></div>
-			</div>
-		</div>
 		<div class="container px-0 interaction-buttons">
 			<div class="row mx-n1">
 				<div class="col-auto px-1">
-					<button class="btn btn-dark-green text-white neayi-interaction-applause" type="button">
-						<img src="/extensions/NeayiInteractions/images/clap.svg" width="28">
-					</button>
+					<button class="btn btn-light-green text-white neayi-interaction-applause" type="button"><span class="material-icons">thumb_up</span> مفيدة</button>
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-dark-green text-white neayi-interaction-suivre" type="button">متابعة</button>
+					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> متابعة الصفحة</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
-				<div class="col px-1">
-					<button class="w-100 btn btn-dark-green text-white neayi-interaction-doneit" type="button">أنا أفعل ذلك</button>
-					<br><a class="neayi-interaction-doneit-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
-				</div>
 			</div>
 		</div>
 	</div>
-	<div class="container px-0 interaction-links">
-		<div class="row mx-0">
-			<div class="col pl-0 pr-1"><a class="w-100 btn btn-dark-green button comments-link" href="#di-comments">
-					<span class="material-icons mr-1 align-middle" aria-hidden="true">arrow_downward</span>
-					<span class="questions-text">مناقشة</span></a></div>
-			<div class="col-auto px-0 dropdown" id="neayi-interaction-desktop-menu">
-				<button class="menu btn btn-dark-green" type="button" data-toggle="dropdown" data-boundary="viewport"
-					aria-haspopup="true" aria-expanded="false">
-					<span class="material-icons" aria-hidden="true">more_vert</span>
-				</button>
+	<div class="interaction-discussions d-none mx-2">
+		<div class="container interaction-buttons">
+			<div class="di-followers d-flex align-items-center">
+				<div class="flex-fill text-left"><span class="label-community-count"></span></div>
+				<div class="flex-fill text-right pr-4 avatars-container"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
 			</div>
+			<form>
+				<div class="d-flex align-items-end">
+					<div class="flex-fill pr-2"><textarea class="di-ask-question my-1"></textarea></div>
+					<div class="text-right my-0 py-0"><button class="btn btn-light-green my-1 text-white neayi-interaction-send" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></div>
+				</div>			
+			</form>
 		</div>
+		<div class="di-messages"></div>
 	</div>
-	<div id="side-map">
-		<div id="side-map-container"></div>
-		<div class="text-center text-muted"><a data-toggle="modal" data-target="#communityModal" class="side-map-legend"
-				style="display:none">أين أولئك المهتمون بهذا؟</a></div>
+	<div class="related-pages">
+
+		
 	</div>
-</div>]]></component>
+</div>
+]]></component>
 
 					</component>
 				</component>
@@ -165,24 +154,58 @@
 		</row>
 	</grid>
 
-	<grid class="social-sticky container text-center py-2">
-		<row>
-			<cell class="d-none d-md-block text-left">
-				<component type="Html"><![CDATA[<a class="suggest-button" target="_blank" title=""
-    href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open"><i class="far fa-lightbulb"></i>
-    اقترح صفحة؟</a>]]></component>
-			</cell>
-			<cell class="text-md-right">
-				<component type="Html"><![CDATA[<div class="d-inline-block text-center">
-	<span>شارك على:</span>
-	<a class="share-facebook" target="_blank" title=""><span class="fab fa-facebook-f"></span> </a>
-	<a class="share-twitter d-none d-lg-inline" target="_blank" title=""><span class="fab fa-twitter"></span> </a>
-	<a class="share-whatsapp d-lg-none" target="_blank" title=""><span class="fab fa-whatsapp"></span> </a>
-	<a class="share-share" target="_blank" title=""><span class="fas fa-share-alt"></span> </a>
-</div>]]></component>
-			</cell>
+	<grid class="social-sticky container text-center">
+		<component type="Html"><![CDATA[<div class="row">
+    <div class="text-center col  d-flex justify-content-evenly footer-buttons-container my-2">
+        <div class="d-inline-block d-md-none footer-button footer-share-button">
+            <a class="neayi-footer-button-whatsapp-share stretched-link" type="button"><i class="fab fa-whatsapp" aria-hidden="true"></i></a>
+            <br><a class="neayi-footer-button-label">يشارك</a>
+        </div>
 
-		</row>
+        <div class="footer-button footer-applause-button">
+            <a class="neayi-footer-button-applause stretched-link" type="button"><span class="material-icons">thumb_up</span></a>
+            <br><a class="neayi-footer-button-label">مفيدة</a>
+        </div>
+
+        <div class="footer-button footer-follow-button">
+            <a class="neayi-footer-button-suivre stretched-link" type="button"><span class="material-icons-outlined">notifications</span></a>
+            <br><a class="neayi-footer-button-label">يتبع</a>
+        </div>
+
+        <div class="d-none footer-button footer-discuss-button">
+            <a class="neayi-footer-button-discuss stretched-link" type="button"><span class="material-icons-outlined">forum</span></a>
+            <br><a class="neayi-footer-button-label">المناقشات</a>
+        </div>
+
+        <div class="d-none d-md-inline-block footer-avatars avatars-container mr-5"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>
+
+        <div class="d-inline-block d-md-none footer-button footer-more-button">
+            <a class="neayi-footer-button-more stretched-link" type="button"><i class="fa fa-chevron-up" aria-hidden="true"></i></a>
+            <br><a class="neayi-footer-button-label">أكثر</a>
+        </div>
+    </div>
+</div>
+<div class="footer-drawer">
+    <div class="footer-drawer-content">
+        <div class="interaction-discussions d-none">
+            <div class="container interaction-buttons">
+                <div class="di-followers d-flex align-items-center">
+                    <div class="flex-fill text-left"><span class="label-community-count">Poser une question, partager un retour :</span></div>
+                    <div class="flex-fill text-right pl-3 pr-4 avatars-container"><div class="avatars" data-toggle="modal" data-target="#communityModal"><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/3a357cd5-c3ec-40fe-80c6-b8b7d743c0da/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/cb25d54c-8b9a-4d76-a164-b25e3c6c738b/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/d9b54af6-f5e0-4012-833d-da1f1628d43b/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/5fcf9439-5f66-47e1-9600-1b052c594d79/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/d285e80f-0566-471b-bd35-7be8ab7ba78b/100"></div><div class="avatar avatar-count"><span class="avatar-infos"><span class="material-icons align-middle">people</span> Infos</span><span class="avatar-count-number">+2</span></div></div></div>
+                </div>
+                <form>
+                    <div class="d-flex align-items-end">
+                        <div class="flex-fill pr-2"><textarea class="di-ask-question my-1" placeholder="Est-ce possible dans ..."></textarea></div>
+                        <div class="text-right my-0 py-0"><button class="btn btn-light-green my-1 text-white neayi-interaction-send" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></div>
+                    </div>			
+                </form>
+            </div>
+            <div class="di-messages"></div>
+        </div>
+        <div class="related-pages"></div>
+    </div>
+</div>
+]]></component>
 	</grid>
 
 	<grid class="footer py-5">
@@ -208,7 +231,7 @@
 <ul class="list-unstyled">
 <li><a rel="nofollow" class="login-links" href="/wiki/Special:Login">أنشئ حسابًا أو سجّل الدخول</a></li>
 <li><a href="/wiki/Help:Bienvenue" title="ساهم؟ يبدأ الأمر هنا!">ساهم؟ يبدأ الأمر هنا!</a></li>
-<li><a href="https://ar.forum.tripleperformance.ag">الوصول إلى المنتدى</a></li>
+<li><a href="https://forum.tripleperformance.fr/c/meta/articles-a-creer/38?status=open" title="&lt;i class=&quot;far fa-lightbulb&quot;&gt;&lt;/i&gt; اقترح صفحة؟"><i class="far fa-lightbulb"></i> اقترح صفحة؟</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
@@ -388,37 +411,18 @@
             <div class="modal-body">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
-                            role="tab" aria-controls="home" aria-selected="true">الإحصائيات</a>
+                        <a class="nav-link active" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab" aria-controls="commununity" aria-selected="true">المجتمع</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab"
-                            aria-controls="commununity" aria-selected="false">المجتمع</a>
+                        <a class="nav-link" id="statistiques-tab" data-toggle="tab" href="#statistiques" role="tab" aria-controls="statistiques" aria-selected="false">الإحصائيات</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="statistiques" role="tabpanel"
-                        aria-labelledby="statistiques-tab">
-                        <!-- Statistiques -->
-                        <div class="stats-title">أين أولئك الذين يفعلون ذلك؟</div>
-                        <div class="row">
-                            <div id="map" class="col col-auto"></div>
-                            <div class="col col-auto" id="departments-stats"></div>
-                        </div>
-                        <div class="stats-features" id="famings-stats">
-                            <div class="stats-title">نوع المزرعة الأكثر شيوعًا</div>
-                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-                        </div>
-                        <div class="stats-features" id="cropping-systems-stats">
-                            <div class="stats-title">المواصفات الأكثر شيوعًا</div>
-                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
+                    <div class="tab-pane fade show active" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
                         <!-- Communauté -->
                         <div class="community-connected">
                             <form>
-                                <div class="follower-search form-row align-items-center">
+                                <div class="follower-search d-none d-md-flex form-row align-items-center">
                                     <div class="col-auto">
                                         <select id="departments-select" class="community-select custom-select">
                                             <option selected value="">الموقع</option>
@@ -435,7 +439,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="follower-search form-row align-items-center">
+                                <!-- <div class="follower-search form-row align-items-center">
                                     <div class="col-auto">
                                         <div class="custom-control custom-switch align-center">
                                             <input type="checkbox" class="custom-control-input"
@@ -443,7 +447,7 @@
                                             <label class="custom-control-label" for="community-doneit-only">اطلع فقط على من قام بذلك</label>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </form>
                             <div id="community-items"></div>
                             <div class="text-center"><a class="btn btn-primary" style="display:none"
@@ -460,6 +464,22 @@
                                      <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="statistiques" role="tabpanel" aria-labelledby="statistiques-tab">
+                        <!-- Statistiques -->
+                        <div class="stats-title">أين أولئك الذين يفعلون ذلك؟</div>
+                        <div class="row">
+                            <div id="map" class="col col-auto"></div>
+                            <div class="col col-auto" id="departments-stats"></div>
+                        </div>
+                        <div class="stats-features" id="famings-stats">
+                            <div class="stats-title">نوع المزرعة الأكثر شيوعًا</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                        <div class="stats-features" id="cropping-systems-stats">
+                            <div class="stats-title">المواصفات الأكثر شيوعًا</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
             <div class="modal-footer border-top-0">

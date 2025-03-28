@@ -92,37 +92,18 @@
             <div class="modal-body">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link active" id="statistiques-tab" data-toggle="tab" href="#statistiques"
-                            role="tab" aria-controls="home" aria-selected="true">@@statistics@@</a>
+                        <a class="nav-link active" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab" aria-controls="commununity" aria-selected="true">@@community@@</a>
                     </li>
                     <li class="nav-item" role="presentation">
-                        <a class="nav-link" id="commununity-tab" data-toggle="tab" href="#commununity" role="tab"
-                            aria-controls="commununity" aria-selected="false">@@community@@</a>
+                        <a class="nav-link" id="statistiques-tab" data-toggle="tab" href="#statistiques" role="tab" aria-controls="statistiques" aria-selected="false">@@statistics@@</a>
                     </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="statistiques" role="tabpanel"
-                        aria-labelledby="statistiques-tab">
-                        <!-- Statistiques -->
-                        <div class="stats-title">@@where-are-those-who-do-it@@</div>
-                        <div class="row">
-                            <div id="map" class="col col-auto"></div>
-                            <div class="col col-auto" id="departments-stats"></div>
-                        </div>
-                        <div class="stats-features" id="famings-stats">
-                            <div class="stats-title">@@frequent-farm-types@@</div>
-                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-                        </div>
-                        <div class="stats-features" id="cropping-systems-stats">
-                            <div class="stats-title">@@most-frequent-specification@@</div>
-                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
+                    <div class="tab-pane fade show active" id="commununity" role="tabpanel" aria-labelledby="commununity-tab">
                         <!-- Communauté -->
                         <div class="community-connected">
                             <form>
-                                <div class="follower-search form-row align-items-center">
+                                <div class="follower-search d-none d-md-flex form-row align-items-center">
                                     <div class="col-auto">
                                         <select id="departments-select" class="community-select custom-select">
                                             <option selected value="">@@place@@</option>
@@ -139,7 +120,7 @@
                                         </select>
                                     </div>
                                 </div>
-                                <div class="follower-search form-row align-items-center">
+                                <!-- <div class="follower-search form-row align-items-center">
                                     <div class="col-auto">
                                         <div class="custom-control custom-switch align-center">
                                             <input type="checkbox" class="custom-control-input"
@@ -147,7 +128,7 @@
                                             <label class="custom-control-label" for="community-doneit-only">@@see-only-who-did-it@@</label>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </form>
                             <div id="community-items"></div>
                             <div class="text-center"><a class="btn btn-primary" style="display:none"
@@ -164,6 +145,22 @@
                                      <span style="vertical-align: middle;" class="material-icons" aria-hidden="true">arrow_forward</span></a></p>
                         </div>
                     </div>
+                    <div class="tab-pane fade" id="statistiques" role="tabpanel" aria-labelledby="statistiques-tab">
+                        <!-- Statistiques -->
+                        <div class="stats-title">@@where-are-those-who-do-it@@</div>
+                        <div class="row">
+                            <div id="map" class="col col-auto"></div>
+                            <div class="col col-auto" id="departments-stats"></div>
+                        </div>
+                        <div class="stats-features" id="famings-stats">
+                            <div class="stats-title">@@frequent-farm-types@@</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                        <div class="stats-features" id="cropping-systems-stats">
+                            <div class="stats-title">@@most-frequent-specification@@</div>
+                            <div class="d-flex flex-wrap justify-content-start stats-icons"></div>
+                        </div>
+                    </div>                    
                 </div>
             </div>
             <div class="modal-footer border-top-0">
