@@ -15,7 +15,7 @@
                 position       : absolute;
                 top            : 0;
                 object-fit     : cover;
-                object-position: top;
+                object-position: center;
                 width          : 100%;
             }
         }
@@ -27,7 +27,7 @@
                 border-radius  : 50%;
                 border         : 3px solid #ccc;
                 object-fit     : cover;
-                object-position: top;
+                object-position: center;
                 position       : absolute;
                 display        : none;
             }
@@ -36,7 +36,7 @@
                 width           : 180px;
                 height          : 180px;
                 object-fit      : cover;
-                object-position : top;
+                object-position : center;
                 border-radius   : 50%;
                 position        : absolute;
                 top             : 59px;
