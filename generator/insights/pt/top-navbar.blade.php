@@ -50,7 +50,7 @@
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="{{$wikiUrl}}/wiki/Thématiques" title="Temas">Temas</a></li>
 <li class="nav-item"><a class="nav-link" href="https://pt.forum.tripleperformance.ag" title="Fórum">Fórum</a></li>
 <li class="nav-item"><a class="nav-link" href="{{$wikiUrl}}/wiki/Cursos de formação" title="Cursos de formação">Cursos de formação</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Pesquisar">Pesquisar</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="Pesquisar">Pesquisar</a></li>
 
         </ul>
         @if(\Illuminate\Support\Facades\Auth::user() !== null)

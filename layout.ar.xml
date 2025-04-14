@@ -71,7 +71,7 @@
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="الموضوعات">الموضوعات</a></li>
 <li class="nav-item"><a class="nav-link" href="https://ar.forum.tripleperformance.ag" title="المنتدى">المنتدى</a></li>
 <li class="nav-item"><a class="nav-link" href="/wiki/الدورات التدريبية" title="الدورات التدريبية">الدورات التدريبية</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="البحث">البحث</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="البحث">البحث</a></li>
 
 
 </ul>]]></component></component>

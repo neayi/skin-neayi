@@ -71,7 +71,7 @@
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Teemat">Teemat</a></li>
 <li class="nav-item"><a class="nav-link" href="https://fi.forum.tripleperformance.ag" title="Foorumi">Foorumi</a></li>
 <li class="nav-item"><a class="nav-link" href="/wiki/Koulutuskurssit" title="Koulutuskurssit">Koulutuskurssit</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Etsi">Etsi</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="Etsi">Etsi</a></li>
 
 
 </ul>]]></component></component>

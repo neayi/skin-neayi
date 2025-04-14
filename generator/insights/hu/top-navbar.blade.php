@@ -50,7 +50,7 @@
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="{{$wikiUrl}}/wiki/Thématiques" title="Témák">Témák</a></li>
 <li class="nav-item"><a class="nav-link" href="https://hu.forum.tripleperformance.ag" title="Fórum">Fórum</a></li>
 <li class="nav-item"><a class="nav-link" href="{{$wikiUrl}}/wiki/Képzések" title="Képzések">Képzések</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Keresés">Keresés</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="Keresés">Keresés</a></li>
 
         </ul>
         @if(\Illuminate\Support\Facades\Auth::user() !== null)

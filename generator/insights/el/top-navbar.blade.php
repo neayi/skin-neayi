@@ -50,7 +50,7 @@
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="{{$wikiUrl}}/wiki/Thématiques" title="Θέματα">Θέματα</a></li>
 <li class="nav-item"><a class="nav-link" href="https://el.forum.tripleperformance.ag" title="Φόρουμ">Φόρουμ</a></li>
 <li class="nav-item"><a class="nav-link" href="{{$wikiUrl}}/wiki/Μαθήματα κατάρτισης" title="Μαθήματα κατάρτισης">Μαθήματα κατάρτισης</a></li>
-<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href=".navbar-collapse" title="Αναζήτηση">Αναζήτηση</a></li>
+<li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="Αναζήτηση">Αναζήτηση</a></li>
 
         </ul>
         @if(\Illuminate\Support\Facades\Auth::user() !== null)
