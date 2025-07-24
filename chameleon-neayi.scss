@@ -26,6 +26,9 @@
 @import "print";
 @import "mapColors";
 
+// Import structures specific styles
+@import "CNA";
+
 .introjs-tooltip {
     min-width: 350px;
 

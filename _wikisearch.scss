@@ -94,4 +94,13 @@ a.wikisearch-button.wssearch-button--show-filters {
             content: "";
         }
     }
+
+    .search-result {
+        overflow: auto;
+        margin-bottom: 1em;
+
+        .card-title {
+            margin-top: 0;
+        }
+    }
 }

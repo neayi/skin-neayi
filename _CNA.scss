@@ -1,0 +1,64 @@
+body.CNA {
+    background-color: #e4eac7;
+
+    .mw-parser-output a {
+        color: #0a4143;
+    }
+
+    .wikisearch {
+        // dark green text
+        .wikisearch-selected__clear {
+            color: #0a4143;
+        }
+
+        // Dark green text over yellow background
+        label.wikisearch-pill,
+        .wikisearch-checkbox__count, 
+        .badge-primary, label.wikisearch-pill {
+            background-color: #fab72a;
+            padding: 0.25em 0.4em;
+            font-size: 11px;
+            font-weight: 600;
+            height: auto;
+            border-radius: 4px;
+            
+            &:after, 
+            &,
+            a {
+                color: #0a4143 !important;
+            }
+        }
+
+        label.wikisearch-pill {
+            border: none;
+            padding: 0.25em 1.4em 0.25em 0.4em;
+        }
+
+        // beige text over dark green background
+        .wikisearch-checkbox__icon,
+        a.wikisearch-button.wikisearch-button--progressive,
+        .wikisearch-button--neutral, 
+        .wikisearch-dropdown__select {
+            background-color: #0a4143;
+
+            &, svg {
+                color: #e4eac7;
+            }
+        }
+
+        .search-result {
+            background-color: white;
+            padding: 13px;
+            border-radius: 10px;
+
+            .card-title {
+                margin-top: 0;
+            }
+
+            .over-thumbnail {
+                top: 20px;
+                right: 21px;
+            }
+        }
+    }
+}
