@@ -35,7 +35,7 @@
 <a class="dropdown-item" href="/wiki/Viticulture" title="زراعة الكروم">زراعة الكروم</a>
 <a class="dropdown-item" href="/wiki/Arboriculture" title="زراعة الأشجار">زراعة الأشجار</a>
 <a class="dropdown-item" href="/wiki/Maraîchage" title="البستنة التسويقية">البستنة التسويقية</a>
-<a class="dropdown-item" href="/wiki/PPAM" title="HMP">HMP</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="النباتات العطرية والطبية">النباتات العطرية والطبية</a>
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="البحث عن المزارع">البحث عن المزارع</a>
 
@@ -116,11 +116,11 @@
 		<div class="container px-0 interaction-buttons">
 			<div class="row mx-n1">
 				<div class="col-auto px-1">
-					<button class="btn btn-light-green text-white neayi-interaction-applause" type="button"><span class="material-icons">thumb_up</span> مفيدة</button>
+					<button class="btn btn-light-green text-white neayi-interaction-applause" type="button"><span class="material-icons">thumb_up</span> تعليمي</button>
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> متابعة الصفحة</button>
+					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> تابع الصفحة</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -164,7 +164,7 @@
 
         <div class="footer-button footer-applause-button">
             <a class="neayi-footer-button-applause stretched-link" type="button"><span class="material-icons">thumb_up</span></a>
-            <br><a class="neayi-footer-button-label">مفيدة</a>
+            <br><a class="neayi-footer-button-label">تعليمي</a>
         </div>
 
         <div class="footer-button footer-follow-button">
@@ -242,7 +242,7 @@
 <li><a href="/wiki/Viticulture" title="زراعة الكروم">زراعة الكروم</a></li>
 <li><a href="/wiki/Arboriculture" title="زراعة الأشجار">زراعة الأشجار</a></li>
 <li><a href="/wiki/Maraîchage" title="البستنة التسويقية">البستنة التسويقية</a></li>
-<li><a href="/wiki/PPAM" title="HMP">HMP</a></li>
+<li><a href="/wiki/PPAM" title="النباتات العطرية والطبية">النباتات العطرية والطبية</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

@@ -35,7 +35,7 @@
 <a class="dropdown-item" href="/wiki/Viticulture" title="Weinbau">Weinbau</a>
 <a class="dropdown-item" href="/wiki/Arboriculture" title="Baumzucht">Baumzucht</a>
 <a class="dropdown-item" href="/wiki/Maraîchage" title="Gärtnern">Gärtnern</a>
-<a class="dropdown-item" href="/wiki/PPAM" title="HMP">HMP</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="ADG-Pflanzen">ADG-Pflanzen</a>
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Suche nach Bauernhöfen">Suche nach Bauernhöfen</a>
 
@@ -120,7 +120,7 @@
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Seite folgen</button>
+					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Folgen Sie der Seite</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -242,7 +242,7 @@
 <li><a href="/wiki/Viticulture" title="Weinbau">Weinbau</a></li>
 <li><a href="/wiki/Arboriculture" title="Baumzucht">Baumzucht</a></li>
 <li><a href="/wiki/Maraîchage" title="Gärtnern">Gärtnern</a></li>
-<li><a href="/wiki/PPAM" title="HMP">HMP</a></li>
+<li><a href="/wiki/PPAM" title="ADG-Pflanzen">ADG-Pflanzen</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

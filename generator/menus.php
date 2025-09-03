@@ -304,4 +304,7 @@ function buildPagesToTranslate($menus)
             }
 
     echo "];\n";
+
+
+    echo "\n\n\nYou can now copy the files from here:\nU:\\home\\bertrand\\3perf-mw1.39\\html\\skins\\skin-neayi\\generator\\insights\n to there:\nU:\\home\\bertrand\\3perf-mw1.39\\insights\\resources\\views\\layouts\\neayi\\partials\n\n\n";
 }

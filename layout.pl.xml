@@ -35,7 +35,7 @@
 <a class="dropdown-item" href="/wiki/Viticulture" title="Uprawa winorośli">Uprawa winorośli</a>
 <a class="dropdown-item" href="/wiki/Arboriculture" title="Uprawa drzew">Uprawa drzew</a>
 <a class="dropdown-item" href="/wiki/Maraîchage" title="Ogrodnictwo targowe">Ogrodnictwo targowe</a>
-<a class="dropdown-item" href="/wiki/PPAM" title="PMAP">PMAP</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="RLA">RLA</a>
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Wyszukaj gospodarstwa">Wyszukaj gospodarstwa</a>
 
@@ -120,7 +120,7 @@
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Śledź stronę</button>
+					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Obserwuj stronę</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -242,7 +242,7 @@
 <li><a href="/wiki/Viticulture" title="Uprawa winorośli">Uprawa winorośli</a></li>
 <li><a href="/wiki/Arboriculture" title="Uprawa drzew">Uprawa drzew</a></li>
 <li><a href="/wiki/Maraîchage" title="Ogrodnictwo targowe">Ogrodnictwo targowe</a></li>
-<li><a href="/wiki/PPAM" title="PMAP">PMAP</a></li>
+<li><a href="/wiki/PPAM" title="RLA">RLA</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">

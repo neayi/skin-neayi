@@ -35,7 +35,7 @@
 <a class="dropdown-item" href="/wiki/Viticulture" title="Viticulture">Viticulture</a>
 <a class="dropdown-item" href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a>
 <a class="dropdown-item" href="/wiki/Maraîchage" title="Market gardening">Market gardening</a>
-<a class="dropdown-item" href="/wiki/PPAM" title="HMP">HMP</a>
+<a class="dropdown-item" href="/wiki/PPAM" title="MAP">MAP</a>
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Search for farms">Search for farms</a>
 
@@ -120,7 +120,7 @@
 					<br><span class="neayi-interaction-applause-label">&nbsp;</span>
 				</div>
 				<div class="col px-1">
-					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Follow page</button>
+					<button class="w-100 btn btn-light-green text-white neayi-interaction-suivre" type="button"><span class="material-icons-outlined">notifications</span> Follow the page</button>
 					<br><a class="neayi-interaction-suivre-label" data-toggle="modal" data-target="#communityModal">&nbsp;</a>
 				</div>
 			</div>
@@ -242,7 +242,7 @@
 <li><a href="/wiki/Viticulture" title="Viticulture">Viticulture</a></li>
 <li><a href="/wiki/Arboriculture" title="Arboriculture">Arboriculture</a></li>
 <li><a href="/wiki/Maraîchage" title="Market gardening">Market gardening</a></li>
-<li><a href="/wiki/PPAM" title="HMP">HMP</a></li>
+<li><a href="/wiki/PPAM" title="MAP">MAP</a></li>
 </ul>
 </div>
 <div class="col-xl-2 col-lg-6">
