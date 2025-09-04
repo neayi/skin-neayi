@@ -15,7 +15,7 @@
         box-shadow : rgba(0, 0, 0, 0.2) 0px 1px 3px 0px inset;
         width      : 100%;
         transition : max-height 0.3s cubic-bezier(.52, .09, .91, .45);
-        max-height : 37px;
+        max-height : 180px;
         height     : 180px;
         resize     : none;
         border     : none;
@@ -63,18 +63,23 @@
             .di-message-content {
                 background-color: white;
                 border-radius   : 5px;
-                padding         : 7px 10px;
                 font-size       : 14px;
                 font-family     : $font-family-serif;
-                max-height      : 74px;
                 position        : relative;
-                overflow        : hidden;
                 color           : $darkPurple;
                 text-align      : left;
 
+                padding           : 0.5lh 10px;
+                overflow          : hidden;
+                -webkit-line-clamp: 4;
+                max-height        : 5lh;
+                display           : -webkit-box;
+                -webkit-box-orient: vertical;
+                text-overflow     : ellipsis;
+
                 &::after {
                     content   : "";
-                    background: linear-gradient(0deg, white 0, rgba(255, 255, 255, 1) 13px, rgba(255, 255, 255, 0) 50px);
+                    background: linear-gradient(0deg, white 0, rgba(255, 255, 255, 1) 7px, rgba(255, 255, 255, 0) 50px);
                     position  : absolute;
                     width     : 100%;
                     height    : 100%;
