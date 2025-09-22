@@ -24,88 +24,117 @@
     }
 }
 
-.wikisearch-results {
-    img.card-img {
-        width: 200px;
-    }
-}
-
-label.wikisearch-pill {
-    max-width       : 236px;
-    background-color: $brand-primary;
-    color           : white;
-
-    &:hover {
-        background-color: $brand-primary;
-    }
-
-    &:after {
-        color: white;
-    }
-}
-
-a.wikisearch-button.wikisearch-button--progressive {
-    background-color: $accentColorBackground;
-    border-color    : #a0a8b0;
-    color           : white;
-}
-
-label.wikisearch-dropdown__select {
-    padding-block: 0;
-}
-
-.wikisearch-filters__wrapper {
-    .wikisearch-filter {
-        margin-bottom: 1em;
-    }
-}
-
-div.wikisearch-filters {
-    @media (max-width: 500px) {
-        top: 45px;
-    }
-}
-
-.wikisearch-order {
-    @media (max-width: 500px) {
-        display: none !important;
-    }
-}
-
-ul.wikisearch-list-box {
-    z-index: 20 !important;
-}
-
-a.wikisearch-button.wssearch-button--show-filters {
-    z-index: 100;
-}
 .wikisearch {
+
+    .wikisearch-results {
+        img.card-img {
+            width: 200px;
+        }
+    }
+
+    label.wikisearch-pill {
+        max-width       : 236px;
+        background-color: $brand-primary;
+        color           : white;
+
+        &:hover {
+            background-color: $brand-primary;
+        }
+
+        &:after {
+            color: white;
+        }
+    }
+
+    label.wikisearch-dropdown__select {
+        padding-block: 0;
+    }
+
+    .wikisearch-filters__wrapper {
+        .wikisearch-filter {
+            margin-bottom: 1em;
+        }
+    }
+
+    div.wikisearch-filters {
+        @media (max-width: 500px) {
+            top: 45px;
+        }
+    }
+
+    .wikisearch-order {
+        @media (max-width: 500px) {
+            display: none !important;
+        }
+    }
+
+    ul.wikisearch-list-box {
+        z-index: 20 !important;
+    }
+
+    .wssearch-button--show-filters {
+        z-index         : 100;
+        bottom          : 5em;
+        background-color: $accentColorBackground;
+        border-color    : $accentColorBackground;
+
+        &:hover {
+            background-color: darken($accentColorBackground, 10%);
+            border-color: darken($accentColorBackground, 10%);
+        }
+    }
+
+    .wikisearch-search {
+        .wikisearch-button--progressive {
+            background-color: $accentColorBackground;
+            border-color    : #a0a8b0;
+            color           : white;
+        }
+
+        .wikisearch-tooltip {
+            .wikisearch-button {
+                background: transparent;
+                color     : #0645ad;
+            }
+        }
+    }
+
+    .wikisearch-button.wikisearch-filter__button {
+        width: 100%;
+        color: #0645ad;
+    }
+
     .wikisearch-checkbox__count {
-        margin-left: 0.5em;
-        white-space: nowrap;
-        background: $accentColorBackground;
-        color: white;
-        font-weight: 700;
-        font-size: 11px;
-        padding: 1px 5px;
+        margin-left  : 0.5em;
+        white-space  : nowrap;
+        background   : $accentColorBackground;
+        color        : white;
+        font-weight  : 700;
+        font-size    : 11px;
+        padding      : 1px 5px;
         border-radius: 8px;
 
-        &:before, &:after {
+        &:before,
+        &:after {
             content: "";
         }
     }
 
     .search-result {
-        overflow: auto;
+        overflow     : auto;
         margin-bottom: 1em;
 
         background-color: #fdfdfd;
-        padding: 13px;
-        border-radius: 10px;
-        box-shadow: 1px 1px 5px 0px #e9e9e9;
+        padding         : 13px;
+        border-radius   : 10px;
+        box-shadow      : 1px 1px 5px 0px #e9e9e9;
 
         .card-title {
             margin-top: 0;
         }
+    }
+
+    b.wikisearch-total__nr {
+        font-weight: normal;
     }
 }
