@@ -13,8 +13,7 @@ body.page-Triple_Performance {
     #contentSub,
     .mw-body .catlinks,
     .siteNotice,
-    .social-sticky
-    {
+    .social-sticky {
         display: none !important;
     }
 
@@ -102,14 +101,17 @@ body.page-Triple_Performance {
             letter-spacing: 0.5px;
         }
 
-        .avatar {
-            object-fit     : cover;
-            object-position: top;
+        .rounded-circle.avatar img {
+            object-fit   : cover;
+            border-radius: 50%;
+        }
 
-            &.big {
-                width : 98px;
-                height: 98px;
-            }
+        // Georges Joya
+        .rounded-circle.avatar.big img {
+            width        : 98px;
+            height       : 98px;
+            object-fit   : cover;
+            border-radius: 50%;
         }
 
         .hero {
@@ -173,7 +175,7 @@ body.page-Triple_Performance {
         }
 
         .content-col {
-            max-width: 1800px;
+            max-width: 1500px;
         }
 
         span.smw-plainlist-furtherresults {
@@ -217,7 +219,8 @@ body.page-Triple_Performance {
 
                 img {
                     object-fit     : cover;
-                    object-position: top;
+                    object-position: center;
+                    width          : 100%;
                     height         : 100%;
                 }
 
@@ -339,7 +342,7 @@ body.page-Triple_Performance {
 
                 // Hack for version 1.39 only - the new version of InputBox has a div surrounding the input that fixes the need fot this
                 input.mw-ui-input-inline {
-                    width           : 55%;
+                    width: 55%;
 
                     @media (min-width: 1000px) {
                         width: 70%;
@@ -366,7 +369,7 @@ body.page-Triple_Performance {
                         color         : #9e8d8d;
                         font-size     : 1rem;
                         letter-spacing: 1px;
-                        font-style: italic;
+                        font-style    : italic;
                     }
 
                     &:focus,
@@ -378,7 +381,8 @@ body.page-Triple_Performance {
                     }
                 }
 
-                input.mw-ui-button, input.cdx-button {
+                input.mw-ui-button,
+                input.cdx-button {
                     border-top-left-radius    : 0;
                     border-bottom-left-radius : 0;
                     border-top-right-radius   : 28px;
@@ -396,7 +400,7 @@ body.page-Triple_Performance {
                     height                    : 56px;
                     margin                    : 0;
                 }
-                
+
                 input.cdx-button {
                     left: -5px;
                 }
@@ -421,10 +425,13 @@ body.page-Triple_Performance {
         }
 
         .testimonies {
-            .avatar {
-                width : 64px;
-                height: 64px;
-                border: solid 1px #919191;
+
+            img.avatar,
+            .avatar img {
+                width        : 64px;
+                height       : 64px;
+                border       : solid 1px #919191;
+                border-radius: 50%;
             }
         }
 

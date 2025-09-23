@@ -271,7 +271,9 @@ div.forum-portail {
         }
 
         .card-img,
-        .card-img-top {
+        .card-img-top,
+        .card-img img,
+        .card-img-top img {
             border-top-left-radius : 15px;
             border-top-right-radius: 15px;
         }
@@ -343,7 +345,8 @@ div.forum-portail {
         height  : 223px;
         position: relative;
 
-        img.thumbnail {
+        img.thumbnail,
+        .thumbnail img {
             border-radius  : 15px;
             object-fit     : cover;
             object-position: top;
@@ -352,7 +355,8 @@ div.forum-portail {
             vertical-align : baseline;
         }
 
-        img.play-arrow {
+        img.play-arrow,
+        .play-arrow img {
             position: absolute;
             left    : 50%;
             top     : 45%;
@@ -403,6 +407,7 @@ div.forum-portail {
             object-fit     : cover;
             object-position: top;
             height         : 100%;
+            width          : 100%;
 
             border-bottom-left-radius : 15px;
             border-top-left-radius    : 15px;
@@ -417,7 +422,8 @@ div.forum-portail {
         color      : #222;
     }
 
-    .user-avatar-50 {
+    .user-avatar-50,
+    .user-avatar-50 img {
         border-radius  : 50% !important;
         width          : 60px !important;
         height         : 60px !important;
@@ -438,6 +444,8 @@ div.forum-portail {
 // Hide the images that are used for the portal once they are rendered within the mw-content:
 #content .portail-background,
 #content img.portrait-agris,
-#content img.portrait-logo {
+#content img.portrait-logo,
+#content .portrait-agris img,
+#content .portrait-logo img {
     display: none;
 }

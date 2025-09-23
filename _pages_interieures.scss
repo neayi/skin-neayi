@@ -371,17 +371,19 @@ table.calendrier {
 }
 
 .user-avatar-200 {
-    border-radius  : 50% !important;
-    width          : 200px;
-    height         : 200px;
-    object-fit     : cover;
-    object-position: top;
+    img {
+        border-radius  : 50% !important;
+        width          : 200px;
+        height         : 200px;
+        object-fit     : cover;
+        object-position: top;
+    }
 }
 
-.user-avatar-50 {
+.user-avatar-50, .user-avatar-50 img {
     border-radius  : 50% !important;
-    width          : 50px;
-    height         : 50px;
+    width          : 50px !important;
+    height         : 50px !important;
     object-fit     : cover;
     object-position: top;
 }
@@ -390,4 +392,10 @@ table.calendrier {
     max-width : 250px;
     max-height: 150px;
     object-fit: contain;
+}
+
+@media (max-width: 500px) {
+    .geco {
+        display: none;
+    }
 }

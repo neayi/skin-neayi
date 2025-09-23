@@ -62,12 +62,12 @@ body {
 
     .mw-indicators {
         border-radius: 50%;
-        background: white;
-        margin-top: 0px;
+        background   : white;
+        margin-top   : 0px;
 
         img {
             border-radius: 14%;
-            margin: 16px 16px 0 16px;
+            margin       : 16px 16px 0 16px;
         }
     }
 
@@ -167,15 +167,15 @@ ul.mw-search-results {
 
 // Template Articles détaillés
 .bandeau-niveau-information {
-    color: #202122;
-    line-height: 1.6;
-    border-style: solid;
-    overflow: hidden;
-    font-size: 0.95em;
-    border-width: 1px 0;
-    padding: 0.2em 0.5em 0.3em 0;
-    margin: 0.3em 0 0.7em 2em;
-    border-color: #e7e7e7;
+    color           : #202122;
+    line-height     : 1.6;
+    border-style    : solid;
+    overflow        : hidden;
+    font-size       : 0.95em;
+    border-width    : 1px 0;
+    padding         : 0.2em 0.5em 0.3em 0;
+    margin          : 0.3em 0 0.7em 2em;
+    border-color    : #e7e7e7;
     background-color: #fdfdfd;
 
     .loupe {
@@ -191,24 +191,26 @@ ul.mw-search-results {
     }
 }
 
-table.small th, table.small td {
-    font-size: 80%;
+table.small th,
+table.small td {
+    font-size  : 80%;
     line-height: 1.7;
 }
 
 // References
-.mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol {
+.mw-content-ltr ol,
+.mw-content-rtl .mw-content-ltr ol {
     margin-left: 2em;
 }
 
-ol.references > li {
+ol.references>li {
     list-style-type: disc;
 }
 
 .over-thumbnail {
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top     : 7px;
+    right   : 7px;
 }
 
 .badge-primary {
@@ -224,7 +226,7 @@ ol.references > li {
 
     .dropdown-item {
         font-weight: bold;
-        color: $darkPurple;
+        color      : $darkPurple;
 
         &:visited {
             color: $darkPurple;
@@ -233,22 +235,67 @@ ol.references > li {
 }
 
 @media (max-width: 500px) {
-    .mw-body div.thumb, .mw-body img.thumbimage {
+
+    .mw-body div.thumb,
+    .mw-body img.thumbimage {
         float: none;
     }
 }
 
 .siteNotice {
-    margin: 10px auto;
-    max-width: 90%;
-    border: 2px solid #15a072;
+    margin       : 10px auto;
+    max-width    : 90%;
+    border       : 2px solid #15a072;
     border-radius: 5px;
-    color: #15a072;
-    padding: 3px;
-    font-weight: 600;
-    text-align: center;
+    color        : #15a072;
+    padding      : 3px;
+    font-weight  : 600;
+    text-align   : center;
 
     p {
         margin: 0;
+    }
+}
+
+// Create some rules to improve the rendering of images 
+figure.mw-100 img {
+    max-width : 100%;
+    object-fit: fill;
+    height    : auto;
+}
+
+.h-100 > a > img, .h-100 > img {
+    height: 100%;
+}
+.w-100 > a > img, .w-100 > img {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+
+    .mw-content-rtl figure[typeof~='mw:File'].mw-halign-right, 
+    .mw-content-ltr figure[typeof~='mw:File'].mw-halign-right, 
+    .mw-content-rtl figure[typeof~='mw:File/Frameless'].mw-halign-right,
+    .mw-content-ltr figure[typeof~='mw:File/Frameless'].mw-halign-right,
+    .mw-content-rtl span[typeof~='mw:File'].mw-halign-right, 
+    .mw-content-ltr span[typeof~='mw:File'].mw-halign-right, 
+    .mw-content-rtl span[typeof~='mw:File/Frameless'].mw-halign-right    
+    .mw-content-ltr span[typeof~='mw:File/Frameless'].mw-halign-right    
+    .mw-content-rtl span[typeof~='mw:File/Thumb'],
+    .mw-content-ltr span[typeof~='mw:File/Thumb'],
+    .mw-content-rtl span[typeof~='mw:File/Frame'],
+    .mw-content-ltr span[typeof~='mw:File/Frame'],
+    .mw-content-rtl figure[typeof~='mw:File/Thumb'],
+    .mw-content-ltr figure[typeof~='mw:File/Thumb'],
+    .mw-content-rtl figure[typeof~='mw:File/Frame'],
+    .mw-content-ltr figure[typeof~='mw:File/Frame'] {
+        margin: 0;
+        float : none;
+        width : 100%;
+
+        img {
+            max-width : 96%;
+            height: auto;
+        }
     }
 }
