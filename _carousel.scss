@@ -20,6 +20,12 @@
         height       : 60px;
         background   : #f1f1f1;
         overflow     : hidden;
+
+        img {
+            width: 41px;
+            height: 62px;
+            object-fit: cover;
+        }
     }
 
     video {
