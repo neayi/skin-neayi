@@ -191,13 +191,14 @@
             <div class="container interaction-buttons">
                 <div class="di-followers d-flex align-items-center">
                     <div class="flex-fill text-left"><span class="label-community-count">Poser une question, partager un retour :</span></div>
-                    <div class="flex-fill text-right pl-3 pr-4 avatars-container"><div class="avatars" data-toggle="modal" data-target="#communityModal"><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/3a357cd5-c3ec-40fe-80c6-b8b7d743c0da/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/cb25d54c-8b9a-4d76-a164-b25e3c6c738b/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/d9b54af6-f5e0-4012-833d-da1f1628d43b/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/5fcf9439-5f66-47e1-9600-1b052c594d79/100"></div><div class="avatar"><img src="https://insights.dev.tripleperformance.fr/api/user/avatar/d285e80f-0566-471b-bd35-7be8ab7ba78b/100"></div><div class="avatar avatar-count"><span class="avatar-infos"><span class="material-icons align-middle">people</span> Infos</span><span class="avatar-count-number">+2</span></div></div></div>
+                    <div class="flex-fill text-right pl-3 pr-4 avatars-container"><div class="avatars" data-toggle="modal" data-target="#communityModal">
+                        <div class="avatar avatar-count"><span class="avatar-infos"><span class="material-icons align-middle">people</span> Infos</span><span class="avatar-count-number">+2</span></div></div></div>
                 </div>
                 <form>
                     <div class="d-flex align-items-end">
                         <div class="flex-fill pr-2"><textarea class="di-ask-question my-1" placeholder="Est-ce possible dans ..."></textarea></div>
                         <div class="text-right my-0 py-0"><button class="btn btn-light-green my-1 text-white neayi-interaction-send" type="button"><i class="fa fa-paper-plane" aria-hidden="true"></i></button></div>
-                    </div>			
+                    </div>
                 </form>
             </div>
             <div class="di-messages"></div>
