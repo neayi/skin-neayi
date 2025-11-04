@@ -80,7 +80,7 @@
 
         &:hover {
             background-color: darken($accentColorBackground, 10%);
-            border-color: darken($accentColorBackground, 10%);
+            border-color    : darken($accentColorBackground, 10%);
         }
     }
 
@@ -131,6 +131,20 @@
 
         .card-title {
             margin-top: 0;
+        }
+
+        .card-text {
+            font-size  : 12px;
+            font-weight: 400;
+
+            .small {
+                font-size  : 12px;
+                font-weight: 400;
+            }
+        }
+
+        .badge {
+            font-size: 10px;
         }
     }
 
