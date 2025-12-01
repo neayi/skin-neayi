@@ -25,7 +25,7 @@
 		<component type="PageTools" class="flex-row my-auto" hideDiscussionLink="yes" buttons="" hideSelectedNameSpace="no" />
 		<component type="SearchBar" class="order-first order-cmln-0 my-auto" position="right" buttons="go" placeholder="Rechercher" />
 		<component type="PersonalTools" class="my-auto"/>
-		<component type="Container" class=""><component type="Html">
+		<component type="Container" class="navbar-menus"><component type="Html">
 			<![CDATA[<ul class="navbar-nav">
 	@@productions@@
 

@@ -9,6 +9,13 @@
     z-index         : 100;
     background-color: $menuBackground;
 
+    // On desktop, force the height of those div in order to make sure they are properly aligned
+    @media (min-width: 1105px) {
+        .navbar-nav > div.mw-list-item, .navbar-nav > div.navbar-menus{
+            height: 37px;
+        }
+    }
+
     .navbar-collapse {
         .nav-link {
             color         : #355B84;
@@ -78,8 +85,7 @@
     }
 
     // Reduce the padding when not enough space to fit all menus
-    @media (max-width: 1500px) {
-
+    @media (max-width: 1530px) {
         .navbar-nav .nav-link {
             padding-right: 7px !important;
             padding-left : 7px !important;
@@ -90,7 +96,6 @@
     @media (min-width: 1501px) {
         .navbar-brand {
             img#logo-large {
-
                 height: 49px;
                 top   : -8px;
             }
