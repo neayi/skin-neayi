@@ -36,8 +36,6 @@
 <a class="dropdown-item" href="/wiki/Arboriculture" title="Faiskola">Faiskola</a>
 <a class="dropdown-item" href="/wiki/Maraîchage" title="Zöldségtermesztés">Zöldségtermesztés</a>
 <a class="dropdown-item" href="/wiki/PPAM" title="Gyógy- és aromanövények">Gyógy- és aromanövények</a>
-<div class="dropdown-divider"></div>
-<a class="dropdown-item" href="/wiki/Retours_d%27expérience" title="Farmok keresése">Farmok keresése</a>
 
 		</div>
 	</li>
@@ -70,7 +68,7 @@
     <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Productions" title="Produkciók">Produkciók</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" href="/wiki/Thématiques" title="Témák">Témák</a></li>
 <li class="nav-item"><a class="nav-link" href="https://hu.forum.tripleperformance.ag" title="Fórum">Fórum</a></li>
-<li class="nav-item"><a class="nav-link" href="/wiki/Képzések" title="Képzések">Képzések</a></li>
+<li class="nav-item"><a class="nav-link" href="/wiki/Retours_d%27expérience" title="Térkép">Térkép</a></li>
 <li class="nav-item neayi-additional-mobile-menus"><a class="nav-link" onclick="window.scrollTo(0, 0); $('#searchInput').focus(); return true" data-toggle="collapse" href="#" title="Keresés">Keresés</a></li>
 
 
@@ -169,12 +167,12 @@
 
         <div class="footer-button footer-follow-button">
             <a class="neayi-footer-button-suivre stretched-link" type="button"><span class="material-icons-outlined">notifications</span></a>
-            <br><a class="neayi-footer-button-label">Kövesd</a>
+            <br><a class="neayi-footer-button-label">Követés</a>
         </div>
 
         <div class="d-none footer-button footer-discuss-button">
             <a class="neayi-footer-button-discuss stretched-link" type="button"><span class="material-icons-outlined">forum</span></a>
-            <br><a class="neayi-footer-button-label">Megbeszélések</a>
+            <br><a class="neayi-footer-button-label">Beszélgetések</a>
         </div>
 
         <div class="d-none d-md-inline-block footer-avatars avatars-container mr-5"><div class="avatars" data-toggle="modal" data-target="#communityModal"></div></div>

@@ -77,6 +77,7 @@
     "themes": "Motywy",
     "forum": "Forum",
     "training courses": "Kursy szkoleniowe",
+    "farm map": "Mapa",
     "field-crops": "Wielkie kultury",
     "breeding": "Hodowla",
     "viticulture": "Uprawa winorośli",
@@ -167,7 +168,7 @@
     "close": "Zamknąć",
     "introjs-next-label": "Następny",
     "introjs-prev-label": "Poprzedni",
-    "introjs-done-label": "Świetnie!",
+    "introjs-done-label": "To wspaniale!",
     "introjs-step1-title": "Powitanie",
     "introjs-step1-intro": "Witamy w Triple Performance! 👋",
     "introjs-step2-title": "Wejdź w interakcję ze stroną",
@@ -175,9 +176,9 @@
     "introjs-step3-title": "Wejdź w interakcję ze stroną",
     "introjs-step3-intro": "Kliknij „Obserwuj”, aby być na bieżąco z dyskusjami na tej stronie lub otrzymywać powiadomienia o zmianach.",
     "introjs-step4-title": "Wejdź w interakcję ze stroną",
-    "introjs-step4-intro": "Możesz swobodnie zadawać pytania dotyczące tematu, powiadomione zostaną tylko osoby śledzące stronę",
+    "introjs-step4-intro": "Możesz swobodnie zadawać pytania na ten temat. Powiadomione zostaną tylko osoby obserwujące stronę.",
     "introjs-step5-title": "Utwórz treść",
-    "introjs-step5-intro": "Ta platforma jest Twoja! Masz swój własny sposób na robienie rzeczy, którym chciałbyś się podzielić? Nie wahaj się!",
+    "introjs-step5-intro": "Ta platforma jest Twoja! Chcesz podzielić się jakąś konkretną metodą? Nie wahaj się!",
     "introjs-step6-title": "Otwarte dla wszystkich!",
-    "introjs-step6-intro": "Platforma jest otwarta dla wszystkich! Jesteśmy tu, aby rozmawiać o technologii, szanując jednocześnie ścieżki kariery każdego! Bez hejtu!"
+    "introjs-step6-intro": "Platforma jest otwarta dla wszystkich! Jesteśmy tu po to, by omawiać kwestie techniczne, szanując indywidualne ścieżki każdego! Nie ma tu miejsca na krytykę!"
 }

@@ -52,8 +52,8 @@ foreach ($languages as $langfile)
     $topMenus = array();
     $topMenus['productions'] = $_['productions'];
     $topMenus['thematiques'] = $_['themes'];
-    $trainingCoursesMenu = $_['training courses'];
-    $trainingCoursesLink = '/wiki/' . $_['training courses'];
+    $trainingCoursesMenu = $_['farm map'];
+    $trainingCoursesLink = '/wiki/Retours_d%27expérience';
     
     $productions = array();
     $productions['/wiki/Grandes cultures'] = $_['field-crops'];
@@ -68,9 +68,6 @@ foreach ($languages as $langfile)
 
     foreach ($productions as $k => $v)
         $subMenus['productions'][$k] = $v;
-
-    $subMenus['productions'][''] = '-';
-    $subMenus['productions']['/wiki/Retours_d%27expérience'] = $_['search-for-farms']; // 'Rechercher des retours d’expérience';
 
     $thematiques = array();
     $thematiques['/wiki/Agriculture de précision'] = $_['precision-agriculture']; // 'Agriculture de précision';
